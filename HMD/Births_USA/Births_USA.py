@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# # Births in the USA
+# # Births per Month in USA
 # 
 # 
 # ## Context
@@ -17,16 +17,14 @@
 # * I don't understand what the heck I just downloaded. The file tree looks like it's got a couple database types, a bunch of summary text files, some PDFs, dirs named old-old-old, etc. 
 # * Inside the InputDB dir there's a text file called USAbirthbymonth.txt. I bet I can guess what's in here.
 # * No need to guess... 
-    PopName,Area,Year,YearReg,Month,Vital,RefCode,Access,Births,Note1,Note2,Note3,LDB
-    USA,02,1933,1933,1,1,17,O,180545,.,.,.,1
-    USA,02,1933,1933,2,1,17,O,165986,.,.,.,1
-    USA,02,1933,1933,3,1,17,O,183762,.,.,.,1
-# * Already cool. Immediately only care about 3 columns: Year, Month, Births
-# * I'll investigate the other ones later, maybe.
-# 
-# ## Exploration
 
-# In[222]:
+# ## Exploration
+# 
+# 
+# * I opened up the csv in Excel to see what was going on. Nothing too crazy. 
+# * I'll open it up here to investigate further.
+
+# In[1]:
 
 import pandas as pd
 import numpy as np
@@ -39,6 +37,8 @@ df.head(15)
 
 
 # * Well hey it worked. Excellent...
+# * Already cool. Immediately only care about 3 columns: Year, Month, Births
+# * I'll investigate the other ones later, maybe.
 # * Looks like the data has a subtotal every year. That's annoying, let's kill it.
 # 
 # 
@@ -48,7 +48,7 @@ df.head(15)
 # * Gotta assign that bad boy to a new variable. 
 #     * I'll save off the original DataFrame just in case.
 
-# In[223]:
+# In[2]:
 
 df_BAK = df
 df = df[~df.Month.isin(['TOT'])]
@@ -59,15 +59,15 @@ df[10:14]
 # 
 # 
 # * Okay, let's put this into a heatmap 2D format:
-#     * One year per row starting with 1933 (or the first year in the dataset)
-#     * One month per column starting with 1
+#     * One month per row starting with 1
+#     * One year per column starting with 1933
 # * ~~Use the [length of the index column to count rows](https://stackoverflow.com/questions/15943769/how-do-i-get-the-row-count-of-a-pandas-dataframe)~~
 # * ~~Use [itertuples](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.itertuples.html#pandas.DataFrame.itertuples)~~
 # * Duh make a [pivot table](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.pivot_table.html)
 # * Gotta fix the [leading zero ordering](https://stackoverflow.com/a/36346221) FIXME
 # 
 
-# In[224]:
+# In[3]:
 
 df_pivot = pd.pivot_table(df, index='Month', columns='Year', values='Births', aggfunc=np.sum)
 months = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']
@@ -75,14 +75,14 @@ df_pivot_sorted = df_pivot.reindex_axis(months, axis=0)
 df_pivot_sorted.loc[:'5',:'1940']
 
 
-# * It worked.
+# * It worked. Nice.
 # 
 # 
 # ## Visualization
 # 
 # * Now the whole friggin point is to make a chart. 
 
-# In[225]:
+# In[4]:
 
 ax = plt.axes()
 sns.heatmap(df_pivot_sorted,
@@ -115,7 +115,7 @@ ax.set_ylabel('')
 # 
 # * Let's take a look at the describe() output for each month of the pivot table (transposed):
 
-# In[226]:
+# In[5]:
 
 df_describe = df_pivot_sorted.T.describe(percentiles=[0.5])
 
