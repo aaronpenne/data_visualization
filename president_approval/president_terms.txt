@@ -1,0 +1,14 @@
+President	Start	End
+Harry S. Truman	4/12/1945	1/20/1953
+Dwight D. Eisenhower	1/20/1953	1/20/1961
+John F. Kennedy	1/20/1961	11/22/1963
+Lyndon B. Johnson	11/22/1963	1/20/1969
+Richard Nixon	1/20/1969	8/9/1974
+Gerald R. Ford	8/9/1974	1/20/1977
+Jimmy Carter	1/20/1977	1/20/1981
+Ronald Reagan	1/20/1981	1/20/1989
+George Bush	1/20/1989	1/20/1993
+William J. Clinton	1/20/1993	1/20/2001
+George W. Bush	1/20/2001	1/20/2009
+Barack Obama	1/20/2009	1/20/2017
+Donald J. Trump	1/20/2017	11/10/2017
