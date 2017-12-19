@@ -12,3 +12,8 @@ That baby boomer spike is so nicely timed with WWII that it's amazing. The war e
 
 
 Source: http://www.mortality.org/cgi-bin/hmd/hmd_download.php
+
+
+## Temperatures
+
+## Prime Numbers
