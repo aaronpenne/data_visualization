@@ -14,6 +14,15 @@ That baby boomer spike is so nicely timed with WWII that it's amazing. The war e
 Source: http://www.mortality.org/cgi-bin/hmd/hmd_download.php
 
 
+## USA Population Rankings
+
+![USA Population Rankings](https://raw.githubusercontent.com/aaronpenne/aaronpenne.github.io/master/data_viz/USA_Population_Rankings_1917-2017.jpg)
+
+Source (raw): https://census.gov/data/tables/time-series/demo/popest/pre-1980-state.html
+
+Source (manually aggregated/cleaned): [USA_Population_of_States_US_Census_Intercensal_Tables_1917-2017.csv](https://github.com/aaronpenne/aaronpenne.github.io/blob/master/data_viz/USA_Population_of_States_US_Census_Intercensal_Tables_1917-2017.csv)
+
+
 ## Temperatures
 
 ## Prime Numbers
