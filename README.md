@@ -2,6 +2,11 @@
 
 Projects where Data Visualization plays a large role or is the focus.
 
+##Same Sex Marriage Laws in the USA
+
+![Same Sex Marriage Laws in the USA]https://i.redd.it/nixf6oic9oh01.gif)
+
+
 ## [Births Per Month in the USA](https://aaronpenne.github.io/data_viz/USA_Births_Per_Day_binned_by_Month.html)
 
 
