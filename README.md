@@ -4,7 +4,7 @@ Projects where Data Visualization plays a large role or is the focus.
 
 ## Same Sex Marriage Laws in the USA
 
-![Same Sex Marriage Laws in the USA](https://github.com/aaronpenne/data_visualization/blob/master/same_sex_marriage/ssm_violin.gif)
+![Same Sex Marriage Laws in the USA](https://github.com/aaronpenne/data_visualization/blob/master/same_sex_marriage/ssm_violin_y_axis.gif)
 
 
 Source: [Pew Research Center](http://www.pewforum.org/2015/06/26/same-sex-marriage-state-by-state/) via DataViz Battle Feb 2018
