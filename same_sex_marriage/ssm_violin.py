@@ -4,7 +4,7 @@
 #
 # Author: Aaron Penne
 #
-# Created: 02-21-2018
+# Created: 02-22-2018
 #
 # Source: Pew Research Center, Religion & Public Life
 #         http://www.pewforum.org/2015/06/26/same-sex-marriage-state-by-state/
@@ -17,9 +17,11 @@ import imageio
 import os
 
 ## Define globals
-input_file = 'ssm.csv'
-output_dir = '.\output'
-
+input_file = 'C:\\tmp\\ssm.csv'
+output_dir = 'C:\\tmp\\output_violin\\'
+if not os.path.isdir(output_dir):
+    os.mkdir(output_dir)
+    
 ## Read in CSV
 df = pd.read_csv(input_file)
 
@@ -60,11 +62,16 @@ font_title = {'family': 'monospace',
 ## Create all interpolated data charts, saving images
 for i, column in enumerate(df):
     plt.figure()
-    violin = sns.violinplot(x=df.iloc[:,i], inner=None, palette='Set2', bw=0.4)
+    violin = sns.violinplot(x=df.iloc[:,i], 
+                            inner=None, 
+                            palette='Set2', 
+                            bw=0.4,
+                            scale='count',
+                            scale_hue=False)
     plt.title(column, fontdict=font_title)
     plt.xlabel('')
-    plt.ylabel('')
-    plt.ylim(-1, 1) # Try it with fixed y-axis
+    plt.ylabel('% of States')
+    plt.ylim(-0.5, 0.5)
     plt.xlim(-2, 5)
     plt.xticks([0, 1, 2, 3], 
                ['Constitutional Ban',
@@ -73,10 +80,11 @@ for i, column in enumerate(df):
                 'Legal'],
                 rotation=90,
                 fontname='monospace')
+    plt.yticks([-0.5, 0, 0.5])
     plt.tight_layout()
-    plt.savefig('{0:03.0f}_{1}.png'.format(i, column), dpi=300)
+    plt.savefig('{0}{1:03.0f}_{2}.png'.format(output_dir, i, column), dpi=200)
     plt.close()
-
+    
 ## Create title page/chart to break up the loop, saving image
 sns.set_style('white', {'xtick.color': 'white', 'axes.labelcolor': 'white'})
 plt.figure()
@@ -96,27 +104,30 @@ plt.xticks([0, 1, 2, 3],
             'No Law',
             'Legal'],
             rotation=90)
+plt.yticks([-2, -0.5, -1])
 violin.xaxis.label.set_color('white')
+violin.yaxis.label.set_color('white')
 plt.xlabel('')
+plt.ylabel('% of States')
 plt.tight_layout()
-plt.savefig('999.png', dpi=300)
+plt.savefig('{0}999.png'.format(output_dir), dpi=200)
 
 ## Append images to create GIF 
 # Read in all png files in folder - https://stackoverflow.com/a/27593246
-png_files = [f for f in os.listdir('.') if f.endswith('.png')]
+png_files = [f for f in os.listdir(output_dir) if f.endswith('.png')]
 
 charts = []
 # Append the title chart - https://stackoverflow.com/a/35943809
-for i in range(5):
-    charts.append(imageio.imread('999.png'))
+for i in range(30):
+    charts.append(imageio.imread('{0}999.png'.format(output_dir)))
 
 # Append all the charts (except the title slide)
 for f in png_files[:-1]:
-    charts.append(imageio.imread(f))
+    charts.append(imageio.imread('{0}{1}'.format(output_dir, f)))
 
 # Append the last chart a few extra times
-for i in range(3):
-    charts.append(imageio.imread(f))
+for i in range(10):
+    charts.append(imageio.imread('{0}{1}'.format(output_dir, f)))
 
 # Save gif
-imageio.mimsave(output_dir + 'ssm_violin.gif', charts, format='GIF', duration=0.1)
+imageio.mimsave('{0}ssm_violin.gif'.format(output_dir), charts, format='GIF', duration=0.07)
