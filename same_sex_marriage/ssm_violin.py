@@ -38,7 +38,9 @@ df = df.drop(['State', 'abbrev'], axis=1)
 for res in range(3):
     df_columns = list(df)
     for i in range(1, 2*len(df_columns)-1, 2):
-        df.insert(i, df.columns[i-1], float('nan'), allow_duplicates=True)
+        df.insert(i, df.columns[i-1],
+                  float('nan'),
+                  allow_duplicates=True)
     # Interpolate between columns and replace NaNs, [2, NaN, 3] becomes [2, 2.5, 3]
     df = df.interpolate(axis=1)
 
@@ -70,7 +72,8 @@ for i, column in enumerate(df):
                             scale_hue=False)
     plt.title(column, fontdict=font_title)
     plt.xlabel('')
-    plt.ylabel('% of States')
+    plt.ylabel('% of States',
+               fontname='monospace')
     plt.ylim(-0.5, 0.5)
     plt.xlim(-2, 5)
     plt.xticks([0, 1, 2, 3], 
