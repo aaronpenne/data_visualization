@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 import os
 
 ## Define globals
-bandwidth = 0.35
+bandwidth = 1.3
 input_file = 'C:\\tmp\\sc-est2016-agesex-civ_tidy.csv'
 output_dir = 'C:\\tmp\\output_pop_joy\\'
 if not os.path.isdir(output_dir):
@@ -22,6 +22,24 @@ if not os.path.isdir(output_dir):
     
 ## Read in CSV
 df = pd.read_csv(input_file)
+# Get unique state names
+all_states = pd.unique(df.loc[:,"name"])
+# Scale population down to make this hacky method manageable
+df["pop"] = round(df.loc[:,"pop_2016"]/1000)
+df["pop"] = df["pop"].apply(int)
+
+# Frequencies are given in data, need to expand to counts
+state_list = []
+age_list = []
+for state in all_states:
+    state_index = df.loc[:,"name"]==state
+    state_list = state_list + [state]*sum(df[state_index].loc[:,"pop"])
+    for i in list(df[state_index].index):
+        age_list = age_list + [df[state_index].loc[i,"age"]]*df[state_index].loc[i,"pop"]
+
+# Create dataframe from count lists    
+df_counts = pd.DataFrame({'state': state_list, 
+                          'age': age_list})
 
 ## Set up plotting and formatting of viz
 sns.set(style="white", rc={"axes.facecolor": (0, 0, 0, 0)})
@@ -40,13 +58,10 @@ font_sub = {'family': 'monospace',
             'size': 10,
             'horizontalalignment': 'right'}
 
-## Hey this looks cool
-#sns.kdeplot(df, bw=0.4)
-
 # Create axes for each Year, one row per Year
-g = sns.FacetGrid(df,
-                  row='name',  # Determines which value to group by, in this case the different values in the 'Year' column
-                  hue='pop_2016',  # Similar to row. Enables the date labels on each subplot
+g = sns.FacetGrid(df_counts,
+                  row='state',  # Determines which value to group by, in this case the different values in the 'Year' column
+                  hue='state',  # Similar to row. Enables the date labels on each subplot
                   aspect=18,   # Controls aspect ratio of entire figure
                   size=0.5,    # Controls vertical height of each subplot
                   palette=sns.color_palette("Set2", 1))  # Uses a nice green for the area
