@@ -17,6 +17,7 @@ import imageio
 import os
 
 ## Define globals
+dpi = 100
 resolution = 2
 input_file = 'C:\\tmp\\ssm_3.csv'
 output_dir = 'C:\\tmp\\output_bar\\'
@@ -26,14 +27,9 @@ if not os.path.isdir(output_dir):
 ## Read in CSV
 df = pd.read_csv(input_file)
 
-## Create categorical encoding
-category_dict = {'Constitutional Ban': -2,
-                 'Statutory Ban': -1,
-                 'No Law': 0,
-                 'Legal': 1}
-df = df.replace(category_dict)
 # Delete the state columns because this viz is from the country level
-df.index = df.iloc[:,1]
+states = df.loc[:,'abbrev']
+# Delete the state columns because this viz is from the country level
 df = df.drop(['State', 'abbrev'], axis=1)
 
 ## Add NaN columns to increase viz resolution
@@ -44,7 +40,7 @@ for res in range(3):
                   float('nan'),
                   allow_duplicates=True)
     # Interpolate between columns and replace NaNs, [2, NaN, 3] becomes [2, 2.5, 3]
-    df = df.interpolate(axis=1)
+df = df.interpolate(axis=1)
 
 ## Set up plotting and formatting of viz
 sns.set_style("white")
@@ -65,23 +61,41 @@ font_title = {'family': 'monospace',
 
 ## Create all interpolated data charts, saving images
 for i, column in enumerate(df):
+    mask_le = df.iloc[:,i]>1
+    mask_no = (df.iloc[:,i]>0) & (df.iloc[:,i]<=1)
+    mask_st = (df.iloc[:,i]<0) & (df.iloc[:,i]>=-1)
+    mask_co = df.iloc[:,i]<-1
+    
+    
     plt.figure()
-    plt.bar(list(range(50)),
-            df.iloc[:,i],
-            width=1)
+    plt.bar(df[mask_le].index,
+            df[mask_le].iloc[:,i],
+            width=1,
+            color='blue')
+    plt.bar(df[mask_no].index,
+            df[mask_no].iloc[:,i],
+            width=1,
+            color='grey')
+    plt.bar(df[mask_st].index,
+            df[mask_st].iloc[:,i],
+            width=1,
+            color='orange')
+    plt.bar(df[mask_co].index,
+            df[mask_co].iloc[:,i],
+            width=1,
+            color='red')
     plt.title(column, fontdict=font_title)
     plt.xlabel('')
     plt.ylabel('')
     plt.ylim(-3, 3)
-    plt.yticks([-2, -1, 0, 1], 
+    plt.yticks([-2, -1, 1, 2], 
                ['Constitutional Ban',
                 'Statutory Ban',
                 'No Law',
                 'Legal'],
                 fontname='monospace')
-    plt.yticks([-0.5, 0, 0.5])
     plt.tight_layout()
-    plt.savefig('{0}{1:03.0f}.png'.format(output_dir, i), dpi=100)
+    plt.savefig('{0}{1:03.0f}.png'.format(output_dir, i), dpi=dpi)
     plt.close()
 #    
 ### Create title page/chart to break up the loop, saving image
@@ -124,7 +138,7 @@ charts = []
 for i,f in enumerate(png_files):
     charts.append(imageio.imread('{0}{1}'.format(output_dir, f)))
     if i % 8 == 0:
-        for k in range(5):
+        for k in range(10):
             charts.append(imageio.imread('{0}{1}'.format(output_dir, f)))
             
 # Append the last chart a few extra times
@@ -132,4 +146,4 @@ for i in range(10):
     charts.append(imageio.imread('{0}{1}'.format(output_dir, f)))
 
 # Save gif
-imageio.mimsave('{0}ssm_bar.gif'.format(output_dir), charts, format='GIF', duration=0.1)
+imageio.mimsave('{0}ssm_bar.gif'.format(output_dir), charts, format='GIF', duration=0.07)
