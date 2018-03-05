@@ -58,8 +58,9 @@ font_sub = {'family': 'monospace',
 ## Hey this looks cool
 #sns.kdeplot(df, bw=0.4)
 
+
 # Create axes for each Year, one row per Year
-g = sns.FacetGrid(df,
+g = sns.FacetGrid(data=df,
                   row='Year',  # Determines which value to group by, in this case the different values in the 'Year' column
                   hue='Year',  # Similar to row. Enables the date labels on each subplot
                   aspect=18,   # Controls aspect ratio of entire figure
