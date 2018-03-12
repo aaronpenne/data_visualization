@@ -37,6 +37,6 @@ Source (raw): https://census.gov/data/tables/time-series/demo/popest/pre-1980-st
 Source (manually aggregated/cleaned): [USA_Population_of_States_US_Census_Intercensal_Tables_1917-2017.csv](https://github.com/aaronpenne/aaronpenne.github.io/blob/master/data_viz/USA_Population_of_States_US_Census_Intercensal_Tables_1917-2017.csv)
 
 
-## Temperatures
+Temperatures
 
-## Prime Numbers
+
