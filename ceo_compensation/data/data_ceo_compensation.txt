@@ -1,0 +1,11 @@
+ceo,annual_compensation,company,annual_revenue
+Thomas M. Rutledge,98000000,Charter Communications,29000000000
+Leslie Moonves,68600000,CBS,13200000000
+Fabrizio Freda,47700000,Estee Lauder,11800000000
+Mark G. Parker,47600000,Nike,34400000000
+Mark V. Hurd,41100000,Oracle,37700000000
+Robert A. Iger,41000000,Walt Disney,55100000000
+Safra A. Catz,40900000,Oracle,37700000000
+David M. Zaslav,37200000,Discovery Communications,6500000000
+Robert A. Kotick,33100000,Activision Blizzard,6600000000
+Margaret C. Whitman,32900000,HP Enterprise,28900000000
