@@ -2,6 +2,13 @@
 
 Projects where Data Visualization plays a large role or is the focus.
 
+## Annual Company Revenue vs. Annual CEO Compensation
+
+<img src="https://github.com/aaronpenne/data_visualization/blob/master/ceo_compensation/charts/dot_pairs_ceo.png" alt="Annual Company Revenue vs. Annual CEO Compensation - Dot Pairs" width="70%">
+
+Source: [u/k0m0d0z0](https://www.reddit.com/r/dataisbeautiful/comments/842tvn/highestpaid_ceos_in_america_oc/)
+
+
 ## State Same Sex Marriage Laws in the USA
 
 <img src="https://github.com/aaronpenne/data_visualization/blob/master/same_sex_marriage/charts/ssm_violin_y_axis.gif" alt="State Same Sex Marriage Laws in the USA - Violin" width="70%">
@@ -37,6 +44,6 @@ Source (raw): https://census.gov/data/tables/time-series/demo/popest/pre-1980-st
 Source (manually aggregated/cleaned): [USA_Population_of_States_US_Census_Intercensal_Tables_1917-2017.csv](https://github.com/aaronpenne/aaronpenne.github.io/blob/master/data_viz/USA_Population_of_States_US_Census_Intercensal_Tables_1917-2017.csv)
 
 
-Temperatures
+## Temperatures
 
-
+## Prime Numbers
