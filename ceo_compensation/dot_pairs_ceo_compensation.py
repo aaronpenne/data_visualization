@@ -41,11 +41,11 @@ for i in df.index:
              linestyle='-',
              linewidth=1)
     if x[0] > x[1]:
-        plt.text(x[0]+2, y[0], df.loc[i, 'ceo'], horizontalalignment='left', verticalalignment='center', weight='bold')
-        plt.text(x[1]-2, y[1], df.loc[i, 'company'], horizontalalignment='right', verticalalignment='center')
+        plt.text(x[0]+4, y[0], df.loc[i, 'ceo'], horizontalalignment='left', verticalalignment='center', weight='bold')
+        plt.text(x[1]-4, y[1], df.loc[i, 'company'], horizontalalignment='right', verticalalignment='center')
     else:
-        plt.text(x[0]-2, y[0], df.loc[i, 'ceo'], horizontalalignment='right', verticalalignment='center', weight='bold')
-        plt.text(x[1]+2, y[1], df.loc[i, 'company'], horizontalalignment='left', verticalalignment='center')
+        plt.text(x[0]-4, y[0], df.loc[i, 'ceo'], horizontalalignment='right', verticalalignment='center', weight='bold')
+        plt.text(x[1]+4, y[1], df.loc[i, 'company'], horizontalalignment='left', verticalalignment='center')
     
 # Plot revenue
 x = df.loc[:,'annual_compensation']
@@ -80,11 +80,11 @@ plt.text(-50, 12, 'Annual Company Revenue and Annual CEO Compensation',
          horizontalalignment='left',
          size=16,
          weight='bold')
-plt.text(-50, 11, 'Company revenue is in Billions.',
+plt.text(-50, 11, 'Company revenue is in $Billions.',
          horizontalalignment='left',
          color='#01C258',
          size=14)
-plt.text(40, 11, 'CEO compensation is in Millions.',
+plt.text(42, 11, 'CEO compensation is in $Millions.',
          horizontalalignment='left',
          color='#00A4FF',
          size=14)
