@@ -51,7 +51,7 @@ for i in df.index:
 x = df.loc[:,'annual_compensation']
 y = df.index
 plt.plot(x, y,
-         color='#00A4FF',
+         color='#65C2A5',
          linestyle='None',
          marker='o',
          markersize=7,
@@ -61,7 +61,7 @@ plt.plot(x, y,
 x = df.loc[:,'annual_revenue']
 y = df.index
 plt.plot(x, y,
-         color='#01C258',
+         color='#FC8D62',
          linestyle='None',
          marker='o',
          markersize=7,
@@ -82,11 +82,11 @@ plt.text(-50, 12, 'Annual Company Revenue and Annual CEO Compensation',
          weight='bold')
 plt.text(-50, 11, 'Company revenue is in $Billions.',
          horizontalalignment='left',
-         color='#01C258',
+         color='#FC8D62',
          size=14)
 plt.text(42, 11, 'CEO compensation is in $Millions.',
          horizontalalignment='left',
-         color='#00A4FF',
+         color='#65C2A5',
          size=14)
 plt.text(-50, -3, '© 2018 Aaron Penne\nSource: u/k0m0d0z0',
          horizontalalignment='left',
