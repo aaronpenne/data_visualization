@@ -4,7 +4,7 @@ Projects where Data Visualization plays a large role or is the focus.
 
 ## Annual Company Revenue vs. Annual CEO Compensation
 
-<img src="https://github.com/aaronpenne/data_visualization/blob/master/ceo_compensation/charts/dot_pairs_ceo.png" alt="Annual Company Revenue vs. Annual CEO Compensation - Dot Pairs" width="70%">
+<img src="https://github.com/aaronpenne/data_visualization/blob/master/ceo_compensation/charts/dot_pairs_ceo.png" alt="Annual Company Revenue vs. Annual CEO Compensation - Dot Pairs" width="90%">
 
 Source: [u/k0m0d0z0](https://www.reddit.com/r/dataisbeautiful/comments/842tvn/highestpaid_ceos_in_america_oc/)
 
