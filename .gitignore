@@ -11,3 +11,6 @@ data_private/
 # Microsoft office temporary files
 ~$*
 *.tmp
+
+# Dev output folders
+.output
