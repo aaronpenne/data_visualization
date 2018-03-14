@@ -13,4 +13,4 @@ data_private/
 *.tmp
 
 # Dev output folders
-.output
+output
