@@ -3,6 +3,8 @@ Data_Visualization
 
 This is a collection of my data visualizations, mostly made with Python.
 
+---
+
 State Same Sex Marriage Laws in the USA
 ---------------------------------------
 
@@ -20,6 +22,7 @@ Contest: [r/DataIsBeautiful DataViz  Battle 2018-02](https://www.reddit.com/r/da
 
 Contest entry: [Reddit post - Honorable Mention](https://www.reddit.com/r/dataisbeautiful/comments/7zb8i4/same_sex_marriage_laws_in_the_usa_19952015_oc/dumpqzo/)
 
+---
 
 Annual Company Revenue vs. Annual CEO Compensation
 --------------------------------------------------
@@ -30,6 +33,7 @@ Code: [dot_pairs_ceo_compensation.py](https://github.com/aaronpenne/data_visuali
 
 Data: [Reddit post by u/k0m0d0z0](https://www.reddit.com/r/dataisbeautiful/comments/842tvn/highestpaid_ceos_in_america_oc/)
 
+---
 
 USA Population Rankings
 -----------------------
@@ -42,6 +46,7 @@ Data (raw): https://census.gov/data/tables/time-series/demo/popest/pre-1980-stat
 
 Data (manually aggregated/cleaned): [USA_Population_of_States_US_Census_Intercensal_Tables_1917-2017.csv](https://github.com/aaronpenne/aaronpenne.github.io/blob/master/data_viz/USA_Population_of_States_US_Census_Intercensal_Tables_1917-2017.csv)
 
+---
 
 USA Births Per Month
 --------------------
