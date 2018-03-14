@@ -1,0 +1,13 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Spyder settings
+.spyproject
+.spyderproject
+
+# Private data
+data_private/
+
+# Microsoft office temporary files
+~$*
+*.tmp
