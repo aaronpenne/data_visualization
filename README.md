@@ -8,7 +8,7 @@ This is a collection of my data visualizations, mostly made with Python.
 The Night Sky (HYG Database)
 ----------------------------
 
-<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/hyg_stellar_database/charts/hyg_scatter_twinkle.gif" alt="HYG Scatter Plot Twinkling"></p>
+<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/hyg_stellar_database/charts/hyg_scatter.png" alt="HYG Scatter Plot Twinkling"></p>
 
 Code: [hyg_scatter.py](https://github.com/aaronpenne/data_visualization/blob/master/hyg_stellar_database/hyg_scatter.py)
 
