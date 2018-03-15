@@ -60,7 +60,7 @@ mag = mag_xor
 for i in range(twinkles):
     
     # Set up plot
-    fig, ax = plt.subplots(figsize=(10, 5), dpi=300)
+    fig, ax = plt.subplots(figsize=(10, 5), dpi=150)
     
     # Black out the entire background
     fig.set_facecolor('black')
