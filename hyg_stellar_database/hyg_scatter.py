@@ -11,6 +11,7 @@ import os
 
 min_mag = -20
 max_mag = 20
+vis_mag = 8
 steps = 40
 
 # Set output directory, make it if needed
@@ -28,13 +29,13 @@ df = df[df.mag < max_mag]
 
 # Filter the size/alpha of each marker by magnitude bin (log scale)
 mag = {}
-for i,value in enumerate(np.geomspace(abs(min_mag)+max_mag, abs(min_mag), num=steps)):
-    mag[i] = df['mag'] <= (value + min_mag)
+for i,value in enumerate(np.geomspace(abs(min_mag), abs(min_mag)+max_mag, num=steps)):
+    mag[i] = (df['mag'] >= (value + min_mag)) & (df['mag'] < vis_mag)
 marker = {}
-for i,value in enumerate(np.geomspace(3, 0.1, num=steps)):
+for i,value in enumerate(np.geomspace(4, 0.1, num=steps)):
     marker[i] = value
 alpha = {}
-for i,value in enumerate(np.geomspace(1, 0.3, num=steps)):
+for i,value in enumerate(np.geomspace(1, 0.4, num=steps)):
     alpha[i] = value
     
 
@@ -69,7 +70,7 @@ for i in range(steps):
              alpha=alpha[i],
              markeredgewidth=0)
 
-## Why not make constellations pop?
+## Why not make constellations pop? Doesn't look as good
 #x = df.loc[df['bf'].notnull(), 'ra']
 #y = df.loc[df['bf'].notnull(), 'dec']
 #plt.plot(x, y, 
@@ -85,36 +86,61 @@ for i in range(steps):
 for side in ['right', 'left', 'top', 'bottom']:
     ax.spines[side].set_visible(False)
     
-# Clear axis ticks/labels
-ax.xaxis.set_ticks([])
-ax.yaxis.set_ticks([])
+# Set axis ticks/labels
+plt.xticks(np.linspace(0, 24, 5), 
+           family='monospace',
+           size=5,
+           color='white', 
+           alpha=0.15)
+plt.yticks(np.linspace(-90, 90, 5),
+           family='monospace',
+           size=5,
+           color='white', 
+           alpha=0.15)
+plt.text(0, -105,
+         'Right Ascension (hours)',
+         family='monospace',
+         size=5,
+         color='white', 
+         alpha=0.15,
+         horizontalalignment='left')
+plt.text(-1.2, -51,
+         'Declination (degrees)',
+         family='monospace',
+         size=5,
+         color='white', 
+         alpha=0.15,
+         horizontalalignment='left',
+         rotation='vertical')
 
 # Set max/min axis limits
 plt.ylim([-90, 90])
 plt.xlim([0, 24])
 
 # Add text
-plt.text(0, 111, 'The Night Sky',
+plt.text(0, 115, 'The Night Sky',
          family='monospace',
-         size=10,
+         size=14,
          horizontalalignment='left',
          weight='bold',
          color='white',
-         alpha=0.6)
-plt.text(0, 105, 'Right Ascension vs. Declination',
+         alpha=0.7)
+plt.text(0, 110, 'Equirectangular projection of stars (mag<8)'.format(vis_mag),
          family='monospace',
-         size=7,
+         size=9,
          horizontalalignment='left',
+         verticalalignment='top',
          weight='bold',
          color='white',
-         alpha=0.6)
-plt.text(24, -111, '© 2018 Aaron Penne\nData: HYG Stellar Database',
+         alpha=0.7)
+plt.text(24, -120, '© 2018 Aaron Penne\nData: HYG Stellar Database\n\nApparent magnitude scale is logarithmic\nBrighter stars have a smaller apparent magnitude',
          family='monospace',
          size=7,
          horizontalalignment='right',
+         verticalalignment='top',
          weight='bold',
          color='white',
-         alpha=0.6)
+         alpha=0.7)
 
 
 # Show plot
@@ -126,4 +152,7 @@ fig.savefig(os.path.join(output_dir, 'hyg_scatter.png'),
             facecolor=fig.get_facecolor(),
             edgecolor='none',
             bbox_inches='tight',
-            pad_inches=0.7)
+            pad_inches=0.5)
+
+
+# FIXME twinkle time
