@@ -5,6 +5,19 @@ This is a collection of my data visualizations, mostly made with Python.
 
 ---
 
+Annual Company Revenue vs. Annual CEO Compensation
+--------------------------------------------------
+
+<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/hyg_stellar_database/charts/hyg_scatter_twinkle.gif" alt="HYG Scatter Plot Twinkling" width="90%"></p>
+
+Code: [hyg_scatter.py](https://github.com/aaronpenne/data_visualization/blob/master/hyg_stellar_database/hyg_scatter.py)
+
+Data: [HYG Stellar Database v3](https://github.com/astronexus/HYG-Database)
+
+Contest: [r/DataIsBeautiful DataViz  Battle 2018-03](https://www.reddit.com/r/dataisbeautiful/comments/825mg6/battle_dataviz_battle_for_the_month_of_march_2018/)
+
+---
+
 State Same Sex Marriage Laws in the USA
 ---------------------------------------
 
