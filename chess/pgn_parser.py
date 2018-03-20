@@ -33,6 +33,7 @@ Output format(ish)
 
 import os
 import numpy as np
+import re
 
 input_dir = os.path.relpath('data')
 output_dir = os.path.relpath('output')
@@ -65,31 +66,33 @@ for pgn_file in all_pgn_files:
         # FIXME use regex instead 
         # FIXME deal with empty values
         # Get game metadata
-        if 'Event' in line:
-            event = line[8:-2]
-        elif 'Site' in line:
-            site = 1
-        elif 'Date' in line:
-            date = 1
-        elif 'Round' in line:
-            match_round = 1
-        elif 'White' in line:
-            white = 'name'
-        elif 'Black' in line:
-            black = 'name'
-        elif 'Result' in line:
-            result = 1
-        elif 'WhiteElo' in line:
-            white_elo = 1
-        elif 'BlackElo' in line:
-            black_elo = 1
+        if 'Event ' in line:
+            event = line[8:-2].strip()
+        elif 'Site ' in line:
+            site = line[7:-2].strip()
+        elif 'Date ' in line:
+            date = line[7:-2].strip()
+        elif 'Round ' in line:
+            match_round = line[8:-2].strip()
+        elif 'White ' in line:
+            white = line[8:-2].strip()
+        elif 'Black ' in line:
+            black = line[8:-2].strip()
+        elif 'Result ' in line:
+            result = line[9:-2].strip()
+        elif 'WhiteElo ' in line:
+            white_elo = line[11:-2].strip()
+        elif 'BlackElo ' in line:
+            black_elo = line[11:-2].strip()
         elif 'ECO' in line:
-            eco = 1
+            eco = line[6:-2].strip()
         
         # If not game metadata, then it's most likely a line with moves
         elif '.' in line:
             line_moves = line.split()
             
+            check = False
+            mate = False
             # Loop through each move on this line
             for move in line_moves:
                 if move.find('.') > 0:
@@ -99,6 +102,12 @@ for pgn_file in all_pgn_files:
                 elif '-' not in move:
                     color = 'black'
                 elif '-' in move:
-                    pass
+                    break
+                elif '+' in move:
+                    check = True
+                elif '#' in move:
+                    mate = True
+                    
+                
                 # FIXME better way to find square? regex?
                 

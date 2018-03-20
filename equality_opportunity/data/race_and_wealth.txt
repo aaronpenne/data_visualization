@@ -1,0 +1,6 @@
+class,white,black
+rich adult,1965,869
+upper-middle-class adult,1220,951
+middle-class adult,810,1089
+lower-middle-class adult,505,1016
+poor adult,500,1075
