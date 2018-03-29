@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 """
+Exploring star mapping
 
-
+Author: Aaron Penne
+Created: 03/15/2018
+Developed with Python 3.6 on Windows 10
 """
 
 import numpy as np
@@ -19,13 +22,13 @@ steps = 40
 twinkles = 10
 
 # Set output directory, make it if needed
-output_dir = os.path.relpath(r'output')  # Windows machine
+output_dir = os.path.relpath('output')  # Windows machine
 if not os.path.isdir(output_dir):
     os.mkdir(output_dir)
 
 # Get input file
-input_file = os.path.relpath(r'data\hygdata_v3.csv')
-df = pd.read_csv(input_file)
+input_file = os.path.join('data', 'hygdata_v3.csv')
+df = pd.read_csv(input_file)    
 
 # Filter to certain magnitudes, ignore the sun
 df = df[df.mag > min_mag]

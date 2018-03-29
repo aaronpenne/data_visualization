@@ -12,5 +12,12 @@ data_private/
 ~$*
 *.tmp
 
+# Residuals
+__pycache__
+.pyc
+
 # Dev output folders
 output
+
+# Mac trash
+.DS_Store
