@@ -182,12 +182,12 @@ def consolas_centered(draw, text, box=[0, 0, 1000, 1000], size=17, color=(255,25
     y = (box[3] - box[1])/2 + box[1] - h/2
     draw.text((x, y), text, color, font=font, spacing=spacing, align='center')
     
-def get_image_files(image_dir, text=''):
+def get_image_files(image_dir, text='', shortened=0):
     image_files = [f for f in os.listdir(image_dir) if f.endswith('jpg') and text in f]
     image_files.sort()
     
     # Reduce number of files for debugging purposes
-    if DEBUG:
+    if shortened:
         image_files = image_files[20:66]
     return image_files
     
@@ -204,17 +204,17 @@ if __name__ == '__main__':
         p.map(get_vegetation_images, zip(itertools.repeat(root_url), image_dates))
 
     print('Annotating images...')
-    image_files = get_image_files(dir_raw, veg_index)
+    image_files = get_image_files(dir_raw, veg_index, DEBUG)
     with Pool(10) as p:
         p.map(annotate_image, image_files)
 
     print('Shrinking images...')
-    image_files = get_image_files(dir_large)
+    image_files = get_image_files(dir_large, veg_index)
     with Pool(10) as p:
         p.map(resize_image, image_files)
 
     # Create downsized gif
-    image_files = get_image_files(dir_small)
+    image_files = get_image_files(dir_small, veg_index)
     image_list = []
     for f in image_files:
         image = imageio.imread(os.path.join(dir_small, f))

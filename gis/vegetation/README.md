@@ -5,8 +5,6 @@ Animations showing the vegetation indices of the earth from 2000 to the present.
 
 *All credit for the imagery products go to the NASA MODIS Science Team. I only collected the images into animations and annotated them.*
 
-![NDVI Animated Map](https://github.com/aaronpenne/data_visualization/blob/master/gis/vegetation/animation_evi_shortened.gif)
-
 ![EVI Animated Map](https://github.com/aaronpenne/data_visualization/blob/master/gis/vegetation/animation_evi_shortened.gif)
 
 Background
