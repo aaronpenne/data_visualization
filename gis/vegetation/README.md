@@ -7,6 +7,8 @@ Animations showing the vegetation indices of the earth from 2000 to the present.
 
 ![EVI Animated Map](https://github.com/aaronpenne/data_visualization/blob/master/gis/vegetation/animation_evi_short.gif)
 
+![NDVI Animated Map](https://github.com/aaronpenne/data_visualization/blob/master/gis/vegetation/animation_ndvi_short.gif)
+
 Background
 ----------
 
