@@ -22,11 +22,9 @@ import itertools
 from lxml import html
 import requests
 
-<<<<<<< HEAD
+
 # DEBUG
 =======
-
->>>>>>> d37073c32b5df84ffa93fd60da359da9aeaf25df
 DEBUG = 0
 
 for veg_index in ['evi', 'ndvi']:
@@ -195,7 +193,6 @@ for veg_index in ['evi', 'ndvi']:
             image_files = image_files[20:66]
         return image_files
         
-<<<<<<< HEAD
 def crop_image(args):
     image_dir = args[0]
     image_file = args[1]
@@ -261,75 +258,3 @@ if __name__ == '__main__':
         image_list.append(image)
     imageio.mimsave(os.path.join(dir_output, 'animation_' + veg_index + '.mp4'), image_list, format='MP4', fps=fps)
 
-    # Create North America zoom
-#    image_files = get_image_files(dir_large)
-#    with Pool(10) as p:
-#        p.map(crop_image, zip(itertools.repeat(dir_large), image_files, itertools.repeat((0, 150, 2635, 1690))))
-#        
-#    image_files = get_image_files(dir_na)
-#    image_list = []   
-#    for f in image_files:      
-#        image = imageio.imread(os.path.join(dir_na, f))
-#        image_list.append(image)
-#    imageio.mimsave(os.path.join(dir_output, 'animation_evi_na.mp4'), image_list, format='MP4', fps=fps)
-
-    # FIXME:
-    # DO it all again for NDVI for comparison
-    # Do zoom continents/countries
-    # Do do all Dec and Jul for YOY comparison
-=======
-    if __name__ == '__main__':
-    
-        root_url = 'https://e4ftl01.cr.usgs.gov/MOLT/MOD13C1.006/'
-        root_page = requests.get(root_url)
-        root_contents = html.fromstring(root_page.content)
-        links = root_contents.xpath('//a/@href')
-    
-        print('Downloading images from {}'.format(root_url))
-        image_dates = [i[:-1] for i in links[7:]]
-        with Pool(10) as p:
-            p.map(get_vegetation_images, zip(itertools.repeat(root_url), image_dates))
-    
-        print('Annotating images...')
-        image_files = get_image_files(dir_raw, veg_index, DEBUG)
-        with Pool(10) as p:
-            p.map(annotate_image, image_files)
-    
-        print('Shrinking images...')
-        image_files = get_image_files(dir_large, veg_index)
-        with Pool(10) as p:
-            p.map(resize_image, image_files)
-    
-        # Create downsized gif
-        image_files = get_image_files(dir_small, veg_index)
-        image_list = []
-        for f in image_files:
-            image = imageio.imread(os.path.join(dir_small, f))
-            image_list.append(image)
-        imageio.mimsave(os.path.join(dir_output, 'animation_' + veg_index + '.gif'), image_list, format='GIF', duration=1/fps)
-    
-        # Create full size movie
-    #    image_files = get_image_files(dir_large)
-    #    image_list = []
-    #    for f in image_files:
-    #        image = imageio.imread(os.path.join(dir_large, f))
-    #        image_list.append(image)
-    #    imageio.mimsave(os.path.join(dir_output, 'animation_evi.mp4'), image_list, format='MP4', fps=fps)
-    
-        # Create North America zoom
-    #    image_files = get_image_files(dir_large)
-    #    with Pool(10) as p:
-    #        p.map(crop_image, zip(itertools.repeat(dir_large), image_files, itertools.repeat((0, 150, 2635, 1690))))
-    #        
-    #    image_files = get_image_files(dir_na)
-    #    image_list = []   
-    #    for f in image_files:      
-    #        image = imageio.imread(os.path.join(dir_na, f))
-    #        image_list.append(image)
-    #    imageio.mimsave(os.path.join(dir_output, 'animation_evi_na.mp4'), image_list, format='MP4', fps=fps)
-    
-        # FIXME:
-        # DO it all again for NDVI for comparison
-        # Do zoom continents/countries
-        # Do do all Dec and Jul for YOY comparison
->>>>>>> d37073c32b5df84ffa93fd60da359da9aeaf25df
