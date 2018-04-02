@@ -3,7 +3,9 @@ Vegetation Index mapping with MODIS
 
 Animations showing the vegetation indices of the earth from 2000 to the present. These animations are best viewed opened in their own windows.
 
-The GIF animations are downsampled to allow for file size restrictions. Full resolution video is here: https://youtu.be/9wW3tSIBtZQ.
+The GIF animations are downsampled to allow for file size restrictions. 
+- Full resolution EVI video is here: https://www.youtube.com/watch?v=UytH99Zc2L8
+- Full resolution NDVI video is here: https://www.youtube.com/watch?v=OK_HI3sjbtI
 
 *All credit for the imagery products go to the NASA MODIS Science Team. I only collected the images into animations and annotated them.*
 
