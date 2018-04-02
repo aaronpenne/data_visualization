@@ -24,7 +24,7 @@ import requests
 
 
 # DEBUG
-DEBUG = 1
+DEBUG = 0
 
 # Params
 fps = 5
@@ -192,7 +192,7 @@ def get_image_files(image_dir, text='', shortened=0):
     
 if __name__ == '__main__':
     
-    for veg_index in ['ndvi']:
+    for veg_index in ['evi']:
         
         root_url = 'https://e4ftl01.cr.usgs.gov/MOLT/MOD13C1.006/'
         root_page = requests.get(root_url)
@@ -214,7 +214,7 @@ if __name__ == '__main__':
         with Pool(10) as p:
             p.map(resize_image, image_files)
     
-        # Create downsized gif
+        print('Creating GIF...')
         image_files = get_image_files(dir_small, veg_index)
         image_list = []
         for f in image_files:
@@ -222,15 +222,15 @@ if __name__ == '__main__':
             image_list.append(image)
         imageio.mimsave(os.path.join(dir_output, 'animation_' + veg_index + '.gif'), image_list, format='GIF', duration=1/fps)
     
-        # Create full size movie
-#        image_files = get_image_files(dir_large)
-#        image_list = []
-#        for f in image_files:
-#            image = imageio.imread(os.path.join(dir_large, f))
-#            image_list.append(image)
-#        imageio.mimsave(os.path.join(dir_output, 'animation_' + veg_index + '.mp4'), image_list, format='MP4', fps=fps)
-#    
-        # Create North America zoom
+        print('Creating MP4...')
+        image_files = get_image_files(dir_large)
+        image_list = []
+        for f in image_files:
+            image = imageio.imread(os.path.join(dir_large, f))
+            image_list.append(image)
+        imageio.mimsave(os.path.join(dir_output, 'animation_' + veg_index + '.mp4'), image_list, format='MP4', fps=fps)
+    
+#        # Create North America zoom
 #        image_files = get_image_files(dir_large)
 #        with Pool(10) as p:
 #            p.map(crop_image, zip(itertools.repeat(dir_large), image_files, itertools.repeat((150, 150, 2635, 1690))))
