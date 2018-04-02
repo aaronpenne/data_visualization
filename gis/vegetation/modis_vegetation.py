@@ -22,8 +22,8 @@ import itertools
 from lxml import html
 import requests
 
-
-DEBUG = 1
+# DEBUG
+DEBUG = 0
 
 veg_index = 'ndvi'
 
@@ -214,6 +214,7 @@ if __name__ == '__main__':
         p.map(resize_image, image_files)
 
     # Create downsized gif
+    print('Creating GIF...')
     image_files = get_image_files(dir_small, veg_index)
     image_list = []
     for f in image_files:
@@ -222,12 +223,13 @@ if __name__ == '__main__':
     imageio.mimsave(os.path.join(dir_output, 'animation_' + veg_index + '.gif'), image_list, format='GIF', duration=1/fps)
 
     # Create full size movie
-#    image_files = get_image_files(dir_large)
-#    image_list = []
-#    for f in image_files:
-#        image = imageio.imread(os.path.join(dir_large, f))
-#        image_list.append(image)
-#    imageio.mimsave(os.path.join(dir_output, 'animation_evi.mp4'), image_list, format='MP4', fps=fps)
+    print('Creating MP4...')
+    image_files = get_image_files(dir_large)
+    image_list = []
+    for f in image_files:
+        image = imageio.imread(os.path.join(dir_large, f))
+        image_list.append(image)
+    imageio.mimsave(os.path.join(dir_output, 'animation_' + veg_index + '.mp4'), image_list, format='MP4', fps=fps)
 
     # Create North America zoom
 #    image_files = get_image_files(dir_large)
