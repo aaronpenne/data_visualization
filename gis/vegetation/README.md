@@ -3,18 +3,16 @@ Vegetation Index mapping with MODIS
 
 Animations showing the vegetation indices of the earth from 2000 to the present. These animations are best viewed opened in their own windows.
 
+The GIF animations are downsampled to allow for file size restrictions. Full resolution video is here: https://youtu.be/9wW3tSIBtZQ.
+
 *All credit for the imagery products go to the NASA MODIS Science Team. I only collected the images into animations and annotated them.*
 
 ![EVI Animated Map](https://github.com/aaronpenne/data_visualization/blob/master/gis/vegetation/animation_evi_short.gif)
-
-![NDVI Animated Map](https://github.com/aaronpenne/data_visualization/blob/master/gis/vegetation/animation_ndvi_short.gif)
 
 Background
 ----------
 
 This data was collected by the Terra satellite with the MODIS sensor every 16 days since February 2000. The Climate Modeling Grid (CMG) resolution used here is 0.05 degrees. Each pixel of the original full resolution image products is equivalent to 5600 meters.
-
-The GIF animations are downsampled to allow for file size restrictions. Full resolution video will be uploaded soon.
 
 Enhanced Vegetation Index (EVI) is an improvement on the standard Normalized Difference Vegetation Index (NDVI). [The NASA Earth Observatry explains it well](https://earthobservatory.nasa.gov/Features/MeasuringVegetation/measuring_vegetation_4.php):
 
