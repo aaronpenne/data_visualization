@@ -5,6 +5,22 @@ This is a collection of my data visualizations, mostly made with Python.
 
 ---
 
+Our Living Planet
+-----------------
+
+![EVI Animated Map](https://github.com/aaronpenne/data_visualization/blob/master/gis/vegetation/animation_evi_short.gif)
+
+This GIF is shortened from the full dataset of 18 years to only 2 years due to file size restrictions. Full resolution videos from 2000-2018 are on YouTube.
+- Normalized Difference Vegetation Index (NDVI) animation: https://youtu.be/OK_HI3sjbtI
+- Enhanced Vegetation Index (EVI) animation: https://youtu.be/UytH99Zc2L8
+
+*All credit for the imagery products go to the NASA MODIS Science Team. I only collected the images into animations and annotated them.*
+
+Code: [modis_vegetation.py](https://github.com/aaronpenne/data_visualization/blob/master/gis/vegetation/modis_vegetation.py)
+
+Data: NASA MODIS Sensor on Terra Satellite [LP DAAC](https://lpdaac.usgs.gov/dataset_discovery/modis/modis_products_table/mod13c1_v006)
+
+
 The Night Sky (HYG Database)
 ----------------------------
 
@@ -16,7 +32,7 @@ Data: [HYG Stellar Database v3](https://github.com/astronexus/HYG-Database)
 
 Contest: [r/DataIsBeautiful DataViz  Battle 2018-03](https://www.reddit.com/r/dataisbeautiful/comments/825mg6/battle_dataviz_battle_for_the_month_of_march_2018/)
 
----
+
 
 State Same Sex Marriage Laws in the USA
 ---------------------------------------
@@ -35,7 +51,7 @@ Contest: [r/DataIsBeautiful DataViz  Battle 2018-02](https://www.reddit.com/r/da
 
 Contest entry: [Reddit post - Honorable Mention](https://www.reddit.com/r/dataisbeautiful/comments/7zb8i4/same_sex_marriage_laws_in_the_usa_19952015_oc/dumpqzo/)
 
----
+
 
 Annual Company Revenue vs. Annual CEO Compensation
 --------------------------------------------------
@@ -46,7 +62,7 @@ Code: [dot_pairs_ceo_compensation.py](https://github.com/aaronpenne/data_visuali
 
 Data: [Reddit post by u/k0m0d0z0](https://www.reddit.com/r/dataisbeautiful/comments/842tvn/highestpaid_ceos_in_america_oc/)
 
----
+
 
 USA Population Rankings
 -----------------------
@@ -59,7 +75,7 @@ Data (raw): https://census.gov/data/tables/time-series/demo/popest/pre-1980-stat
 
 Data (manually aggregated/cleaned): [USA_Population_of_States_US_Census_Intercensal_Tables_1917-2017.csv](https://github.com/aaronpenne/aaronpenne.github.io/blob/master/data_viz/USA_Population_of_States_US_Census_Intercensal_Tables_1917-2017.csv)
 
----
+
 
 USA Births Per Month
 --------------------
@@ -71,4 +87,3 @@ That baby boomer spike is nicely timed with WWII, as expected. The war ended on 
 Code: [Births Per Month in the USA](https://aaronpenne.github.io/data_viz/USA_Births_Per_Day_binned_by_Month.html)
 
 Data: http://www.mortality.org/cgi-bin/hmd/hmd_download.php
-
