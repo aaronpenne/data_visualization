@@ -97,7 +97,7 @@ ax.plot(dp['rate'])
 dp = df
 
 fig, ax = plt.subplots(figsize=(12, 4))
-sns.boxplot(x='month', y='rate', data=dp, ax=ax, palette='viridis')
+sns.boxplot(x='month', y='rate', data=dp, ax=ax, palette='plasma')
 sns.stripplot(x='month', y='rate', data=dp, ax=ax, color='0', jitter=0.1)
 
 # Heatmap - full data
@@ -140,3 +140,20 @@ ax.set_xlabel('Year',
             fontname = 'monospace')
 ax.set_ylabel('')
 ax.tick_params(axis='both', which='major', labelsize=9)
+
+# Plot each month over the years
+dp = df
+dp = pd.pivot_table(dp, index='month', columns='year', values='rate', aggfunc=np.sum)
+
+fig, ax = plt.subplots(figsize=(12, 4))
+for index, row in dp.iterrows():
+    ax.plot(row)
+    
+# Plot max/min of each year over the years
+dp = df
+dp = pd.pivot_table(dp, index='month', columns='year', values='rate', aggfunc=np.sum)
+
+fig, ax = plt.subplots(figsize=(12, 4))
+for year in df:
+    ax.plot(dp.max())
+    ax.plot(dp.min())
