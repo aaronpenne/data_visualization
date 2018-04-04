@@ -80,7 +80,7 @@ Data (manually aggregated/cleaned): [USA_Population_of_States_US_Census_Intercen
 USA Births Per Month
 --------------------
 
-That baby boomer spike is nicely timed with WWII, as expected. The war ended on September 2, 1945 and nine months later is June 1946, precisely when the births start heating up.
+The parts that stand out to me are the two big bumps 9 months after Pearl Harbor and 9 months after the war ended in Sep 1945. Those bumps are so big that the full chart pretty much only shows Baby Boomers.
 
 <p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/birth_rate/charts/birth_rate_heat_usa.png" alt="Births Per Month in the USA - Heat Map" width="90%"></p>
 
@@ -92,4 +92,9 @@ That baby boomer spike is nicely timed with WWII, as expected. The war ended on 
 
 Code: [birth_heatmap.py](https://github.com/aaronpenne/data_visualization/blob/master/birth_rate/birth_heatmap.py)
 
-Data: http://www.mortality.org/cgi-bin/hmd/hmd_download.php
+
+Birth data: [Human Mortality Database](http://www.mortality.org/cgi-bin/hmd/hmd_download.php)
+
+Population data: [US Census Bureau](https://census.gov/data/tables/time-series/demo/popest/pre-1980-state.html)
+
+Population data (aggregated): [USA_Population_of_States_US_Census_Intercensal_Tables_1917-2017.csv](https://github.com/aaronpenne/data_visualization/blob/master/population/data/USA_Population_of_States_US_Census_Intercensal_Tables_1917-2017.csv)
