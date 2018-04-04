@@ -82,8 +82,14 @@ USA Births Per Month
 
 That baby boomer spike is nicely timed with WWII, as expected. The war ended on September 2, 1945 and nine months later is June 1946, precisely when the births start heating up.
 
-<p align="center"><img src="https://aaronpenne.github.io/data_viz/USA_Births_Per_Day_binned_by_Month.jpg" alt="Births Per Month in the USA - Heat Map" width="90%"></p>
+<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/birth_rate/charts/birth_rate_heat_usa.png" alt="Births Per Month in the USA - Heat Map" width="90%"></p>
 
-Code: [Births Per Month in the USA](https://aaronpenne.github.io/data_viz/USA_Births_Per_Day_binned_by_Month.html)
+<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/birth_rate/charts/birth_rate_usa_line.png" alt="Births Per Month in the USA - Line Chart" width="90%"></p>
+
+<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/birth_rate/charts/birth_rate_usa_box.png" alt="Births Per Month in the USA - Box Plot" width="90%"></p>
+
+<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/birth_rate/charts/birth_rate_usa_heat_ranged.png" alt="Births Per Month in the USA - Heat Map (Ranged)" width="70%"></p>
+
+Code: [birth_heatmap.py](https://github.com/aaronpenne/data_visualization/blob/master/birth_rate/birth_heatmap.py)
 
 Data: http://www.mortality.org/cgi-bin/hmd/hmd_download.php
