@@ -118,17 +118,34 @@ h3 = mp.font_manager.FontProperties(family='monospace', size='x-small')
 #
 # Birth rate
 #
-
+    
 # Line - raw
 dp = df
-fig, ax = plt.subplots(figsize=(12, 4))
-ax.plot(dp['rate'])
+fig, ax = plt.subplots(figsize=(12, 4), dpi=150)
+ax.plot(dp['rate'], color='black')
+plt.title('USA Birth Rate 1933-2015')
+ax.text(727000, 15,
+        'Birth data: Human Mortality Database\nPopulation data: US Census Bureau\nCode: www.github.com\\aaronpenne\nAaron Penne © 2018',
+        fontsize = 10,
+        color = 'gray',
+        family = 'monospace',
+        multialignment = 'right')
+fig.savefig('birth_rate_usa_line.png', dpi='figure', bbox_inches='tight', pad_inches=.11)
+
 
 # Boxplot - with dots (month to month comparison)
 dp = df
-fig, ax = plt.subplots(figsize=(12, 4))
-sns.boxplot(x='month', y='rate', data=dp, ax=ax, palette='YlOrRd')
-sns.stripplot(x='month', y='rate', data=dp, ax=ax, color='0', jitter=0.1)
+fig, ax = plt.subplots(figsize=(12, 4), dpi=150)
+sns.boxplot(x='month', y='rate', data=dp, ax=ax, palette='Set2')
+sns.stripplot(x='month', y='rate', data=dp, ax=ax, color='black', alpha=0.25, jitter=0.1)
+plt.title('USA Birth Rate 1933-2015 - Month to Month comparison')
+ax.text(7.5, 10,
+        'Birth data: Human Mortality Database\nPopulation data: US Census Bureau\nCode: www.github.com\\aaronpenne\nAaron Penne © 2018',
+        fontsize = 10,
+        color = 'gray',
+        family = 'monospace',
+        multialignment = 'right')
+fig.savefig('birth_rate_usa_box.png', dpi='figure', bbox_inches='tight', pad_inches=.11)
 
     
 # Line - each month over years
@@ -145,7 +162,7 @@ fig, ax = plt.subplots(figsize=(12, 4))
 for year in df:
     ax.plot(dp.max())
     ax.plot(dp.min())
-    
+
     
 # Heatmap - matplotlib
 dp = pd.pivot_table(df, index='month', columns='year', values='rate', aggfunc=np.sum)
@@ -190,7 +207,7 @@ ax.text(64, -2,
         color = 'gray',
         family = 'monospace',
         multialignment = 'right')
-fig.savefig('birth_rate_usa.png', dpi='figure', bbox_inches='tight', pad_inches=.11)
+fig.savefig('birth_rate_heat_usa.png', dpi='figure', bbox_inches='tight', pad_inches=.11)
 
 
 # Heatmap - matplotlib - ranged
@@ -239,4 +256,4 @@ ax.text(34, -2,
         color = 'gray',
         family = 'monospace',
         multialignment = 'right')
-fig.savefig('birth_rate_usa_ranged.png', dpi='figure', bbox_inches='tight', pad_inches=.11)
+fig.savefig('birth_rate_usa_heat_ranged.png', dpi='figure', bbox_inches='tight', pad_inches=.11)
