@@ -265,3 +265,49 @@ ax.text(34, -2,
         color = 'gray',
         multialignment = 'right')
 fig.savefig('birth_rate_usa_heat_ranged.png', dpi='figure', bbox_inches='tight', pad_inches=.11)
+
+
+
+  
+# Heatmap - matplotlib - COUNT
+dp = df
+days_in_month = df.index.to_series().dt.daysinmonth
+df['birth_norm'] = df['birth'] / days_in_month
+dp = pd.pivot_table(df, index='month', columns='year', values='birth_norm', aggfunc=np.sum)
+fig, ax = plt.subplots(figsize=(12, 4), dpi=150)
+plt.imshow(dp, interpolation='nearest', cmap='YlOrRd')
+ax.grid(False)
+for _, loc in ax.spines.items():
+#    loc.set_visible(True)
+    loc.set_color('black')
+plt.yticks(np.linspace(0,11,12), month_names,
+           size='small',
+           color='black')
+x_values, x_names = get_custom_tick_labels(dp, 2)
+plt.xticks(x_values, x_names,
+           size='small',
+           color='black',
+           rotation='vertical')
+cax = fig.add_axes([0.92, .3333, 0.01, .3333])
+cb = plt.colorbar(label='Births/day', cax=cax)
+cb.outline.set_edgecolor('black')
+cax.yaxis.label.set_font_properties(h3)
+cax.set_yticklabels(cax.get_yticklabels(),
+                    size='x-small')
+# Annotations
+ax.text(-0.5, -4.2,
+        'Monthly USA Birth Counts 1933-2015',
+        fontsize = 14,
+        color = 'black',
+        weight = 'bold',)
+ax.text(-0.5, -2,
+        'Births Normalized = Births / Days in Month',
+        fontsize = 12,
+        color = 'black',)
+ax.text(64, -2,
+        'Birth data: Human Mortality Database\nPopulation data: US Census Bureau\nCode: www.github.com\\aaronpenne\nAaron Penne © 2018',
+        fontsize = 7,
+        color = 'gray',
+        multialignment = 'right')
+fig.savefig('birth_count_heat_usa.png', dpi='figure', bbox_inches='tight', pad_inches=.11)
+
