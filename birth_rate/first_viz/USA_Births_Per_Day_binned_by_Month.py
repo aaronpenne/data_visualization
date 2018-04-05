@@ -23,13 +23,14 @@
 # * I opened up the csv in Excel to see what was going on. Nothing too crazy. 
 # * I'll open it up here to investigate further.
 
-# In[18]:
+# In[1]:
+
 
 import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-get_ipython().magic('matplotlib inline')
+get_ipython().run_line_magic('matplotlib', 'inline')
 
 df = pd.read_csv('USAbirthbymonth.txt')
 df.head(15)
@@ -47,7 +48,8 @@ df.head(15)
 # * Gotta assign that bad boy to a new variable. 
 #     * I'll save off the original DataFrame just in case.
 
-# In[19]:
+# In[ ]:
+
 
 df_BAK = df
 df = df[~df.Month.isin(['TOT'])]
@@ -66,7 +68,8 @@ df[10:14]
 # * Gotta fix the [leading zero ordering](https://stackoverflow.com/a/36346221) FIXME
 # 
 
-# In[20]:
+# In[ ]:
+
 
 df_pivot = pd.pivot_table(df, index='Month', columns='Year', values='Births', aggfunc=np.sum)
 months = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']
@@ -83,7 +86,8 @@ df_pivot.head(12)
 # * To normalize, the # of births in a given month is divided by the number of days in that month.
 # * To do this, I'm going to need a table that has the number of days for each month. I'm just going to make it manually in Excel using the info from here: https://landweb.modaps.eosdis.nasa.gov/browse/calendar.html
 
-# In[21]:
+# In[ ]:
+
 
 df_days = pd.DataFrame.from_csv('days_of_month.txt')
 df_days.head(12)
@@ -94,7 +98,8 @@ df_days.head(12)
 # 
 # * Want to rename the columns though after dividing the values...
 
-# In[22]:
+# In[ ]:
+
 
 df_pivot.columns
 
@@ -102,7 +107,8 @@ df_pivot.columns
 # * Could not get my DataFrames to divide, just resulted in NaNs
 # * Going to use values to do it, then go back to a DataFrame
 
-# In[23]:
+# In[ ]:
+
 
 c = df_pivot.values / df_days.values
 df_norm = pd.DataFrame(data=c, columns=df_pivot.columns, index=months)
@@ -114,7 +120,8 @@ df_norm
 # 
 # * Now the whole friggin point is to make a chart. 
 
-# In[26]:
+# In[ ]:
+
 
 sns.set()
 
@@ -189,7 +196,8 @@ fig.savefig('Rate_Births_Month_USA.jpg', dpi=200, bbox_inches='tight', pad_inche
 # 
 # * Let's take a look at the describe() output for each month of the pivot table (transposed):
 
-# In[25]:
+# In[ ]:
+
 
 df_describe = df_norm.T.describe(percentiles=[0.5])
 

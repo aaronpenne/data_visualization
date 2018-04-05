@@ -1,0 +1,327 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# USA Births Per Day binned by Month (1933-2015)\n",
+    "\n",
+    "---\n",
+    "\n",
+    "## Context\n",
+    "* Tired but can't sleep in a hotel on work travel to Pt. Mugu. \n",
+    "* Wife thinks it sounds like traveling to Mt. Snoob.\n",
+    "* Looking for secondary data, Google finds tons of goodies to play with, including [Berkeley's link collection](http://guides.lib.berkeley.edu/publichealth/healthstatistics/rawdata).\n",
+    "* [Human Mortality Database](http://www.mortality.org/cgi-bin/hmd/hmd_download.php) sounds morbid enough for tonight. Turns out they have a metric shit ton of data on 30+ countries. Births is on there. Less morbid than mortality I suppose.\n",
+    "* Downloaded the USA data cause I live there.\n",
+    "\n",
+    "## The Data\n",
+    "* I don't understand what the heck I just downloaded. The file tree looks like it's got a couple database types, a bunch of summary text files, some PDFs, dirs named old-old-old, etc. \n",
+    "* Inside the InputDB dir there's a text file called USAbirthbymonth.txt. I bet I can guess what's in here.\n",
+    "* No need to guess... "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Exploration\n",
+    "\n",
+    "\n",
+    "* I opened up the csv in Excel to see what was going on. Nothing too crazy. \n",
+    "* I'll open it up here to investigate further."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "FileNotFoundError",
+     "evalue": "File b'USAbirthbymonth.txt' does not exist",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mFileNotFoundError\u001b[0m                         Traceback (most recent call last)",
+      "\u001b[0;32m<ipython-input-1-d731cc4eeea6>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      5\u001b[0m \u001b[0mget_ipython\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mrun_line_magic\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m'matplotlib'\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m'inline'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      6\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 7\u001b[0;31m \u001b[0mdf\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mpd\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mread_csv\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m'USAbirthbymonth.txt'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      8\u001b[0m \u001b[0mdf\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mhead\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;36m15\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;32m~/miniconda3/envs/py36/lib/python3.6/site-packages/pandas/io/parsers.py\u001b[0m in \u001b[0;36mparser_f\u001b[0;34m(filepath_or_buffer, sep, delimiter, header, names, index_col, usecols, squeeze, prefix, mangle_dupe_cols, dtype, engine, converters, true_values, false_values, skipinitialspace, skiprows, nrows, na_values, keep_default_na, na_filter, verbose, skip_blank_lines, parse_dates, infer_datetime_format, keep_date_col, date_parser, dayfirst, iterator, chunksize, compression, thousands, decimal, lineterminator, quotechar, quoting, escapechar, comment, encoding, dialect, tupleize_cols, error_bad_lines, warn_bad_lines, skipfooter, skip_footer, doublequote, delim_whitespace, as_recarray, compact_ints, use_unsigned, low_memory, buffer_lines, memory_map, float_precision)\u001b[0m\n\u001b[1;32m    707\u001b[0m                     skip_blank_lines=skip_blank_lines)\n\u001b[1;32m    708\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 709\u001b[0;31m         \u001b[0;32mreturn\u001b[0m \u001b[0m_read\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfilepath_or_buffer\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mkwds\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    710\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    711\u001b[0m     \u001b[0mparser_f\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m__name__\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mname\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;32m~/miniconda3/envs/py36/lib/python3.6/site-packages/pandas/io/parsers.py\u001b[0m in \u001b[0;36m_read\u001b[0;34m(filepath_or_buffer, kwds)\u001b[0m\n\u001b[1;32m    447\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    448\u001b[0m     \u001b[0;31m# Create the parser.\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 449\u001b[0;31m     \u001b[0mparser\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mTextFileReader\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfilepath_or_buffer\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m**\u001b[0m\u001b[0mkwds\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    450\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    451\u001b[0m     \u001b[0;32mif\u001b[0m \u001b[0mchunksize\u001b[0m \u001b[0;32mor\u001b[0m \u001b[0miterator\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;32m~/miniconda3/envs/py36/lib/python3.6/site-packages/pandas/io/parsers.py\u001b[0m in \u001b[0;36m__init__\u001b[0;34m(self, f, engine, **kwds)\u001b[0m\n\u001b[1;32m    816\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0moptions\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m'has_index_names'\u001b[0m\u001b[0;34m]\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mkwds\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m'has_index_names'\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    817\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 818\u001b[0;31m         \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_make_engine\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mengine\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    819\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    820\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0mclose\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;32m~/miniconda3/envs/py36/lib/python3.6/site-packages/pandas/io/parsers.py\u001b[0m in \u001b[0;36m_make_engine\u001b[0;34m(self, engine)\u001b[0m\n\u001b[1;32m   1047\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0m_make_engine\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mengine\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m'c'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1048\u001b[0m         \u001b[0;32mif\u001b[0m \u001b[0mengine\u001b[0m \u001b[0;34m==\u001b[0m \u001b[0;34m'c'\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1049\u001b[0;31m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_engine\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mCParserWrapper\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mf\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m**\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0moptions\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1050\u001b[0m         \u001b[0;32melse\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1051\u001b[0m             \u001b[0;32mif\u001b[0m \u001b[0mengine\u001b[0m \u001b[0;34m==\u001b[0m \u001b[0;34m'python'\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;32m~/miniconda3/envs/py36/lib/python3.6/site-packages/pandas/io/parsers.py\u001b[0m in \u001b[0;36m__init__\u001b[0;34m(self, src, **kwds)\u001b[0m\n\u001b[1;32m   1693\u001b[0m         \u001b[0mkwds\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m'allow_leading_cols'\u001b[0m\u001b[0;34m]\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mindex_col\u001b[0m \u001b[0;32mis\u001b[0m \u001b[0;32mnot\u001b[0m \u001b[0;32mFalse\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1694\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1695\u001b[0;31m         \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_reader\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mparsers\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mTextReader\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0msrc\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m**\u001b[0m\u001b[0mkwds\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1696\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1697\u001b[0m         \u001b[0;31m# XXX\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;32mpandas/_libs/parsers.pyx\u001b[0m in \u001b[0;36mpandas._libs.parsers.TextReader.__cinit__\u001b[0;34m()\u001b[0m\n",
+      "\u001b[0;32mpandas/_libs/parsers.pyx\u001b[0m in \u001b[0;36mpandas._libs.parsers.TextReader._setup_parser_source\u001b[0;34m()\u001b[0m\n",
+      "\u001b[0;31mFileNotFoundError\u001b[0m: File b'USAbirthbymonth.txt' does not exist"
+     ]
+    }
+   ],
+   "source": [
+    "import pandas as pd\n",
+    "import numpy as np\n",
+    "import seaborn as sns\n",
+    "import matplotlib.pyplot as plt\n",
+    "%matplotlib inline\n",
+    "\n",
+    "df = pd.read_csv('USAbirthbymonth.txt')\n",
+    "df.head(15)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "* Well hey it worked. Excellent...\n",
+    "* Already cool. Immediately only care about 3 columns: Year, Month, Births\n",
+    "* I'll investigate the other ones later, maybe.\n",
+    "* Looks like the data has a subtotal every year. That's annoying, let's kill it.\n",
+    "\n",
+    "\n",
+    "* [Looks like isin will get us there.](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.isin.html)\n",
+    "* And we can index using [this nice example.](https://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-with-isin)\n",
+    "* [And this answer takes us all the way.](https://stackoverflow.com/a/22485573)\n",
+    "* Gotta assign that bad boy to a new variable. \n",
+    "    * I'll save off the original DataFrame just in case."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df_BAK = df\n",
+    "df = df[~df.Month.isin(['TOT'])]\n",
+    "df[10:14]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "* Heck yeah!\n",
+    "\n",
+    "\n",
+    "* Okay, let's put this into a heatmap 2D format:\n",
+    "    * One month per row starting with 1\n",
+    "    * One year per column starting with 1933\n",
+    "* ~~Use the [length of the index column to count rows](https://stackoverflow.com/questions/15943769/how-do-i-get-the-row-count-of-a-pandas-dataframe)~~\n",
+    "* ~~Use [itertuples](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.itertuples.html#pandas.DataFrame.itertuples)~~\n",
+    "* Duh make a [pivot table](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.pivot_table.html)\n",
+    "* Gotta fix the [leading zero ordering](https://stackoverflow.com/a/36346221) FIXME\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "scrolled": false
+   },
+   "outputs": [],
+   "source": [
+    "df_pivot = pd.pivot_table(df, index='Month', columns='Year', values='Births', aggfunc=np.sum)\n",
+    "months = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']\n",
+    "df_pivot = df_pivot.reindex_axis(months, axis=0)\n",
+    "df_pivot.head(12)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "* It worked. Nice.\n",
+    "\n",
+    "## Normalization\n",
+    "\n",
+    "* HOWEVER, normalization is the key to make all this look nice.\n",
+    "* As pointed out on Reddit, the number of days in a month can have a drastic affect, if only one day is missing (30 vs 31) then the count can be affected significantly.\n",
+    "* To normalize, the # of births in a given month is divided by the number of days in that month.\n",
+    "* To do this, I'm going to need a table that has the number of days for each month. I'm just going to make it manually in Excel using the info from here: https://landweb.modaps.eosdis.nasa.gov/browse/calendar.html"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df_days = pd.DataFrame.from_csv('days_of_month.txt')\n",
+    "df_days.head(12)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "* Great, notice the leap years\n",
+    "\n",
+    "\n",
+    "* Want to rename the columns though after dividing the values..."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df_pivot.columns"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "* Could not get my DataFrames to divide, just resulted in NaNs\n",
+    "* Going to use values to do it, then go back to a DataFrame"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "c = df_pivot.values / df_days.values\n",
+    "df_norm = pd.DataFrame(data=c, columns=df_pivot.columns, index=months)\n",
+    "df_norm"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "\n",
+    "## Visualization\n",
+    "\n",
+    "* Now the whole friggin point is to make a chart. "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [],
+   "source": [
+    "sns.set()\n",
+    "\n",
+    "fig, ax = plt.subplots(figsize=(12, 4))\n",
+    "cbar_ax = fig.add_axes([0.93, .33, .01, .33])\n",
+    "sns.heatmap(df_norm,\n",
+    "            ax = ax,\n",
+    "            cbar_ax = cbar_ax,\n",
+    "            yticklabels=['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],\n",
+    "            xticklabels=2,\n",
+    "            vmin = 5500,\n",
+    "            vmax = 12500,\n",
+    "            cmap=\"gist_heat\",\n",
+    "            square=True,\n",
+    "            cbar=True)\n",
+    "ax.set_xlabel('Year', \n",
+    "            fontsize=16,\n",
+    "            fontname = 'Consolas')\n",
+    "ax.set_ylabel('')\n",
+    "ax.tick_params(axis='both', which='major', labelsize=9)\n",
+    "fig.set_facecolor('#f3f3f3') \n",
+    "\n",
+    "\n",
+    "# Chart titles\n",
+    "ax.text(-3, 16,\n",
+    "        'USA Births Per Day binned by Month (1933-2015)',\n",
+    "        fontsize = 20,\n",
+    "        weight = 'bold',\n",
+    "        fontname = 'Consolas')\n",
+    "ax.text(-3, 14,\n",
+    "        'Calculated by dividing the count of births in a given month by the number of days in that month.',\n",
+    "        fontsize = 14,\n",
+    "        alpha = .85,\n",
+    "        fontname = 'Consolas')\n",
+    "\n",
+    "# Chart footer\n",
+    "ax.text(-3, -7,\n",
+    "        '_____________________________________________________________________________________________________',\n",
+    "        fontsize = 14,\n",
+    "        color = 'grey',\n",
+    "        alpha = .77,\n",
+    "        fontname = 'Consolas')\n",
+    "ax.text(-3, -9,\n",
+    "        '© Aaron Penne',\n",
+    "        fontsize = 14,\n",
+    "        color = 'grey',\n",
+    "        alpha = .77,\n",
+    "        fontname = 'Consolas')\n",
+    "ax.text(63, -9,\n",
+    "        'Source: Human Mortality Database',\n",
+    "        fontsize = 14,\n",
+    "        color = 'grey',\n",
+    "        alpha = .77,\n",
+    "        fontname = 'Consolas')\n",
+    "fig.savefig('Rate_Births_Month_USA.jpg', dpi=200, bbox_inches='tight', pad_inches=.11)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "* Awwww yeahhhh\n",
+    "\n",
+    "## Conclusion\n",
+    "\n",
+    "* Purely a quick-and-dirty visual analysis, statistics aren't good for me when I'm sleepy so I'll come back to that. FIXME\n",
+    "* That baby boomer spike is so nicely timed with WWII that it's amazing. The war ended on September 2, 1945 and nine months later is June 1946, precisely when the births start **heating** up.\n",
+    "* As pointed out by some Redditors, it is possible that 'echos' from the baby boomers show up every 20ish years.\n",
+    "* Big drop off from 1971-ish through 1978-ish. Curious to see what war/economy/politics were going on then.\n",
+    "* July through October has higher birth months, likely due to more banging during the winter.\n",
+    "* February has a streak of low numbers, wonder if the shorter number of days is a contributing factor?\n",
+    "* November also has a low number sreak, which surprises me because I figured 9 months after February (Valentine's Day) would have a spike.\n",
+    "* Interesting trend up during 1942/1943... Starts increasing in August/September 1942 which is 9 months after the attack on Pearl Harbor (Dec 7, 1941). Possibly putting a bun in the oven before heading off to war?\n",
+    "* Hey this is fun making guesses based on a chart!\n",
+    "\n",
+    "\n",
+    "* Let's take a look at the describe() output for each month of the pivot table (transposed):"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df_describe = df_norm.T.describe(percentiles=[0.5])\n",
+    "\n",
+    "pd.set_option('display.float_format', lambda x: '%.0f' % x)\n",
+    "df_describe"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "* Seeing this little table makes me want to plot more but it's time for bed. ...violin plots for each month? bar chart of monthly means?"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.6.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
