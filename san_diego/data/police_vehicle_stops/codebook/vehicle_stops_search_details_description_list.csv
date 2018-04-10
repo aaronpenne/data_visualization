@@ -1,0 +1,6 @@
+search_details_type,search_details_description
+ActionTaken,"Citation, written warning, verbal warning, field interview, other"
+ActionTakenOther,Additional text if other is selected for ActionTaken 
+SearchBasis,"Contraband visible, canine alert, 4th waiver search, inventory search, observed evidence related to criminal activity, odor of contraband, consent search, search incident to arrest, other"
+SearchBasisOther,Additional text if other is selected for SearchBasis
+SearchType,"Vehicle, driver, passenger"

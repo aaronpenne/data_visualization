@@ -1,0 +1,16 @@
+Field,Description,Possible Values
+stop_id,unique stop identifier,
+stop_cause,reason for the stop,
+service_area,police service area,
+subject_race,race code,see race code dictionary
+suject_sex,sex code,"M, F"
+subject_age,age,
+timestamp,ISO8601 timestamp,
+stop_date,date (mm/dd/yy),
+stop_time,time (24hrs format),
+sd_resident,if subject is a resident of the City of San Diego,Y/N
+arrested,if subject was arrested,Y/N
+searched,if a search was conducted,Y/N
+obtained_consent,"if a search was conducted, if consent was obtained",Y/N
+contraband_found,"if a search was conducted, if contraband was found",Y/N
+property_seized,"if a search was conducted, if property was seized",Y/N

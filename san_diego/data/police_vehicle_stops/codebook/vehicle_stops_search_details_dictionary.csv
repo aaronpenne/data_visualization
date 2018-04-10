@@ -1,0 +1,5 @@
+Field,Description,Possible Values
+stop_id,unique stop identifier,
+search_details_id,unique search details identifier,
+search_details_type,type of search details record,"Action taken, actionTakenOther, SearchBasis, SearchBasisOther, SearchType"
+search_details_description,search details description,see search details description list
