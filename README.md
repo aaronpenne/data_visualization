@@ -8,7 +8,7 @@ Cause of Death - Reality vs. Google vs. Media
 ---------------------------------------------
 <p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/cause_of_death/charts/bar.gif" alt="Animated stacked bar chart - COD" width="60%"></p>
 
-This animation is an expansion on the excellent write up by [Hasan Al-Jamaly](https://github.com/haljamaly), [Maximillian Siemers](https://github.com/phi1eas), [Owen Shen](https://github.com/owenshen24), and [Nicole Stone](https://github.com/stonecoldnicole) for a project in [Brad Voytek](https://twitter.com/bradleyvoytek)'s UCSD course.
+This animation is an expansion on the excellent write up by [Hasan Al-Jamaly](https://github.com/haljamaly), [Maximillian Siemers](https://github.com/phi1eas), [Owen Shen](https://github.com/owenshen24), and [Nicole Stone](https://github.com/stonecoldnicole) for a project in [Brad Voytek](https://twitter.com/bradleyvoytek)'s UCSD course. The writeup can be found here: https://owenshen24.github.io/charting-death/
 
 Code: [bar_cod.py](https://github.com/aaronpenne/data_visualization/blob/master/cause_of_death/bar_cod.py)
 
