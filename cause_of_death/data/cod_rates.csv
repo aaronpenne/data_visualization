@@ -4,9 +4,9 @@ cancer,0.2785,0.3762,0.171
 lower_respiratory_disease,0.0645,0.021,0.018
 car_accident,0.0568,0.1002,0.025
 stroke,0.0528,0.0599,0.059
-alzheimers,0.0363,0.026,0.009
+alzheimers_disease,0.0363,0.026,0.009
 diabetes,0.0349,0.1013,0.028
-pnuemonia_flu,0.0276,0.045,0.041
+pnuemonia_and_influenza,0.0276,0.045,0.041
 kidney_disease,0.0228,0.0091,0.002
 suicide,0.0172,0.124,0.118
 overdose,0.0141,0.0186,0.002

@@ -10,24 +10,36 @@ Developed with:
     macOS 10.13
 """ 
 
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib as mpl
 import imageio
 import os
 
-plt.rcParams['image.cmap'] = 'Set2'
+color_gray = ['#3f3f3f', '#6f6f6f']
+mpl.rcParams['font.family'] = 'monospace'
+mpl.rcParams['axes.prop_cycle'] = mpl.cycler(color=color_gray)
 
 def normalize(s, n):
-    return s*(n-sum(s))+s
+    delta = n - sum(s)
+    spread = delta / len(s)
+    return s + spread
 
-def label_bar(rects, text):
+def label_bar(rects, text, weight='normal'):
     for rect in rects:
         height = rect.get_height()
         width = rect.get_width()
         x = rect.get_x()
-        y = rect.get_y() 
-        ax.text(x + width/2.0, y + height/2.0, text, ha='center', va='center', color='w')
+        y = rect.get_y()
+        if height > 0.023:
+            ax.text(x + width/2.0, y + height/2.0, text, ha='center', va='center', color='w', size='small', weight=weight)
 
+def bold_top_cause(cause):
+    if row == cause:
+        label_bar(rect, row.title().replace('_', ' '), 'bold')
+    else:
+        label_bar(rect, row.title().replace('_', ' '))
 # Set output directory, make it if needed
 output_dir = os.path.realpath('output')  # Windows machine
 if not os.path.isdir(output_dir):
@@ -67,19 +79,55 @@ for i, col in enumerate(df.columns):
     top = 0
     for j, row in enumerate(df.index):
         value = df.iloc[j, i]
-        rect = ax.bar(0, value, width, bottom=top)
+        rect = ax.bar(0, value, width, bottom=top, edgecolor='white', linewidth=0.3)
         top += value
-        if row in ['heart_disease', 'kidney_disease', 'cancer', 'suicide', 'terrorism', 'homicide', 'diabetes', 'car_accident']:
-            label_bar(rect, row.title().replace('_', ' '))  
-    if i == 0:
-        plt.title('CDC Causes of Death\nWhat actually kills us')
-    elif i == 8:
-        plt.title('Google Search Trends\nWhat we are worried about')
-    elif i == 16:
-        plt.title('NYT & Guardian Headlines\nWhat the media talks about')
+        
+        if col == 'cdc':
+            bold_top_cause('heart_disease')
+            bold_top_cause('cancer')
+        if col == 'google':
+            bold_top_cause('cancer')
+            bold_top_cause('suicide')
+        if col == 'media':
+            bold_top_cause('terrorism')
+            bold_top_cause('homicide')
+
+    if i in range(0,8):
+        ax.text(0, 1.1, 'CDC Cause of Death in USA', ha='center', va='center', fontsize='large')
+        ax.text(0, 1.05, '\"What actually causes death?\"', ha='center', va='center', fontsize='medium')
+    elif i in range(8,16):
+        ax.text(0, 1.1, 'Google Search Trends', ha='center', va='center', fontsize='large')
+        ax.text(0, 1.05, '\"Which causes do we worry about?\"', ha='center', va='center', fontsize='medium')
+    elif i in range(16,24):
+        ax.text(0, 1.1, 'NYT & Guardian Headlines', ha='center', va='center', fontsize='large')
+        ax.text(0, 1.05, '\"Which causes are in the media?\"', ha='center', va='center', fontsize='medium')
     else:
-        plt.title(' \n ')
-    plt.axis('off')
+        ax.text(0, 1.1, ' ', ha='center', va='center', fontsize='large')
+        ax.text(0, 1.05, ' ', ha='center', va='center', fontsize='medium')
+        
+    # Deal with axis
+    ytick_vals = np.linspace(0,1,21)
+    ax.tick_params(axis='y', colors=color_gray[1])
+    plt.yticks(ytick_vals, ['{:.0f}%'.format(x*100) for x in ytick_vals], 
+                            fontsize='xx-small', 
+                            weight='light',
+                            color=color_gray[1])
+    plt.xticks([])
+    for side in ['right', 'left', 'top', 'bottom']:
+        ax.spines[side].set_visible(False)
+        
+    # Annotations
+    ax.text(-0.5, -0.18,
+            'Data: CDC, Google, New York Times, The Guardian\n' \
+            'Code: www.github.com\\aaronpenne\n' \
+            'Twitter: @aaronpenne\n' \
+            'Aaron Penne © 2018\n\n' \
+            'Based on in-depth analysis by H. Al-Jamaly, M. Siemers,\n' \
+            'O. Shen, and N. Stone at owenshen24.github.io/charting-death',
+            fontsize = 'xx-small',
+            color = color_gray[1],
+            multialignment = 'left')
+
     fig.savefig(os.path.join(output_dir, 'bar_{:02}.png'.format(i)),
                 dpi=fig.dpi,
                 bbox_inches='tight',
