@@ -4,6 +4,15 @@ Data_Visualization
 This is a collection of my data visualizations, mostly made with Python.
 
 
+Cause of Death - Reality vs. Google vs. Media
+---------------------------------------------
+![Animated stacked bar chart - COD](https://github.com/aaronpenne/data_visualization/blob/master/cause_of_death/charts/bar.gif)
+
+This animation is an expansion on the excellent write up by [Hasan Al-Jamaly](https://github.com/haljamaly), [Maximillian Siemers](https://github.com/phi1eas), [Owen Shen](https://github.com/owenshen24), and [Nicole Stone](https://github.com/stonecoldnicole) for a project in [Brad Voytek](https://twitter.com/bradleyvoytek)'s UCSD course.
+
+Code: [bar_cod.py](https://github.com/aaronpenne/data_visualization/blob/master/cause_of_death/bar_cod.py)
+
+Data: [Death: Reality vs. Reported](https://owenshen24.github.io/charting-death/)
 
 Our Living Planet
 -----------------

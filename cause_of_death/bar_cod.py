@@ -34,12 +34,7 @@ def label_bar(rects, text, weight='normal'):
         y = rect.get_y()
         if height > 0.023:
             ax.text(x + width/2.0, y + height/2.0, text, ha='center', va='center', color='w', size='small', weight=weight)
-
-def bold_top_cause(cause):
-    if row == cause:
-        label_bar(rect, row.title().replace('_', ' '), 'bold')
-    else:
-        label_bar(rect, row.title().replace('_', ' '))
+        
 # Set output directory, make it if needed
 output_dir = os.path.realpath('output')  # Windows machine
 if not os.path.isdir(output_dir):
@@ -48,6 +43,10 @@ if not os.path.isdir(output_dir):
 # Get input data
 input_file = os.path.join('data', 'cod_rates.csv')
 df = pd.read_csv(input_file)
+
+# Get media average
+df['media'] = (df['guardian'] + df['nyt'])/2
+df = df.drop(columns=['guardian', 'nyt'])
 
 # Normalize to 1 as sum
 df['cdc'] = normalize(df['cdc'], 1)
@@ -71,8 +70,6 @@ for res in range(3):
     df = df.interpolate(axis=1)
 df = df.drop(columns='cdc2')
 
-# FIXME title slide?
-
 for i, col in enumerate(df.columns):
     fig, ax = plt.subplots(figsize=(4, 6), dpi=150)
     width = 1
@@ -81,16 +78,7 @@ for i, col in enumerate(df.columns):
         value = df.iloc[j, i]
         rect = ax.bar(0, value, width, bottom=top, edgecolor='white', linewidth=0.3)
         top += value
-        
-        if col == 'cdc':
-            bold_top_cause('heart_disease')
-            bold_top_cause('cancer')
-        if col == 'google':
-            bold_top_cause('cancer')
-            bold_top_cause('suicide')
-        if col == 'media':
-            bold_top_cause('terrorism')
-            bold_top_cause('homicide')
+        label_bar(rect, row.title().replace('_', ' '))
 
     if i in range(0,8):
         ax.text(0, 1.1, 'CDC Cause of Death in USA', ha='center', va='center', fontsize='large')
@@ -140,16 +128,12 @@ png_files = [f for f in os.listdir(output_dir) if f.endswith('.png')]
 png_files.sort()
 
 charts = []
-# Append the title chart - https://stackoverflow.com/a/35943809
-#for i in range(30):
-#    charts.append(imageio.imread('{0}999.png'.format(output_dir)))
-
-# Append all the charts (except the title slide)
 for i, f in enumerate(png_files):
     charts.append(imageio.imread(os.path.join(output_dir, f)))
+    # Append the actual charts extra to 'pause' the gif
     if i in [0, 8, 16]:
-        for j in range(25):
+        for j in range(30):
             charts.append(imageio.imread(os.path.join(output_dir, f)))
 
 # Save gif
-imageio.mimsave(os.path.join(output_dir, 'bar.gif'), charts, format='GIF', duration=0.1)
+imageio.mimsave(os.path.join(output_dir, 'bar.gif'), charts, format='GIF', duration=0.09)
