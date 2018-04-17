@@ -6,9 +6,9 @@ This is a collection of my data visualizations, mostly made with Python.
 
 Cause of Death - Reality vs. Google vs. Media
 ---------------------------------------------
-![Animated stacked bar chart - COD](https://github.com/aaronpenne/data_visualization/blob/master/cause_of_death/charts/bar.gif)
+<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/cause_of_death/charts/bar.gif" alt="Animated stacked bar chart - COD" width="60%"></p>
 
-This animation is an expansion on the excellent write up by [Hasan Al-Jamaly](https://github.com/haljamaly), [Maximillian Siemers](https://github.com/phi1eas), [Owen Shen](https://github.com/owenshen24), and [Nicole Stone](https://github.com/stonecoldnicole) for a project in [Brad Voytek](https://twitter.com/bradleyvoytek)'s UCSD course.
+This animation is an expansion on the excellent write up by [Hasan Al-Jamaly](https://github.com/haljamaly), [Maximillian Siemers](https://github.com/phi1eas), [Owen Shen](https://github.com/owenshen24), and [Nicole Stone](https://github.com/stonecoldnicole) for a project in [Brad Voytek](https://twitter.com/bradleyvoytek)'s UCSD course. The writeup can be found here: https://owenshen24.github.io/charting-death/
 
 Code: [bar_cod.py](https://github.com/aaronpenne/data_visualization/blob/master/cause_of_death/bar_cod.py)
 
@@ -46,11 +46,11 @@ Contest: [r/DataIsBeautiful DataViz  Battle 2018-03](https://www.reddit.com/r/da
 State Same Sex Marriage Laws in the USA
 ---------------------------------------
 
-<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/same_sex_marriage/charts/ssm_violin_y_axis.gif" alt="State Same Sex Marriage Laws in the USA - Violin" width="70%"></p>
+<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/same_sex_marriage/charts/ssm_violin_y_axis.gif" alt="State Same Sex Marriage Laws in the USA - Violin" width="60%"></p>
 
 Code: [ssm_violin.py](https://github.com/aaronpenne/data_visualization/blob/master/same_sex_marriage/ssm_violin.py)
 
-<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/same_sex_marriage/charts/ssm_joy.png" alt="State Same Sex Marriage Laws in the USA - Joy" width="70%"></p>
+<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/same_sex_marriage/charts/ssm_joy.png" alt="State Same Sex Marriage Laws in the USA - Joy" width="50%"></p>
 
 Code: [ssm_joy.py](https://github.com/aaronpenne/data_visualization/blob/master/same_sex_marriage/ssm_joy.py)
 
@@ -65,7 +65,7 @@ Contest entry: [Reddit post - Honorable Mention](https://www.reddit.com/r/datais
 Annual Company Revenue vs. Annual CEO Compensation
 --------------------------------------------------
 
-<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/ceo_compensation/charts/dot_pairs_ceo.png" alt="Annual Company Revenue vs. Annual CEO Compensation - Dot Pairs" width="90%"></p>
+<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/ceo_compensation/charts/dot_pairs_ceo.png" alt="Annual Company Revenue vs. Annual CEO Compensation - Dot Pairs" width="70%"></p>
 
 Code: [dot_pairs_ceo_compensation.py](https://github.com/aaronpenne/data_visualization/blob/master/ceo_compensation/dot_pairs_ceo_compensation.py)
 
@@ -76,7 +76,7 @@ Data: [Reddit post by u/k0m0d0z0](https://www.reddit.com/r/dataisbeautiful/comme
 USA Population Rankings
 -----------------------
 
-<p align="center"><img src="https://raw.githubusercontent.com/aaronpenne/aaronpenne.github.io/master/data_viz/USA_Population_Rankings_1917-2017.jpg" alt="USA Population Rankings - Bump Chart" width="90%"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/aaronpenne/aaronpenne.github.io/master/data_viz/USA_Population_Rankings_1917-2017.jpg" alt="USA Population Rankings - Bump Chart" width="80%"></p>
 
 Code: [pop_joy.py](https://github.com/aaronpenne/data_visualization/blob/master/population/pop_joy.py)
 
