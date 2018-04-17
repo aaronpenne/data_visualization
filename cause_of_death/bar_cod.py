@@ -132,8 +132,8 @@ for i, f in enumerate(png_files):
     charts.append(imageio.imread(os.path.join(output_dir, f)))
     # Append the actual charts extra to 'pause' the gif
     if i in [0, 8, 16]:
-        for j in range(30):
+        for j in range(35):
             charts.append(imageio.imread(os.path.join(output_dir, f)))
 
 # Save gif
-imageio.mimsave(os.path.join(output_dir, 'bar.gif'), charts, format='GIF', duration=0.09)
+imageio.mimsave(os.path.join(output_dir, 'bar.gif'), charts, format='GIF', duration=0.08)
