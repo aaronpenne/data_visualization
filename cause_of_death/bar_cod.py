@@ -107,7 +107,7 @@ for i, col in enumerate(df.columns):
     # Annotations
     ax.text(-0.5, -0.18,
             'Data: CDC, Google, New York Times, The Guardian\n' \
-            'Code: www.github.com\\aaronpenne\n' \
+            'Code: www.github.com/aaronpenne\n' \
             'Twitter: @aaronpenne\n' \
             'Aaron Penne © 2018\n\n' \
             'Based on in-depth analysis by H. Al-Jamaly, M. Siemers,\n' \
