@@ -36,7 +36,7 @@ def label_bar(rects, text, weight='normal'):
             ax.text(x + width/2.0, y + height/2.0, text, ha='center', va='center', color='w', size='small', weight=weight)
         
 # Set output directory, make it if needed
-output_dir = os.path.realpath('output')  # Windows machine
+output_dir = os.path.realpath('output')
 if not os.path.isdir(output_dir):
     os.mkdir(output_dir)
 
