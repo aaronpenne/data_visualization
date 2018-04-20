@@ -71,7 +71,7 @@ for res in range(3):
 df = df.drop(columns='cdc2')
 
 for i, col in enumerate(df.columns):
-    fig, ax = plt.subplots(figsize=(4, 6), dpi=150)
+    fig, ax = plt.subplots(figsize=(4, 6), dpi=200)
     width = 1
     top = 0
     for j, row in enumerate(df.index):

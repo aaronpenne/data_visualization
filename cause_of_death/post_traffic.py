@@ -48,14 +48,15 @@ fig, (ax1, ax2) = plt.subplots(nrows=2,
                                  sharey=True, 
                                  figsize=(5,5), 
                                  dpi=300)
-ax1.plot(df['users_n'])
-ax1.plot(df['subs_n'])
+lw = 1
+ax1.plot(df['users_n'], lw=lw)
+ax1.plot(df['subs_n'], lw=lw)
 
-ax2.plot(df['users_d'])
-ax2.plot(df['subs_d'])
+ax2.plot(df['users_d'], lw=lw)
+ax2.plot(df['subs_d'], lw=lw)
 
-ax1.axvline(datetime(2018, 4, 17, 6), color=post_color)
-ax2.axvline(datetime(2018, 4, 17, 6), color=post_color)
+ax1.axvline(datetime(2018, 4, 17, 6), color=post_color, lw=lw, ls='--')
+ax2.axvline(datetime(2018, 4, 17, 6), color=post_color, lw=lw, ls='--')
 ax2.text(datetime(2018, 4, 17, 6), -0.11, 'Posted', rotation=90, size='x-small', color=post_color, ha='center', va='top')
 
 ax1.tick_params(axis='both', which='major', labelsize='xx-small', labelcolor=colors[1], color=colors[1])
@@ -82,8 +83,8 @@ ax1.text(datetime(2018, 4, 15, 14), 0.5, 'Normalized traffic', color=colors[1], 
 ax2.text(datetime(2018, 4, 15, 14), 0.5, 'Normalized traffic', color=colors[1], size='xx-small', rotation=90, va='center', ha='center')
 
 # Annotations
-ax1.text(min(df.index), 1.45, 'Popular Posts Bring Subscribers')
-ax1.text(min(df.index), 1.3, 'r/dataisbeautiful traffic during a popular post', size='small')
+ax1.text(min(df.index), 1.45, 'Popular Posts Bring Subreddit Subscribers')
+ax1.text(min(df.index), 1.3, 'r/dataisbeautiful traffic during a popular post (Tue Apr 17)', size='x-small')
 
 ax2.text(min(df.index), -0.6,
         'Traffic stats were scraped by a simple script for another project and\n' \
