@@ -17,8 +17,9 @@ import matplotlib as mpl
 from datetime import datetime
 import os
 
-post_color = '#c0392b'
-colors = ['#1f1f1f', '#6f6f6f']
+post_color = '#d63031'
+gray_color = '#6f6f6f'
+colors = ['#1f1f1f', '#0984e3']
 mpl.rcParams['font.family'] = 'monospace'
 mpl.rcParams['axes.prop_cycle'] = mpl.cycler(color=colors)
 
@@ -48,7 +49,7 @@ fig, (ax1, ax2) = plt.subplots(nrows=2,
                                  sharey=True, 
                                  figsize=(5,5), 
                                  dpi=300)
-lw = 1
+lw = 0.8
 ax1.plot(df['users_n'], lw=lw)
 ax1.plot(df['subs_n'], lw=lw)
 
@@ -59,8 +60,8 @@ ax1.axvline(datetime(2018, 4, 17, 6), color=post_color, lw=lw, ls='--')
 ax2.axvline(datetime(2018, 4, 17, 6), color=post_color, lw=lw, ls='--')
 ax2.text(datetime(2018, 4, 17, 6), -0.11, 'Posted', rotation=90, size='x-small', color=post_color, ha='center', va='top')
 
-ax1.tick_params(axis='both', which='major', labelsize='xx-small', labelcolor=colors[1], color=colors[1])
-ax2.tick_params(axis='both', which='major', labelsize='xx-small', labelcolor=colors[1], color=colors[1])
+ax1.tick_params(axis='both', which='major', labelsize='xx-small', labelcolor=gray_color, color=gray_color)
+ax2.tick_params(axis='both', which='major', labelsize='xx-small', labelcolor=gray_color, color=gray_color)
 
 plt.xticks(rotation=90)
 
@@ -73,17 +74,17 @@ for side in ['right', 'left', 'top']:
     ax1.spines[side].set_visible(False)
     ax2.spines[side].set_visible(False)
 
-ax1.text(min(df.index),0.85,'Number of \"Users Here\"', size='xx-small', color=colors[0], va='center')
-ax1.text(min(df.index),0.75,'Number of \"Subscribers\"', size='xx-small', color=colors[1], va='center')
+ax1.text(min(df.index),0.84,'Number of \"Users Here\"', size='xx-small', color=colors[0], va='center')
+ax1.text(min(df.index),0.76,'Number of \"Subscribers\"', size='xx-small', color=colors[1], va='center')
 
-ax2.text(min(df.index),0.85,'Gradient of \"Users Here\"', size='xx-small', color=colors[0], va='center')
-ax2.text(min(df.index),0.75,'Gradient of \"Subscribers\"', size='xx-small', color=colors[1], va='center')
+ax2.text(min(df.index),0.84,'Gradient of \"Users Here\"', size='xx-small', color=colors[0], va='center')
+ax2.text(min(df.index),0.76,'Gradient of \"Subscribers\"', size='xx-small', color=colors[1], va='center')
 
-ax1.text(datetime(2018, 4, 15, 14), 0.5, 'Normalized traffic', color=colors[1], size='xx-small', rotation=90, va='center', ha='center')
-ax2.text(datetime(2018, 4, 15, 14), 0.5, 'Normalized traffic', color=colors[1], size='xx-small', rotation=90, va='center', ha='center')
+ax1.text(datetime(2018, 4, 15, 14), 0.5, 'Normalized traffic', color=gray_color, size='xx-small', rotation=90, va='center', ha='center')
+ax2.text(datetime(2018, 4, 15, 14), 0.5, 'Normalized traffic', color=gray_color, size='xx-small', rotation=90, va='center', ha='center')
 
 # Annotations
-ax1.text(min(df.index), 1.45, 'Popular Posts Bring Subreddit Subscribers')
+ax1.text(min(df.index), 1.43, 'Popular Posts Bring Subreddit Subscribers')
 ax1.text(min(df.index), 1.3, 'r/dataisbeautiful traffic during a popular post (Tue Apr 17)', size='x-small')
 
 ax2.text(min(df.index), -0.6,
@@ -95,7 +96,7 @@ ax2.text(min(df.index), -0.6,
         'Twitter: @aaronpenne\n' \
         'Aaron Penne © 2018\n\n',
         fontsize = 'xx-small',
-        color = colors[1],
+        color = gray_color,
         va='top',
         multialignment = 'left')
 
