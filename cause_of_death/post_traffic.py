@@ -46,8 +46,8 @@ fig, (ax1, ax2) = plt.subplots(nrows=2,
                                  ncols=1, 
                                  sharex=True, 
                                  sharey=True, 
-                                 figsize=(6,4), 
-                                 dpi=150)
+                                 figsize=(5,5), 
+                                 dpi=300)
 ax1.plot(df['users_n'])
 ax1.plot(df['subs_n'])
 
@@ -75,8 +75,8 @@ for side in ['right', 'left', 'top']:
 ax1.text(min(df.index),0.85,'Number of \"Users Here\"', size='xx-small', color=colors[0], va='center')
 ax1.text(min(df.index),0.75,'Number of \"Subscribers\"', size='xx-small', color=colors[1], va='center')
 
-ax2.text(min(df.index),0.85,'Rate of Change of \"Users Here\"', size='xx-small', color=colors[0], va='center')
-ax2.text(min(df.index),0.75,'Rate of Change of \"Subscribers\"', size='xx-small', color=colors[1], va='center')
+ax2.text(min(df.index),0.85,'Gradient of \"Users Here\"', size='xx-small', color=colors[0], va='center')
+ax2.text(min(df.index),0.75,'Gradient of \"Subscribers\"', size='xx-small', color=colors[1], va='center')
 
 ax1.text(datetime(2018, 4, 15, 14), 0.5, 'Normalized traffic', color=colors[1], size='xx-small', rotation=90, va='center', ha='center')
 ax2.text(datetime(2018, 4, 15, 14), 0.5, 'Normalized traffic', color=colors[1], size='xx-small', rotation=90, va='center', ha='center')
@@ -88,7 +88,8 @@ ax1.text(min(df.index), 1.3, 'r/dataisbeautiful traffic during a popular post', 
 ax2.text(min(df.index), -0.6,
         'Traffic stats were scraped by a simple script for another project and\n' \
         'my Cause of Death post threw off the metrics. Data is normalized to the\n' \
-        'max and min for each series for the given time range using y=(x-min)/(min-max)\n\n' \
+        'max and min for each series for the given time range using y=(x-min)/(min-max)\n' \
+        'The gradient plot shows the rate of change for each series.\n\n' \
         'Data and code: www.github.com/aaronpenne\n' \
         'Twitter: @aaronpenne\n' \
         'Aaron Penne © 2018\n\n',
