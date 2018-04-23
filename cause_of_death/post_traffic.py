@@ -104,4 +104,4 @@ fig.savefig(os.path.join(output_dir, 'traffic.png'),
             dpi=fig.dpi,
             bbox_inches='tight',
             pad_inches=0.3)
-#plt.close(fig)
+plt.close(fig)

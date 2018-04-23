@@ -16,14 +16,14 @@ import matplotlib.pyplot as plt
 import imageio
 import os
 
-## Define globals
-input_file = 'C:\\tmp\\ssm.csv'
-output_dir = 'C:\\tmp\\output_violin\\'
+code_dir = os.path.dirname(__file__)
+data_dir = os.path.join(code_dir, 'data')
+output_dir = os.path.join(code_dir, 'output')
 if not os.path.isdir(output_dir):
     os.mkdir(output_dir)
     
 ## Read in CSV
-df = pd.read_csv(input_file)
+df = pd.read_csv(os.path.join(data_dir, 'ssm_2.csv'))
 
 ## Create categorical encoding
 category_dict = {'Constitutional Ban': 0,
@@ -48,29 +48,36 @@ for res in range(3):
 sns.set_style("white")
 font_h1 = {'family': 'monospace',
            'color': 'black',
-           'weight': 'semibold',
-           'size': 14,
+           'weight': 'regular',
+           'size': 'small',
            'horizontalalignment': 'center'}
 font_h2 = {'family': 'monospace',
-            'color': 'black',
+            'color': '#6f6f6f',
             'weight': 'regular',
-            'size': 10,
+            'size': 'xx-small',
             'horizontalalignment': 'left'}
 font_title = {'family': 'monospace',
-              'color': 'black',
+              'color': '#6f6f6f',
               'weight': 'regular',
-              'size': 12}
+              'size': 'xx-small',
+              'va': 'center',
+              'ha': 'center'}
 
+dpi = 200
+figsize = (700/dpi,400/dpi)
+pad = 0
+    
 ## Create all interpolated data charts, saving images
 for i, column in enumerate(df):
-    plt.figure()
+    fig, ax = plt.subplots(figsize=figsize, dpi=dpi)
     violin = sns.violinplot(x=df.iloc[:,i], 
                             inner=None, 
-                            palette='Set2', 
+                            color='#3f3f3f', 
+                            linewidth=0,
                             bw=0.4,
                             scale='count',
                             scale_hue=False)
-    plt.title(column, fontdict=font_title)
+    plt.title(' ')
     plt.xlabel('')
     plt.ylabel('% of States',
                fontname='monospace')
@@ -79,58 +86,43 @@ for i, column in enumerate(df):
     plt.xticks([0, 1, 2, 3], 
                ['Constitutional Ban',
                 'Statutory Ban',
-                'No Law',
+                'No Law',       
                 'Legal'],
                 rotation=90,
-                fontname='monospace')
+                fontname='monospace',
+                fontsize='x-small')
     plt.yticks([-0.5, 0, 0.5])
-    plt.tight_layout()
-    plt.savefig('{0}{1:03.0f}_{2}.png'.format(output_dir, i, column), dpi=200)
-    plt.close()
-    
-## Create title page/chart to break up the loop, saving image
-sns.set_style('white', {'xtick.color': 'white', 'axes.labelcolor': 'white'})
-plt.figure()
-violin = sns.violinplot(x=df['1995'], inner=None, palette='Set2', bw=0.4)
-plt.text(2, -1.5,
+    violin.xaxis.label.set_fontsize('x-small')
+    violin.yaxis.label.set_fontsize('x-small')
+    if i % 8 == 0 and i != 0:
+        pad += 0.35 
+    plt.text(-2+pad, 0.57, column, fontdict=font_title)
+    plt.text(1.5, 0.7,
          'Same Sex Marriage Laws in the USA\n1995 - 2015',
          fontdict=font_h1)
-plt.text(-1, -2.35,
-         '© Aaron Penne\nSource: Pew Research Center, Religion & Public Life',
-         fontdict=font_h2)
-plt.title(' ')
-plt.ylim(-2, -1)
-plt.xlim(-1, 5)
-plt.xticks([0, 1, 2, 3], 
-           ['Constitutional Ban',
-            'Statutory Ban',
-            'No Law',
-            'Legal'],
-            rotation=90)
-plt.yticks([-2, -0.5, -1])
-violin.xaxis.label.set_color('white')
-violin.yaxis.label.set_color('white')
-plt.xlabel('')
-plt.ylabel('% of States')
-plt.tight_layout()
-plt.savefig('{0}999.png'.format(output_dir), dpi=200)
+    plt.text(-2, -1.7,
+            'Source: Pew Research Center\n' \
+            'Data and code: www.github.com/aaronpenne\n' \
+            'Aaron Penne © 2018\n\n',
+            fontdict=font_h2)
+    fig.savefig(os.path.join(output_dir, '{:03.0f}_{}.png'.format(i, column)),
+            dpi=fig.dpi,
+            bbox_inches='tight',
+            pad_inches=0.3)
+    plt.close()
 
 ## Append images to create GIF 
 # Read in all png files in folder - https://stackoverflow.com/a/27593246
 png_files = [f for f in os.listdir(output_dir) if f.endswith('.png')]
+png_files.sort()
 
 charts = []
-# Append the title chart - https://stackoverflow.com/a/35943809
-for i in range(30):
-    charts.append(imageio.imread('{0}999.png'.format(output_dir)))
-
 # Append all the charts (except the title slide)
-for f in png_files[:-1]:
-    charts.append(imageio.imread('{0}{1}'.format(output_dir, f)))
-
-# Append the last chart a few extra times
-for i in range(10):
-    charts.append(imageio.imread('{0}{1}'.format(output_dir, f)))
+for f in png_files:
+    if f == png_files[-1]:
+        for i in range(20):
+            charts.append(imageio.imread(os.path.join(output_dir, f)))
+    charts.append(imageio.imread(os.path.join(output_dir, f)))
 
 # Save gif
-imageio.mimsave('{0}ssm_violin.gif'.format(output_dir), charts, format='GIF', duration=0.07)
+imageio.mimsave(os.path.join(output_dir, 'ssm_violin.gif'), charts, format='GIF', duration=0.08)
