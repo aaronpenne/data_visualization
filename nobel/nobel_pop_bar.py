@@ -13,7 +13,6 @@ Developed with:
 
 import os
 import pandas as pd
-from PIL import Image
 
 import matplotlib.pyplot as plt
 import matplotlib as mpl
