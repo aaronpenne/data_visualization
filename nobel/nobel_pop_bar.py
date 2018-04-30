@@ -97,8 +97,7 @@ ax[1].text(0, 6.7,
 ax[1].text(center, -1.3,
         'Data: "100 Years of Nobel Prizes" & Wikipedia\n' \
         'Code: www.github.com/aaronpenne\n' \
-        'Twitter: @aaronpenne\n' \
-        'Aaron Penne © 2018',
+        '@aaronpenne © 2018',
         fontdict=fontdict,
         va='top',
         ha='center',
