@@ -13,10 +13,19 @@ Developed with:
 
 import os
 import pandas as pd
+from PIL import Image
 
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 mpl.rcParams['font.family'] = 'monospace'
+
+
+def resize_image(width, img):
+    img = Image.open(img)
+    wpct = (width/float(img.size[0]))
+    height = int((float(img.size[1])*float(wpct)))
+    img = img.resize((width, height), Image.ANTIALIAS)
+    img.save(img)
 
 ###############################################################################
 # Set up directories
@@ -41,8 +50,9 @@ df.reset_index(inplace=True, drop=True)
 color = '#3f3f3f'
 
 # Make core plot
-fig, ax = plt.subplots(figsize=(4, 4), 
-                       dpi=300,
+dpi = 300
+fig, ax = plt.subplots(figsize=(800/dpi, 500/dpi), 
+                       dpi=1000,
                        ncols=2,
                        sharey=True)
 ax[0].barh(df.index, df['pct_pop'], align='center', color=color)
@@ -57,7 +67,7 @@ ax[1].axis('off')
 
 # Labels
 fontdict = {'va': 'center',
-            'size': 'xx-small',
+            'size': 4,
             'color': 'gray'}
 pad = 5
 center = -25
@@ -84,7 +94,7 @@ ax[0].text(center, 7.5,
         va='bottom',
         ha='center',
         color=color,
-        size='small',
+        size=7,
         multialignment = 'center')
 ax[0].text(0, 6.7,
            'Global Population',
@@ -110,5 +120,16 @@ fig.savefig(os.path.join(output_dir, fig_name),
         bbox_inches='tight',
         pad_inches=0.3)
 plt.close(fig)
+
+img = Image.open(os.path.join(output_dir, fig_name))
+img.thumbnail((700, 700))
+img.save(os.path.join(output_dir, 'resize_'+fig_name), quality=100, subsampling=0)
+
+from resizeimage import resizeimage
+name = os.path.join(output_dir, fig_name)
+with open(name, 'r+b') as f:
+    with Image.open(f) as img:
+        img = resizeimage.resize_width(img, 700)
+        img.save('test.png', img.format)
 
 # Resize figure
