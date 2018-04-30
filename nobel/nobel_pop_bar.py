@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-TITLE & DESCRIPTION
+Redrawing the exploded 3D pie chart from https://www.reddit.com/r/dataisbeautiful/comments/8fyp73/religion_of_nobel_prize_winners_between_1901_and/
 
 Author: Aaron Penne
 Created: 2018-04-30
