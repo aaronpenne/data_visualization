@@ -3,6 +3,13 @@ Data_Visualization
 
 This is a collection of my data visualizations, mostly made with Python.
 
+<p align="center"><img src="https://raw.githubusercontent.com/aaronpenne/data_visualization/master/nobel/charts/nobel_pop_bar.png" alt="Nobel Prize vs Population" width="60%"></p>
+
+This bar chart was an exercise in replotting the 3D exploded pie chart that appeared [here](https://www.reddit.com/r/dataisbeautiful/comments/8fyp73/religion_of_nobel_prize_winners_between_1901_and/). Data is the same, but augmented with population data to show how certain religions are over/under represented.
+
+Code: [nobel](https://www.reddit.com/r/dataisbeautiful/comments/8fyp73/religion_of_nobel_prize_winners_between_1901_and/)
+
+Data: [Nobel Prize data](https://commons.wikimedia.org/wiki/File:Religion_of_Nobel_Prize_winners_between_1901-2000.png) and [Global Population data](https://en.wikipedia.org/wiki/List_of_religious_populations) from Wikipedia
 
 Cause of Death - Reality vs. Google vs. Media
 ---------------------------------------------
