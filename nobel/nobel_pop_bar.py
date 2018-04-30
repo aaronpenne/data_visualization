@@ -81,7 +81,7 @@ for i,x in enumerate(df['religion']):
 
 # Title and annotations
 ax[0].text(center, 7.5,
-        'Religious Affiliation of Nobel Prize Winners',
+        'Religion of Nobel Prize Winners 1901-2000',
         va='bottom',
         ha='center',
         color=color,
