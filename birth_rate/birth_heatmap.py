@@ -119,16 +119,18 @@ h3 = mp.font_manager.FontProperties(size='x-small')
 
 # Line - raw
 dp = df
-fig, ax = plt.subplots(figsize=(12, 4), dpi=150)
+fig, ax = plt.subplots(figsize=(12, 4), dpi=250)
 ax.plot(dp['birth'], color='black')
 plt.title('Monthly USA Birth Counts 1933-2015')
 ax.set_xlabel("Year")
 ax.set_ylabel('Births')
-ax.text(728000, 13,
+ax.set_ylim(0)
+ax.text(728000, -60000,
         'Birth data: Human Mortality Database\nPopulation data: US Census Bureau\nCode: www.github.com\\aaronpenne\nAaron Penne © 2018',
         fontsize = 8,
         color = 'gray',
-        multialignment = 'right')
+        multialignment = 'right',
+        va='top')
 fig.savefig('birth_count_usa_line.png', dpi='figure', bbox_inches='tight', pad_inches=.11)
 
 
