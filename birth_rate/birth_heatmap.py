@@ -124,7 +124,7 @@ ax.plot(dp['birth'], color='black')
 plt.title('Monthly USA Birth Counts 1933-2015')
 ax.set_xlabel("Year")
 ax.set_ylabel('Births')
-ax.text(728000, 15,
+ax.text(728000, 13,
         'Birth data: Human Mortality Database\nPopulation data: US Census Bureau\nCode: www.github.com\\aaronpenne\nAaron Penne © 2018',
         fontsize = 8,
         color = 'gray',
@@ -141,6 +141,7 @@ fig.savefig('birth_count_usa_line.png', dpi='figure', bbox_inches='tight', pad_i
 dp = df
 fig, ax = plt.subplots(figsize=(12, 4), dpi=150)
 ax.plot(dp['rate'], color='black')
+ax.plot(dp['birth'])
 plt.title('Monthly USA Birth Rate 1933-2015')
 ax.set_xlabel("Year")
 ax.set_ylabel('Births/day per million ppl')
