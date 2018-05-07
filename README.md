@@ -1,6 +1,3 @@
-Data_Visualization
-==================
-
 This is a collection of my data visualizations, mostly made with Python.
 
 Subreddit Traffic
