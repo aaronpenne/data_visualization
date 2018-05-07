@@ -1,5 +1,9 @@
 # Subreddit Traffic
 
+'users_here' counts were scraped every 10 minutes from a few subreddits over the past couple weeks. Each subreddit has 3 charts: raw line chart, box plot by day of week, and box plot by 30 minute bins. Using this data, you could time posts, chat at peak times, etc. 
+
+The janky but working [scraper is here](https://github.com/aaronpenne/upskill/tree/master/scrape).
+
 **All times are PDT (UTC -7)**
 
 - [r/comics](#rcomics-)
