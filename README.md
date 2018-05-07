@@ -3,6 +3,19 @@ Data_Visualization
 
 This is a collection of my data visualizations, mostly made with Python.
 
+Subreddit Traffic
+-----------------
+![dataisbeautiful time](https://github.com/aaronpenne/data_visualization/blob/master/traffic/charts/dataisbeautiful_time.png)
+![dataisbeautiful day](https://github.com/aaronpenne/data_visualization/blob/master/traffic/charts/dataisbeautiful_day.png)
+
+'users_here' counts were scraped every 10 minutes from a few subreddits over the past couple weeks. Each subreddit has 3 charts: raw line chart, box plot by day of week, and box plot by 30 minute bins. Using this data, you could time posts, chat at peak times, etc. The janky but working [scraper is here](https://github.com/aaronpenne/upskill/tree/master/scrape). More charts for 15 or so [subreddits are here](https://github.com/aaronpenne/data_visualization/blob/master/traffic/README.md).
+
+Code: [traffic.py](https://github.com/aaronpenne/data_visualization/blob/master/traffic/traffic.py)
+
+Data: [Scraped every 10 minutes with simple script](https://github.com/aaronpenne/data_visualization/tree/master/traffic/data).
+
+Religion of Nobel Prize Winners
+-------------------------------
 <p align="center"><img src="https://raw.githubusercontent.com/aaronpenne/data_visualization/master/nobel/charts/nobel_pop_bar.png" alt="Nobel Prize vs Population" width="60%"></p>
 
 This bar chart was an exercise in replotting the 3D exploded pie chart that appeared [here](https://www.reddit.com/r/dataisbeautiful/comments/8fyp73/religion_of_nobel_prize_winners_between_1901_and/). Data is the same, but augmented with population data to show how certain religions are over/under represented.
