@@ -72,7 +72,7 @@ for s in subreddits:
             color='gray',
             va='top',
             ha='right')
-    fig.savefig(os.path.join(output_dir, '{}_raw.png'.format(s)), dpi='figure', bbox_inches='tight', pad_inches=.11)
+    fig.savefig(os.path.join(output_dir, '{}_raw.png'.format(s.lower())), dpi='figure', bbox_inches='tight', pad_inches=.11)
     plt.close(fig)
 
     fig, ax = plt.subplots(figsize=figsize, dpi=dpi)
@@ -93,7 +93,7 @@ for s in subreddits:
         color='gray',
         va='top',
         ha='right')
-    fig.savefig(os.path.join(output_dir, '{}_time.png'.format(s)), dpi='figure', bbox_inches='tight', pad_inches=.11)
+    fig.savefig(os.path.join(output_dir, '{}_time.png'.format(s.lower())), dpi='figure', bbox_inches='tight', pad_inches=.11)
     plt.close(fig)
     
     fig, ax = plt.subplots(figsize=figsize, dpi=dpi)
@@ -114,6 +114,20 @@ for s in subreddits:
             color='gray',
             va='top',
             ha='right')
-    fig.savefig(os.path.join(output_dir, '{}_day.png'.format(s)), dpi='figure', bbox_inches='tight', pad_inches=.11)
+    fig.savefig(os.path.join(output_dir, '{}_day.png'.format(s.lower())), dpi='figure', bbox_inches='tight', pad_inches=.11)
     plt.close(fig)
-                                                              
+    
+# Create README because I'm lazy
+with open('README.md', 'w+') as f:
+    f.write('# Subreddit Traffic\n\n')
+    subs = [s.lower() for s in subreddits]
+    subs.sort()
+    for s in subs:
+        f.write('- [r/{0}](#r{0}-)\n'.format(s))
+    f.write('\n\n')
+    for s in subs:
+        f.write('## r/{} [↑](#subreddit-traffic)\n\n'.format(s))
+        for name in ['raw', 'day', 'time']:
+            f.write('![{0} {1}](https://github.com/aaronpenne/data_visualization/blob/master/traffic/charts/{0}_{1}.png)\n'.format(s, name))
+        f.write('\n\n')
+        
