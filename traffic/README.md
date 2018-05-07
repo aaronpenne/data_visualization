@@ -1,5 +1,7 @@
 # Subreddit Traffic
 
+**All times are PDT (UTC -7)**
+
 - [r/comics](#rcomics-)
 - [r/dataisbeautiful](#rdataisbeautiful-)
 - [r/diy](#rdiy-)
@@ -136,5 +138,3 @@
 ![worldnews raw](https://github.com/aaronpenne/data_visualization/blob/master/traffic/charts/worldnews_raw.png)
 ![worldnews day](https://github.com/aaronpenne/data_visualization/blob/master/traffic/charts/worldnews_day.png)
 ![worldnews time](https://github.com/aaronpenne/data_visualization/blob/master/traffic/charts/worldnews_time.png)
-
-
