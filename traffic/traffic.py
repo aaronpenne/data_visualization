@@ -75,7 +75,7 @@ for s in subreddits:
     for _, loc in ax.spines.items():
         loc.set_visible(False)
     ax.text(df_s['time'].max(), 0 - (df_s['users'].max() - df_s['users'].min())/2,
-            'Data & Code: www.github.com/aaronpenne\n@aaronpenne © 2018',
+            'Times are PDT (UTC -7)\nData & Code: www.github.com/aaronpenne\n@aaronpenne © 2018',
             size='x-small',
             color='gray',
             va='top',
@@ -96,7 +96,7 @@ for s in subreddits:
     for _, loc in ax.spines.items():
         loc.set_visible(False)
     ax.text(24*4, 0 - (df_s['users'].max() - df_s['users'].min())/3,
-        'Data & Code: www.github.com/aaronpenne\n@aaronpenne © 2018',
+        'Times are PDT (UTC -7)\nData & Code: www.github.com/aaronpenne\n@aaronpenne © 2018',
         size='x-small',
         color='gray',
         va='top',
@@ -117,7 +117,7 @@ for s in subreddits:
     for _, loc in ax.spines.items():
         loc.set_visible(False)
     ax.text(df_s['dow'].max(), 0 - (df_s['users'].max() - df_s['users'].min())/3,
-            'Data & Code: www.github.com/aaronpenne\n@aaronpenne © 2018',
+            'Times are PDT (UTC -7)\nData & Code: www.github.com/aaronpenne\n@aaronpenne © 2018',
             size='x-small',
             color='gray',
             va='top',
@@ -140,7 +140,7 @@ for s in subreddits:
     for _, loc in ax.spines.items():
         loc.set_visible(False)
     ax.text(df_s['hr'].max(), 9,
-            'Data & Code: www.github.com/aaronpenne\n@aaronpenne © 2018',
+            'Times are PDT (UTC -7)\nData & Code: www.github.com/aaronpenne\n@aaronpenne © 2018',
             size='x-small',
             color='gray',
             va='top',
@@ -152,6 +152,7 @@ for s in subreddits:
 with open('README.md', 'w+') as f:
     f.write('# Subreddit Traffic\n\n')
     f.write('*Warning: This page may be slow to load*\n\n')
+    f.write('All times are PDT (UTC-7)\n\n')
     f.write('I made a simple scraper to get the users_here counts every 10 minutes from 52 subreddits over the past month. Each subreddit has 4 charts: raw line chart, heatmap, box plot by day of week, and box plot by time of day. The heatmaps were clipped at 1 standard deviation above the mean to reduce the effect of traffic spikes during popular posts. The aggregated charts use normalized data, where each subreddit users_here subset was normalized from to [0, 1]. \n\n')
     f.write('The scraper code is [here](https://github.com/aaronpenne/upskill/blob/master/scrape/subreddit_json.py).\n\n')
     subs = [s.lower() for s in subreddits]
@@ -178,7 +179,7 @@ plt.xticks(np.arange(0,24*4,4), np.arange(0,24),
 for _, loc in ax.spines.items():
     loc.set_visible(False)
 ax.text(24*4, 0 - (df['users_n'].max() - df['users_n'].min())/3,
-    'Data & Code: www.github.com/aaronpenne\n@aaronpenne © 2018',
+    'Times are PDT (UTC -7)\nData & Code: www.github.com/aaronpenne\n@aaronpenne © 2018',
     size='x-small',
     color='gray',
     va='top',
@@ -199,7 +200,7 @@ plt.xticks(np.arange(0,7), ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
 for _, loc in ax.spines.items():
     loc.set_visible(False)
 ax.text(df['dow'].max(), 0 - (df['users_n'].max() - df['users_n'].min())/3,
-        'Data & Code: www.github.com/aaronpenne\n@aaronpenne © 2018',
+        'Times are PDT (UTC -7)\nData & Code: www.github.com/aaronpenne\n@aaronpenne © 2018',
         size='x-small',
         color='gray',
         va='top',
@@ -222,7 +223,7 @@ plt.yticks(np.arange(0,7), ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
 for _, loc in ax.spines.items():
     loc.set_visible(False)
 ax.text(df['hr'].max(), 9,
-        'Data & Code: www.github.com/aaronpenne\n@aaronpenne © 2018',
+        'Times are PDT (UTC -7)\nData & Code: www.github.com/aaronpenne\n@aaronpenne © 2018',
         size='x-small',
         color='gray',
         va='top',
