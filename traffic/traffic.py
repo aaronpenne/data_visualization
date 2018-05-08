@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Quick chart based on https://owenshen24.github.io/charting-death/
+Measuring subreddit traffic data via scraped 'users_here' numbers
 
 Author: Aaron Penne
 Created: 2018-04-15
@@ -40,6 +40,8 @@ for f in csv_files:
     df_in = df_in[['pull_timestamp', 'subscribers', 'users_here', 'subreddit']].set_index('pull_timestamp', drop=False)
     df_in['subs'] = pd.to_numeric(df_in['subscribers'], errors='coerce')
     df_in['users'] = pd.to_numeric(df_in['users_here'], errors='coerce')
+    threshold = (1 * df_in['users'].std()) + df_in['users'].mean()
+    df_in['users_clip'] = df_in['users'].clip(0, threshold)
     df = pd.concat([df, df_in])
 
 # Pull out timestamp pieces for pivot table and heatmap generation
@@ -116,6 +118,29 @@ for s in subreddits:
             ha='right')
     fig.savefig(os.path.join(output_dir, '{}_day.png'.format(s.lower())), dpi='figure', bbox_inches='tight', pad_inches=.11)
     plt.close(fig)
+
+    fig, ax = plt.subplots(figsize=figsize, dpi=dpi)
+    dp = pd.pivot_table(df_s, index='dow', columns='hr', values='users_clip', aggfunc='sum')
+    plt.imshow(dp, interpolation='nearest', cmap='YlOrRd')
+    plt.title('r/{} - Heatmap'.format(s))
+    plt.xlabel('Hour of Day', size='small')
+    plt.ylabel('Day of Week', size='small')
+    ax.tick_params(axis='both', which='both',length=0, labelsize='small')
+    plt.xticks(np.arange(0,24), np.arange(0,24),
+           color='black',
+           rotation='vertical')
+    plt.yticks(np.arange(0,7), ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+           color='black')
+    for _, loc in ax.spines.items():
+        loc.set_visible(False)
+    ax.text(df_s['hr'].max(), 9,
+            'Data & Code: www.github.com/aaronpenne\n@aaronpenne © 2018',
+            size='x-small',
+            color='gray',
+            va='top',
+            ha='right')
+    fig.savefig(os.path.join(output_dir, '{}_heat.png'.format(s.lower())), dpi='figure', bbox_inches='tight', pad_inches=.11)
+    plt.close(fig)
     
 # Create README because I'm lazy
 with open('README.md', 'w+') as f:
@@ -127,7 +152,6 @@ with open('README.md', 'w+') as f:
     f.write('\n\n')
     for s in subs:
         f.write('## r/{} [↑](#subreddit-traffic)\n\n'.format(s))
-        for name in ['raw', 'day', 'time']:
+        for name in ['heat', 'raw', 'day', 'time']:
             f.write('![{0} {1}](https://github.com/aaronpenne/data_visualization/blob/master/traffic/charts/{0}_{1}.png)\n'.format(s, name))
         f.write('\n\n')
-        
