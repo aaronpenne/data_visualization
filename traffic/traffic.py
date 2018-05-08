@@ -151,6 +151,9 @@ for s in subreddits:
 # Create README because I'm lazy
 with open('README.md', 'w+') as f:
     f.write('# Subreddit Traffic\n\n')
+    f.write('*Warning: This page may be slow to load*\n\n')
+    f.write('I made a simple scraper to get the users_here counts every 10 minutes from 52 subreddits over the past month. Each subreddit has 4 charts: raw line chart, heatmap, box plot by day of week, and box plot by time of day. The heatmaps were clipped at 1 standard deviation above the mean to reduce the effect of traffic spikes during popular posts. The aggregated charts use normalized data, where each subreddit users_here subset was normalized from to [0, 1]. \n\n')
+    f.write('The scraper code is [here](https://github.com/aaronpenne/upskill/blob/master/scrape/subreddit_json.py).\n\n')
     subs = [s.lower() for s in subreddits]
     subs.sort()
     for s in subs:
@@ -161,11 +164,11 @@ with open('README.md', 'w+') as f:
         for name in ['heat', 'raw', 'day', 'time']:
             f.write('![{0} {1}](https://github.com/aaronpenne/data_visualization/blob/master/traffic/charts/{0}_{1}.png)\n'.format(s, name))
         f.write('\n\n')
-        
+            
 fig, ax = plt.subplots(figsize=figsize, dpi=dpi)
 flierprops = dict(marker='.', markeredgecolor='none', markerfacecolor='gray', markersize=5)
 sns.boxplot(x='mins', y='users_n', data=df, flierprops=flierprops, color='gray', linewidth=0.7)
-plt.title('All - Time of Day')
+plt.title('Aggregated - Time of Day')
 plt.xlabel('Hour of Day', size='small')
 plt.ylabel('Users Here (normalized)', size='small')
 ax.tick_params(axis='both', which='both',length=0, labelsize='small')
@@ -180,13 +183,13 @@ ax.text(24*4, 0 - (df['users_n'].max() - df['users_n'].min())/3,
     color='gray',
     va='top',
     ha='right')
-fig.savefig(os.path.join(output_dir, 'all_time.png'), dpi='figure', bbox_inches='tight', pad_inches=.11)
+fig.savefig(os.path.join(output_dir, 'aggregated_time.png'), dpi='figure', bbox_inches='tight', pad_inches=.11)
 plt.close(fig)
 
 fig, ax = plt.subplots(figsize=figsize, dpi=dpi)
 flierprops = dict(marker='.', markeredgecolor='none', markerfacecolor='gray', markersize=3)
 sns.boxplot(x='dow', y='users_n', data=df, flierprops=flierprops, color='gray', width=0.5, linewidth=0.7)
-plt.title('All - Day of Week')
+plt.title('Aggregated - Day of Week')
 plt.xlabel('Day Name', size='small')
 plt.ylabel('Users Here (normalized)', size='small')
 ax.tick_params(axis='both', which='both',length=0, labelsize='small')
@@ -201,13 +204,13 @@ ax.text(df['dow'].max(), 0 - (df['users_n'].max() - df['users_n'].min())/3,
         color='gray',
         va='top',
         ha='right')
-fig.savefig(os.path.join(output_dir, 'all_day.png'), dpi='figure', bbox_inches='tight', pad_inches=.11)
+fig.savefig(os.path.join(output_dir, 'aggregated_day.png'), dpi='figure', bbox_inches='tight', pad_inches=.11)
 plt.close(fig)
 
 fig, ax = plt.subplots(figsize=figsize, dpi=dpi)
 dp = pd.pivot_table(df, index='dow', columns='hr', values='users_n_clip', aggfunc='sum')
 plt.imshow(dp, interpolation='nearest', cmap='YlOrRd')
-plt.title('All - Heatmap')
+plt.title('Aggregated - Heatmap')
 plt.xlabel('Hour of Day', size='small')
 plt.ylabel('Day of Week', size='small')
 ax.tick_params(axis='both', which='both',length=0, labelsize='small')
@@ -224,5 +227,5 @@ ax.text(df['hr'].max(), 9,
         color='gray',
         va='top',
         ha='right')
-fig.savefig(os.path.join(output_dir, 'all_heat.png'), dpi='figure', bbox_inches='tight', pad_inches=.11)
+fig.savefig(os.path.join(output_dir, 'aggregated_heat.png'), dpi='figure', bbox_inches='tight', pad_inches=.11)
 plt.close(fig)
