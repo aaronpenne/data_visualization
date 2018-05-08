@@ -2,11 +2,10 @@
 
 *Warning: This page may be slow to load*
 
-I made a simple scraper to get the users_here counts every 10 minutes from 52 subreddits over the past month. Each subreddit has 4 charts: raw line chart, heatmap, box plot by day of week, and box plot by time of day. The heatmaps were clipped at 1 standard deviation above the mean to reduce the effect of traffic spikes during popular posts. The aggregated charts use normalized data, where each subreddit users_here subset was normalized from to [0, 1]. Using this data, you could time posts, chat at peak times, etc. 
+I made a simple scraper to get the users_here counts every 10 minutes from 52 subreddits over the past month. Each subreddit has 4 charts: raw line chart, heatmap, box plot by day of week, and box plot by time of day. The heatmaps were clipped at 1 standard deviation above the mean to reduce the effect of traffic spikes during popular posts. The aggregated charts use normalized data, where each subreddit users_here subset was normalized from to [0, 1]. Using this data, you could time posts, chat at peak times, etc.
 
 The scraper code is [here](https://github.com/aaronpenne/upskill/blob/master/scrape/subreddit_json.py).
 
-- [r/announcements](#rannouncements-)
 - [r/art](#rart-)
 - [r/askreddit](#raskreddit-)
 - [r/askscience](#raskscience-)
@@ -58,14 +57,6 @@ The scraper code is [here](https://github.com/aaronpenne/upskill/blob/master/scr
 - [r/upliftingnews](#rupliftingnews-)
 - [r/videos](#rvideos-)
 - [r/worldnews](#rworldnews-)
-
-
-## r/announcements [↑](#subreddit-traffic)
-
-![announcements heat](https://github.com/aaronpenne/data_visualization/blob/master/traffic/charts/announcements_heat.png)
-![announcements raw](https://github.com/aaronpenne/data_visualization/blob/master/traffic/charts/announcements_raw.png)
-![announcements day](https://github.com/aaronpenne/data_visualization/blob/master/traffic/charts/announcements_day.png)
-![announcements time](https://github.com/aaronpenne/data_visualization/blob/master/traffic/charts/announcements_time.png)
 
 
 ## r/art [↑](#subreddit-traffic)
@@ -474,5 +465,3 @@ The scraper code is [here](https://github.com/aaronpenne/upskill/blob/master/scr
 ![worldnews raw](https://github.com/aaronpenne/data_visualization/blob/master/traffic/charts/worldnews_raw.png)
 ![worldnews day](https://github.com/aaronpenne/data_visualization/blob/master/traffic/charts/worldnews_day.png)
 ![worldnews time](https://github.com/aaronpenne/data_visualization/blob/master/traffic/charts/worldnews_time.png)
-
-
