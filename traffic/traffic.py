@@ -40,8 +40,14 @@ for f in csv_files:
     df_in = df_in[['pull_timestamp', 'subscribers', 'users_here', 'subreddit']].set_index('pull_timestamp', drop=False)
     df_in['subs'] = pd.to_numeric(df_in['subscribers'], errors='coerce')
     df_in['users'] = pd.to_numeric(df_in['users_here'], errors='coerce')
+    df_in['users_n'] = normalize(df_in['users'])
+    
     threshold = (1 * df_in['users'].std()) + df_in['users'].mean()
     df_in['users_clip'] = df_in['users'].clip(0, threshold)
+    
+    threshold = (1 * df_in['users_n'].std()) + df_in['users_n'].mean()
+    df_in['users_n_clip'] = df_in['users_n'].clip(0, threshold)
+    
     df = pd.concat([df, df_in])
 
 # Pull out timestamp pieces for pivot table and heatmap generation
@@ -155,3 +161,68 @@ with open('README.md', 'w+') as f:
         for name in ['heat', 'raw', 'day', 'time']:
             f.write('![{0} {1}](https://github.com/aaronpenne/data_visualization/blob/master/traffic/charts/{0}_{1}.png)\n'.format(s, name))
         f.write('\n\n')
+        
+fig, ax = plt.subplots(figsize=figsize, dpi=dpi)
+flierprops = dict(marker='.', markeredgecolor='none', markerfacecolor='gray', markersize=5)
+sns.boxplot(x='mins', y='users_n', data=df, flierprops=flierprops, color='gray', linewidth=0.7)
+plt.title('All - Time of Day')
+plt.xlabel('Hour of Day', size='small')
+plt.ylabel('Users Here (normalized)', size='small')
+ax.tick_params(axis='both', which='both',length=0, labelsize='small')
+plt.xticks(np.arange(0,24*4,4), np.arange(0,24),
+       color='black',
+       rotation='vertical')
+for _, loc in ax.spines.items():
+    loc.set_visible(False)
+ax.text(24*4, 0 - (df['users_n'].max() - df['users_n'].min())/3,
+    'Data & Code: www.github.com/aaronpenne\n@aaronpenne © 2018',
+    size='x-small',
+    color='gray',
+    va='top',
+    ha='right')
+fig.savefig(os.path.join(output_dir, 'all_time.png'), dpi='figure', bbox_inches='tight', pad_inches=.11)
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=figsize, dpi=dpi)
+flierprops = dict(marker='.', markeredgecolor='none', markerfacecolor='gray', markersize=3)
+sns.boxplot(x='dow', y='users_n', data=df, flierprops=flierprops, color='gray', width=0.5, linewidth=0.7)
+plt.title('All - Day of Week')
+plt.xlabel('Day Name', size='small')
+plt.ylabel('Users Here (normalized)', size='small')
+ax.tick_params(axis='both', which='both',length=0, labelsize='small')
+plt.xticks(np.arange(0,7), ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+       color='black',
+       rotation='vertical')
+for _, loc in ax.spines.items():
+    loc.set_visible(False)
+ax.text(df['dow'].max(), 0 - (df['users_n'].max() - df['users_n'].min())/3,
+        'Data & Code: www.github.com/aaronpenne\n@aaronpenne © 2018',
+        size='x-small',
+        color='gray',
+        va='top',
+        ha='right')
+fig.savefig(os.path.join(output_dir, 'all_day.png'), dpi='figure', bbox_inches='tight', pad_inches=.11)
+plt.close(fig)
+
+fig, ax = plt.subplots(figsize=figsize, dpi=dpi)
+dp = pd.pivot_table(df, index='dow', columns='hr', values='users_n_clip', aggfunc='sum')
+plt.imshow(dp, interpolation='nearest', cmap='YlOrRd')
+plt.title('All - Heatmap')
+plt.xlabel('Hour of Day', size='small')
+plt.ylabel('Day of Week', size='small')
+ax.tick_params(axis='both', which='both',length=0, labelsize='small')
+plt.xticks(np.arange(0,24), np.arange(0,24),
+       color='black',
+       rotation='vertical')
+plt.yticks(np.arange(0,7), ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+       color='black')
+for _, loc in ax.spines.items():
+    loc.set_visible(False)
+ax.text(df['hr'].max(), 9,
+        'Data & Code: www.github.com/aaronpenne\n@aaronpenne © 2018',
+        size='x-small',
+        color='gray',
+        va='top',
+        ha='right')
+fig.savefig(os.path.join(output_dir, 'all_heat.png'), dpi='figure', bbox_inches='tight', pad_inches=.11)
+plt.close(fig)
