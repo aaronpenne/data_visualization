@@ -24,7 +24,7 @@ total_max = 1000
 bins = np.linspace(0, total_max, len(colors))
 
 year = 2010
-cols = [('TOTRATE', 'All Religions Surveyed'),
+cols = [('TOTRATE', 'Concentration of 159 Religions'),
        ('CATHRATE', 'Catholic'),
        ('MSLMRATE', 'Muslim')]
 for col, name in cols:
@@ -60,10 +60,10 @@ for col, name in cols:
     style.append('.annotation { font: 10px monospace; }')
     
     # Annotations
-    svg_bot.insert(1, '<text text-anchor="middle" x="650" y="20" class="title">{} in {}</text>'.format(name, year))
-    svg_bot.insert(1, '<text text-anchor="middle" x="650" y="40" class="subtitle">Adherents per 1000 people</text>'.format(name))
-    svg_bot.insert(1, '<text text-anchor="middle" x="650" y="605" class="annotation">Association of Religion Data Archives</text>')
-    svg_bot.insert(1, '<text text-anchor="middle" x="650" y="615" class="annotation">Aaron Penne © 2018</text>')
+    svg_bot.insert(1, '<text text-anchor="middle" x="660" y="20" class="title">{} in {}</text>'.format(name, year))
+    svg_bot.insert(1, '<text text-anchor="middle" x="660" y="40" class="subtitle">Adherents per 1000 people</text>'.format(name))
+    svg_bot.insert(1, '<text text-anchor="middle" x="660" y="605" class="annotation">Association of Religion Data Archives</text>')
+    svg_bot.insert(1, '<text text-anchor="middle" x="660" y="615" class="annotation">Aaron Penne © 2018</text>')
     
     # Legend
     x = 600
@@ -72,6 +72,7 @@ for col, name in cols:
     h = 15
     for i, color in enumerate(colors):
         svg_bot.insert(1, '<rect x="{}" y="{}" width="{}" height="{}" fill="{}"/>'.format(x+i*w, y, w, h, color))
+    svg_bot.insert(1, '<text text-anchor="middle" x="660" y="540" class="annotation">Adherents/1000 people</text>')
     svg_bot.insert(1, '<text x="{}" y="{}" class="annotation">{}</text>'.format(x-10, y+10, 0))
     svg_bot.insert(1, '<text x="{}" y="{}" class="annotation">{}</text>'.format(x+i*w+20, y+10, total_max))
     
