@@ -16,7 +16,7 @@ output_dir = os.path.join(code_dir, 'output')
 if not os.path.isdir(output_dir):
     os.mkdir(output_dir)
     
-df = pd.read_excel(os.path.join(data_dir, 'county_2010.xlsx'))
+df = pd.read_excel(os.path.join(data_dir, '2010.xlsx'))
 
 # Thanks to colorbrewer2.org
 colors = ['#ffffcc','#d9f0a3','#addd8e','#78c679','#41ab5d','#238443','#005a32']
@@ -24,7 +24,7 @@ total_max = 1000
 bins = np.linspace(0, total_max, len(colors))
 
 year = 2010
-cols = [('TOTRATE', 'Concentration of 159 Religions'),
+cols = [('TOTRATE', 'Concentration of 236 Religious Groups'),
        ('CATHRATE', 'Catholic'),
        ('MSLMRATE', 'Muslim')]
 for col, name in cols:

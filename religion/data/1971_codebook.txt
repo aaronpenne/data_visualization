@@ -1,0 +1,670 @@
+Data File: CMS71CNT(Description Only Codebook)
+
+1) NAME
+County Name
+
+
+2) STATE
+State Census Code
+
+
+3) COUNTY
+3-digit county fips number
+
+
+4) FIPS
+Full FIPS Code
+
+
+5) CHTOTAL
+Total Number of Churches 1971 (ALL DENOMINATIONS)
+
+
+6) TOTMEM
+Total Members 1971 (ALL DENOMINATIONS)
+
+
+7) TOTADH
+Total Adherents 1971 (ALL DENOMINATIONS)
+
+
+8) TOTPOP
+Total Population 1971
+
+
+9) AMBAPT_C
+Number of Churches (1971)--AMERICAN BAPTIST CHURCHES IN THE U.S.A.--Denomination Code 19
+
+
+10) AMBAPT_M
+Number of Members (1971)--AMERICAN BAPTIST CHURCHES IN THE U.S.A.--Denomination Code 19
+
+
+11) AMBAPT_A
+Number of Adherents (1971)--AMERICAN BAPTIST CHURCHES IN THE U.S.A.--Denomination Code 19
+
+
+12) ALC_C
+Number of Churches (1971)--AMERICAN LUTHERAN CHURCH--Denomination Code 29
+
+
+13) ALC_M
+Number of Members (1971)-- AMERICAN LUTHERAN CHURCH--Denomination Code 29
+
+
+14) ALC_A
+Number of Adherents (1971)-- AMERICAN LUTHERAN CHURCH--Denomination Code 29
+
+
+15) ARPRES_C
+Number of Churches (1971)--ASSOCIATE REFORMED PRESBYTERIAN CHURCH (GEN SYNOD)--Denomination Code 55
+
+
+16) ARPRES_M
+Number of Members (1971)--ASSOCIATE REFORMED PRESBYTERIAN CHURCH (GEN SYNOD)--Denomination Code 55
+
+
+17) ARPRES_A
+Number of Adherents (1971)--ASSOCIATE REFORMED PRESBYTERIAN CHURCH (GEN SYNOD)--Denomination Code 55
+
+
+18) BAPMA_C
+Number of Churches (1971)--BAPTIST MISSIONARY ASSOCIATION OF AMERICA--Denomination Code 59
+
+
+19) BAPMA_M
+Number of Members (1971)--BAPTIST MISSIONARY ASSOCIATION OF AMERICA--Denomination Code 59
+
+
+20) BAPMA_A
+Number of Adherents (1971)--BAPTIST MISSIONARY ASSOCIATION OF AMERICA--Denomination Code 59
+
+
+21) BRETCC_C
+Number of Churches (1971)--BRETHREN IN CHRIST CHURCH--Denomination Code 75
+
+
+22) BRETCC_M
+Number of Members (1971)--BRETHREN IN CHRIST CHURCH--Denomination Code 75
+
+
+23) BRETCC_A
+Number of Adherents (1971)--BRETHREN IN CHRIST CHURCH--Denomination Code 75
+
+
+24) CATHOL_C
+Number of Churches (1971)--CATHOLIC CHURCH--Denomination Code 81
+
+
+25) CATHOL_M
+Number of Members (1971)--CATHOLIC CHURCH--Denomination Code 81; (Note: This denomination reports churches and adherents only)
+
+
+26) CATHOL_A
+Number of Adherents (1971)--CATHOLIC CHURCH--Denomination Code 81
+
+
+27) CRCATH_C
+Number of Churches (1971)--CHRIST CATHOLIC CHURCH--Denomination Code 83
+
+
+28) CRCATH_M
+Number of Members (1971)--CHRIST CATHOLIC CHURCH--Denomination Code 83
+
+
+29) CRCATH_A
+Number of Adherents (1971)--CHRIST CATHOLIC CHURCH--Denomination Code 83
+
+
+30) DISCPL_C
+Number of Churches (1971)--CHRISTIAN CHURCH (DISCIPLES OF CHRIST)--Denomination Code 93
+
+
+31) DISCPL_M
+Number of Members (1971)--CHRISTIAN CHURCH (DISCIPLES OF CHRIST)--Denomination Code 93
+
+
+32) DISCPL_A
+Number of Adherents (1971)--CHRISTIAN CHURCH (DISCIPLES OF CHRIST)--Denomination Code 93
+
+
+33) CCCC_C
+Number of Churches (1971)--CHRISTIAN CHURCHES AND CHURCHES OF CHRIST--Denomination Code 97
+
+
+34) CCCC_M
+Number of Members (1971)--CHRISTIAN CHURCHES AND CHURCHES OF CHRIST--Denomination Code 97
+
+
+35) CCCC_A
+Number of Adherents (1971)--CHRISTIAN CHURCHES AND CHURCHES OF CHRIST--Denomination Code 97
+
+
+36) CRC_C
+Number of Churches (1971)--CHRISTIAN REFORMED CHURCH--Denomination Code 105
+
+
+37) CRC_M
+Number of Members (1971)--CHRISTIAN REFORMED CHURCH--Denomination Code 105
+
+
+38) CRC_A
+Number of Adherents (1971)--CHRISTIAN REFORMED CHURCH--Denomination Code 105
+
+
+39) CUNION_C
+Number of Churches (1971)--CHRISTIAN UNION--Denomination Code 107
+
+
+40) CUNION_M
+Number of Members (1971)--CHRISTIAN UNION--Denomination Code 107
+
+
+41) CUNION_A
+Number of Adherents (1971)--CHRISTIAN UNION--Denomination Code 107
+
+
+42) CGODGL_C
+Number of Churches (1971)--CHURCH OF GOD GENERAL CONFERENCE (ABRAHAMIC FAITH)--Denomination Code 121
+
+
+43) CGODGL_M
+Number of Members (1971)--CHURCH OF GOD GENERAL CONFERENCE (ABRAHAMIC FAITH)--Denomination Code 121
+
+
+44) CGODGL_A
+Number of Adherents (1971)--CHURCH OF GOD GENERAL CONFERENCE (ABRAHAMIC FAITH)--Denomination Code 121
+
+
+45) CGODAN_C
+Number of Churches (1971)--CHURCH OF GOD (ANDERSON, INDIANA)--Denomination Code 123
+
+
+46) CGODAN_M
+Number of Members (1971)--CHURCH OF GOD (ANDERSON, INDIANA)--Denomination Code 123
+
+
+47) CGODAN_A
+Number of Adherents (1971)--CHURCH OF GOD (ANDERSON, INDIANA)--Denomination Code 123
+
+
+48) CGODCL_C
+Number of Churches (1971)--CHURCH OF GOD (CLEVELAND, TENNESSEE)--Denomination Code 127
+
+
+49) CGODCL_M
+Number of Members (1971)--CHURCH OF GOD (CLEVELAND, TENNESSEE)--Denomination Code 127
+
+
+50) CGODCL_A
+Number of Adherents (1971)--CHURCH OF GOD (CLEVELAND, TENNESSEE)--Denomination Code 127
+
+
+51) LDS_C
+Number of Churches (1971)--CHURCH OF JESUS CHRIST OF LATTER-DAY SAINTS THE--Denomination Code 151; (Note: This denomination reports adherents only)
+
+
+52) LDS_M
+Number of Members (1971)--CHURCH OF JESUS CHRIST OF LATTER-DAY SAINTS THE--Denomination Code 151; (Note: This denomination reports adherents only)
+
+
+53) LDS_A
+Number of Adherents (1971)--CHURCH OF JESUS CHRIST OF LATTER-DAY SAINTS THE--Denomination Code 151
+
+
+54) BRETHN_C
+Number of Churches (1971)--CHURCH OF THE BRETHREN--Denomination Code 157
+
+
+55) BRETHN_M
+Number of Members (1971)--CHURCH OF THE BRETHREN--Denomination Code 157
+
+
+56) BRETHN_A
+Number of Adherents (1971)--CHURCH OF THE BRETHREN--Denomination Code 157
+
+
+57) NAZARN_C
+Number of Churches (1971)--CHURCH OF THE NAZARENE--Denomination Code 165
+
+
+58) NAZARN_M
+Number of Members (1971)--CHURCH OF THE NAZARENE--Denomination Code 165
+
+
+59) NAZARN_A
+Number of Adherents (1971)--CHURCH OF THE NAZARENE--Denomination Code 165
+
+
+60) CONGCC_C
+Number of Churches (1971)--CONGREGATIONAL CHRISTIAN CHURCHES NATIONAL ASSOC OF--Denomination Code 175
+
+
+61) CONGCC_M
+Number of Members (1971)--CONGREGATIONAL CHRISTIAN CHURCHES NATIONAL ASSOC OF--Denomination Code 175
+
+
+62) CONGCC_A
+Number of Adherents (1971)--CONGREGATIONAL CHRISTIAN CHURCHES NATIONAL ASSOC OF--Denomination Code 175
+
+
+63) CUMBPR_C
+Number of Churches (1971)--CUMBERLAND PRESBYTERIAN CHURCH--Denomination Code 185
+
+
+64) CUMBPR_M
+Number of Members (1971)--CUMBERLAND PRESBYTERIAN CHURCH--Denomination Code 185
+
+
+65) CUMBPR_A
+Number of Adherents (1971)--CUMBERLAND PRESBYTERIAN CHURCH--Denomination Code 185
+
+
+66) EPISC_C
+Number of Churches (1971)--EPISCOPAL CHURCH THE--Denomination Code 193
+
+
+67) EPISC_M
+Number of Members (1971)--EPISCOPAL CHURCH THE--Denomination Code 193
+
+
+68) EPISC_A
+Number of Adherents (1971)--EPISCOPAL CHURCH THE--Denomination Code 193
+
+
+69) EVCHNA_C
+Number of Churches (1971)--EVANGELICAL CHURCH OF NORTH AMERICA THE--Denomination Code 197
+
+
+70) EVCHNA_M
+Number of Members (1971)--EVANGELICAL CHURCH OF NORTH AMERICA THE--Denomination Code 197
+
+
+71) EVCHNA_A
+Number of Adherents (1971)--EVANGELICAL CHURCH OF NORTH AMERICA THE--Denomination Code 197
+
+
+72) EVCONG_C
+Number of Churches (1971)--EVANGELICAL CONGREGATIONAL CHURCH--Denomination Code 199
+
+
+73) EVCONG_M
+Number of Members (1971)--EVANGELICAL CONGREGATIONAL CHURCH--Denomination Code 199
+
+
+74) EVCONG_A
+Number of Adherents (1971)--EVANGELICAL CONGREGATIONAL CHURCH--Denomination Code 199
+
+
+75) EVCOV_C
+Number of Churches (1971)--EVANGELICAL COVENANT CHURCH OF AMERICA THE--Denomination Code 201
+
+
+76) EVCOV_M
+Number of Members (1971)--EVANGELICAL COVENANT CHURCH OF AMERICA THE--Denomination Code 201
+
+
+77) EVCOV_A
+Number of Adherents (1971)--EVANGELICAL COVENANT CHURCH OF AMERICA THE--Denomination Code 201
+
+
+78) EVMENN_C
+Number of Churches (1971)--EVANGELICAL MENNONITE BRETHREN CONFERENCE--Denomination Code 211
+
+
+79) EVMENN_M
+Number of Members (1971)--EVANGELICAL MENNONITE BRETHREN CONFERENCE--Denomination Code 211
+
+
+80) EVMENN_A
+Number of Adherents (1971)--EVANGELICAL MENNONITE BRETHREN CONFERENCE--Denomination Code 211
+
+
+81) FREEME_C
+Number of Churches (1971)--FREE METHODIST CHURCH OF NORTH AMERICA--Denomination Code 221
+
+
+82) FREEME_M
+Number of Members (1971)--FREE METHODIST CHURCH OF NORTH AMERICA--Denomination Code 221
+
+
+83) FREEME_A
+Number of Adherents (1971)--FREE METHODIST CHURCH OF NORTH AMERICA--Denomination Code 221
+
+
+84) FWBAPT_C
+Number of Churches (1971)--FREE WILL BAPTISTS--Denomination Code 223; (Note: Data for this denomination is only available at the state-level)
+
+
+85) FWBAPT_M
+Number of Members (1971)--FREE WILL BAPTISTS--Denomination Code 223; ((Note: Data for this denomination is only available at the state-level)
+
+
+86) FWBAPT_A
+Number of Adherents (1971)--FREE WILL BAPTISTS--Denomination Code 223; (Note: Data for this denomination is only available at the state-level)
+
+
+87) FRIEND_C
+Number of Churches (1971)--FRIENDS--Denomination Code 226
+
+
+88) FRIEND_M
+Number of Members (1971)--FRIENDS--Denomination Code 226
+
+
+89) FRIEND_A
+Number of Adherents (1971)--FRIENDS--Denomination Code 226
+
+
+90) GLBAPT_C
+Number of Churches (1971)--GENERAL BAPTISTS (GENERAL ASSOCIATION OF)--Denomination Code 231; (Note: Data for this denomination is only available at the state-level)
+
+
+91) GLBAPT_M
+Number of Members (1971)--GENERAL BAPTISTS (GENERAL ASSOCIATION OF)--Denomination Code 231; (Note: Data for this denomination is only available at the state-level)
+
+
+92) GLBAPT_A
+Number of Adherents (1971)--GENERAL BAPTISTS (GENERAL ASSOCIATION OF)--Denomination Code 231; (Note: Data for this denomination is only available at the state-level)
+
+
+93) LCA_C
+Number of Churches (1971)--LUTHERAN CHURCH IN AMERICA--Denomination Code 281
+
+
+94) LCA_M
+Number of Members (1971)--LUTHERAN CHURCH IN AMERICA--Denomination Code 281
+
+
+95) LCA_A
+Number of Adherents (1971)--LUTHERAN CHURCH IN AMERICA--Denomination Code 281
+
+
+96) LCMS_C
+Number of Churches (1971)--LUTHERAN CHURCH - MISSOURI SYNOD THE--Denomination Code 283
+
+
+97) LCMS_M
+Number of Members (1971)--LUTHERAN CHURCH - MISSOURI SYNOD THE--Denomination Code 283
+
+
+98) LCMS_A
+Number of Adherents (1971)--LUTHERAN CHURCH - MISSOURI SYNOD THE--Denomination Code 283
+
+
+99) MENNCH_C
+Number of Churches (1971)--MENNONITE CHURCH--Denomination Code 285
+
+
+100) MENNCH_M
+Number of Members (1971)--MENNONITE CHURCH--Denomination Code 285
+
+
+101) MENNCH_A
+Number of Adherents (1971)--MENNONITE CHURCH--Denomination Code 285
+
+
+102) MENNGL_C
+Number of Churches (1971)--MENNONITE CHURCH THE GENERAL CONFERENCE--Denomination Code 287
+
+
+103) MENNGL_M
+Number of Members (1971)--MENNONITE CHURCH THE GENERAL CONFERENCE--Denomination Code 287
+
+
+104) MENNGL_A
+Number of Adherents (1971)--MENNONITE CHURCH THE GENERAL CONFERENCE--Denomination Code 287
+
+
+105) MORV-N_C
+Number of Churches (1971)--MORAVIAN CHURCH IN AMER (UNITAS FRATRUM) NO PROV--Denomination Code 293
+
+
+106) MORV-N_M
+Number of Members (1971)--MORAVIAN CHURCH IN AMER (UNITAS FRATRUM) NO PROV--Denomination Code 293
+
+
+107) MORV-N_A
+Number of Adherents (1971)--MORAVIAN CHURCH IN AMER (UNITAS FRATRUM) NO PROV--Denomination Code 293
+
+
+108) MORV-S_C
+Number of Churches (1971)--MORAVIAN CHURCH IN AMER (UNITAS FRATRUM) SO PROV--Denomination Code 295
+
+
+109) MORV-S_M
+Number of Members (1971)--MORAVIAN CHURCH IN AMER (UNITAS FRATRUM) SO PROV--Denomination Code 295
+
+
+110) MORV-S_A
+Number of Adherents (1971)--MORAVIAN CHURCH IN AMER (UNITAS FRATRUM) SO PROV--Denomination Code 295
+
+
+111) NABAPT_C
+Number of Churches (1971)--NORTH AMERICAN BAPTIST CONFERENCE--Denomination Code 313
+
+
+112) NABAPT_M
+Number of Members (1971)--NORTH AMERICAN BAPTIST CONFERENCE--Denomination Code 313
+
+
+113) NABAPT_A
+Number of Adherents (1971)--NORTH AMERICAN BAPTIST CONFERENCE--Denomination Code 313
+
+
+114) OLDRC_C
+Number of Churches (1971)--NORTH AMERICAN OLD ROMAN CATHOLIC CHURCH--Denomination Code 315
+
+
+115) OLDRC_M
+Number of Members (1971)--NORTH AMERICAN OLD ROMAN CATHOLIC CHURCH--Denomination Code 315
+
+
+116) OLDRC_A
+Number of Adherents (1971)--NORTH AMERICAN OLD ROMAN CATHOLIC CHURCH--Denomination Code 315
+
+
+117) ORPRES_C
+Number of Churches (1971)--ORTHODOX PRESBYTERIAN CHURCH THE--Denomination Code 335
+
+
+118) ORPRES_M
+Number of Members (1971)--ORTHODOX PRESBYTERIAN CHURCH THE--Denomination Code 335
+
+
+119) ORPRES_A
+Number of Adherents (1971)--ORTHODOX PRESBYTERIAN CHURCH THE--Denomination Code 335
+
+
+120) PENHOL_C
+Number of Churches (1971)--PENTECOSTAL HOLINESS CHURCH INC.--Denomination Code 349
+
+
+121) PENHOL_M
+Number of Members (1971)--PENTECOSTAL HOLINESS CHURCH INC.--Denomination Code 349
+
+
+122) PENHOL_A
+Number of Adherents (1971)--PENTECOSTAL HOLINESS CHURCH INC.--Denomination Code 349
+
+
+123) PLBRET_C
+Number of Churches (1971)--CHRISTIAN (PLYMOUTH) BRETHREN--Denomination Code 353
+
+
+124) PLBRET_M
+Number of Members (1971)--CHRISTIAN (PLYMOUTH) BRETHREN--Denomination Code 353
+
+
+125) PLBRET_A
+Number of Adherents (1971)--CHRISTIAN (PLYMOUTH) BRETHREN--Denomination Code 353
+
+
+126) PRESUS_C
+Number of Churches (1971)--PRESBYTERIAN CHURCH IN THE US--Denomination Code 357
+
+
+127) PRESUS_M
+Number of Members (1971)--PRESBYTERIAN CHURCH IN THE US--Denomination Code 357
+
+
+128) PRESUS_A
+Number of Adherents (1971)--PRESBYTERIAN CHURCH IN THE US--Denomination Code 357
+
+
+129) RCA_C
+Number of Churches (1971)--REFORMED CHURCH IN AMERICA--Denomination Code 371
+
+
+130) RCA_M
+Number of Members (1971)--REFORMED CHURCH IN AMERICA--Denomination Code 371
+
+
+131) RCA_A
+Number of Adherents (1971)--REFORMED CHURCH IN AMERICA--Denomination Code 371
+
+
+132) REFP-E_C
+Number of Churches (1971)--REFORMED PRESBYTERIAN CHURCH EVANGELICAL SYNOD--Denomination Code 381
+
+
+133) REFP-E_M
+Number of Members (1971)--REFORMED PRESBYTERIAN CHURCH EVANGELICAL SYNOD--Denomination Code 381
+
+
+134) REFP-E_A
+Number of Adherents (1971)--REFORMED PRESBYTERIAN CHURCH EVANGELICAL SYNOD--Denomination Code 381
+
+
+135) SARMY_C
+Number of Churches (1971)--SALVATION ARMY THE--Denomination Code 403
+
+
+136) SARMY_M
+Number of Members (1971)--SALVATION ARMY THE--Denomination Code 403
+
+
+137) SARMY_A
+Number of Adherents (1971)--SALVATION ARMY THE--Denomination Code 403
+
+
+138) S-DADV_C
+Number of Churches (1971)--SEVENTH-DAY ADVENTISTS--Denomination Code 413
+
+
+139) S-DADV_M
+Number of Members (1971)--SEVENTH-DAY ADVENTISTS--Denomination Code 413
+
+
+140) S-DADV_A
+Number of Adherents (1971)--SEVENTH-DAY ADVENTISTS--Denomination Code 413
+
+
+141) S-DBAP_C
+Number of Churches (1971)--SEVENTH DAY BAPTIST GENERAL CONFERENCE--Denomination Code 415
+
+
+142) S-DBAP_M
+Number of Members (1971)--SEVENTH DAY BAPTIST GENERAL CONFERENCE--Denomination Code 415
+
+
+143) S-DBAP_A
+Number of Adherents (1971)--SEVENTH DAY BAPTIST GENERAL CONFERENCE--Denomination Code 415
+
+
+144) SBC_C
+Number of Churches (1971)--SOUTHERN BAPTIST CONVENTION--Denomination Code 419
+
+
+145) SBC_M
+Number of Members (1971)--SOUTHERN BAPTIST CONVENTION--Denomination Code 419
+
+
+146) SBC_A
+Number of Adherents (1971)--SOUTHERN BAPTIST CONVENTION--Denomination Code 419
+
+
+147) UNITAR_C
+Number of Churches (1971)--UNITARIAN UNIVERSALIST ASSOCIATION--Denomination Code 435
+
+
+148) UNITAR_M
+Number of Members (1971)--UNITARIAN UNIVERSALIST ASSOCIATION--Denomination Code 435
+
+
+149) UNITAR_A
+Number of Adherents (1971)--UNITARIAN UNIVERSALIST ASSOCIATION--Denomination Code 435
+
+
+150) UCC_C
+Number of Churches (1971)--UNITED CHURCH OF CHRIST--Denomination Code 443
+
+
+151) UCC_M
+Number of Members (1971)--UNITED CHURCH OF CHRIST--Denomination Code 443
+
+
+152) UCC_A
+Number of Adherents (1971)--UNITED CHURCH OF CHRIST--Denomination Code 443
+
+
+153) UMETH_C
+Number of Churches (1971)--UNITED METHODIST CHURCH THE--Denomination Code 449
+
+
+154) UMETH_M
+Number of Members (1971)--UNITED METHODIST CHURCH THE--Denomination Code 449
+
+
+155) UMETH_A
+Number of Adherents (1971)--UNITED METHODIST CHURCH THE--Denomination Code 449
+
+
+156) UPCUSA_C
+Number of Churches (1971)--UNITED PRESBYTERIAN CHURCH IN THE USA THE--Denomination Code 453
+
+
+157) UPCUSA_M
+Number of Members (1971)--UNITED PRESBYTERIAN CHURCH IN THE USA THE--Denomination Code 453
+
+
+158) UPCUSA_A
+Number of Adherents (1971)--UNITED PRESBYTERIAN CHURCH IN THE USA THE--Denomination Code 453
+
+
+159) UNBRET_C
+Number of Churches (1971)--UNITY OF THE BRETHREN--Denomination Code 461
+
+
+160) UNBRET_M
+Number of Members (1971)--UNITY OF THE BRETHREN--Denomination Code 461
+
+
+161) UNBRET_A
+Number of Adherents (1971)--UNITY OF THE BRETHREN--Denomination Code 461
+
+
+162) WESLEY_C
+Number of Churches (1971)--WESLEYAN CHURCH THE--Denomination Code 467; (Note: Data for this denomination is only available at the state-level)
+
+
+163) WESLEY_M
+Number of Members (1971)--WESLEYAN CHURCH THE--Denomination Code 467; (Note: Data for this denomination is only available at the state-level)
+
+
+164) WESLEY_A
+Number of Adherents (1971)--WESLEYAN CHURCH THE--Denomination Code 467; (Note: Data for this denomination is only available at the state-level)
+
+
+165) WELS_C
+Number of Churches (1971)--WISCONSIN EVANGELICAL LUTHERAN SYNOD--Denomination Code 469
+
+
+166) WELS_M
+Number of Members (1971)--WISCONSIN EVANGELICAL LUTHERAN SYNOD--Denomination Code 469
+
+
+167) WELS_A
+Number of Adherents (1971)--WISCONSIN EVANGELICAL LUTHERAN SYNOD--Denomination Code 469
+
+

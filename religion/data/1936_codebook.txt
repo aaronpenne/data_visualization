@@ -1,0 +1,314 @@
+Data File: 1936CENSCT(Description Only Codebook)
+
+1) CNTYNAME
+County name
+
+
+2) STATE
+State name
+
+
+3) FIPST
+Census state code
+
+
+4) FIPCNT
+Census county code
+
+
+5) ADVCHBD
+Number of members of Adventist Bodies
+
+
+6) SEVADV
+Number of members of Seventh Day Adventists Churches
+
+
+7) ALLOTHER
+Number of members of all other bodies
+
+
+8) AMERBAPA
+Number of members of American Baptist Association Churches
+
+
+9) ARMENIAN
+Number of members of the Armenian Church of America
+
+
+10) ASSEMBGD
+Number of members of Assemblies of God, General Council Churches
+
+
+11) CPRIMBAP
+Number of members of Colored Primitive Baptist Churches
+
+
+12) FREEWBAP
+Number of members of Free Will Baptist Churches
+
+
+13) GENBAP
+Number of members of General Baptist Churches
+
+
+14) NEGROBAP
+Number of members of Negro Baptist Churches
+
+
+15) NBAPT
+Number of members of Northern Baptist Churches
+
+
+16) PRIMBAP
+Number of members of Primitive Baptist Churches
+
+
+17) REGBAP
+Number of members of Regular Baptist Churches
+
+
+18) SOUTHBAP
+Number of members of Southern Baptist Churches
+
+
+19) UNITBAP
+Number of members of United Baptist Churches
+
+
+20) UNBAPAM
+Number of members of United American Baptist Churches
+
+
+21) DUNKCON
+Number of members of Brethren Churches (Conservative Dunkers)
+
+
+22) DUNKPROG
+Number of members of Brethren Churches (Progressive Dunkers)
+
+
+23) BUDDHIST
+Number of members of the Buddhist Mission in North America
+
+
+24) CHCHRIST
+Number of members of the Churches of Christ
+
+
+25) CHCHRSCI
+Number of members of the Church of Christ, Scientist
+
+
+26) CHGOD
+Number of members of the Church of God
+
+
+27) CHGODCH
+Number of members of the Church of God in Christ
+
+
+28) CHGODNA
+Number of members of the Church of God in North America
+
+
+29) NAZARENE
+Number of members of the Church of the Nazarene
+
+
+30) CHBRETH
+Number of members of the Church of the Brethren
+
+
+31) CONGREG
+Number of members of Congregational and Christian Churches
+
+
+32) DISCIPLE
+Number of members of the Disciples of Christ Church
+
+
+33) EASTORTH
+Number of members of Eastern Orthodox Churches
+
+
+34) RUSSORTH
+Number of members of Russian Orthodox Churches
+
+
+35) EVANREF
+Number of members of the Evangelical and Reformed Church
+
+
+36) EVANCHR
+Number of members of the Evangelical Church
+
+
+37) EVANCONG
+Number of members of the Evangelical Congregational Church
+
+
+38) EVANAUG
+Number of members of the Evangelical Augustana Synod of North America
+
+
+39) EVANUNIT
+Number of members of the Evangelical Unity of Bohemian and Moravian Brethren Church
+
+
+40) FEDERATE
+Number of members of Federated Churches
+
+
+41) FRIENFOU
+Number of members of the Friends (4 Bodies) Church
+
+
+42) FRIENORT
+Number of members of the Friends (Orthodox) Church
+
+
+43) GRKORTHH
+Number of members of the Greek Orthodox Church (Hellenic)
+
+
+44) JEWISH
+Number of members of Jewish Congregations
+
+
+45) CJCLDS
+Number of members of the Church of Jesus Christ of the Latter-Day Saints
+
+
+46) LDSREORG
+Number of members of the Reorganized Church of Jesus Christ of Latter-Day Saints
+
+
+47) LUTHAMER
+Number of members of the American Lutheran Church
+
+
+48) LUTHAUG
+Number of members of the Lutheran Augustana Synod of North America
+
+
+49) LUTHSOUM
+Number of members of the Finish or Soumi Lutheran Synod
+
+
+50) LUTHFREE
+Number of members of the Lutheran Free Church
+
+
+51) LUTHWISC
+Number of members of the Joint Lutheran Synod of Wisconsin and Other States
+
+
+52) LUTHNORW
+Number of members of the Norwegian Lutheran Church of America
+
+
+53) LUTHMO
+Number of members of the Lutheran Church of Missouri, Ohio, and Other States
+
+
+54) LUTHUNDA
+Number of members of the United Danish Lutheran Church in America
+
+
+55) LUTHUNIT
+Number of members of the United Lutheran Church
+
+
+56) LUTHUNAM
+Number of members of the United Lutheran Church in America
+
+
+57) MENNON
+Number of members of the Mennonite Bodies
+
+
+58) AME
+Number of members of the African Methodist Episcopal Church
+
+
+59) AMEZION
+Number of members of the African Methodist Episcopal Zion Church
+
+
+60) COLMETH
+Number of members of the Colored Methodist Episcopal Church
+
+
+61) METHEPIS
+Number of members of the Methodist Episcopal Church
+
+
+62) METHEPS
+Number of members of the Methodist Episcopal Church, South
+
+
+63) METHPROT
+Number of members of the Methodist Protestant Church
+
+
+64) POLISH
+Number of members of the Polish National Catholic Church
+
+
+65) CUMBPRES
+Number of members of the Cumberland Presbyterian Church
+
+
+66) PRESBUS
+Number of members of the Presbyterian Church in the United States
+
+
+67) PRESBUSA
+Number of members of the Presbyterian Church in the U.S.A.
+
+
+68) UNITPRES
+Number of members of the United Presbyterian Church of North America
+
+
+69) PROTEPIS
+Number of members of the Protestant Episcopal Church
+
+
+70) CHRREF
+Number of members of Christian Reformed Churches
+
+
+71) REFAMER
+Number of members of the Reformed Church in America
+
+
+72) CATHOLIC
+Number of members of the Roman Catholic Church
+
+
+73) SALVARMY
+Number of members of the Salvation Army
+
+
+74) SCANDEV
+Number of members of Scandinavian Evangelical Bodies
+
+
+75) UNITAR
+Number of members of the Unitarians
+
+
+76) UNTBRCHR
+Number of members of the United Brethren in Christ
+
+
+77) UNIVER
+Number of members of the Universalists
+
+
+78) REFEPISC
+Number of members of the General Synod of the Associate Reformed Presbyterian Church
+
+

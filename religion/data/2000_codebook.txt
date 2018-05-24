@@ -1,0 +1,1886 @@
+Data File: RCMSCY(Description Only Codebook)
+
+1) TOTCG
+All Denominations--Total Number of Congregations (2000)
+
+
+2) TOTAD
+All Denominations--Total Number of Adherents (2000)
+
+
+3) ADJAD
+ADJUSTED Total Number of Adherents (2000) **See Finke and Scheitle 2005**
+
+
+4) TOTRT
+All Denominations--Rates of adherence per 1000 population (2000)
+
+
+5) ADJRATE
+ADJUSTED Rates of adherence per 1000 population (2000)  **See Finke and Scheitle 2005**
+
+
+6) MAINCG
+Mainline Denominations--Total Number of Congregations (2000)
+
+
+7) MAINAD
+Mainline Denominations--Total Number of Adherents (2000)
+
+
+8) MAINRT
+Mainline Denominations--Rates of adherence per 1000 population (2000)
+
+
+9) EVANCG
+Evangelical Denominations--Total Number of Congregations (2000)
+
+
+10) EVANAD
+Evangelical Denominations--Total Number of Adherents (2000)
+
+
+11) EVANRT
+Evangelical Denominations--Rates of adherence per 1000 population (2000)
+
+
+12) CATHCG
+Catholic Church--Number of Congregations (2000)
+
+
+13) CATHAD
+Catholic Church--Number of Adherents (2000)
+
+
+14) CATHRT
+Catholic Church--Rates of adherence per 1000 population (2000)
+
+
+15) ORTHCG
+Orthodox Denominations--Total Number of Congregations (2000)
+
+
+16) ORTHAD
+Orthodox Denominations--Total Number of Adherents (2000)
+
+
+17) ORTHRT
+Orthodox Denominations--Rates of adherence per 1000 population (2000)
+
+
+18) OTHERCG
+Other Denominations--Total Number of Congregations (2000)
+
+
+19) OTHERAD
+Other Denominations--Total Number of Adherents (2000)
+
+
+20) OTHERRT
+Other Denominations--Rates of adherence per 1000 population (2000)
+
+
+21) JEWCG
+Jewish Estimate--Number of Congregations (2000)
+
+
+22) JEWAD
+Jewish Estimate--Number of adherents (2000)
+
+
+23) JEWRT
+Jewish Estimate--Rates of adherence per 1000 population (2000)
+
+
+24) ISLAMCG
+Muslim Estimate--Number of Congregations (2000)
+
+
+25) ISLAMAD
+Muslim Estimate--Number of Adherents (2000)
+
+
+26) ISLAMRT
+Muslim Estimate--Rates of aherence per 1000 population (2000)
+
+
+27) ALORACG
+Albanian Orthodox Diocese of America--Number of Congregations (2000)
+
+
+28) ALORAAD
+Albanian Orthodox Diocese of America--Number of Adherents (2000)
+
+
+29) ALORART
+Albanian Orthodox Diocese of America-Rates of adherence per 1000 population (2000)
+
+
+30) AWMCCG
+Allegheny Wesleyan Methodist Connection--Number of Congregations (2000)
+
+
+31) AWMCAD
+Allegheny Wesleyan Methodist Connection--Number of Adherents (2000)
+
+
+32) AWMCRT
+Allegheny Wesleyan Methodist Connection--Rates of adherence per 1000 population (2000)
+
+
+33) AMBAPCG
+American Baptist Association--Number of Congregations (2000)
+
+
+34) AMBAPAD
+American Baptist Association--Number of Adherents (2000)
+
+
+35) AMBAPRT
+American Baptist Association--Rates of adherence per 1000 population (2000)
+
+
+36) ABAPCG
+American Baptist Churches in the USA--Number of Congregations (2000)
+
+
+37) ABAPAD
+American Baptist Churches in the USA--Number of Adherents (2000)
+
+
+38) ABAPRT
+American Baptist Churches in the USA--Rates of adherence per 1000 population (2000)
+
+
+39) EAORCG
+American Carpatho-Russian Orthodox Greek Catholic Church--Number of Congregations (2000)
+
+
+40) EAORAD
+American Carpatho-Russian Orthodox Greek Catholic Church--Number of Adherents (2000)
+
+
+41) EAORRT
+American Carpatho-Russian Orthodox Greek Catholic Church--Rates of adherence per 1000 population (2000)
+
+
+42) AMOTHCG
+Amish; Other Groups--Number of Congregations (2000)
+
+
+43) AMOTHAD
+Amish; Other Groups--Number of Adherents (2000)
+
+
+44) AMOTHRT
+Amish; Other Groups--Rates of adherence per 1000 population (2000)
+
+
+45) ANTAMCG
+Antiochian Orthodox Christian Archdiocese of North America--Number of Congregations (2000)
+
+
+46) ANTAMAD
+Antiochian Orthodox Christian Archdiocese of North America--Number of Adherents (2000)
+
+
+47) ANTAMRT
+Antiochian Orthodox Christian Archdiocese of North America--Rates of adherence per 1000 population (2000)
+
+
+48) APCATCG
+Apostolic Catholic Assyrian Church of the East, North America--Number of Congregations (2000)
+
+
+49) APCATAD
+Apostolic Catholic Assyrian Church of the East, North America--Number of Adherents (2000)
+
+
+50) APCATRT
+Apostolic Catholic Assyrian Church of the East, North America--Rates of adherence per 1000 population (2000)
+
+
+51) APAMCG
+Apostolic Christian Church of America, Inc.--Number of Congregations (2000)
+
+
+52) APAMAD
+Apostolic Christian Church of America, Inc.--Number of Adherents (2000)
+
+
+53) APAMRT
+Apostolic Christian Church of America, Inc.--Rates of adherence per 1000 population (2000)
+
+
+54) APNAZCG
+Apostolic Christian Churches (Nazarean)--Number of Congregations (2000)
+
+
+55) APNAZAD
+Apostolic Christian Churches (Nazarean)--Number of Adherents (2000)
+
+
+56) APNAZRT
+Apostolic Christian Churches (Nazarean)--Rates of adherence per 1000 population (2000)
+
+
+57) ARMCICG
+Armenian Apostolic Church/Catholicossate of Cilicia--Number of Congregations (2000)
+
+
+58) ARMCIAD
+Armenian Apostolic Church/Catholicossate of Cilicia--Number of Adherents (2000)
+
+
+59) ARMCIRT
+Armenian Apostolic Church/Catholicossate of Cilicia--Rates of adherence per 1000 population (2000)
+
+
+60) ARMETCG
+Armenian Apostolic Church/Catholicossate Etchmiadzin--Number of Congregatoins (2000)
+
+
+61) ARMETAD
+Armenian Apostolic Church/Catholicossate Etchmiadzin--Number of Adherents (2000)
+
+
+62) ARMETRT
+Armenian Apostolic Church/Catholicossate Etchmiadzin--Rates of adherence per 1000 population (2000)
+
+
+63) ASSGDCG
+Assemblies of God--Number of Congregations (2000)
+
+
+64) ASSGDAD
+Assemblies of God--Number of Adherents (2000)
+
+
+65) ASSGDRT
+Assemblies of God--Rates of adherence per 1000 population (2000)
+
+
+66) ASSPRCG
+Association Reformed Presbyterian Church--Number of Congregations (2000)
+
+
+67) ASSPRAD
+Association Reformed Presbyterian Church--Number of Adherents (2000)
+
+
+68) ASSPRRT
+Association Reformed Presbyterian Church--Rates of adherence per 1000 population (2000)
+
+
+69) FRLUTCG
+Association of Free Lutheran Congregations-Number of Congregations (2000)
+
+
+70) FRLUTAD
+Association of Free Lutheran Congregations-Number of Adherents (2000)
+
+
+71) FRLUTRT
+Association of Free Lutheran Congregations-Rates of adherence per 1000 population (2000)
+
+
+72) BAHAICG
+Baha'i--Number of Congregations (2000)
+
+
+73) BAHAIAD
+Baha'i--Number of Adherents (2000)
+
+
+74) BAHAIRT
+Baha'i--Rates of adherence per 1000 population (2000)
+
+
+75) BAPGCCG
+Baptist General Conference--Number of Congregations (2000)
+
+
+76) BAPGCAD
+Baptist General Conference--Number of Adherents (2000)
+
+
+77) BAPGCRT
+Baptist General Conference--Rates of adherence per 1000 population (2000)
+
+
+78) BAPMICG
+Baptist Missionary Association of America--Number of Congregations (2000)
+
+
+79) BAPMIAD
+Baptist Missionary Association of America--Number of Adherents (2000)
+
+
+80) BAPMIRT
+Baptist Missionary Association of America--Rates of adherence per 1000 population (2000)
+
+
+81) BEACHCG
+Beachy Amish Mennonite Churches--Number of Congregations (2000)
+
+
+82) BEACHAD
+Beachy Amish Mennonite Churches--Number of Adherents (2000)
+
+
+83) BEACHRT
+Beachy Amish Mennonite Churches--Rates of adherence per 1000 population (2000)
+
+
+84) BRETOCG
+Brethren Church, The (Ashland, Ohio)--Number of Congregations (2000)
+
+
+85) BRETOAD
+Brethren Church, The (Ashland, Ohio)--Number of Adherents (2000)
+
+
+86) BRETORT
+Brethren Church, The (Ashland, Ohio)--Rates of adherence per 1000 population (2000)
+
+
+87) BRETCCG
+Brethren in Christ Church--Number of Congregations (2000)
+
+
+88) BRETCAD
+Brethren in Christ Church--Number of Adherents (2000)
+
+
+89) BRETCRT
+Brethren in Christ Church--Rates of adherence per 1000 population (2000)
+
+
+90) BRUDCCG
+Bruderhof Communities, Inc.--Number of Congregations (2000)
+
+
+91) BRUDCAD
+Bruderhof Communities, Inc.--Number of Adherents (2000)
+
+
+92) BRUDCRT
+Bruderhof Communities, Inc.--Rates of adherence per 1000 population (2000)
+
+
+93) BUDDHCG
+Buddhists--Number of Congregations (2000)
+
+
+94) BUDDHAD
+Buddhists--Number of Adherents (2000)
+
+
+95) BUDDHRT
+Buddhists--Rates of adherence per 1000 population (2000)
+
+
+96) BULORCG
+Bulgarian Orthodox Diocese of the USA--Number of Congregations (2000)
+
+
+97) BULORAD
+Bulgarian Orthodox Diocese of the USA--Number of Adherents (2000)
+
+
+98) BULORRT
+Bulgarian Orthodox Diocese of the USA--Rates of adherence per 1000 population (2000)
+
+
+99) CALVCG
+Calvary Chapel Fellowship Churches--Number of Congregations (2000)
+
+
+100) CALVAD
+Calvary Chapel Fellowship Churches--Number of Adherents (2000)
+
+
+101) CALVRT
+Calvary Chapel Fellowship Churches--Rates of adherence per 1000 population (2000)
+
+
+102) CHRMICG
+Christian and Missionary Alliance--Number of Congregations (2000)
+
+
+103) CHRMIAD
+Christian and Missionary Alliance--Number of Adherents (2000)
+
+
+104) CHRMIRT
+Christian and Missionary Alliance--Rates of adherence per 1000 population (2000)
+
+
+105) CHRDICG
+Christian Church (Disciples of Christ)--Number of Congregations (2000)
+
+
+106) CHRDIAD
+Christian Church (Disciples of Christ)--Number of Adherents (2000)
+
+
+107) CHRDIRT
+Christian Church (Disciples of Christ)--Rates of adherence per 1000 population (2000)
+
+
+108) CHRCHCG
+Christian Churches and Churches of Christ--Number of Congregations (2000)
+
+
+109) CHRCHAD
+Christian Churches and Churches of Christ--Number of Adherents (2000)
+
+
+110) CHRCHRT
+Christian Churches and Churches of Christ--Rates of adherence per 1000 population (2000)
+
+
+111) CHRRFCG
+Christian Reformed Church in North America--Number of Congregations (2000)
+
+
+112) CHRRFAD
+Christian Reformed Church in North America--Number of Adherents (2000)
+
+
+113) CHRRFRT
+Christian Reformed Church in North America--Rates of adherence per 1000 population (2000)
+
+
+114) CHRUNCG
+Christian Union--Number of Congregations (2000)
+
+
+115) CHRUNAD
+Christian Union--Number of Adherents (2000)
+
+
+116) CHRUNRT
+Christian Union--Rates of adherence per 1000 population (2000)
+
+
+117) CHGANCG
+Church of  God (Anderson, Indiana)--Number of Congregations (2000)
+
+
+118) CHGANAD
+Church of  God (Anderson, Indiana)--Number of Adherents (2000)
+
+
+119) CHGANRT
+Church of  God (Anderson, Indiana)--Rates of adherence per 1000 population (2000)
+
+
+120) CHGCLCG
+Church of God (Cleveland, Tennessee)--Number of Congregations (2000)
+
+
+121) CHGCLAD
+Church of God (Cleveland, Tennessee)--Number of Adherents (2000)
+
+
+122) CHGCLRT
+Church of God (Cleveland, Tennessee)--Rates of adherence per 1000 population (2000)
+
+
+123) CHGGCCG
+Church of God General Conference--Number of Congregations (2000)
+
+
+124) CHGGCAD
+Church of God General Conference--Number of Adherents (2000)
+
+
+125) CHGGCRT
+Church of God General Conference--Rates of adherence per 1000 population (2000)
+
+
+126) CHGCMCG
+Church of God in Christ, Mennonite--Number of Congregations (2000)
+
+
+127) CHGCMAD
+Church of God in Christ, Mennonite--Number of Adherents (2000)
+
+
+128) CHGCMRT
+Church of God in Christ, Mennonite--Rates of adherence per 1000 population (2000)
+
+
+129) CHGPRCG
+Church of God of Prophecy--Number of Congregations (2000)
+
+
+130) CHGPRAD
+Church of God of Prophecy--Number of Adherents (2000)
+
+
+131) CHGPRRT
+Church of God of Prophecy--Rates of adherence per 1000 population (2000)
+
+
+132) LDSCG
+Church of Jesus Christ of Latter-day Saints--Number of Congregations (2000)
+
+
+133) LDSAD
+Church of Jesus Christ of Latter-day Saints--Number of Adherents (2000)
+
+
+134) LDSRT
+Church of Jesus Christ of Latter-day Saints--Rates of adherence per 1000 population (2000)
+
+
+135) CHBRECG
+Church of the Brethren--Number of Congregations (2000)
+
+
+136) CHBREAD
+Church of the Brethren--Number of Adherents (2000)
+
+
+137) CHBRERT
+Church of the Brethren--Rates of adherence per 1000 population (2000)
+
+
+138) NAZARCG
+Church of the Nazarene--Number of Congregations (2000)
+
+
+139) NAZARAD
+Church of the Nazarene--Number of Adherents (2000)
+
+
+140) NAZARRT
+Church of the Nazarene--Rates of adherence per 1000 population (2000)
+
+
+141) CHSCHCG
+Churches of Christ--Number of Congregations (2000)
+
+
+142) CHSCHAD
+Churches of Christ--Number of Adherents (2000)
+
+
+143) CHSCHRT
+Churches of Christ--Rates of adherence per 1000 population (2000)
+
+
+144) CHSGGCG
+Churches of God, General Conference--Number of Congregations (2000)
+
+
+145) CHSGGAD
+Churches of God, General Conference--Number of Adherents (2000)
+
+
+146) CHSGGRT
+Churches of God, General Conference--Rates of adherence per 1000 population (2000)
+
+
+147) COMCHCG
+Community Church of Christ--Number of Congregations (2000)
+
+
+148) COMCHAD
+Community Church of Christ--Number of Adherents (2000)
+
+
+149) COMCHRT
+Community Church of Christ--Rates of adherence per 1000 population (2000)
+
+
+150) CCCADCG
+Congregational Christian Churches, Additional (Not in any CCC Body)--Number of Congregations (2000)
+
+
+151) CCCADAD
+Congregational Christian Churches, Additional (Not in any CCC Body)--Number of Adherents (2000)
+
+
+152) CCCADRT
+Congregational Christian Churches, Additional (Not in any CCC Body)--Rates of adherence per 1000 population (2000)
+
+
+153) CONBACG
+Conservative Baptist Association of America--Number of Congregations (2000)
+
+
+154) CONBAAD
+Conservative Baptist Association of America--Number of Adherents (2000)
+
+
+155) CONBART
+Conservative Baptist Association of America--Rates of adherence per 1000 population (2000)
+
+
+156) CONCCCG
+Conservative Congregational Christian Conference--Number of Congregations (2000)
+
+
+157) CONCCAD
+Conservative Congregational Christian Conference--Number of Adherents (2000)
+
+
+158) CONCCRT
+Conservative Congregational Christian Conference--Rates of adherence per 1000 population (2000)
+
+
+159) CONMCCG
+Conservative Mennonite Conference--Number of Congregations (2000)
+
+
+160) CONMCAD
+Conservative Mennonite Conference--Number of Adherents (2000)
+
+
+161) CONMCRT
+Conservative Mennonite Conference--Rates of adherence per 1000 population (2000)
+
+
+162) COPORCG
+Coptic Orthodox Church--Number of Congregations (2000)
+
+
+163) COPORAD
+Coptic Orthodox Church--Number of Adherents (2000)
+
+
+164) COPORRT
+Coptic Orthodox Church--Rates of adherence per 1000 population (2000)
+
+
+165) CUPRSCG
+Cumberland Presbyterian Church--Number of Congregations (2000)
+
+
+166) CUPRSAD
+Cumberland Presbyterian Church--Number of Adherents (2000)
+
+
+167) CUPRSRT
+Cumberland Presbyterian Church--Rates of adherence per 1000 population (2000)
+
+
+168) DUCKRCG
+Duck River and Kindred Baptists Associations--Number of Congregations (2000)
+
+
+169) DUCKRAD
+Duck River and Kindred Baptists Associations--Number of Adherents (2000)
+
+
+170) DUCKRRT
+Duck River and Kindred Baptists Associations--Rate of populations per 1000 population (2000)
+
+
+171) EPMENCG
+Eastern Pennsylvanian Mennonite Church--Number of Congregations (2000)
+
+
+172) EPMENAD
+Eastern Pennsylvanian Mennonite Church--Number of Adherents (2000)
+
+
+173) EPMENRT
+Eastern Pennsylvanian Mennonite Church--Rates of adherence per 1000 population (2000)
+
+
+174) ENTBPCG
+Enterprise Baptists Association--Number of Congregations (2000)
+
+
+175) ENTBPAD
+Enterprise Baptists Association--Number of Adherents (2000)
+
+
+176) ENTBPRT
+Enterprise Baptists Association--Rates of adherence per 1000 population (2000)
+
+
+177) EPISCCG
+Episcopal Church--Number of Congregations (2000)
+
+
+178) EPISCAD
+Episcopal Church--Number of Adherents (2000)
+
+
+179) EPISCRT
+Episcopal Church--Rates of adherence per 1000 population (2000)
+
+
+180) EVCOVCG
+Evangelical Covenant Church, The--Number of Congregations (2000)
+
+
+181) EVCOVAD
+Evangelical Covenant Church, The--Number of Adherents (2000)
+
+
+182) EVCOVRT
+Evangelical Covenant Church, The--Rate of adherence per 1000 popluation (2000)
+
+
+183) EVFRECG
+Evangelical Free Church of America--Number of Congregations (2000)
+
+
+184) EVFREAD
+Evangelical Free Church of America--Number of Adherents (2000)
+
+
+185) EVFRERT
+Evangelical Free Church of America--Rates of adherence per 1000 population (2000)
+
+
+186) ELCACG
+Evangelical Lutheran Church in America--Number of Congregations (2000)
+
+
+187) ELCAAD
+Evangelical Lutheran Church in America--Number of Adherents (2000)
+
+
+188) ELCART
+Evangelical Lutheran Church in America--Rates of adherence per 1000 population (2000)
+
+
+189) EVMENCG
+Evangelical Mennonite Church--Number of Congregations (2000)
+
+
+190) EVMENAD
+Evangelical Mennonite Church--Number of Adherents (2000)
+
+
+191) EVMENRT
+Evangelical Mennonite Church--Rates of adherence per 1000 population (2000)
+
+
+192) EVPRSCG
+Evangelical Presbyterian Church--Number of Congregations (2000)
+
+
+193) EVPRSAD
+Evangelical Presbyterian Church--Number of Adherents (2000)
+
+
+194) EVPRSRT
+Evangelical Presbyterian Church--Rates of adherence per 1000 population (2000)
+
+
+195) FLEVBCG
+Fellowship of Evangelical Bible Churches--Number of Congregations (2000)
+
+
+196) FLEVBAD
+Fellowship of Evangelical Bible Churches--Number of Adherents (2000)
+
+
+197) FLEVBRT
+Fellowship of Evangelical Bible Churches--Rates of adherence per 1000 population (2000)
+
+
+198) FRMTHCG
+Free Methodist Church of North America--Number of Congregations (2000)
+
+
+199) FRMTHAD
+Free Methodist Church of North America--Number of Adherents (2000)
+
+
+200) FRMTHRT
+Free Methodist Church of North America--Rates of adherence per 1000 population (2000)
+
+
+201) QUAKECG
+Friends (Quakers)--Number of Congregations (2000)
+
+
+202) QUAKEAD
+Friends (Quakers)--Number of Adherents (2000)
+
+
+203) QUAKERT
+Friends (Quakers)--Rates of adherence per 1000 population (2000)
+
+
+204) FNDMTCG
+Fundamental Methodist Conference, Inc.--Number of Congregations (2000)
+
+
+205) FNDMTAD
+Fundamental Methodist Conference, Inc.--Number of Adherents (2000)
+
+
+206) FNDMTRT
+Fundamental Methodist Conference, Inc.--Rates of adherence per 1000 population (2000)
+
+
+207) RGBAPCG
+General Association of Regular Baptist Churches--Number of Congregations (2000)
+
+
+208) RGBAPAD
+General Association of Regular Baptist Churches--Number of Adherents (2000)
+
+
+209) RGBAPRT
+General Association of Regular Baptist Churches--Rates of adherence per 1000 population (2000)
+
+
+210) GSIXBCG
+General Six Principle Baptists—Number of Congregations (2000)
+
+
+211) GSIXBAD
+General Six Principle Baptists—Number of Adherents (2000)
+
+
+212) GSIXBRT
+General Six Principle Baptists—Rates of adherence per 1000 population (2000)
+
+
+213) GRORACG
+Greek Orthodox Archdiocese of America—Number of Congregations (2000)
+
+
+214) GRORAAD
+Greek Orthodox Archdiocese of America--Number of Adherents (2000)
+
+
+215) GRORART
+Greek Orthodox Archdiocese of America--Rates of adherence per 1000 population (2000)
+
+
+216) GRORVCG
+Greek Orthodox Archdiocese of Vasiloupulis--Number of Congregations (2000)
+
+
+217) GRORVAD
+Greek Orthodox Archdiocese of Vasiloupulis--Number of Adherents (2000)
+
+
+218) GRORVRT
+Greek Orthodox Archdiocese of Vasiloupulis--Rates of adherence per 1000 population (2000)
+
+
+219) HINDUCG
+Hindus--Number of Congregations (2000)
+
+
+220) HINDUAD
+Hindus--Number of Adherents (2000)
+
+
+221) HINDURT
+Hindus--Rates of adherence per 1000 population (2000)
+
+
+222) HLYORCG
+Holy Orthodox Church in North America--Number of Congregations (2000)
+
+
+223) HLYORAD
+Holy Orthodox Church in North America--Number of Adherents (2000)
+
+
+224) HLYORRT
+Holy Orthodox Church in North America--Rates of adherence per 1000 population (2000)
+
+
+225) HUTTBCG
+Hutterian Brethren--Number of Congregations (2000)
+
+
+226) HUTTBAD
+Hutterian Brethren--Number of Adherents (2000)
+
+
+227) HUTTBRT
+Hutterian Brethren--Rates of adherence per 1000 population (2000)
+
+
+228) INFRBCG
+Independent Free Will Baptists Associations--Number of Congregations (2000)
+
+
+229) INFRBAD
+Independent Free Will Baptists Associations--Number of Adherents (2000)
+
+
+230) INFRBRT
+Independent Free Will Baptists Associations--Rates of adherence per 1000 population (2000)
+
+
+231) INDCHCG
+Independent, Charismatic Churches--Number of Congregations (2000)
+
+
+232) INDCHAD
+Independent, Charismatic Churches--Number of Adherents (2000)
+
+
+233) INDCHRT
+Independent, Charismatic Churches--Rates of adherence per 1000 population (2000)
+
+
+234) INDNCCG
+Independent, Non-Charismatic Churches--Number of Congregations (2000)
+
+
+235) INDNCAD
+Independent, Non-Charismatic Churches--Number of Adherents (2000)
+
+
+236) INDNCRT
+Independent, Non-Charismatic Churches--Rates of adherence per 1000 population (2000)
+
+
+237) INFSGCG
+International Church of the Foursquare Gospel--Number of Congregations (2000)
+
+
+238) INFSGAD
+International Church of the Foursquare Gospel--Number of Adherents (2000)
+
+
+239) INFSGRT
+International Church of the Foursquare Gospel--Rates of adherence per 1000 population (2000)
+
+
+240) INCHCCG
+International Churches of Christ--Number of Congregations (2000)
+
+
+241) INCHCAD
+International Churches of Christ--Number of Adherents (2000)
+
+
+242) INCHCRT
+International Churches of Christ--Rates of adherence per 1000 population (2000)
+
+
+243) INCCCCG
+International Council of Community Churches--Number of Congregations (2000)
+
+
+244) INCCCAD
+International Council of Community Churches--Number of Adherents (2000)
+
+
+245) INCCCRT
+International Council of Community Churches--Rates of adherence per 1000 population (2000)
+
+
+246) INPCCCG
+International Pentecostal Church of Christ--Number of Congregations (2000)
+
+
+247) INPCCAD
+International Pentecostal Church of Christ--Number of Adherents (2000)
+
+
+248) INPCCRT
+International Pentecostal Church of Christ--Rates of adherence per 1000 population (2000)
+
+
+249) PNTHOCG
+International Pentecostal Holiness Church--Number of Congregations (2000)
+
+
+250) PNTHOAD
+International Pentecostal Holiness Church--Number of Adherents (2000)
+
+
+251) PNTHORT
+International Pentecostal Holiness Church--Rates of adherence per 1000 population (2000)
+
+
+252) INTFBCG
+Interstate and Foreign Landmark Missionary Baptist Association--Number of Congregations (2000)
+
+
+253) INTFBAD
+Interstate and Foreign Landmark Missionary Baptist Association--Number of Adherents (2000)
+
+
+254) INTFBRT
+Interstate and Foreign Landmark Missionary Baptist Association--Rates of adherence per 1000 population (2000)
+
+
+255) JAINSCG
+Jains--Number of Congregations (2000)
+
+
+256) JAINSAD
+Jains--Number of Adherents (2000)
+
+
+257) JAINSRT
+Jains--Rates of adherence per 1000 population (2000)
+
+
+258) JSPBPCG
+Jasper Baptist and Pleasant Valley Baptist Association--Number of Congregations (2000)
+
+
+259) JSPBPAD
+Jasper Baptist and Pleasant Valley Baptist Association--Number of Adherents (2000)
+
+
+260) JSPBPRT
+Jasper Baptist and Pleasant Valley Baptist Association--Rates of adherence per 1000 population (2000)
+
+
+261) LNDBPCG
+Landmark Missionary Baptist, Independent Associations and Unaffiliated Churches--Number of Congregations (2000)
+
+
+262) LNDBPAD
+Landmark Missionary Baptist, Independent Associations and Unaffiliated Churches--Number of Adherents (2000)
+
+
+263) LNDBPRT
+Landmark Missionary Baptist, Independent Associations and Unaffiliated Churches--Rates of adherence per 1000 population (2000)
+
+
+264) LTHMSCG
+Lutheran Church--Missouri Synod--Number of Congregations (2000)
+
+
+265) LTHMSAD
+Lutheran Church--Missouri Synod--Number of Adherents (2000)
+
+
+266) LTHMSRT
+Lutheran Church--Missouri Synod--Rates of adherence per 1000 population (2000)
+
+
+267) MACORCG
+Macedonian Orthodox Church: American Diocese--Number of Congregations (2000)
+
+
+268) MACORAD
+Macedonian Orthodox Church: American Diocese--Number of Adherents (2000)
+
+
+269) MACORRT
+Macedonian Orthodox Church: American Diocese--Rates of adherence per 1000 population (2000)
+
+
+270) MLKSYCG
+Malankara Archdiocese, Syrian Orthodox Church in North America--Number of Congregations (2000)
+
+
+271) MLKSYAD
+Malankara Archdiocese, Syrian Orthodox Church in North America--Number of Adherents (2000)
+
+
+272) MLKSYRT
+Malankara Archdiocese, Syrian Orthodox Church in North America--Rates of adherence per 1000 population (2000)
+
+
+273) MLKADCG
+Malankara Orthodox Syrian Church, American Diocese--Number of Congregations (2000)
+
+
+274) MLKADAD
+Malankara Orthodox Syrian Church, American Diocese--Number of Adherents (2000)
+
+
+275) MLKADRT
+Malankara Orthodox Syrian Church, American Diocese--Rates of adherence per 1000 population (2000)
+
+
+276) MNBRUCG
+Mennonite Brethren Churches, U.S. Conference of--Number of Congregations (2000)
+
+
+277) MNBRUAD
+Mennonite Brethren Churches, U.S. Conference of--Number of Adherents (2000)
+
+
+278) MNBRURT
+Mennonite Brethren Churches, U.S. Conference of--Rates of adherence per 1000 population (2000)
+
+
+279) MENUSCG
+Mennonite Church USA--Number of Congregations (2000)
+
+
+280) MENUSAD
+Mennonite Church USA--Number of Adherents (2000)
+
+
+281) MENUSRT
+Mennonite Church USA--Rates of adherence per 1000 population (2000)
+
+
+282) MENOTCG
+Mennonite; Other Groups--Number of Congregations (2000)
+
+
+283) MENOTAD
+Mennonite; Other Groups--Number of Adherents (2000)
+
+
+284) MENOTRT
+Mennonite; Other Groups--Rates of adherence per 1000 population (2000)
+
+
+285) MXCCFCG
+Midwest Congregational Christian Fellowship--Number of Congregations (2000)
+
+
+286) MXCCFAD
+Midwest Congregational Christian Fellowship--Number of Adherents (2000)
+
+
+287) MXCCFRT
+Midwest Congregational Christian Fellowship--Rates of adherence per 1000 population (2000)
+
+
+288) MISCHCG
+Missionary Church--Number of Congregations (2000)
+
+
+289) MISCHAD
+Missionary Church--Number of Adherents (2000)
+
+
+290) MISCHRT
+Missionary Church--Rates of adherence per 1000 population (2000)
+
+
+291) MRVALCG
+Moravian Church in America--Alaska Province--Number of Congregations (2000)
+
+
+292) MRVALAD
+Moravian Church in America--Alaska Province--Number of Adherents (2000)
+
+
+293) MRVALRT
+Moravian Church in America--Alaska Province--Rates of adherence per 1000 population (2000)
+
+
+294) MRVNPCG
+Moravian Church in America--Northern Province--Number of Congregations (2000)
+
+
+295) MRVNPAD
+Moravian Church in America--Northern Province--Number of Adherents (2000)
+
+
+296) MRVNPRT
+Moravian Church in America--Northern Province--Rates of adherence per 1000 population (2000)
+
+
+297) MRVSPCG
+Moravian Church in America--Southern Province--Number of Congregations (2000)
+
+
+298) MRVSPAD
+Moravian Church in America--Southern Province--Number of Adherents (2000)
+
+
+299) MRVSPRT
+Moravian Church in America--Southern Province--Rates of adherence per 1000 population (2000)
+
+
+300) NACCCCG
+National Association of Congregational Christian Churches--Number of Congregations (2000)
+
+
+301) NACCCAD
+National Association of Congregational Christian Churches--Number of Adherents (2000)
+
+
+302) NACCCRT
+National Association of Congregational Christian Churches--Rates of adherence per 1000 population (2000)
+
+
+303) FRWBPCG
+National Association of Free Will Baptists--Number of Congregations (2000)
+
+
+304) FRWBPAD
+National Association of Free Will Baptists--Number of Adherents (2000)
+
+
+305) FRWBPRT
+National Association of Free Will Baptists--Rates of adherence per 1000 population (2000)
+
+
+306) NPBAPCG
+National Primitive Baptist Convention, USA--Number of Congregations (2000)
+
+
+307) NPBAPAD
+National Primitive Baptist Convention, USA--Number of Adherents (2000)
+
+
+308) NPBAPRT
+National Primitive Baptist Convention, USA--Rates of adherence per 1000 population (2000)
+
+
+309) NTHRFCG
+Netherlands Reformed Congregations--Number of Congregations (2000)
+
+
+310) NTHRFAD
+Netherlands Reformed Congregations--Number of Adherents (2000)
+
+
+311) NTHRFRT
+Netherlands Reformed Congregations--Rates of adherence per 1000 population (2000)
+
+
+312) NHBAPCG
+New Hope Baptist Association--Number of Congregations (2000)
+
+
+313) NHBAPAD
+New Hope Baptist Association--Number of Adherents (2000)
+
+
+314) NHBAPRT
+New Hope Baptist Association--Rates of adherence per 1000 population (2000)
+
+
+315) NTIBPCG
+New Testament Association Independent Baptist Churches/Other Fundamental Baptists--Number of Congregations (2000)
+
+
+316) NTIBPAD
+New Testament Association Independent Baptist Churches/Other Fundamental Baptists--Number of Adherents (2000)
+
+
+317) NTIBPRT
+New Testament Association Independent Baptist Churches/Other Fundamental Baptists--Rates of adherence per 1000 population (2000)
+
+
+318) NAMBPCG
+North American Baptist Conference--Number of Congregations (2000)
+
+
+319) NAMBPAD
+North American Baptist Conference--Number of Adherents (2000)
+
+
+320) NAMBPRT
+North American Baptist Conference--Rates of adherence per 1000 population (2000)
+
+
+321) OLDMBCG
+Old Missionary Baptists Associations--Number of Congregations (2000)
+
+
+322) OLDMBAD
+Old Missionary Baptists Associations--Number of Adherents (2000)
+
+
+323) OLDMBRT
+Old Missionary Baptists Associations--Rates of adherence per 1000 population (2000)
+
+
+324) OLDOACG
+Old Order Amish--Number of Congregations (2000)
+
+
+325) OLDOAAD
+Old Order Amish--Number of Adherents (2000)
+
+
+326) OLDOART
+Old Order Amish--Rates of adherence per 1000 population (2000)
+
+
+327) OLDOMCG
+Old Order Mennonite--Number of Congregations (2000)
+
+
+328) OLDOMAD
+Old Order Mennonite--Number of Adherents (2000)
+
+
+329) OLDOMRT
+Old Order Mennonite--Rates of adherence per 1000 population (2000)
+
+
+330) OLDRBCG
+Old Order River Brethren--Number of Congregations (2000)
+
+
+331) OLDRBAD
+Old Order River Brethren--Number of Adherents (2000)
+
+
+332) OLDRBRT
+Old Order River Brethren--Rates of adherence per 1000 population (2000)
+
+
+333) ORFWBCG
+Original Free Will Baptists--Number of Congregations (2000)
+
+
+334) ORFWBAD
+Original Free Will Baptists--Number of Adherents (2000)
+
+
+335) ORFWBRT
+Original Free Will Baptists--Rates of adherence per 1000 population (2000)
+
+
+336) ALORTCG
+Orthodox Church in America: Albanian Orthodox Archdiocese--Number of Congregations (2000)
+
+
+337) ALORTAD
+Orthodox Church in America: Albanian Orthodox Archdiocese--Number of Adherents (2000)
+
+
+338) ALORTRT
+Orthodox Church in America: Albanian Orthodox Archdiocese--Rates of adherence per 1000 population (2000)
+
+
+339) OCABDCG
+Orthodox Church in America: Bulgarian Diocese--Number of Congregations (2000)
+
+
+340) OCABDAD
+Orthodox Church in America: Bulgarian Diocese--Number of Adherents (2000)
+
+
+341) OCABDRT
+Orthodox Church in America: Bulgarian Diocese--Rates of adherence per 1000 population (2000)
+
+
+342) RMOEACG
+Orthodox Church in America: Romanian Orthodox Episcopate of America--Number of Congregations (2000)
+
+
+343) RMOEAAD
+Orthodox Church in America: Romanian Orthodox Episcopate of America--Number of Adherents (2000)
+
+
+344) RMOEART
+Orthodox Church in America: Romanian Orthodox Episcopate of America--Rates of adherence per 1000 population (2000)
+
+
+345) OCATDCG
+Orthodox Church in America: Territorial Dioceses--Number of Congregations (2000)
+
+
+346) OCATDAD
+Orthodox Church in America: Territorial Dioceses--Number of Adherents (2000)
+
+
+347) OCATDRT
+Orthodox Church in America: Territorial Dioceses--Rates of adherence per 1000 population (2000)
+
+
+348) ORPRSCG
+Orthodox Presbyterian Church--Number of Congregations (2000)
+
+
+349) ORPRSAD
+Orthodox Presbyterian Church--Number of Adherents (2000)
+
+
+350) ORPRSRT
+Orthodox Presbyterian Church--Rates of adherence per 1000 population (2000)
+
+
+351) ROUSACG
+Patriarchal Parishes of the Russian Orthodox Church in the USA--Number of Congregations (2000)
+
+
+352) ROUSAAD
+Patriarchal Parishes of the Russian Orthodox Church in the USA--Number of Adherents (2000)
+
+
+353) ROUSART
+Patriarchal Parishes of the Russian Orthodox Church in the USA--Rates of adherence per 1000 population (2000)
+
+
+354) PNTCGCG
+Pentecostal Church of God--Number of Congregations (2000)
+
+
+355) PNTCGAD
+Pentecostal Church of God--Number of Adherents (2000)
+
+
+356) PNTCGRT
+Pentecostal Church of God--Rates of adherence per 1000 population (2000)
+
+
+357) PRUSACG
+Presbyterian Church (USA)--Number of Congregations (2000)
+
+
+358) PRUSAAD
+Presbyterian Church (USA)--Number of Adherents (2000)
+
+
+359) PRUSART
+Presbyterian Church (USA)--Rates of adherence per 1000 population (2000)
+
+
+360) PRAMCG
+Presbyterian Church in America--Number of Congregations (2000)
+
+
+361) PRAMAD
+Presbyterian Church in America--Number of Adherents (2000)
+
+
+362) PRAMRT
+Presbyterian Church in America--Rates of adherence per 1000 population (2000)
+
+
+363) PRIBCCG
+Primitive Baptist Church, The--Number of Congregations (2000)
+
+
+364) PRIBCAD
+Primitive Baptist Church, The--Number of Adherents (2000)
+
+
+365) PRIBCRT
+Primitive Baptist Church, The--Rates of adherence per 1000 population (2000)
+
+
+366) PRIBECG
+Primitive Baptist, East District Association of--Number of Congregations (2000)
+
+
+367) PRIBEAD
+Primitive Baptist, East District Association of--Number of Adherents (2000)
+
+
+368) PRIBERT
+Primitive Baptist, East District Association of--Rates of adherence per 1000 population (2000)
+
+
+369) PRIMTCG
+Primitive Methodist Church in the USA--Number of Congregations (2000)
+
+
+370) PRIMTAD
+Primitive Methodist Church in the USA--Number of Adherents (2000)
+
+
+371) PRIMTRT
+Primitive Methodist Church in the USA--Rates of adherence per 1000 population (2000)
+
+
+372) PROPBCG
+Progressive Primitive Baptists--Number of Congregations (2000)
+
+
+373) PROPBAD
+Progressive Primitive Baptists--Number of Adherents (2000)
+
+
+374) PROPBRT
+Progressive Primitive Baptists--Rates of adherence per 1000 population (2000)
+
+
+375) PREFCCG
+Protestant Reformed Churches in America--Number of Congregations (2000)
+
+
+376) PREFCAD
+Protestant Reformed Churches in America--Number of Adherents (2000)
+
+
+377) PREFCRT
+Protestant Reformed Churches in America--Rates of adherence per 1000 population (2000)
+
+
+378) RFBAPCG
+Reformed Baptist Churches--Number of Congregations (2000)
+
+
+379) RFBAPAD
+Reformed Baptist Churches--Number of Adherents (2000)
+
+
+380) RFBAPRT
+Reformed Baptist Churches--Rates of adherence per 1000 population (2000)
+
+
+381) RFCHACG
+Reformed Church in America--Number of Congregations (2000)
+
+
+382) RFCHAAD
+Reformed Church in America--Number of Adherents (2000)
+
+
+383) RFCHART
+Reformed Church in America--Rates of adherence per 1000 population (2000)
+
+
+384) RFCHUCG
+Reformed Church in the United States--Number of Congregations (2000)
+
+
+385) RFCHUAD
+Reformed Church in the United States--Number of Adherents (2000)
+
+
+386) RFCHURT
+Reformed Church in the United States--Rates of adherence per 1000 population (2000)
+
+
+387) RFMENCG
+Reformed Mennonite Church--Number of Congregations (2000)
+
+
+388) RFMENAD
+Reformed Mennonite Church--Number of Adherents (2000)
+
+
+389) RFMENRT
+Reformed Mennonite Church--Rates of adherence per 1000 population (2000)
+
+
+390) RMOACCG
+Romanian Orthodox Archdiocese in America and Canada--Number of Congregations (2000)
+
+
+391) RMOACAD
+Romanian Orthodox Archdiocese in America and Canada--Number of Adherents (2000)
+
+
+392) RMOACRT
+Romanian Orthodox Archdiocese in America and Canada--Rates of adherence per 1000 population (2000)
+
+
+393) ROORCG
+Russian Orthodox Church Outside of Russia--Number of Congregations (2000)
+
+
+394) ROORAD
+Russian Orthodox Church Outside of Russia--Number of Adherents (2000)
+
+
+395) ROORRT
+Russian Orthodox Church Outside of Russia--Rates of adherence per 1000 population (2000)
+
+
+396) SALARCG
+Salvation Army--Number of Congregations (2000)
+
+
+397) SALARAD
+Salvation Army--Number of Adherents (2000)
+
+
+398) SALARRT
+Salvation Army--Rates of adherence per 1000 population (2000)
+
+
+399) SEPBPCG
+Separate Baptists in Christ--Number of Congregations (2000)
+
+
+400) SEPBPAD
+Separate Baptists in Christ--Number of Adherents (2000)
+
+
+401) SEPBPRT
+Separate Baptists in Christ--Rates of adherence per 1000 population (2000)
+
+
+402) SRBGMCG
+Serbian Orthodox Church USA (New Gracanica Metropolitanate)--Number of Congregations (2000)
+
+
+403) SRBGMAD
+Serbian Orthodox Church USA (New Gracanica Metropolitanate)--Number of Adherents (2000)
+
+
+404) SRBGMRT
+Serbian Orthodox Church USA (New Gracanica Metropolitanate)--Rates of adherence per 1000 population (2000)
+
+
+405) SRBUSCG
+Serbian Orthodox Church in the USA--Number of Congregations (2000)
+
+
+406) SRBUSAD
+Serbian Orthodox Church in the USA--Number of Adherents (2000)
+
+
+407) SRBUSRT
+Serbian Orthodox Church in the USA--Rates of adherence per 1000 population (2000)
+
+
+408) SEVADCG
+Seventh-Day Adventist Church--Number of Congregations (2000)
+
+
+409) SEVADAD
+Seventh-Day Adventist Church--Number of Adherents (2000)
+
+
+410) SEVADRT
+Seventh-Day Adventist Church--Rates of adherence per 1000 population (2000)
+
+
+411) SIKHSCG
+Sikhs--Number of Congregations (2000)
+
+
+412) SIKHSAD
+Sikhs--Number of Adherents (2000)
+
+
+413) SIKHSRT
+Sikhs--Rates of adherence per 1000 population (2000)
+
+
+414) SBCCG
+Southern Baptist Convention--Number of Congregations (2000)
+
+
+415) SBCAD
+Southern Baptist Convention--Number of Adherents (2000)
+
+
+416) SBCRT
+Southern Baptist Convention--Rates of adherence per 1000 population (2000)
+
+
+417) SWBPFCG
+Southwide Baptist Fellowship--Number of Congregations (2000)
+
+
+418) SWBPFAD
+Southwide Baptist Fellowship--Number of Adherents (2000)
+
+
+419) SWBPFRT
+Southwide Baptist Fellowship--Rates of adherence per 1000 population (2000)
+
+
+420) STRBPCG
+Strict Baptists--Number of Congregations (2000)
+
+
+421) STRBPAD
+Strict Baptists--Number of Adherents (2000)
+
+
+422) STRBPRT
+Strict Baptists--Rates of adherence per 1000 population (2000)
+
+
+423) SYRANCG
+Syrian Orthodox Church of Antioch--Number of Congregations (2000)
+
+
+424) SYRANAD
+Syrian Orthodox Church of Antioch--Number of Adherents (2000)
+
+
+425) SYRANRT
+Syrian Orthodox Church of Antioch--Rates of adherence per 1000 population (2000)
+
+
+426) TAOCG
+Taoists--Number of Congregations (2000)
+
+
+427) TAOAD
+Taoists--Number of Adherents (2000)
+
+
+428) TAOCRT
+Taoists--Rates of adherence per 1000 population (2000)
+
+
+429) TWOSDCG
+Two-Seed-in-the-Spirit Predestinarian Baptists--Number of Congregations (2000)
+
+
+430) TWOSDAD
+Two-Seed-in-the-Spirit Predestinarian Baptists--Number of Adherents (2000)
+
+
+431) TWOSDRT
+Two-Seed-in-the-Spirit Predestinarian Baptists--Rates of adherence per 1000 population (2000)
+
+
+432) UKORTCG
+Ukranian Orthodox Church of the USA--Number of Congregations (2000)
+
+
+433) UKORTAD
+Ukranian Orthodox Church of the USA--Number of Adherents (2000)
+
+
+434) UKORTRT
+Ukranian Orthodox Church of the USA--Rates of adherence per 1000 population (2000)
+
+
+435) UNIUNCG
+Unitarian Universalist Association--Number of Congregations (2000)
+
+
+436) UNIUNAD
+Unitarian Universalist Association--Number of Adherents (2000)
+
+
+437) UNIUNRT
+Unitarian Universalist Association--Rates of adherence per 1000 population (2000)
+
+
+438) UCCCG
+United Church of Christ--Number of Congregations (2000)
+
+
+439) UCCAD
+United Church of Christ--Number of Adherents (2000)
+
+
+440) UCCRT
+United Church of Christ--Rates of adherence per 1000 population (2000)
+
+
+441) UMETHCG
+United Methodist Church--Number of Congregations (2000)
+
+
+442) UMETHAD
+United Methodist Church--Number of Adherents (2000)
+
+
+443) UMETHRT
+United Methodist Church--Rates of adherence per 1000 population (2000)
+
+
+444) URFCHCG
+United Reformed Churches in North America--Number of Congregations (2000)
+
+
+445) URFCHAD
+United Reformed Churches in North America--Number of Adherents (2000)
+
+
+446) URFCHRT
+United Reformed Churches in North America--Rates of adherence per 1000 population (2000)
+
+
+447) METCHCG
+Universal Fellowship of Metropolitan Community Churches--Number of Congregations (2000)
+
+
+448) METCHAD
+Universal Fellowship of Metropolitan Community Churches--Number of Adherents (2000)
+
+
+449) METCHRT
+Universal Fellowship of Metropolitan Community Churches--Rates of adherence per 1000 population (2000)
+
+
+450) VINECG
+Vineyard USA--Number of Congregations (2000)
+
+
+451) VINEAD
+Vineyard USA--Number of Adherents (2000)
+
+
+452) VINERT
+Vineyard USA--Rates of adherence per 1000 population (2000)
+
+
+453) WYNMBCG
+Wayne Trail Missionary Baptist Association--Number of Congregations (2000)
+
+
+454) WYNMBAD
+Wayne Trail Missionary Baptist Association--Number of Adherents (2000)
+
+
+455) WYNMBRT
+Wayne Trail Missionary Baptist Association--Rates of adherence per 1000 population (2000)
+
+
+456) WESLYCG
+Wesleyan Church, The--Number of Congregations (2000)
+
+
+457) WESLYAD
+Wesleyan Church, The--Number of Adherents (2000)
+
+
+458) WESLYRT
+Wesleyan Church, The--Rates of adherence per 1000 population (2000)
+
+
+459) WELSCG
+Wisconsin Evangelical Lutheran Synod--Number of Congregations (2000)
+
+
+460) WELSAD
+Wisconsin Evangelical Lutheran Synod--Number of Adherents (2000)
+
+
+461) WELSRT
+Wisconsin Evangelical Lutheran Synod--Rates of adherence per 1000 population (2000)
+
+
+462) ZOARCG
+Zoroastrians--Number of Congregations (2000)
+
+
+463) ZOARAD
+Zoroastrians--Number of Adherents (2000)
+
+
+464) ZOARRT
+Zoroastrians--Rates of adherence per 1000 population (2000)
+
+
+465) POP200
+Popolation 2000
+
+
+466) FIP
+FIPS Code
+
+
+467) STCOD
+State Code
+
+
+468) CTYCOD
+County Code
+
+
+469) STATE
+State Name
+
+
+470) COUNTY
+County Name
+
+
+471) STATEAB
+State Abbreviation
+
+

@@ -1,0 +1,938 @@
+Data File: CMS52CNT(Description Only Codebook)
+
+1) CNAME
+County Name
+
+
+2) STCODE
+State Census Code
+
+
+3) CCODE
+County Census Code
+
+
+4) TOTPOP
+Total Population--1950
+
+
+5) TOTMEMB
+Total number of members--1952
+
+
+6) TOTCHUR
+Total Number of churches--1952
+
+
+7) SDA_M
+Number of members (1952)--Seventh-day Adventists
+
+
+8) SDA_C
+Number of churches (1952)--Seventh-day Adventists
+
+
+9) AOG_M
+Number of members (1952)--Assemblies of God
+
+
+10) AOG_C
+Number of churches (1952)--Assemblies of God
+
+
+11) ABC_M
+Number of members (1952)--American Baptist Convention
+
+
+12) ABC_C
+Number of churches (1952)--American Baptist Convention
+
+
+13) SBC_M
+Number of members (1952)--Southern Baptist Convention
+
+
+14) SBC_C
+Number of churches (1952)--Southern Baptist Convention
+
+
+15) COB_M
+Number of members (1952)--Church of the Brethren
+
+
+16) COB_C
+Number of churches (1952)--Church of the Brethren
+
+
+17) COGT_M
+Number of members (1952)--Church of God (Cleveland, Tennessee)
+
+
+18) COGT_C
+Number of churches (1952)--Church of God (Cleveland, Tennessee)
+
+
+19) COGI_M
+Number of members (1952)--Church of God (Anderson, Indiana)
+
+
+20) COGI_C
+Number of churches (1952)--Church of God (Anderson, Indiana)
+
+
+21) CGC_M
+Number of members (1952)--Church of God in Christ
+
+
+22) CGC_C
+Number of churches (1952)--Church of God in Christ
+
+
+23) NAZRN_M
+Number of members (1952)--Church of the Nazarene
+
+
+24) NAZRN_C
+Number of churches (1952)--Church of the Nazarene
+
+
+25) CCC_M
+Number of members (1952)--Congregational Christian Churches
+
+
+26) CCC_C
+Number of churches (1952)--Congregational Christian Churches
+
+
+27) DOCIC_M
+Number of members (1952)--Disciples of Christ International Convention
+
+
+28) DOCIC_C
+Number of churches (1952)--Disciples of Christ International Convention
+
+
+29) ARAPO_M
+Number of members (1952)--Armenian Apostolic Orthodox Church of America
+
+
+30) ARAPO_C
+Number of churches (1952)--Armenian Apostolic Orthodox Church of America
+
+
+31) GRKAD_M
+Number of members (1952)--Greek Orthodox Archdiocese of North and South America
+
+
+32) GRKAD_C
+Number of churches (1952)--Greek Orthodox Archdiocese of North and South America
+
+
+33) ERC_M
+Number of members (1952)--Evangelical and Reformed Church
+
+
+34) ERC_C
+Number of churches (1952)--Evangelical and Reformed Church
+
+
+35) EUBC_M
+Number of members (1952)--Evangelical United Brethren Church
+
+
+36) EUBC_C
+Number of churches (1952)--Evangelical United Brethren Church
+
+
+37) JEWS_M
+Number of members (1952)--Jewish Congregations
+
+
+38) JEWS_C
+Number of churches (1952)--Jewish Congregations
+
+
+39) LDS_M
+Number of members (1952)--Church of Jesus Christ Latter-day Saints
+
+
+40) LDS_C
+Number of churches (1952)--Church of Jesus Christ Latter-day Saints
+
+
+41) RLDS_M
+Number of members (1952)--Reorganized Church Of Jesus Christ of Latter Day Saints
+
+
+42) RLDS_C
+Number of churches (1952)--Reorganized Church Of Jesus Christ of Latter Day Saints
+
+
+43) ALUTH_M
+Number of members (1952)--American Lutheran Church
+
+
+44) ALUTH_C
+Number of churches (1952)--American Lutheran Church
+
+
+45) AELC_M
+Number of members (1952)--Augustana Evangelical Lutheran Church
+
+
+46) AELC_C
+Number of churches (1952)--Augustana Evangelical Lutheran Church
+
+
+47) ELCA_M
+Number of members (1952)--Evangelical Lutheran Church
+
+
+48) ELCA_C
+Number of churches (1952)--Evangelical Lutheran Church
+
+
+49) LCMS_M
+Number of members (1952)--Lutheran Church-Missouri Synod
+
+
+50) LCMS_C
+Number of churches (1952)--Lutheran Church-Missouri Synod
+
+
+51) LUWS_M
+Number of members (1952)--Evangelical Lutheran Joint Synod of Wisconsin & Other States
+
+
+52) LUWS_C
+Number of churches (1952)--Evangelical Lutheran Joint Synod of Wisconsin & Other States
+
+
+53) ULCA_M
+Number of members (1952)--United Lutheran Church in America
+
+
+54) ULCA_C
+Number of churches (1952)--United Lutheran Church in America
+
+
+55) METH_M
+Number of members (1952)--The Methodist Church
+
+
+56) METH_C
+Number of churches (1952)--The Methodist Church
+
+
+57) PCUS_M
+Number of members (1952)--Presbyterian Church in the U.S.
+
+
+58) PCUS_C
+Number of churches (1952)--Presbyterian Church in the U.S.
+
+
+59) PCUSA_M
+Number of members (1952)--Presbyterian Church in the U.S.A.
+
+
+60) PCUSA_C
+Number of churches (1952)--Presbyterian Church in the U.S.A.
+
+
+61) UPCNA_M
+Number of members (1952)--United Presbyterian Church of North America
+
+
+62) UPCNA_C
+Number of churches (1952)--United Presbyterian Church of North America
+
+
+63) EPISC_M
+Number of members (1952)--Protestant Episcopal Church
+
+
+64) EPISC_C
+Number of churches (1952)--Protestant Episcopal Church
+
+
+65) CRC_M
+Number of members (1952)--Christian Reformed Church
+
+
+66) CRC_C
+Number of churches (1952)--Christian Reformed Church
+
+
+67) RCA_M
+Number of members (1952)--Reformed Church in America
+
+
+68) RCA_C
+Number of churches (1952)--Reformed Church in America
+
+
+69) CATH_M
+Number of members (1952)--Roman Catholic Church
+
+
+70) CATH_C
+Number of churches (1952)--Roman Catholic Church
+
+
+71) ACC_M
+Number of members (1952)--Advent Christian Church
+
+
+72) ACC_C
+Number of churches (1952)--Advent Christian Church
+
+
+73) LAU_M
+Number of members (1952)--Life and Advent Union
+
+
+74) LAU_C
+Number of churches (1952)--Life and Advent Union
+
+
+75) AMANA_M
+Number of members (1952)--Amana Church Society
+
+
+76) AMANA_C
+Number of churches (1952)--Amana Church Society
+
+
+77) BAHAI_M
+Number of members (1952)--Baha'i Faith
+
+
+78) BAHAI_C
+Number of churches (1952)--Baha'i Faith
+
+
+79) BAPGC_M
+Number of members (1952)--Baptist General Conference of America
+
+
+80) BAPGC_C
+Number of churches (1952)--Baptist General Conference of America
+
+
+81) CUBA_M
+Number of members (1952)--Christian Unity Baptist Association
+
+
+82) CUBA_C
+Number of churches (1952)--Christian Unity Baptist Association
+
+
+83) NABGC_M
+Number of members (1952)--North American Baptist General Conference
+
+
+84) NABGC_C
+Number of churches (1952)--North American Baptist General Conference
+
+
+85) SDBGC_M
+Number of members (1952)--Seventh Day Baptist General Conference
+
+
+86) SDBGC_C
+Number of churches (1952)--Seventh Day Baptist General Conference
+
+
+87) UNBAP_M
+Number of members (1952)--United Baptists
+
+
+88) UNBAP_C
+Number of churches (1952)--United Baptists
+
+
+89) BPC_M
+Number of members (1952)--Bible Protestant Church
+
+
+90) BPC_C
+Number of churches (1952)--Bible Protestant Church
+
+
+91) BRETO_M
+Number of members (1952)--Brethren Church (Ashland Ohio)
+
+
+92) BRETO_C
+Number of churches (1952)--Brethren Church (Ashland Ohio)
+
+
+93) BRETP_M
+Number of members (1952)--Brethren Church (Progressive)
+
+
+94) BRETP_C
+Number of churches (1952)--Brethren Church (Progressive)
+
+
+95) COGDU_M
+Number of members (1952)--Church of God (New Dunkards)
+
+
+96) COGDU_C
+Number of churches (1952)--Church of God (New Dunkards)
+
+
+97) PLYBR_M
+Number of members (1952)--Plymouth Brethren
+
+
+98) PLYBR_C
+Number of churches (1952)--Plymouth Brethren
+
+
+99) BRCHR_M
+Number of members (1952)--Brethren in Christ
+
+
+100) BRCHR_C
+Number of churches (1952)--Brethren in Christ
+
+
+101) COCUS_M
+Number of members (1952)--Church of Christ (Holiness) U.S.A.
+
+
+102) COCUS_C
+Number of churches (1952)--Church of Christ (Holiness) U.S.A.
+
+
+103) NJUSA_M
+Number of members (1952)--General Convention of the New Jerusalem in the U.S.A.
+
+
+104) NJUSA_C
+Number of churches (1952)--General Convention of the New Jerusalem in the U.S.A.
+
+
+105) GCNJ_M
+Number of members (1952)--General Church of the New Jerusalem
+
+
+106) GCNJ_C
+Number of churches (1952)--General Church of the New Jerusalem
+
+
+107) DIVSC_M
+Number of members (1952)--Divine Science Church
+
+
+108) DIVSC_C
+Number of churches (1952)--Divine Science Church
+
+
+109) ACROC_M
+Number of members (1952)--American Carpatho-Russian Orthodox Greek Catholic Church
+
+
+110) ACROC_C
+Number of churches (1952)--American Carpatho-Russian Orthodox Greek Catholic Church
+
+
+111) BEOC_M
+Number of members (1952)--Bulgarian Eastern Orthodox Church
+
+
+112) BEOC_C
+Number of churches (1952)--Bulgarian Eastern Orthodox Church
+
+
+113) ECC_M
+Number of members (1952)--Evangelical Congregational Church
+
+
+114) ECC_C
+Number of churches (1952)--Evangelical Congregational Church
+
+
+115) EFCA_M
+Number of members (1952)--Evangelical Free Church of America
+
+
+116) EFCA_C
+Number of churches (1952)--Evangelical Free Church of America
+
+
+117) EMCCA_M
+Number of members (1952)--Evangelical Mission Covenant Church of America
+
+
+118) EMCCA_C
+Number of churches (1952)--Evangelical Mission Covenant Church of America
+
+
+119) ACCA_M
+Number of members (1952)--Apostolic Christian Church of America
+
+
+120) ACCA_C
+Number of churches (1952)--Apostolic Christian Church of America
+
+
+121) COG_M
+Number of members (1952)--Church of God
+
+
+122) COG_C
+Number of churches (1952)--Church of God
+
+
+123) MISSB_M
+Number of members (1952)--Missionary Bands of the World, Inc.
+
+
+124) MISSB_C
+Number of churches (1952)--Missionary Bands of the World, Inc.
+
+
+125) MCA_M
+Number of members (1952)--Missionary Church Association
+
+
+126) MCA_C
+Number of churches (1952)--Missionary Church Association
+
+
+127) RSFC_M
+Number of members (1952)--Religious Society of Friends (Conservative)
+
+
+128) RSFC_C
+Number of churches (1952)--Religious Society of Friends (Conservative)
+
+
+129) RSFGC_M
+Number of members (1952)--Religious Society of Friends (General Conference)
+
+
+130) RSFGC_C
+Number of churches (1952)--Religious Society of Friends (General Conference)
+
+
+131) RSFF_M
+Number of members (1952)--Religious Society of Friends (Five Yrs. Mtg.)
+
+
+132) RSFF_C
+Number of churches (1952)--Religious Society of Friends (Five Yrs. Mtg.)
+
+
+133) RSFPV_M
+Number of members (1952)--Religious Society of Friends (Philadelphia and Vicinity)
+
+
+134) RSFPV_C
+Number of churches (1952)--Religious Society of Friends (Philadelphia and Vicinity)
+
+
+135) CYMF_M
+Number of members (1952)--Central Yearly Meeting of Friends
+
+
+136) CYMF_C
+Number of churches (1952)--Central Yearly Meeting of Friends
+
+
+137) OYMFC_M
+Number of members (1952)--Oregon Yearly Meeting of Friends Church
+
+
+138) OYMFC_C
+Number of churches (1952)--Oregon Yearly Meeting of Friends Church
+
+
+139) UCAMM_M
+Number of members (1952)--Unaffiliated Conservative Amish Mennonite Church
+
+
+140) UCAMM_C
+Number of churches (1952)--Unaffiliated Conservative Amish Mennonite Church
+
+
+141) FSQU_M
+Number of members (1952)--International Church of the Foursquare Gospel
+
+
+142) FSQU_C
+Number of churches (1952)--International Church of the Foursquare Gospel
+
+
+143) BICK_M
+Number of members (1952)--The Church of Jesus Christ (Bickertonites)
+
+
+144) BICK_C
+Number of churches (1952)--The Church of Jesus Christ (Bickertonites)
+
+
+145) CUTLR_M
+Number of members (1952)--Church of Jesus Christ (Cutlerites)
+
+
+146) CUTLR_C
+Number of churches (1952)--Church of Jesus Christ (Cutlerites)
+
+
+147) UELC_M
+Number of members (1952)--United Evangelical Lutheran Church
+
+
+148) UELC_C
+Number of churches (1952)--United Evangelical Lutheran Church
+
+
+149) SELC_M
+Number of members (1952)--The Slovak Evangelical Lutheran Church
+
+
+150) SELC_C
+Number of churches (1952)--The Slovak Evangelical Lutheran Church
+
+
+151) NEGM_M
+Number of members (1952)--Negro Missions
+
+
+152) NEGM_C
+Number of churches (1952)--Negro Missions
+
+
+153) LUTHB_M
+Number of members (1952)--Church of the Lutheran Brethren of America
+
+
+154) LUTHB_C
+Number of churches (1952)--Church of the Lutheran Brethren of America
+
+
+155) AELC_M2
+Number of members (1952)--American Evangelical Lutheran Church
+
+
+156) AELC_C2
+Number of churches (1952)--American Evangelical Lutheran Church
+
+
+157) LUTHES_M
+Number of members (1952)--Evangelical Lutheran Church in America (Eilsen Synod)
+
+
+158) LUTHES_C
+Number of churches (1952)--Evangelical Lutheran Church in America (Eilsen Synod)
+
+
+159) FINNL_M
+Number of members (1952)--Finnish Apostolic Lutheran Church of America
+
+
+160) FINNL_C
+Number of churches (1952)--Finnish Apostolic Lutheran Church of America
+
+
+161) FINNS_M
+Number of members (1952)--Finnish Evangelical Lutheran Church (Suomi Synod)
+
+
+162) FINNS_C
+Number of churches (1952)--Finnish Evangelical Lutheran Church (Suomi Synod)
+
+
+163) EVMEN_M
+Number of members (1952)--Conference of the Evangelical Mennonite Church
+
+
+164) EVMEN_C
+Number of churches (1952)--Conference of the Evangelical Mennonite Church
+
+
+165) COMEN_M
+Number of members (1952)--Conservative Mennonite Conference
+
+
+166) COMEN_C
+Number of churches (1952)--Conservative Mennonite Conference
+
+
+167) HUTTB_M
+Number of members (1952)--Hutterian Brethren
+
+
+168) HUTTB_C
+Number of churches (1952)--Hutterian Brethren
+
+
+169) MENB_M
+Number of members (1952)--Mennonite Brethren Church of North America
+
+
+170) MENB_C
+Number of churches (1952)--Mennonite Brethren Church of North America
+
+
+171) MENN_M
+Number of members (1952)--Mennonite Church
+
+
+172) MENN_C
+Number of churches (1952)--Mennonite Church
+
+
+173) OOAMC_M
+Number of members (1952)--Old Order Amish Mennonite Church
+
+
+174) OOAMC_C
+Number of churches (1952)--Old Order Amish Mennonite Church
+
+
+175) OOMEN_M
+Number of members (1952)--Old Order (Wisler) Mennonite Church
+
+
+176) OOMEN_C
+Number of churches (1952)--Old Order (Wisler) Mennonite Church
+
+
+177) MENRE_M
+Number of members (1952)--Reformed Mennonite Church
+
+
+178) MENRE_C
+Number of churches (1952)--Reformed Mennonite Church
+
+
+179) STMEN_M
+Number of members (1952)--Stauffer Mennonite Church
+
+
+180) STMEN_C
+Number of churches (1952)--Stauffer Mennonite Church
+
+
+181) UMISS_M
+Number of members (1952)--United Missionary Church
+
+
+182) UMISS_C
+Number of churches (1952)--United Missionary Church
+
+
+183) FMETH_M
+Number of members (1952)--Free Methodist Church of North America
+
+
+184) FMETH_C
+Number of churches (1952)--Free Methodist Church of North America
+
+
+185) HMETH_M
+Number of members (1952)--Holiness Methodist Church
+
+
+186) HMETH_C
+Number of churches (1952)--Holiness Methodist Church
+
+
+187) LRMET_M
+Number of members (1952)--Lumber River Annual Conference of the Holiness Methodist Church
+
+
+188) LRMET_C
+Number of churches (1952)--Lumber River Annual Conference of the Holiness Methodist Church
+
+
+189) PRMET_M
+Number of members (1952)--Primitive Methodist Church U.S.A.
+
+
+190) PRMET_C
+Number of churches (1952)--Primitive Methodist Church U.S.A.
+
+
+191) PRFRN_M
+Number of members (1952)--Pacific Yearly Meeting of Friends
+
+
+192) PRFRN_C
+Number of churches (1952)--Pacific Yearly Meeting of Friends
+
+
+193) ZUAC_M
+Number of members (1952)--Reformed Zion Union Apostolic Church
+
+
+194) ZUAC_C
+Number of churches (1952)--Reformed Zion Union Apostolic Church
+
+
+195) WESLN_M
+Number of members (1952)--Wesleyan Methodist Church of America
+
+
+196) WESLN_C
+Number of churches (1952)--Wesleyan Methodist Church of America
+
+
+197) BOHMN_M
+Number of members (1952)--Bohemian and Moravian Brethren
+
+
+198) BOHMN_C
+Number of churches (1952)--Bohemian and Moravian Brethren
+
+
+199) MORAV_M
+Number of members (1952)--Moravian Church in America (Unitas Fratrum)
+
+
+200) MORAV_C
+Number of churches (1952)--Moravian Church in America (Unitas Fratrum)
+
+
+201) OCATH_M
+Number of members (1952)--Old Catholic Church in America
+
+
+202) OCATH_C
+Number of churches (1952)--Old Catholic Church in America
+
+
+203) OBSC_M
+Number of members (1952)--Open Bible Standard Churches, Inc.
+
+
+204) OBSC_C
+Number of churches (1952)--Open Bible Standard Churches, Inc.
+
+
+205) PENT_M
+Number of members (1952)--Pentecostal Church of God of America
+
+
+206) PENT_C
+Number of churches (1952)--Pentecostal Church of God of America
+
+
+207) PENTH_M
+Number of members (1952)--The Pentecostal Holiness Church
+
+
+208) PENTH_C
+Number of churches (1952)--The Pentecostal Holiness Church
+
+
+209) PILGH_M
+Number of members (1952)--Pilgrim Holiness Church
+
+
+210) PILGH_C
+Number of churches (1952)--Pilgrim Holiness Church
+
+
+211) ARRPS_M
+Number of members (1952)--Associate Presbyterian Church of North America
+
+
+212) ARRPS_C
+Number of churches (1952)--Associate Presbyterian Church of North America
+
+
+213) CPCH_M
+Number of members (1952)--Cumberland Presbyterian Church
+
+
+214) CPCH_C
+Number of churches (1952)--Cumberland Presbyterian Church
+
+
+215) RECH_M
+Number of members (1952)--Reformed Episcopal Church
+
+
+216) RECH_C
+Number of churches (1952)--Reformed Episcopal Church
+
+
+217) SOCBR_M
+Number of members (1952)--Social Brethren
+
+
+218) SOCBR_C
+Number of churches (1952)--Social Brethren
+
+
+219) NSAC_M
+Number of members (1952)--National Spiritualist Assn. of Churches
+
+
+220) NSAC_C
+Number of churches (1952)--National Spiritualist Assn. of Churches
+
+
+221) UNCHU_M
+Number of members (1952)--Unitarian Church
+
+
+222) UNCHU_C
+Number of churches (1952)--Unitarian Church
+
+
+223) UBC_M
+Number of members (1952)--United Brethren in Christ
+
+
+224) UBC_C
+Number of churches (1952)--United Brethren in Christ
+
+
+225) UCHRC_M
+Number of members (1952)--United Christian Church
+
+
+226) UCHRC_C
+Number of churches (1952)--United Christian Church
+
+
+227) UCA_M
+Number of members (1952)--Universalist Church of America
+
+
+228) UCA_C
+Number of churches (1952)--Universalist Church of America
+
+
+229) VEDS_M
+Number of members (1952)--Vedanta Society
+
+
+230) VEDS_C
+Number of churches (1952)--Vedanta Society
+
+
+231) VLNTR_M
+Number of members (1952)--Volunteers of America
+
+
+232) VLNTR_C
+Number of churches (1952)--Volunteers of America
+
+
+233) CGP_M
+Number of members (1952)--Church of God of Prophecy
+
+
+234) CGP_C
+Number of churches (1952)--Church of God of Prophecy
+
+

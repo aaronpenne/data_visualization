@@ -1,0 +1,2702 @@
+Data File: 1890CENSCT(Description Only Codebook)
+
+1) CNTYNAME
+County name
+
+
+2) STATE
+State name
+
+
+3) STATCODE
+State code
+
+
+4) ADVCHORG
+Number of Advent Christian Church organizations, 1890
+
+
+5) ADVCHEDF
+Number of Advent Christian Church edifices, 1890
+
+
+6) ADVCHSCA
+Approximate seating capacity of Advent Christian churches, 1890
+
+
+7) ADVCHPRP
+Value of Advent Christian Church property, 1890
+
+
+8) ADVCHMEM
+Number of Advent Christian Church communicants or members, 1890
+
+
+9) SDAYORG
+Number of Seventh-day Adventist Church organizations, 1890
+
+
+10) SDAYEDF
+Number of Seventh-day Adventist Church edifices, 1890
+
+
+11) SDAYCPTY
+Approximate seating capacity of Seventh-day Adventist churches, 1890
+
+
+12) SDAYPRPT
+Value of Seventh-day Adventist Church property, 1890
+
+
+13) SDAYMEMB
+Number of Seventh-day Adventist Church communicants or members, 1890
+
+
+14) NBAPTORG
+Number of Regular Baptist (North) Church organizations, 1890
+
+
+15) NBAPTEDF
+Number of Regular Baptist (North) Church edifices, 1890
+
+
+16) NBAPTCAP
+Approximate seating capacity of Regular Baptist (North) churches, 1890
+
+
+17) NBAPTPRP
+Value of Regular Baptist (North) Church property, 1890
+
+
+18) NBAPTMEM
+Number of Regular Baptist (North) Church communicants or members, 1890
+
+
+19) SBAPTORG
+Number of Regular Baptist (South) Church organizations, 1890
+
+
+20) SBAPTEDF
+Number of Regular Baptist (South) Church edifices, 1890
+
+
+21) SBAPTCAP
+Approximate seating capacity of Regular Baptist (South) churches, 1890
+
+
+22) SBAPTPRP
+Value of Regular Baptist (South) Church property, 1890
+
+
+23) SBAPTMEM
+Number of Regular Baptist (South) Church communicants or members, 1890
+
+
+24) CBAPTORG
+Number of Regular Baptist (Colored) Church organizations, 1890
+
+
+25) CBAPTEDF
+Number of Regular Baptist (Colored) Church edifices, 1890
+
+
+26) CBAPTCAP
+Approximate seating capacity of Regular Baptist (Colored) churches, 1890
+
+
+27) CBAPTPRP
+Value of Regular Baptist (Colored) Church property, 1890
+
+
+28) CBAPTMEM
+Number of Regular Baptist (Colored) Church communicants or members, 1890
+
+
+29) FRBAPORG
+Number of Freewill Baptist Church organizations, 1890
+
+
+30) FRBAPEDF
+Number of Freewill Baptist Church edifices, 1890
+
+
+31) FRBAPCAP
+Approximate seating capacity of Freewill Baptist churches, 1890
+
+
+32) FRBAPPRP
+Value of Freewill Baptist Church property, 1890
+
+
+33) FRBAPMEM
+Number of Freewill Baptist Church communicants or members, 1890
+
+
+34) GNBAPORG
+Number of General Baptist Church organizations, 1890
+
+
+35) GNBAPEDF
+Number of General Baptist Church edifices, 1890
+
+
+36) GNBAPCAP
+Approximate seating capacity of General Baptist churches, 1890
+
+
+37) GNBAPPRP
+Value of General Baptist Church property, 1890
+
+
+38) GNBAPMEM
+Number of General Baptist Church communicants or members, 1890
+
+
+39) PRBAPORG
+Number of Primitive Baptist Church organizations, 1890
+
+
+40) PRBAPEDF
+Number of Primitive Baptist Church edifices, 1890
+
+
+41) PRBAPCAP
+Approximate seating capacity of Primitive Baptist churches, 1890
+
+
+42) PRBAPPRP
+Value of Primitive Baptist Church property, 1890
+
+
+43) PRBAPMEM
+Number of Primitive Baptist Church communicants or members, 1890
+
+
+44) TSDBAPOR
+Number of Old Two-Seed-In-The-Spirit Predestinarian Baptist organizations, 1890
+
+
+45) TSDBAPED
+Number of Old Two-Seed-In-The-Spirit Predestinarian Baptist Church edifices, 1890
+
+
+46) TSDBAPCA
+Approximate seating capacity of Old Two-Seed-In-The-Spirit Predestinarian Baptist churches, 1890
+
+
+47) TSDBAPPR
+Value of Old Two-Seed-In-The-Spirit Predestinarian Baptist Church Property, 1980
+
+
+48) TSDBAPME
+Number of Old Two-Seed-In-The-Spirit Predestinarian Baptist Church communicants or members, 1890
+
+
+49) RCATHORG
+Number of Roman Catholic organizations, 1890
+
+
+50) RCATHEDF
+Number of Roman Catholic edifices, 1890
+
+
+51) RCATHCAP
+Approximate seating capacity of Roman Catholic churches, 1890
+
+
+52) RCATHPRP
+Value of Roman Catholic Church property, 1890
+
+
+53) RCATHMEM
+Number of Roman Catholic Church communicants or members, 1890
+
+
+54) CHRCNORG
+Number of Christian (Christian Connection) Church organizations, 1890
+
+
+55) CHRCNEDF
+Number of Christian (Christian Connection) Church edifices, 1890
+
+
+56) CHRCNCAP
+Approximate seating capacity of Christian (Christian Connection) churches, 1890
+
+
+57) CHRCNPRP
+Value of Christian (Christian Connection) Church Property, 1890
+
+
+58) CHRCNMEM
+Number of Christian (Christian Connection) Church communicants or members, 1890
+
+
+59) CHRSCORG
+Number of Christian Scientist Church organizations, 1890
+
+
+60) CHRSCEDF
+Number of Christian Scientist Church edifices, 1890
+
+
+61) CHRSCCAP
+Approximate seating capacity of Christian Scientist churches, 1890
+
+
+62) CHRSCPRP
+Value of Christian Scientist Church property, 1890
+
+
+63) CHRSCMEM
+Number of Christian Scientist Church communicants or members, 1890
+
+
+64) INDPORG
+Number of organizations of Independent Churches of Christ in Christian Union, 1890
+
+
+65) INDPEDF
+Number of church edifices of Independent Churches of Christ in Christian Union, 1890
+
+
+66) INDPCAP
+Approximate seating capacity of Independent Churches of Christ in Christian Union, 1890
+
+
+67) INDPPRP
+Value of church property of Independent Churches of Christ in Christian Union, 1890
+
+
+68) INDPMEM
+Number of communicants or members of Independent Churches of Christ in Christian Union, 1890
+
+
+69) CHGODORG
+Number of Church of God church organizations,1890
+
+
+70) CHGODEDF
+Number of Church of God church edifices,1890
+
+
+71) CHGODCAP
+Approximate seating capacity of Church of God churches, 1890
+
+
+72) CHGODPRP
+Value of Church of God church property, 1890
+
+
+73) CHGODMEM
+Number of Church of God church communicants or members, 1890
+
+
+74) NWJERORG
+Number of organizations of the Church of the New Jerusalem (Swedenborgian), 1890
+
+
+75) NWJEREDF
+Number of edifices of the Church of the New Jerusalem (Swedenborgian), 1890
+
+
+76) NWJERCAP
+Approximate seating capacity of the Church of the New Jerusalem (Swedenborgian), 1890
+
+
+77) NWJERPRP
+Value of Church property of the Church of the New Jerusalem (Swedenborgian), 1890
+
+
+78) NWJERMEM
+Number of communicants or members of the Church of the New Jerusalem (Swedenborgian), 1890
+
+
+79) CONGRORG
+Number of Congregationalist Church organizations, 1890
+
+
+80) CONGREDF
+Number of Congregationalist Church edifices, 1890
+
+
+81) CONGRCAP
+Approximate seating capacity of Congregationalist churches, 1890
+
+
+82) CONGRPRP
+Value of Congregationalist Church property, 1890
+
+
+83) CONGRMEM
+Number of Congregationalist Church communicants or members, 1890
+
+
+84) DISCPORG
+Number of Disciples of Christ Church organizations, 1890
+
+
+85) DISCPEDF
+Number of Disciples of Christ Church edifices, 1890
+
+
+86) DISCPCAP
+Approximate seating capacity of Disciples of Christ churches, 1890
+
+
+87) DISCPPRP
+Value of Disciples of Christ Church property, 1890
+
+
+88) DISCPMEM
+Number of Disciples of Christ Church communicants or members, 1890
+
+
+89) DNKRDORG
+Number of Dunkard (Conservative) Church oganizations, 1890
+
+
+90) DNKRDEDF
+Number of Dunkard (Conservative) Church edifices, 1890
+
+
+91) DNKRDCAP
+Approximate seating capacity of Dunkard (Conservative) churches, 1890
+
+
+92) DNKRDPRP
+Value of Dunkard (Conservative) Church property, 1890
+
+
+93) DNKRDMEM
+Number of Dunkard (Conservative) Church communicants or members, 1890
+
+
+94) EVNASORG
+Number of Evangelical Association Church organizations, 1890
+
+
+95) EVNASEDF
+Number of Evangelical Association Church edifices, 1890
+
+
+96) EVNASCAP
+Approximate seating capacity of Evangelical Association churches, 1890
+
+
+97) EVNASPRP
+Value of Evangelical Association Church property, 1890
+
+
+98) EVNASMEM
+Number of Evangelical Association Church communicants or members, 1890
+
+
+99) FRORTORG
+Number of Friends (Orthodox) Church organizations, 1890
+
+
+100) FRORTEDF
+Number of Friends (Orthodox) Church edifices, 1890
+
+
+101) FRORTCAP
+Approximate seating capacity of Friends (Orthodox) churches, 1890
+
+
+102) FRORTPRP
+Value of Friends (Orthodox) Church property, 1890
+
+
+103) FRORTMEM
+Number of Friends (Orthodox) Church communicants or members, 1890
+
+
+104) FRHCKORG
+Number of Friends (Hicksite) Church organizations, 1890
+
+
+105) FRHCKEDF
+Number of Friends (Hicksite) Church edifices, 1890
+
+
+106) FRHCKCAP
+Approximate seating capacity of Friends (Hicksite) churches, 1890
+
+
+107) FRHCKPRP
+Value of Friends (Hicksite) Church property, 1890
+
+
+108) FRHCKMEM
+Number of Friends (Hicksite) Church communicants or members, 1890
+
+
+109) GREVNORG
+Number of German Evangelical Synod of North America Church organizations, 1890
+
+
+110) GREVNEDF
+Number of German Evangelical Synod of North America Church edifices, 1890
+
+
+111) GREVNCAP
+Approximate seating capacity of German Evangelical Synod of North America churches, 1890
+
+
+112) GREVNPRP
+Value of German Evangelical Synod of North America Church property, 1890
+
+
+113) GREVNMEM
+Number of German Evangelical Synod of North America Church communicants or members, 1890
+
+
+114) JEWORORG
+Number of Jewish (Orthodox) organizations, 1890
+
+
+115) JEWOREDF
+Number of Jewish (Orthodox) edifices, 1890
+
+
+116) JEWORCAP
+Approximate seating capacity of Jewish (Orthodox) synagogues, 1890
+
+
+117) JEWORPRP
+Value of Jewish (Orthodox) property, 1890
+
+
+118) JEWORMEM
+Number of Jewish (Orthodox) communicants or members, 1890
+
+
+119) JEWREORG
+Number of Jewish (Reformed) organizations, 1890
+
+
+120) JEWREEDF
+Number of Jewish (Reformed) edifices, 1890
+
+
+121) JEWRECAP
+Approximate seating capacity of Jewish (Reformed) synagogues, 1890
+
+
+122) JEWREPRP
+Value of Jewish (Reformed) property, 1890
+
+
+123) JEWREMEM
+Number of Jewish (Reformed) communicants or members, 1890
+
+
+124) LATDYORG
+Number of organizations of the Church of Jesus Christ of Latter-day Saints, 1890
+
+
+125) LATDYEDF
+Number of Church edifices of the Church of Jesus Christ of Latter-day Saints, 1890
+
+
+126) LATDYCAP
+Approximate seating capacity of the Church of Jesus Christ of Latter-day Saints, 1890
+
+
+127) LATDYPRP
+Value of Church property of the Church of Jesus Christ of Latter-day Saints, 1890
+
+
+128) LATDYMEM
+Number of communicants or members of the Church of Jesus Christ of Latter-day Saints, 1890
+
+
+129) RELATORG
+Number of organizations of the Reorganized Church of Jesus Christ of Latter-day Saints, 1890
+
+
+130) RELATEDF
+Number of Church edifices of the Reorganized Church of Jesus Christ of Latter-day Saints, 1890
+
+
+131) RELATCAP
+Approximate seating capacity of the Reorganized Church of Jesus Christ of Latter-day Saints, 1890
+
+
+132) RELATPRP
+Value of Church property of the Reorganized Church of Jesus Christ of Latter-day Saints, 1890
+
+
+133) RELATMEM
+Number of communicants or members of the Reorganized Church of Jesus Christ of Latter-day Saints, 1890
+
+
+134) LUTGNORG
+Number of Lutheran General Synod Church organizations, 1890
+
+
+135) LUTGNEDF
+Number of Lutheran General Synod Church edifices, 1890
+
+
+136) LUTGNCAP
+Approximate seating capacity of Lutheran General Synod churches, 1890
+
+
+137) LUTGNPRP
+Value of Lutheran General Synod Church property, 1890
+
+
+138) LUTGNMEM
+Number of Lutheran General Synod Church communicants or members, 1890
+
+
+139) UNSYNORG
+Number of United Synod in the South (Lutheran) Church organizations, 1890
+
+
+140) UNSYNEDF
+Number of United Synod in the South (Lutheran) Church edifices, 1890
+
+
+141) UNSYNCAP
+Approximate seating capacity of United Synod in the South (Lutheran) churches, 1890
+
+
+142) UNSYNPRP
+Value of United Synod in the South (Lutheran) Church property, 1890
+
+
+143) UNSYNMEM
+Number of United Synod in the South (Lutheran) Church communicants or members, 1890
+
+
+144) GENCOORG
+Number of General Council (Lutheran) Church organizations, 1890
+
+
+145) GENCOEDF
+Number of General Council (Lutheran) Church edifices, 1890
+
+
+146) GENCOCAP
+Approximate seating capacity of General Council (Lutheran) churches, 1890
+
+
+147) GENCOPRP
+Value of General Council (Lutheran) Church property, 1890
+
+
+148) GENCOMEM
+Number of General Council (Lutheran) Church communicants or members, 1890
+
+
+149) LUTSYORG
+Number of Lutheran Synodical Conference Church organizations, 1890
+
+
+150) LUTSYEDF
+Number of Lutheran Synodical Conference Church edifices, 1890
+
+
+151) LUTSYCAP
+Approximate seating capacity of Lutheran Synodical Conference churches, 1890
+
+
+152) LUTSYPRP
+Value of Lutheran Synodical Conference Church property, 1890
+
+
+153) LUTSYMEM
+Number of Lutheran Synodical Conference Church communicants or members, 1890
+
+
+154) JNTLUORG
+Number of Joint Lutheran Synod of Ohio and Other States Church organizations, 1890
+
+
+155) JNTLUEDF
+Number of Joint Lutheran Synod of Ohio and Other States Church edifices, 1890
+
+
+156) JNTLUCAP
+Approximate seating capacity of Joint Lutheran Synod of Ohio and Other States churches, 1890
+
+
+157) JNTLUPRP
+Value of Joint Lutheran Synod of Ohio and Other States Church property, 1890
+
+
+158) JNTLUMEM
+Number of Joint Lutheran Synod of Ohio and Other States Church communicants or members, 1890
+
+
+159) HAUGEORG
+Number of Hauge's Lutheran Synod Church organizations, 1890
+
+
+160) HAUGEEDF
+Number of Hauge's Lutheran Synod Church edifices, 1890
+
+
+161) HAUGECAP
+Approximate seating capacity of Hauge's Lutheran Synod churches, 1890
+
+
+162) HAUGEPRP
+Value of Hauge's Lutheran Synod Church property, 1890
+
+
+163) HAUGEMEM
+Number of Hauge's Lutheran Synod Church communicants or members, 1890
+
+
+164) NORLUORG
+Number of organizations of the Norwegian Lutheran Church in America, 1890
+
+
+165) NORLUEDF
+Number of Church edifices of the Norwegian Lutheran Church in America, 1890
+
+
+166) NORLUCAP
+Approximate seating capacity of the Norwegian Lutheran Church in America, 1890
+
+
+167) NORLUPRP
+Value of Church property of the Norwegian Lutheran Church in America, 1890
+
+
+168) NORLUMEM
+Number of communicants or members of the Norwegian Lutheran Church in America, 1890
+
+
+169) UNORLORG
+Number of organizations of the United Norwegian Lutheran Church of America, 1890
+
+
+170) UNORLEDF
+Number of Church edifices of the United Norwegian Lutheran Church of America, 1890
+
+
+171) UNORLCAP
+Approximate seating capacity of the United Norwegian Lutheran Church of America, 1890
+
+
+172) UNORLPRP
+Value of Church property of the United Norwegian Lutheran Church of America, 1890
+
+
+173) UNORLMEM
+Number of communicants or members of the United Norwegian Lutheran Church of America, 1890
+
+
+174) MENNTORG
+Number of Mennonite Church organizations, 1890
+
+
+175) MENNTEDF
+Number of Mennonite Church edifices, 1890
+
+
+176) MENNTCAP
+Approximate seating capacity of Mennonite churches, 1890
+
+
+177) MENNTPRP
+Value of Mennonite Church property, 1890
+
+
+178) MENNTMEM
+Number of Mennonite Church communicants or members, 1890
+
+
+179) AMMENORG
+Number of Amish Mennonite Church organizations, 1890
+
+
+180) AMMENEDF
+Number of Amish Mennonite Church edifices, 1890
+
+
+181) AMMENCAP
+Approximate seating capacity of Amish Mennonite churches, 1890
+
+
+182) AMMENPRP
+Value of Amish Mennonite Church property, 1890
+
+
+183) AMMENMEM
+Number of Amish Mennonite Church communicants or members, 1890
+
+
+184) METEPORG
+Number of Methodist Episcopal Church organizations, 1890
+
+
+185) METEPEDF
+Number of Methodist Episcopal Church edifices, 1890
+
+
+186) METEPCAP
+Approximate seating capacity of Methodist Episcopal churches, 1890
+
+
+187) METEPPRP
+Value of Methodist Episcopal Church property, 1890
+
+
+188) METEPMEM
+Number of Methodist Episcopal Church communicants or members, 1890
+
+
+189) AFMETORG
+Number of African Methodist Episcopal Church organizations, 1890
+
+
+190) AFMETEDF
+Number of African Methodist Episcopal Church edifices, 1890
+
+
+191) AFMETCAP
+Approximate seating capacity of African Methodist Episcopal churches, 1890
+
+
+192) AFMETPRP
+Value of African Methodist Episcopal Church property, 1890
+
+
+193) AFMETMEM
+Number of African Methodist Episcopal Church communicants or members, 1890
+
+
+194) AFMZNORG
+Number of African Methodist Episcopal Zion Church organizations, 1890
+
+
+195) AFMZNEDF
+Number of African Methodist Episcopal Zion Church edifices, 1890
+
+
+196) AFMZNCAP
+Approximate seating capacity of African Methodist Episcopal Zion churches, 1890
+
+
+197) AFMZNPRP
+Value of African Methodist Episcopal Zion Church property, 1890
+
+
+198) AFMZNMEM
+Number of African Methodist Episcopal Zion Church communicants or members, 1890
+
+
+199) MEPROORG
+Number of Methodist Protestant Church organizations, 1890
+
+
+200) MEPROEDF
+Number of Methodist Protestant Church edifices, 1890
+
+
+201) MEPROCAP
+Approximate seating capacity of Methodist Protestant churches, 1890
+
+
+202) MEPROPRP
+Value of Methodist Protestant Church property, 1890
+
+
+203) MEPROMEM
+Number of Methodist Protestant Church communicants or members, 1890
+
+
+204) WESMEORG
+Number of Wesleyan Methodist Connection of America Church organizations, 1890
+
+
+205) WESMEEDF
+Number of Wesleyan Methodist Connection of America Church edifices, 1890
+
+
+206) WESMECAP
+Approximate seating capacity of Wesleyan Methodist Connection of America churches, 1890
+
+
+207) WESMEPRP
+Value of Wesleyan Methodist Connection of America Church property, 1890
+
+
+208) WESMEMEM
+Number of Wesleyan Methodist Connection of America Church communicants or members, 1890
+
+
+209) MEPSHORG
+Number of Methodist Episcopal Church (South) organizations, 1890
+
+
+210) MEPSHEDF
+Number of Methodist Episcopal Church (South) edifices, 1890
+
+
+211) MEPSHCAP
+Approximate seating capacity of Methodist Episcopal churches (South), 1890
+
+
+212) MEPSHPRP
+Value of Methodist Episcopal Church (South) property, 1890
+
+
+213) MEPSHMEM
+Number of Methodist Episcopal Church (South) communicants, 1890
+
+
+214) CLRMEORG
+Number of Colored Methodist Episcopal Church organizations, 1890
+
+
+215) CLRMEEDF
+Number of Colored Methodist Episcopal Church edifices, 1890
+
+
+216) CLRMECAP
+Approximate seating capacity of Colored Methodist Episcopal churches, 1890
+
+
+217) CLRMEPRP
+Value of Colored Methodist Episcopal Church property, 1890
+
+
+218) CLRMEMEM
+Number of Colored Methodist Episcopal Church communicants or members, 1890
+
+
+219) FREMEORG
+Number of Free Methodist Church organizations, 1890
+
+
+220) FREMEEDF
+Number of Free Methodist Church edifices, 1890
+
+
+221) FREMECAP
+Approximate seating capacity of Free Methodist churches, 1890
+
+
+222) FREMEPRP
+Value of Free Methodist Church property, 1890
+
+
+223) FREMEMEM
+Number of Free Methodist Church communicants or members, 1890
+
+
+224) MORVNORG
+Number of Moravian Church organizations, 1890
+
+
+225) MORVNEDF
+Number of Moravian Church edifices, 1890
+
+
+226) MORVNCAP
+Approximate seating capacity of Moravian churches, 1890
+
+
+227) MORVNPRP
+Value of Moravian Church property, 1890
+
+
+228) MORVNMEM
+Number of Moravian Church communicants or members, 1890
+
+
+229) NPRESORG
+Number of organizations of the Presbyterian Church in the United States of America (Northern), 1890
+
+
+230) NPRESEDF
+Number of Church edifices of the Presbyterian Church in the United States of America (Northern), 1890
+
+
+231) NPRESCAP
+Approximate seating capacity of the Presbyterian Church in the United States of America (Northern), 1890
+
+
+232) NPRESPRP
+Value of Church property of the Presbyterian Church in the United States of America (Northern), 1890
+
+
+233) NPRESMEM
+Number of communicants or members of the Presbyterian Church in the United States of America (Northern), 1890
+
+
+234) CMPRSORG
+Number of Cumberland Presbyterian Church organizations, 1890
+
+
+235) CMPRSEDF
+Number of Cumberland Presbyterian Church edifices, 1890
+
+
+236) CMPRSCAP
+Approximate seating capacity of Cumberland Presbyterian churches, 1890
+
+
+237) CMPRSPRP
+Value of Cumberland Presbyterian Church property, 1890
+
+
+238) CMPRSMEM
+Number of Cumberland Presbyterian Church communicants or members, 1890
+
+
+239) CLPRSORG
+Number of Cumberland Presbyterian (Colored) Church organizations, 1890
+
+
+240) CLPRSEDF
+Number of Cumberland Presbyterian (Colored) Church edifices, 1890
+
+
+241) CLPRSCAP
+Approximate seating capacity of Cumberland (Colored) Presbyterian churches, 1890
+
+
+242) CLPRSPRP
+Value of Cumberland Presbyterian (Colored) Church property, 1890
+
+
+243) CLPRSMEM
+Number of Cumberland Presbyterian (Colored) Church communicants or members, 1890
+
+
+244) CALMEORG
+Number of Welsh Calvinistic Methodist Church organizations, 1890
+
+
+245) CALMEEDF
+Number of Welsh Calvinistic Methodist Church edifices, 1890
+
+
+246) CALMECAP
+Approximate seating capacity of Welsh Calvinistic Methodist churches, 1890
+
+
+247) CALMEPRP
+Value of Welsh Calvinistic Methodist Church property, 1890
+
+
+248) CALMEMEM
+Number of Welsh Calvinistic Methodist Church communicants or members, 1890
+
+
+249) UNPRSORG
+Number of United Presbyterian Church organizations, 1890
+
+
+250) UNPRSEDF
+Number of United Presbyterian Church edifices, 1890
+
+
+251) UNPRSCAP
+Approximate seating capacity of United Presbyterian churches, 1890
+
+
+252) UNPRSPRP
+Value of United Presbyterian Church property, 1890
+
+
+253) UNPRSMEM
+Number of United Presbyterian Church communicants or members, 1890
+
+
+254) SHPRSORG
+Number of organizations of the Presbyterian Church in the United States (Southern), 1890
+
+
+255) SHPRSEDF
+Number of church edifices of the Presbyterian Church in the United States (Southern), 1890
+
+
+256) SHPRSCAP
+Approximate seating capacity of the Presbyterian Church in the United States (Southern), 1890
+
+
+257) SHPRSPRP
+Value of church property of the Presbyterian Church in the United States (Southern), 1890
+
+
+258) SHPRSMEM
+Number of communicants or members of the Presbyterian Church in the United States (Southern), 1890
+
+
+259) PREPSORG
+Number of Protestant Episcopal Church organizations, 1890
+
+
+260) PREPSEDF
+Number of Protestant Episcopal Church edifices, 1890
+
+
+261) PREPSCAP
+Approximate seating capacity of Protestant Episcopal churches, 1890
+
+
+262) PREPSPRP
+Value of Protestant Episcopal Church property, 1890
+
+
+263) PREPSMEM
+Number of Protestant Episcopal Church communicants or members, 1890
+
+
+264) RFRMDORG
+Number of organizations of the Reformed Church in America, 1890
+
+
+265) RFRMDEDF
+Number of church edifices of the Reformed Church in America, 1890
+
+
+266) RFRMDCAP
+Approximate seating capacity of the Reformed Church in America, 1890
+
+
+267) RFRMDPRP
+Value of church property of the Reformed Church in America, 1890
+
+
+268) RFRMDMEM
+Number of communicants or members of the Reformed Church in America, 1890
+
+
+269) RFMUSORG
+Number of organizations of the Reformed Church in the United States, 1890
+
+
+270) RFMUSEDF
+Number of church edifices of the Reformed Church in the United States, 1890
+
+
+271) RFMUSCAP
+Approximate seating capacity of the Reformed Church in the United States, 1890
+
+
+272) RFMUSPRP
+Value of church property of the Reformed Church in the United States, 1890
+
+
+273) RFMUSMEM
+Number of communicants or members of the Reformed Church in the United States, 1890
+
+
+274) SLVARORG
+Number of Salvation Army Church organizations, 1890
+
+
+275) SLVAREDF
+Number of Salvation Army Church edifices, 1890
+
+
+276) SLVARCAP
+Approximate seating capacity of Salvation Army churches, 1890
+
+
+277) SLVARPRP
+Value of Salvation Army Church property, 1890
+
+
+278) SLVARMEM
+Number of Salvation Army Church communicants or members, 1890
+
+
+279) SPRTLORG
+Number of Spiritualist Church organizations, 1890
+
+
+280) SPRTLEDF
+Number of Spiritualist Church edifices, 1890
+
+
+281) SPRTLCAP
+Approximate seating capacity of Spiritualist churches, 1890
+
+
+282) SPRTLPRP
+Value of Spiritualist Church property, 1890
+
+
+283) SPRTLMEM
+Number of Spiritualist Church communicants or members, 1890
+
+
+284) UBRTHORG
+Number of United Brethren in Christ Church organizations, 1890
+
+
+285) UBRTHEDF
+Number of United Brethren in Christ Church edifices, 1890
+
+
+286) UBRTHCAP
+Approximate seating capacity of United Brethren in Christ churches, 1890
+
+
+287) UBRTHPRP
+Value of United Brethren in Christ Church property, 1890
+
+
+288) UBRTHMEM
+Number of United Brethren in Christ Church communicants or members, 1890
+
+
+289) OLDBRORG
+Number of United Brethren in Christ Church (Old Constitution) church organizations, 1890
+
+
+290) OLDBREDF
+Number of United Brethren in Christ (Old Constitution) Church edifices, 1890
+
+
+291) OLDBRCAP
+Approximate seating capacity of United Brethren in Christ (Old Constitution) churches, 1890
+
+
+292) OLDBRPRP
+Value of United Brethren in Christ (Old Constitution) Church property, 1890
+
+
+293) OLDBRMEM
+Number of United Brethren in Christ (Old Constitution) Church communicants or members, 1890
+
+
+294) UNTRNORG
+Number of Unitarian Church organizations, 1890
+
+
+295) UNTRNEDF
+Number of Unitarian Church edifices, 1890
+
+
+296) UNTRNCAP
+Approximate seating capacity of Unitarian churches, 1890
+
+
+297) UNTRNPRP
+Value of Unitarian property, 1890
+
+
+298) UNTRNMEM
+Number of Unitarian Church communicants or members, 1890
+
+
+299) UNVRSORG
+Number of Universalist Church organizations, 1890
+
+
+300) UNVRSEDF
+Number of Universalist Church edifices, 1890
+
+
+301) UNVRSCAP
+Approximate seating capacity of Universalist churches, 1890
+
+
+302) UNVRSPRP
+Value of Universalist Church property, 1890
+
+
+303) UNVRSMEM
+Number of Universalist Church communicants or members, 1890
+
+
+304) EVADVORG
+Number of Evangelical Adventist Church organizations, 1890
+
+
+305) EVADVEDF
+Number of Evangelical Adventist Church edifices, 1890
+
+
+306) EVADVCAP
+Approximate seating capacity of Evangelical Adventist churches, 1890
+
+
+307) EVADVPRP
+Value of Evangelical Adventist Church property, 1890
+
+
+308) EVADVMEM
+Number of Evangelical Adventist Church communicants or members, 1890
+
+
+309) CGDADORG
+Number of Church of God (Seventh-day Adventist) organizations, 1890
+
+
+310) CGDADEDF
+Number of Church of God (Seventh-day Adventist) edifices, 1890
+
+
+311) CGDADCAP
+Approximate seating capacity of Church of God (Seventh-day Adventist) churches, 1890
+
+
+312) CGDADPRP
+Value of Church of God (Seventh-day Adventist) property, 1890
+
+
+313) CGDADMEM
+Number of Church of God (Seventh-day Adventist) communicants or members, 1890
+
+
+314) LFADVORG
+Number of Life and Advent Union organizations, 1890
+
+
+315) LFADVEDF
+Number of Life and Advent Union edifices, 1890
+
+
+316) LFADVCAP
+Approximate seating capacity of Life and Advent Union churches, 1890
+
+
+317) LFADVPRP
+Value of Life and Advent Union property, 1890
+
+
+318) LFADVMEM
+Number of Life and Advent Union communicants or members, 1890
+
+
+319) GODCJORG
+Number of Churches of God in Christ Jesus organizations, 1890
+
+
+320) GODCJEDF
+Number of Churches of God in Christ Jesus edifices, 1890
+
+
+321) GODCJCAP
+Approximate seating capacity of Churches of God in Christ Jesus, 1890
+
+
+322) GODCJPRP
+Value of Churches of God in Christ Jesus property, 1890
+
+
+323) GODCJMEM
+Number of Churches of God in Christ Jesus communicants or members, 1890
+
+
+324) SIXPRORG
+Number of Six Principle Baptist organizations, 1890
+
+
+325) SIXPREDF
+Number of Six Principle Baptist edifices, 1890
+
+
+326) SIXPRCAP
+Approximate seating capacity of Six Principle Baptist churches, 1890
+
+
+327) SIXPRPRP
+Value of Six Principle Baptist property, 1890
+
+
+328) SIXPRMEM
+Number of Six Principle Baptist communicants or members, 1890
+
+
+329) SEVDBORG
+Number of Seventh-day Baptist organizations, 1890
+
+
+330) SEVDBEDF
+Number of Seventh-day Baptist edifices, 1890
+
+
+331) SEVDBCAP
+Approximate seating capacity of Seventh-day Baptist churches, 1890
+
+
+332) SEVDBPRP
+Value of Seventh-day Baptist property, 1890
+
+
+333) SEVDBMEM
+Number of Seventh-day Baptist communicants or members, 1890
+
+
+334) ORGFWORG
+Number of Original Freewill Baptist organizations, 1890
+
+
+335) ORGFWEDF
+Number of Original Freewill Baptist edifices, 1890
+
+
+336) ORGFWCAP
+Approximate seating capacity of Original Freewill Baptist churches, 1890
+
+
+337) ORGFWPRP
+Value of Original Freewill Baptist property, 1890
+
+
+338) ORGFWMEM
+Number of Original Freewill Baptist communicants or members, 1890
+
+
+339) SEPBAORG
+Number of Separate Baptist organizations, 1890
+
+
+340) SEPBAEDF
+Number of Separate Baptist edifices, 1890
+
+
+341) SEPBACAP
+Approximate seating capacity of Separate Baptist churches, 1890
+
+
+342) SEPBAPRP
+Value of Separate Baptist property, 1890
+
+
+343) SEPBAMEM
+Number of Separate Baptist communicants or members, 1890
+
+
+344) UNBAPORG
+Number of United Baptist organizations, 1890
+
+
+345) UNBAPEDF
+Number of United Baptist edifices, 1890
+
+
+346) UNBAPCAP
+Approximate seating capacity of United Baptist churches, 1890
+
+
+347) UNBAPPRP
+Value of United Baptist property, 1890
+
+
+348) UNBAPMEM
+Number of United Baptist communicants or members, 1890
+
+
+349) BAPCCORG
+Number of Baptist Church of Christ organizations, 1890
+
+
+350) BAPCCEDF
+Number of Baptist Church of Christ edifices, 1890
+
+
+351) BAPCCCAP
+Approximate seating capacity of Baptist Church of Christ churches, 1890
+
+
+352) BAPCCPRP
+Value of Baptist Church of Christ property, 1890
+
+
+353) BAPCCMEM
+Number of Baptist Church of Christ communicants or members, 1890
+
+
+354) BICORG
+Number of Brethren in Christ organizations, 1890
+
+
+355) BICEDF
+Number of Brethren in Christ edifices, 1890
+
+
+356) BICCAP
+Approximate seating capacity of Brethren in Christ churches, 1890
+
+
+357) BICPRP
+Value of Brethren in Christ property, 1890
+
+
+358) BICMEM
+Number of Brethren in Christ communicants or members, 1890
+
+
+359) OOYRKORG
+Number of Old Order or Yorker Brethren organizations, 1890
+
+
+360) OOYRKMEM
+Number of Old Order or Yorker Brethren communicants or members, 1890
+
+
+361) UZIONORG
+Number of United Zion's Children organizations, 1890
+
+
+362) UZIONEDF
+Number of United Zion's Children edifices, 1890
+
+
+363) UZIONCAP
+Approximate seating capacity of United Zion's Children churches, 1890
+
+
+364) UZIONPRP
+Value of United Zion's Children property, 1890
+
+
+365) UZIONMEM
+Number of United Zion's Children communicants or members, 1890
+
+
+366) PLBR1ORG
+Number of Plymouth Brethren (I) organizations, 1890
+
+
+367) PLBR1MEM
+Number of Plymouth Brethren (I) communicants or members, 1890
+
+
+368) PLBR2ORG
+Number of Plymouth Brethren (II) organizations, 1890
+
+
+369) PLBR2PRP
+Value of Plymouth Brethren (II) property, 1890
+
+
+370) PLBR2MEM
+Number of Plymouth Brethren (II) communicants or members, 1890
+
+
+371) PLBR3ORG
+Number of Plymouth Brethren (III) organizations, 1890
+
+
+372) PLBR3PRP
+Value of Plymouth Brethren (III) property, 1890
+
+
+373) PLBR3MEM
+Number of Plymouth Brethren (III) communicants or members, 1890
+
+
+374) PLBR4ORG
+Number of Plymouth Brethren (IV) organizations, 1890
+
+
+375) PLBR4MEM
+Number of Plymouth Brethren (IV) communicants or members, 1890
+
+
+376) GRKCAORG
+Number of Greek Catholic Church (Uniate) organizations, 1890
+
+
+377) GRKCAEDF
+Number of Greek Catholic Church (Uniate) edifices, 1890
+
+
+378) GRKCACAP
+Approximate seating capacity of Greek Catholic (Uniate) churches, 1890
+
+
+379) GRKCAPRP
+Value of Greek Catholic Church (Uniate) property, 1890
+
+
+380) GRKCAMEM
+Number of Greek Catholic Church (Uniate) communicants or members, 1890
+
+
+381) RUSORORG
+Number of Russian Orthodox Church organizations, 1890
+
+
+382) RUSOREDF
+Number of Russian Orthodox Church edifices, 1890
+
+
+383) RUSORCAP
+Approximate seating capacity of Russian Orthodox churches, 1890
+
+
+384) RUSORPRP
+Value of Russian Orthodox Church property, 1890
+
+
+385) RUSORMEM
+Number of Russian Orthodox Church communicants or members, 1890
+
+
+386) GRKORORG
+Number of Greek Orthodox Church organizations, 1890
+
+
+387) GRKOREDF
+Number of Greek Orthodox Church edifices, 1890
+
+
+388) GRKORCAP
+Approximate seating capacity of Greek Orthodox churches, 1890
+
+
+389) GRKORPRP
+Value of Greek Orthodox Church property, 1890
+
+
+390) GRKORMEM
+Number of Greek Orthodox Church communicants or members, 1890
+
+
+391) ARMENORG
+Number of Armenian Church organizations, 1890
+
+
+392) ARMENMEM
+Number of Armenian Church communicants or members, 1890
+
+
+393) OLDCAORG
+Number of Old Catholic Church organizations, 1890
+
+
+394) OLDCAEDF
+Number of Old Catholic Church edifices, 1890
+
+
+395) OLDCACAP
+Approximate seating capacity of Old Catholic churches, 1890
+
+
+396) OLDCAPRP
+Value of Old Catholic Church property, 1890
+
+
+397) OLDCAMEM
+Number of Old Catholic Church communicants or members, 1890
+
+
+398) REFCAORG
+Number of Reformed Catholic Church organizations, 1890
+
+
+399) REFCAMEM
+Number of Reformed Catholic Church communicants or members, 1890
+
+
+400) CATAPORG
+Number of Catholic Apostolic Church organizations, 1890
+
+
+401) CATAPEDF
+Number of Catholic Apostolic Church edifices, 1890
+
+
+402) CATAPCAP
+Approximate seating capacity of Catholic Apostolic churches, 1890
+
+
+403) CATAPPRP
+Value of Catholic Apostolic Church property, 1890
+
+
+404) CATAPMEM
+Number of Catholic Apostolic Church communicants or members, 1890
+
+
+405) CHINAORG
+Number of Chinese Temple organizations, 1890
+
+
+406) CHINAEDF
+Number of Chinese Temple edifices, 1890
+
+
+407) CHINAPRP
+Value of Chinese Temple property, 1890
+
+
+408) CHDELORG
+Number of Christadelphian organizations, 1890
+
+
+409) CHDELEDF
+Number of Christadelphian edifices, 1890
+
+
+410) CHDELCAP
+Approximate seating capacity of Christadelphian churches, 1890
+
+
+411) CHDELPRP
+Value of Christadelphian property, 1890
+
+
+412) CHDELMEM
+Number of Christadelphian communicants or members, 1890
+
+
+413) CHSTHORG
+Number of Christian Church (South) organizations, 1890
+
+
+414) CHSTHEDF
+Number of Christian Church (South) edifices, 1890
+
+
+415) CHSTHCAP
+Approximate seating capacity of Christian Church (South) churches, 1890
+
+
+416) CHSTHPRP
+Value of Christian Church (South) property, 1890
+
+
+417) CHSTHMEM
+Number of Christian Church (South) communicants or members, 1890
+
+
+418) CMAORG
+Number of Christian Missionary Association organizations, 1890
+
+
+419) CMAEDF
+Number of Christian Missionary Association edifices, 1890
+
+
+420) CMACAP
+Approximate seating capacity of Christian Missionary Association churches, 1890
+
+
+421) CMAPRP
+Value of Christian Missionary Association property, 1890
+
+
+422) CMAMEM
+Number of Christian Missionary Association communicants or members, 1890
+
+
+423) TRIUMORG
+Number of Church Triumphant (Schweinfurth) organizations, 1890
+
+
+424) TRIUMPRP
+Value of Church Triumphant (Schweinfurth) property, 1890
+
+
+425) TRIUMMEM
+Number of Church Triumphant (Schweinfurth) communicants or members, 1890
+
+
+426) SHAKEORG
+Number of Society of Shakers organizations, 1890
+
+
+427) SHAKEEDF
+Number of Society of Shakers edifices, 1890
+
+
+428) SHAKECAP
+Approximate seating capacity of Society of Shakers churches, 1890
+
+
+429) SHAKEPRP
+Value of Society of Shakers property, 1890
+
+
+430) SHAKEMEM
+Number of Society of Shakers communicants or members, 1890
+
+
+431) AMANAORG
+Number of Amana Society organizations, 1890
+
+
+432) AMANAEDF
+Number of Amana Society edifices, 1890
+
+
+433) AMANACAP
+Approximate seating capacity of Amana Society churches, 1890
+
+
+434) AMANAPRP
+Value of Amana Society property, 1890
+
+
+435) AMANAMEM
+Number of Amana Society communicants or members, 1890
+
+
+436) HARMOORG
+Number of Harmony Society organizations, 1890
+
+
+437) HARMOEDF
+Number of Harmony Society edifices, 1890
+
+
+438) HARMOCAP
+Approximate seating capacity of Harmony Society churches, 1890
+
+
+439) HARMOPRP
+Value of Harmony Society property, 1890
+
+
+440) HARMOMEM
+Number of Harmony Society communicants or members, 1890
+
+
+441) SEPARORG
+Number of Society of Separatists organizations, 1890
+
+
+442) SEPAREDF
+Number of Society of Separatists edifices, 1890
+
+
+443) SEPARCAP
+Approximate seating capacity of Society of Separatists churches, 1890
+
+
+444) SEPARPRP
+Value of Society of Separatists property, 1890
+
+
+445) SEPARMEM
+Number of Society of Separatists communicants or members, 1890
+
+
+446) NEWICORG
+Number of New Icaria Society organizations, 1890
+
+
+447) NEWICMEM
+Number of New Icaria Society communicants or members, 1890
+
+
+448) ALTRUORG
+Number of Society of Altruists organizations, 1890
+
+
+449) ALTRUMEM
+Number of Society of Altruists communicants or members, 1890
+
+
+450) ADONAORG
+Number of Adonai Shomo organizations, 1890
+
+
+451) ADONAPRP
+Value of Adonai Shomo property, 1890
+
+
+452) ADONAMEM
+Number of Adonai Shomo communicants or members, 1890
+
+
+453) KORESORG
+Number of Church Triumphant (Koreshan Ecclesia) organizations, 1890
+
+
+454) KORESPRP
+Value of Church Triumphant (Koreshan Ecclesia) property, 1890
+
+
+455) KORESMEM
+Number of Church Triumphant (Koreshan Ecclesia) communicants or members, 1890
+
+
+456) DUNKOORG
+Number of Dunkard (Old Order) organizations, 1890
+
+
+457) DUNKOEDF
+Number of Dunkard (Old Order) edifices, 1890
+
+
+458) DUNKOCAP
+Approximate seating capacity of Dunkard (Old Order) churches, 1890
+
+
+459) DUNKOPRP
+Value of Dunkard (Old Order) property, 1890
+
+
+460) DUNKOMEM
+Number of Dunkard (Old Order) communicants or members, 1890
+
+
+461) DUNKPORG
+Number of Dunkard or Brethren (Progressive) organizations, 1890
+
+
+462) DUNKPEDF
+Number of Dunkard or Brethren (Progressive) edifices, 1890
+
+
+463) DUNKPCAP
+Approximate seating capacity of Dunkard or Brethren (Progressive) churches, 1890
+
+
+464) DUNKPPRP
+Value of Dunkard or Brethren (Progressive) property, 1890
+
+
+465) DUNKPMEM
+Number of Dunkard or Brethren (Progressive) communicants or members, 1890
+
+
+466) GER7DORG
+Number of Seventh-day Baptist (German) organizations, 1890
+
+
+467) GER7DEDF
+Number of Seventh-day Baptist (German) edifices, 1890
+
+
+468) GER7DCAP
+Approximate seating capacity of Seventh-day Baptist (German) churches, 1890
+
+
+469) GER7DPRP
+Value of Seventh-day Baptist (German) property, 1890
+
+
+470) GER7DMEM
+Number of Seventh-day Baptist (German) communicants or members, 1890
+
+
+471) FRNDWORG
+Number of Friends (Wilburite) organizations, 1890
+
+
+472) FRNDWEDF
+Number of Friends (Wilburite) edifices, 1890
+
+
+473) FRNDWCAP
+Approximate seating capacity of Friends (Wilburite) churches, 1890
+
+
+474) FRNDWPRP
+Value of Friends (Wilburite) property, 1890
+
+
+475) FRNDWMEM
+Number of Friends (Wilburite) communicants or members, 1890
+
+
+476) FRNDPORG
+Number of Friends (Primitive) organizations, 1890
+
+
+477) FRNDPEDF
+Number of Friends (Primitive) edifices, 1890
+
+
+478) FRNDPCAP
+Approximate seating capacity of Friends (Primitive) churches, 1890
+
+
+479) FRNDPPRP
+Value of Friends (Primitive) property, 1890
+
+
+480) FRNDPMEM
+Number of Friends (Primitive) communicants or members, 1890
+
+
+481) FRNDTORG
+Number of Friends of the Table organizations, 1890
+
+
+482) FRNDTEDF
+Number of Friends of the Table edifices, 1890
+
+
+483) FRNDTCAP
+Approximate seating capacity of Friends of the Table churches, 1890
+
+
+484) FRNDTPRP
+Value of Friends of the Table property, 1890
+
+
+485) FRNDTMEM
+Number of Friends of the Table communicants or members, 1890
+
+
+486) GEREVORG
+Number of German Evangelical Protestant Church organizations, 1890
+
+
+487) GEREVEDF
+Number of German Evangelical Protestant Church edifices, 1890
+
+
+488) GEREVCAP
+Approximate seating capacity of German Evangelical Protestant churches, 1890
+
+
+489) GEREVPRP
+Value of German Evangelical Protestant Church property, 1890
+
+
+490) GEREVMEM
+Number of German Evangelical Protestant Church communicants or members, 1890
+
+
+491) BUFFLORG
+Number of Buffalo Synod (Lutheran) organizations, 1890
+
+
+492) BUFFLEDF
+Number of Buffalo Synod (Lutheran) edifices, 1890
+
+
+493) BUFFLCAP
+Approximate seating capacity of Buffalo Synod (Lutheran) churches, 1890
+
+
+494) BUFFLPRP
+Value of Buffalo Synod (Lutheran) property, 1890
+
+
+495) BUFFLMEM
+Number of Buffalo Synod (Lutheran) communicants or members, 1890
+
+
+496) MICHLORG
+Number of Michigan Synod (Lutheran) organizations, 1890
+
+
+497) MICHLEDF
+Number of Michigan Synod (Lutheran) edifices, 1890
+
+
+498) MICHLCAP
+Approximate seating capacity of Michigan Synod (Lutheran) churches, 1890
+
+
+499) MICHLPRP
+Value of Michigan Synod (Lutheran) property, 1890
+
+
+500) MICHLMEM
+Number of Michigan Synod (Lutheran) communicants or members, 1890
+
+
+501) DAN1ORG
+Number of Danish Church in America (Lutheran) organizations, 1890
+
+
+502) DAN1EDF
+Number of Danish Church in America (Lutheran) edifices, 1890
+
+
+503) DAN1CAP
+Approximate seating capacity of Danish Church in America (Lutheran) churches, 1890
+
+
+504) DAN1PRP
+Value of Danish Church in America (Lutheran) property, 1890
+
+
+505) DAN1MEM
+Number of Danish Church in America (Lutheran) communicants or members, 1890
+
+
+506) AUGSBORG
+Number of German Augsburg Synod (Lutheran) organizations, 1890
+
+
+507) AUGSBEDF
+Number of German Augsburg Synod (Lutheran) edifices, 1890
+
+
+508) AUGSBCAP
+Approximate seating capacity of German Augsburg Synod (Lutheran) churches, 1890
+
+
+509) AUGSBPRP
+Value of German Augsburg Synod (Lutheran) property, 1890
+
+
+510) AUGSBMEM
+Number of German Augsburg Synod (Lutheran) communicants or members, 1890
+
+
+511) DAN2ORG
+Number of Danish Church Association (Lutheran) organizations, 1890
+
+
+512) DAN2EDF
+Number of Danish Church Association (Lutheran) edifices, 1890
+
+
+513) DAN2CAP
+Approximate seating capacity of Danish Church Association (Lutheran) churches, 1890
+
+
+514) DAN2PRP
+Value of Danish Church Association (Lutheran) property, 1890
+
+
+515) DAN2MEM
+Number of Danish Church Association (Lutheran) communicants or members, 1890
+
+
+516) ICLNDORG
+Number of Icelandic Synod (Lutheran) organizations, 1890
+
+
+517) ICLNDEDF
+Number of Icelandic Synod (Lutheran) edifices, 1890
+
+
+518) ICLNDCAP
+Approximate seating capacity of Icelandic Synod (Lutheran) churches, 1890
+
+
+519) ICLNDPRP
+Value of Icelandic Synod (Lutheran) property, 1890
+
+
+520) ICLNDMEM
+Number of Icelandic Synod (Lutheran) communicants or members, 1890
+
+
+521) IMMANORG
+Number of Immanuel Synod (Lutheran) organizations, 1890
+
+
+522) IMMANEDF
+Number of Immanuel Synod (Lutheran) edifices, 1890
+
+
+523) IMMANCAP
+Approximate seating capacity of Immanuel Synod (Lutheran) churches, 1890
+
+
+524) IMMANPRP
+Value of Immanuel Synod (Lutheran) property, 1890
+
+
+525) IMMANMEM
+Number of Immanuel Synod (Lutheran) communicants or members, 1890
+
+
+526) SUOMIORG
+Number of Suomi Synod (Lutheran) organizations, 1890
+
+
+527) SUOMIEDF
+Number of Suomi Synod (Lutheran) edifices, 1890
+
+
+528) SUOMICAP
+Approximate seating capacity of Suomi Synod (Lutheran) churches, 1890
+
+
+529) SUOMIPRP
+Value of Suomi Synod (Lutheran) property, 1890
+
+
+530) SUOMIMEM
+Number of Suomi Synod (Lutheran) communicants or members, 1890
+
+
+531) INDELORG
+Number of Independent (Lutheran) organizations, 1890
+
+
+532) INDELEDF
+Number of Independent (Lutheran) edifices, 1890
+
+
+533) INDELCAP
+Approximate seating capacity of Independent (Lutheran) churches, 1890
+
+
+534) INDELPRP
+Value of Independent (Lutheran) property, 1890
+
+
+535) INDELMEM
+Number of Independent (Lutheran) communicants or members, 1890
+
+
+536) BRUEDORG
+Number of Bruederhoef Mennonite Church organizations, 1890
+
+
+537) BRUEDEDF
+Number of Bruederhoef Mennonite Church edifices, 1890
+
+
+538) BRUEDCAP
+Approximate seating capacity of Bruederhoef Mennonite churches, 1890
+
+
+539) BRUEDPRP
+Value of Bruederhoef Mennonite Church property, 1890
+
+
+540) BRUEDMEM
+Number of Bruederhoef Mennonite Church communicants or members, 1890
+
+
+541) OLDAMORG
+Number of Old Amish Mennonite Church organizations, 1890
+
+
+542) OLDAMEDF
+Number of Old Amish Mennonite Church edifices, 1890
+
+
+543) OLDAMCAP
+Approximate seating capacity of Old Amish Mennonite churches, 1890
+
+
+544) OLDAMPRP
+Value of Old Amish Mennonite Church property, 1890
+
+
+545) OLDAMMEM
+Number of Old Amish Mennonite Church communicants or members, 1890
+
+
+546) APOSMORG
+Number of Apostolic Mennonite Church organizations, 1890
+
+
+547) APOSMEDF
+Number of Apostolic Mennonite Church edifices, 1890
+
+
+548) APOSMCAP
+Approximate seating capacity of Apostolic Mennonite churches, 1890
+
+
+549) APOSMPRP
+Value of Apostolic Mennonite Church property, 1890
+
+
+550) APOSMMEM
+Number of Apostolic Mennonite Church communicants or members, 1890
+
+
+551) REFMEORG
+Number of Reformed Mennonite Church organizations, 1890
+
+
+552) REFMEEDF
+Number of Reformed Mennonite Church edifices, 1890
+
+
+553) REFMECAP
+Approximate seating capacity of Reformed Mennonite churches, 1890
+
+
+554) REFMEPRP
+Value of Reformed Mennonite Church property, 1890
+
+
+555) REFMEMEM
+Number of Reformed Mennonite Church communicants or members, 1890
+
+
+556) CHMENORG
+Number of Church of God in Christ (Mennonite) organizations, 1890
+
+
+557) CHMENEDF
+Number of Church of God in Christ (Mennonite) edifices, 1890
+
+
+558) CHMENCAP
+Approximate seating capacity of Church of God in Christ (Mennonite) churches, 1890
+
+
+559) CHMENPRP
+Value of Church of God in Christ (Mennonite) property, 1890
+
+
+560) CHMENMEM
+Number of Church of God in Christ (Mennonite) communicants or members, 1890
+
+
+561) OLDWIORG
+Number of Old (Wisler) Mennonite organizations, 1890
+
+
+562) OLDWIEDF
+Number of Old (Wisler) Mennonite edifices, 1890
+
+
+563) OLDWICAP
+Approximate seating capacity of Old (Wisler) Mennonite churches, 1890
+
+
+564) OLDWIPRP
+Value of Old (Wisler) Mennonite property, 1890
+
+
+565) OLDWIMEM
+Number of Old (Wisler) Mennonite communicants or members, 1890
+
+
+566) BUNDEORG
+Number of Bundes Conference der Mennoniten Brueder-Germeinde organizations, 1890
+
+
+567) BUNDEEDF
+Number of Bundes Conference der Mennoniten Brueder-Germeinde edifices, 1890
+
+
+568) BUNDECAP
+Approximate seating capacity of Bundes Conference der Mennoniten Brueder-Germeinde churches, 1890
+
+
+569) BUNDEPRP
+Value of Bundes Conference der Mennoniten Brueder-Germeinde property, 1890
+
+
+570) BUNDEMEM
+Number of Bundes Conference der Mennoniten Brueder-Germeinde communicants or members, 1890
+
+
+571) DEFENORG
+Number of Defenceless Mennonite organizations, 1890
+
+
+572) DEFENEDF
+Number of Defenceless Mennonite edifices, 1890
+
+
+573) DEFENCAP
+Approximate seating capacity of Defenceless Mennonite churches, 1890
+
+
+574) DEFENPRP
+Value of Defenceless Mennonite property, 1890
+
+
+575) DEFENMEM
+Number of Defenceless Mennonite communicants or members, 1890
+
+
+576) MENBCORG
+Number of Mennonite Brethren in Christ organizations, 1890
+
+
+577) MENBCEDF
+Number of Mennonite Brethren in Christ edifices, 1890
+
+
+578) MENBCCAP
+Approximate seating capacity of Mennonite Brethren in Christ churches, 1890
+
+
+579) MENBCPRP
+Value of Mennonite Brethren in Christ property, 1890
+
+
+580) MENBCMEM
+Number of Mennonite Brethren in Christ communicants or members, 1890
+
+
+581) UAMECORG
+Number of Union American Methodist Episcopal organizations, 1890
+
+
+582) UAMECEDF
+Number of Union American Methodist Episcopal edifices, 1890
+
+
+583) UAMECCAP
+Approximate seating capacity of Union American Methodist Episcopal churches, 1890
+
+
+584) UAMECPRP
+Value of Union American Methodist Episcopal property, 1890
+
+
+585) UAMECMEM
+Number of Union American Methodist Episcopal communicants or members, 1890
+
+
+586) CONGMORG
+Number of Congregational Methodist organizations, 1890
+
+
+587) CONGMEDF
+Number of Congregational Methodist edifices, 1890
+
+
+588) CONGMCAP
+Approximate seating capacity of Congregational Methodist churches, 1890
+
+
+589) CONGMPRP
+Value of Congregational Methodist property, 1890
+
+
+590) CONGMMEM
+Number of Congregational Methodist communicants or members, 1890
+
+
+591) CONMCORG
+Number of Congregational Methodist (Colored) organizations, 1890
+
+
+592) CONMCEDF
+Number of Congregational Methodist (Colored) edifices, 1890
+
+
+593) CONMCCAP
+Approximate seating capacity of Congregational Methodist (Colored) churches, 1890
+
+
+594) CONMCPRP
+Value of Congregational Methodist (Colored) property, 1890
+
+
+595) CONMCMEM
+Number of Congregational Methodist (Colored) communicants or members, 1890
+
+
+596) NEWCMORG
+Number of New Congregational Methodist organizations, 1890
+
+
+597) NEWCMEDF
+Number of New Congregational Methodist edifices, 1890
+
+
+598) NEWCMCAP
+Approximate seating capacity of New Congregational Methodist churches, 1890
+
+
+599) NEWCMPRP
+Value of New Congregational Methodist property, 1890
+
+
+600) NEWCMMEM
+Number of New Congregational Methodist communicants or members, 1890
+
+
+601) ZIONUORG
+Number of Zion Union Apostolic (Methodist) organizations, 1890
+
+
+602) ZIONUEDF
+Number of Zion Union Apostolic (Methodist) edifices, 1890
+
+
+603) ZIONUCAP
+Approximate seating capacity of Zion Union Apostolic (Methodist) churches, 1890
+
+
+604) ZIONUPRP
+Value of Zion Union Apostolic (Methodist) property, 1890
+
+
+605) ZIONUMEM
+Number of Zion Union Apostolic (Methodist) communicants or members, 1890
+
+
+606) PRIMMORG
+Number of Primitive Methodist organizations, 1890
+
+
+607) PRIMMEDF
+Number of Primitive Methodist edifices, 1890
+
+
+608) PRIMMCAP
+Approximate seating capacity of Primitive Methodist churches, 1890
+
+
+609) PRIMMPRP
+Value of Primitive Methodist property, 1890
+
+
+610) PRIMMMEM
+Number of Primitive Methodist communicants or members, 1890
+
+
+611) INDEMORG
+Number of Independent Methodist organizations, 1890
+
+
+612) INDEMEDF
+Number of Independent Methodist edifices, 1890
+
+
+613) INDEMCAP
+Approximate seating capacity of Independent Methodist churches, 1890
+
+
+614) INDEMPRP
+Value of Independent Methodist property, 1890
+
+
+615) INDEMMEM
+Number of Independent Methodist communicants or members, 1890
+
+
+616) EVANGORG
+Number of Evangelical Missionary Church organizations, 1890
+
+
+617) EVANGEDF
+Number of Evangelical Missionary Church edifices, 1890
+
+
+618) EVANGCAP
+Approximate seating capacity of Evangelical Missionary churches, 1890
+
+
+619) EVANGPRP
+Value of Evangelical Missionary Church property, 1890
+
+
+620) EVANGMEM
+Number of Evangelical Missionary Church communicants or members, 1890
+
+
+621) ASCNAORG
+Number of Associate Church of North America organizations, 1890
+
+
+622) ASCNAEDF
+Number of Associate Church of North America edifices, 1890
+
+
+623) ASCNACAP
+Approximate seating capacity of Associate Church of North America churches, 1890
+
+
+624) ASCNAPRP
+Value of Associate Church of North America property, 1890
+
+
+625) ASCNAMEM
+Number of Associate Church of North America communicants or members, 1890
+
+
+626) ASREFORG
+Number of Associate Reformed Synod of the South organizations, 1890
+
+
+627) ASREFEDF
+Number of Associate Reformed Synod of the South edifices, 1890
+
+
+628) ASREFCAP
+Approximate seating capacity of Associate Reformed Synod of the South churches, 1890
+
+
+629) ASREFPRP
+Value of Associate Reformed Synod of the South property, 1890
+
+
+630) ASREFMEM
+Number of Associate Reformed Synod of the South communicants or members, 1890
+
+
+631) RPCUSORG
+Number of Reformed Presbyterian Church in the United States (Synod) organizations, 1890
+
+
+632) RPCUSEDF
+Number of Reformed Presbyterian Church in the United States (Synod) edifices, 1890
+
+
+633) RPCUSCAP
+Approximate seating capacity of Reformed Presbyterian Church in the United States (Synod) churches, 1890
+
+
+634) RPCUSPRP
+Value of Reformed Presbyterian Church in the United States (Synod) property, 1890
+
+
+635) RPCUSMEM
+Number of Reformed Presbyterian Church in the United States (Synod) communicants or members, 1890
+
+
+636) RPCNAORG
+Number of Reformed Presbyterian Church in North America (General Synod) organizations, 1890
+
+
+637) RPCNAEDF
+Number of Reformed Presbyterian Church in North America (General Synod) edifices, 1890
+
+
+638) RPCNACAP
+Approximate seating capacity of Reformed Presbyterian Church in North America (General Synod) churches, 1890
+
+
+639) RPCNAPRP
+Value of Reformed Presbyterian Church in North America (General Synod) property, 1890
+
+
+640) RPCNAMEM
+Number of Reformed Presbyterian Church in North America (General Synod) communicants or members, 1890
+
+
+641) RPCOVORG
+Number of Reformed Presbyterian (Covenanted) organizations, 1890
+
+
+642) RPCOVCAP
+Approximate seating capacity of Reformed Presbyterian (Covenanted) churches, 1890
+
+
+643) RPCOVMEM
+Number of Reformed Presbyterian (Covenanted) communicants or members, 1890
+
+
+644) RPUSCORG
+Number of Reformed Presbyterian Church in the United States and Canada organizations, 1890
+
+
+645) RPUSCEDF
+Number of Reformed Presbyterian Church in the United States and Canada organizations edifices, 1890
+
+
+646) RPUSCCAP
+Approximate seating capacity of Reformed Presbyterian Church in the United States and Canada organizations churches, 1890
+
+
+647) RPUSCPRP
+Value of Reformed Presbyterian Church in the United States and Canada organizations property, 1890
+
+
+648) RPUSCMEM
+Number of Reformed Presbyterian Church in the United States and Canada organizations communicants or members, 1890
+
+
+649) CRCORG
+Number of Christian Reformed Church organizations, 1890
+
+
+650) CRCEDF
+Number of Christian Reformed Church edifices, 1890
+
+
+651) CRCCAP
+Approximate seating capacity of Christian Reformed churches, 1890
+
+
+652) CRCPRP
+Value of Christian Reformed Church property, 1890
+
+
+653) CRCMEM
+Number of Christian Reformed Church communicants or members, 1890
+
+
+654) SCHWEORG
+Number of Schwenkfeldian organizations, 1890
+
+
+655) SCHWEEDF
+Number of Schwenkfeldian edifices, 1890
+
+
+656) SCHWECAP
+Approximate seating capacity of Schwenkfeldian churches, 1890
+
+
+657) SCHWEPRP
+Value of Schwenkfeldian property, 1890
+
+
+658) SCHWEMEM
+Number of Schwenkfeldian communicants or members, 1890
+
+
+659) SOCBRORG
+Number of Social Brethren organizations, 1890
+
+
+660) SOCBREDF
+Number of Social Brethren edifices, 1890
+
+
+661) SOCBRCAP
+Approximate seating capacity of Social Brethren churches, 1890
+
+
+662) SOCBRPRP
+Value of Social Brethren property, 1890
+
+
+663) SOCBRMEM
+Number of Social Brethren communicants or members, 1890
+
+
+664) ETHICORG
+Number of Society for Ethical Culture organizations, 1890
+
+
+665) ETHICMEM
+Number of Society for Ethical Culture communicants or members, 1890
+
+
+666) THEOSORG
+Number of Theosophical Society organizations, 1890
+
+
+667) THEOSEDF
+Number of Theosophical Society edifices, 1890
+
+
+668) THEOSCAP
+Approximate seating capacity of Theosophical Society churches, 1890
+
+
+669) THEOSPRP
+Value of Theosophical Society property, 1890
+
+
+670) THEOSMEM
+Number of Theosophical Society communicants or members, 1890
+
+
+671) INDEPORG
+Number of Independent Congregation organizations, 1890
+
+
+672) INDEPEDF
+Number of Independent Congregation edifices, 1890
+
+
+673) INDEPCAP
+Approximate seating capacity of Independent churches, 1890
+
+
+674) INDEPPRP
+Value of Independent Congregation property, 1890
+
+
+675) INDEPMEM
+Number of Independent Congregation communicants or members, 1890
+
+

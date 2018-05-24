@@ -1,0 +1,454 @@
+Data File: 1916CENSCT(Description Only Codebook)
+
+1) CNTYNAME
+County name
+
+
+2) STATE
+State name
+
+
+3) FIPST
+Census state code
+
+
+4) FIPCNT
+Census county code
+
+
+5) ADVCH
+Number of members of the Advent Christian Churches
+
+
+6) SEVADV
+Number of members of Seventh Day Adventists Churches
+
+
+7) ARMENIAN
+Number of members of the Armenian Churches
+
+
+8) ASSEMBGD
+Number of members of Assemblies of God, General Council Churches
+
+
+9) CFREEBAP
+Number of members of the Colored Freewill Baptist Churches
+
+
+10) CPRIMBAP
+Number of members of the Colored Primitive Baptist Churches
+
+
+11) DUCKRIV
+Number of members of the Duck River Baptist Churches
+
+
+12) FREEBAP
+Number of members of the Free Baptist Churches
+
+
+13) GENBAP
+Number of members of the General Baptist Churches
+
+
+14) NATBAP
+Number of members of National Convention Baptist Churches
+
+
+15) NORTHBAP
+Number of members of the Northern Convention Baptist Churches
+
+
+16) PRIMBAP
+Number of members of Primitive Baptist Churches
+
+
+17) REGBAP
+Number of members of Regular Baptist Churches
+
+
+18) SEPBAP
+Number of members of Separate Baptist Churches
+
+
+19) SOUTHBAP
+Number of members of Southern Baptist Churches
+
+
+20) UNITBAP
+Number of members of the United Baptist Churches
+
+
+21) DUNKCON
+Number of members of Brethren German Baptists (Conservative Dunker) Churches
+
+
+22) DUNKPROG
+Number of members of Brethren German Baptists (Progressive Dunker) Churches
+
+
+23) BRETHPLY
+Number of members of Brethren, Plymouth, I-V, Churches
+
+
+24) BUDDHIST
+Number of members of Buddhist Temples
+
+
+25) CHRCONV
+Number of members of the Christian (Christian Convention) Church
+
+
+26) CHGDGA
+Number of members of Churches of God, General Assembly
+
+
+27) CHGDGE
+Number of members of Churches of God, General Eldership
+
+
+28) CHLVGOD
+Number of members of the Church of the Living God, C.W.F.F.
+
+
+29) CONGREG
+Number of members of the Congregational Church
+
+
+30) DISCIPLE
+Number of members of the Disciples of Christ Church
+
+
+31) GRKEORTH
+Number of members of Greek Eastern Orthodox Churches
+
+
+32) GRKRUSS
+Number of members of Greek Russian Eastern Orthodox Churches
+
+
+33) RUSSORTH
+Number of members of Russian Eastern Orthodox Churches
+
+
+34) SERBORTH
+Number of members of Serbian Eastern Orthodox Churches
+
+
+35) SYRORTH
+Number of members of Syrian Eastern Orthodox Churches
+
+
+36) EVANASS
+Number of members of the Evangelical Association
+
+
+37) EVANAPOS
+Number of members of the Evangelical Association (Apostolic Faith)
+
+
+38) FREECHZ
+Number of members of the Free Christian Zion Church of Christ
+
+
+39) FRHICK
+Number of members of the (Hicksite) Friends Organizations
+
+
+40) GERMEVSY
+Number of members of the German Evangelical Synod
+
+
+41) INDCHUR
+Number of members of Independent Churches
+
+
+42) JEWISH
+Number of members of Jewish Congregations
+
+
+43) CJCLDS
+Number of members of the Church of Jesus Christ of the Latter-Day Saints
+
+
+44) LDSREORG
+Number of members of the Reorganized Church of Jesus Christ of Latter-Day Saints
+
+
+45) LDSTWOB
+Number of members of the Latter-Day Saints (2 Bodies)
+
+
+46) LITHCATH
+Number of members of the Lithuanian National Catholic Church
+
+
+47) LUTHAPOS
+Number of members of the Finnish Apostolic Lutheran Church
+
+
+48) DANLUTH
+Number of members of the Danish Lutheran Church
+
+
+49) FINNNAT
+Number of members of the Finnish Lutheran National Church
+
+
+50) FINNSYN
+Number of members of the Finnish Lutheran Church (Soumi Synod)
+
+
+51) LUTHFREE
+Number of members of the Lutheran Free Church (Norwegian)
+
+
+52) LUTHGEN
+Number of members of the Lutheran General Council
+
+
+53) LUTHGSYN
+Number of members of the Lutheran General Synod
+
+
+54) LUTHICE
+Number of members of the Lutheran Icelandic Synod
+
+
+55) LUTHOHIO
+Number of members of the Joint Lutheran Synod of Ohio and Other States
+
+
+56) LUTHNORW
+Number of members of the Norwegian Lutheran Church
+
+
+57) LUTHHAUG
+Number of members of the Norwegian Lutheran Church, Hauge's Synod
+
+
+58) LUTHNORS
+Number of members of the Synod for Norwegian Lutheran Churches
+
+
+59) LUTHUNNO
+Number of members of the United Norwegian Lutheran Church
+
+
+60) LUTHCONF
+Number of members of the Lutheran Synodical Conference
+
+
+61) LUTHIOWA
+Number of members of the Lutheran Synod of Iowa and Other States
+
+
+62) LUTHDAN
+Number of members of the United Danish Lutheran Church
+
+
+63) LUTHSOUT
+Number of members of the United Lutheran Synod, South
+
+
+64) MENNBRET
+Number of members of the Mennonite Brethren Church
+
+
+65) MENNGEN
+Number of members of the Mennonite General Conference
+
+
+66) MENNHUTT
+Number of members of the Mennonite Hutterian Brethren
+
+
+67) AFRMETH
+Number of members of African Methodist Churches
+
+
+68) AME
+Number of members of the African Methodist Episcopal Church
+
+
+69) AMEZION
+Number of members of the African Methodist Episcopal Zion Church
+
+
+70) AFRUMETH
+Number of members of the African Union Methodist Church
+
+
+71) AFRUESP
+Number of members of the African Union Methodist Episcopal Church
+
+
+72) COLMETEP
+Number of members of the Colored Methodist Episcopal Church
+
+
+73) COLMETPR
+Number of members of the Colored Methodist Protestant Church
+
+
+74) CONGMETH
+Number of members of the Congregational Methodist Church
+
+
+75) METHEPIS
+Number of members of the Methodist Episcopal Church
+
+
+76) METHEPS
+Number of members of the Methodist Episcopal Church, South
+
+
+77) FREEMETH
+Number of members of the Free Methodist Church
+
+
+78) PRIMMETH
+Number of members of the Primitive Methodist Church
+
+
+79) PROTMETH
+Number of members of the Protestant Methodist Church
+
+
+80) REFZUMET
+Number of members of the Reformed Zion Union Apostolic Methodist Church
+
+
+81) UNAMEPIS
+Number of members of the Union American Episcopal Church
+
+
+82) WESCONN
+Number of members of the Wesleyan Methodist Connection
+
+
+83) MORAVIAN
+Number of members of the Moravian Church (Unitas Fratrum)
+
+
+84) OTHER
+Number of members of Other Bodies
+
+
+85) PENTNAZ
+Number of members of the Pentecostal Church of the Nazarene
+
+
+86) POLISH
+Number of members of the Polish National Catholic Church
+
+
+87) PRESBREF
+Number of members of the Associate Reformed Presbyterian Church
+
+
+88) WELSHPRS
+Number of members of the Welsh Calvinistic Methodist Presbyterian Church
+
+
+89) CUMBPRES
+Number of members of the Cumberland Presbyterian Church
+
+
+90) COLCUMB
+Number of members of the Colored Cumberland Presbyterian Church
+
+
+91) PRESBUS
+Number of members of the Presbyterian Church in the United States
+
+
+92) PRESBUSA
+Number of members of the Presbyterian Church in the U.S.A.
+
+
+93) UNITPRES
+Number of members of the United Presbyterian Church
+
+
+94) PROTEPIS
+Number of members of the Protestant Episcopal Church
+
+
+95) CHRREF
+Number of members of Christian Reformed Churches
+
+
+96) REFAMER
+Number of members of the Reformed Church in America
+
+
+97) REFUS
+Number of members of the Reformed Church in the United States
+
+
+98) HUNGREF
+Number of members of the Hungarian Reformed Church
+
+
+99) CATHOLIC
+Number of members of the Roman Catholic Church
+
+
+100) SALVARMY
+Number of members of the Salvation Army
+
+
+101) SPRTASS
+Number of members of the Spiritualist National Association
+
+
+102) SPRTCONV
+Number of members of the Spiritualist National Convention
+
+
+103) SWEDEVAN
+Number of members of the Swedish Evangelical Mission Covenant
+
+
+104) UNITAR
+Number of members of the Unitarians
+
+
+105) UNITBRET
+Number of members of the United Brethren in Christ
+
+
+106) UNTBRTOC
+Number of members of the United Brethren in Christ (Old Convention)
+
+
+107) UNITEVAN
+Number of members of the United Evangelical Church
+
+
+108) UNIVER
+Number of members of the Universalists
+
+
+109) CHSCHRST
+Number of members of Churches of Christ
+
+
+110) MENNON
+Number of members of the Mennonite Church
+
+
+111) FREEWILL
+Number of members of the Free Will Baptist Church
+
+
+112) FRNDORTH
+Number of members of the Friends (Orthodox) Church
+
+
+113) CHRSTUN
+Number of members of the Christian Union Church
+
+
