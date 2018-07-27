@@ -1,0 +1,1306 @@
+Data File: CMS80CNT(Description Only Codebook)
+
+1) NAME
+NAME OF COUNTY
+
+
+2) STATE
+State Census Code
+
+
+3) COUNTY
+County Census Code
+
+
+4) FIPS
+Full FIPS Code
+
+
+5) NOCTOT80
+Total Number of Churches (1980)--ALL CHURCHES
+
+
+6) MEMTOT80
+Total Number of Members (1980)--ALL MEMBERS
+
+
+7) ADHTOT80
+Total Number of Adherents (1980)--ALL ADHERENTS
+
+
+8) TOTPOP
+Total population, 1980
+
+
+9) ADVCC_C
+Number of Churches (1980)--ADVENT CHRISTIAN CHURCH--Denomination Code 1
+
+
+10) ADVCC_M
+Number of Members (1980)--ADVENT CHRISTIAN CHURCH--Denomination Code 1
+
+
+11) ADVCC_A
+Number of Adherents (1980)--ADVENT CHRISTIAN CHURCH--Denomination Code 1
+
+
+12) AMEZ_C
+Number of Churches (1980)--AFRICAN METHODIST EPISCOPAL ZION CHURCH--Denomination Code 5
+
+
+13) AMEZ_M
+Number of Members (1980)--AFRICAN METHODIST EPISCOPAL ZION CHURCH--Denomination Code 5
+
+
+14) AMEZ_A
+Number of Adherents (1980)--AFRICAN METHODIST EPISCOPAL ZION CHURCH--Denomination Code 5
+
+
+15) AMANA_C
+Number of Churches (1980)--AMANA CHURCH SOCIETY--Denomination Code 15
+
+
+16) AMANA_M
+Number of Members (1980)--AMANA CHURCH SOCIETY--Denomination Code 15
+
+
+17) AMANA_A
+Number of Adherents (1980)--AMANA CHURCH SOCIETY--Denomination Code 15
+
+
+18) ABA_C
+Number of Churches (1980)--AMERICAN BAPTIST ASSOCIATION--Denomination Code 17
+
+
+19) ABA_M
+Number of Members (1980)--AMERICAN BAPTIST ASSOCIATION--Denomination Code 17
+
+
+20) ABA_A
+Number of Adherents (1980)--AMERICAN BAPTIST ASSOCIATION--Denomination Code 17
+
+
+21) AMBAPT_C
+Number of Churches (1980)--AMERICAN BAPTIST CHURCHES IN THE U.S.A.--Denomination Code 19
+
+
+22) AMBAPT_M
+Number of Members (1980)--AMERICAN BAPTIST CHURCHES IN THE U.S.A.--Denomination Code 19
+
+
+23) AMBAPT_A
+Number of Adherents (1980)--AMERICAN BAPTIST CHURCHES IN THE U.S.A.--Denomination Code 19
+
+
+24) APOSCC_C
+Number of Churches (1980)--APOSTOLIC CHRISTIAN CHURCH (NAZAREAN)--Denomination Code 39
+
+
+25) APOSCC_M
+Number of Members (1980)--APOSTOLIC CHRISTIAN CHURCH (NAZAREAN)--Denomination Code 39
+
+
+26) APOSCC_A
+Number of Adherents (1980)--APOSTOLIC CHRISTIAN CHURCH (NAZAREAN)--Denomination Code 39
+
+
+27) APOSLU_C
+Number of Churches (1980)--APOSTOLIC LUTHERAN CHURCH OF AMERICA--Denomination Code 45
+
+
+28) APOSLU_M
+Number of Members (1980)--APOSTOLIC LUTHERAN CHURCH OF AMERICA--Denomination Code 45
+
+
+29) APOSLU_A
+Number of Adherents (1980)--APOSTOLIC LUTHERAN CHURCH OF AMERICA--Denomination Code 45
+
+
+30) ARAPOS_C
+Number of Churches (1980)--ARMENIAN APOSTOLIC CHURCH OF AMER EASTERN PRELACY--Denomination Code 49
+
+
+31) ARAPOS_M
+Number of Members (1980)--ARMENIAN APOSTOLIC CHURCH OF AMER EASTERN PRELACY--Denomination Code 49
+
+
+32) ARAPOS_A
+Number of Adherents (1980)--ARMENIAN APOSTOLIC CHURCH OF AMER EASTERN PRELACY--Denomination Code 49
+
+
+33) AOG_C
+Number of Churches (1980)--ASSEMBLIES OF GOD--Denomination Code 53
+
+
+34) AOG_M
+Number of Members (1980)--ASSEMBLIES OF GOD--Denomination Code 53
+
+
+35) AOG_A
+Number of Adherents (1980)--ASSEMBLIES OF GOD--Denomination Code 53
+
+
+36) ARPC_C
+Number of Churches (1980)--ASSOCIATE REFORMED PRESBYTERIAN CHURCH (GEN SYNOD)--Denomination Code 55
+
+
+37) ARPC_M
+Number of Members (1980)--ASSOCIATE REFORMED PRESBYTERIAN CHURCH (GEN SYNOD)--Denomination Code 55
+
+
+38) ARPC_A
+Number of Adherents (1980)--ASSOCIATE REFORMED PRESBYTERIAN CHURCH (GEN SYNOD)--Denomination Code 55
+
+
+39) BMAA_C
+Number of Churches (1980)--BAPTIST GENERAL CONFERENCE--Denomination Code 57
+
+
+40) BMAA_M
+Number of Members (1980)--BAPTIST GENERAL CONFERENCE--Denomination Code 57
+
+
+41) BMAA_A
+Number of Adherents (1980)--BAPTIST GENERAL CONFERENCE--Denomination Code 57
+
+
+42) BMA_C
+Number of Churches (1980)--BAPTIST MISSIONARY ASSOCIATION OF AMERICA--Denomination Code 59
+
+
+43) BMA_M
+Number of Members (1980)--BAPTIST MISSIONARY ASSOCIATION OF AMERICA--Denomination Code 59
+
+
+44) BMA_A
+Number of Adherents (1980)--BAPTIST MISSIONARY ASSOCIATION OF AMERICA--Denomination Code 59
+
+
+45) BAMISH_C
+Number of Churches (1980)--BEACHY AMISH MENNONITE CHURCHES--Denomination Code 61
+
+
+46) BAMISH_M
+Number of Members (1980)--BEACHY AMISH MENNONITE CHURCHES--Denomination Code 61
+
+
+47) BAMISH_A
+Number of Adherents (1980)--BEACHY AMISH MENNONITE CHURCHES--Denomination Code 61
+
+
+48) BEREAN_C
+Number of Churches (1980)--BEREAN FUNDAMENTAL CHURCH--Denomination Code 63
+
+
+49) BEREAN_M
+Number of Members (1980)--BEREAN FUNDAMENTAL CHURCH--Denomination Code 63
+
+
+50) BEREAN_A
+Number of Adherents (1980)--BEREAN FUNDAMENTAL CHURCH--Denomination Code 63
+
+
+51) BETHEL_C
+Number of Churches (1980)--BETHEL MINISTERIAL ASSOCIATION, INC.--Denomination Code 65
+
+
+52) BETHEL_M
+Number of Members (1980)--BETHEL MINISTERIAL ASSOCIATION, INC.--Denomination Code 65
+
+
+53) BETHEL_A
+Number of Adherents (1980)--BETHEL MINISTERIAL ASSOCIATION, INC.--Denomination Code 65
+
+
+54) BIBLCC_C
+Number of Churches (1980)--BIBLE CHURCH OF CHRIST, INC., THE--Denomination Code 66
+
+
+55) BIBLCC_M
+Number of Members (1980)--BIBLE CHURCH OF CHRIST, INC., THE--Denomination Code 66
+
+
+56) BIBLCC_A
+Number of Adherents (1980)--BIBLE CHURCH OF CHRIST, INC., THE--Denomination Code 66
+
+
+57) BRETAS_C
+Number of Churches (1980)--BRETHREN CHURCH (ASHLAND, OHIO)--Denomination Code 71
+
+
+58) BRETAS_M
+Number of Members (1980)--BRETHREN CHURCH (ASHLAND, OHIO)--Denomination Code 71
+
+
+59) BRETAS_A
+Number of Adherents (1980)--BRETHREN CHURCH (ASHLAND, OHIO)--Denomination Code 71
+
+
+60) BCC_C
+Number of Churches (1980)--BRETHREN IN CHRIST CHURCH--Denomination Code 75
+
+
+61) BCC_M
+Number of Members (1980)--BRETHREN IN CHRIST CHURCH--Denomination Code 75
+
+
+62) BCC_A
+Number of Adherents (1980)--BRETHREN IN CHRIST CHURCH--Denomination Code 75
+
+
+63) CATH_C
+Number of Churches (1980)--CATHOLIC CHURCH--Denomination Code 81
+
+
+64) CATH_M
+Number of Members (1980)--CATHOLIC CHURCH--Denomination Code 81
+
+
+65) CATH_A
+Number of Adherents (1980)--CATHOLIC CHURCH--Denomination Code 81
+
+
+66) CCC_C
+Number of Churches (1980)--CHRIST CATHOLIC CHURCH--Denomination Code 83
+
+
+67) CCC_M
+Number of Members (1980)--CHRIST CATHOLIC CHURCH--Denomination Code 83
+
+
+68) CCC_A
+Number of Adherents (1980)--CHRIST CATHOLIC CHURCH--Denomination Code 83
+
+
+69) CMALLI_C
+Number of Churches (1980)--CHRISTIAN AND MISSIONARY ALLIANCE, THE--Denomination Code 89
+
+
+70) CMALLI_M
+Number of Members (1980)--CHRISTIAN AND MISSIONARY ALLIANCE, THE--Denomination Code 89
+
+
+71) CMALLI_A
+Number of Adherents (1980)--CHRISTIAN AND MISSIONARY ALLIANCE, THE--Denomination Code 89
+
+
+72) CCATH_C
+Number of Churches (1980)--CHRISTIAN CATHOLIC CHURCH--Denomination Code 91
+
+
+73) CCATH_M
+Number of Members (1980)--CHRISTIAN CATHOLIC CHURCH --Denomination Code 91
+
+
+74) CCATH_A
+Number of Adherents (1980)--CHRISTIAN CATHOLIC CHURCH --Denomination Code 91
+
+
+75) DOFC_C
+Number of Churches (1980)--CHRISTIAN CHURCH (DISCIPLES OF CHRIST)--Denomination Code 93
+
+
+76) DOFC_M
+Number of Members (1980)--CHRISTIAN CHURCH (DISCIPLES OF CHRIST)--Denomination Code 93
+
+
+77) DOFC_A
+Number of Adherents (1980)--CHRISTIAN CHURCH (DISCIPLES OF CHRIST)--Denomination Code 93
+
+
+78) CCCC_C
+Number of Churches (1980)--CHRISTIAN CHURCHES AND CHURCHES OF CHRIST--Denomination Code 97
+
+
+79) CCCC_M
+Number of Members (1980)--CHRISTIAN CHURCHES AND CHURCHES OF CHRIST--Denomination Code 97
+
+
+80) CCCC_A
+Number of Adherents (1980)--CHRISTIAN CHURCHES AND CHURCHES OF CHRIST--Denomination Code 97
+
+
+81) CME_C
+Number of Churches (1980)--CHRISTIAN METHODIST EPISCOPAL CHURCH--Denomination Code 101
+
+
+82) CME_M
+Number of Members (1980)--CHRISTIAN METHODIST EPISCOPAL CHURCH--Denomination Code 101
+
+
+83) CME_A
+Number of Adherents (1980)--CHRISTIAN METHODIST EPISCOPAL CHURCH--Denomination Code 101
+
+
+84) CRC_C
+Number of Churches (1980)--CHRISTIAN REFORMED CHURCH--Denomination Code 105
+
+
+85) CRC_M
+Number of Members (1980)--CHRISTIAN REFORMED CHURCH--Denomination Code 105
+
+
+86) CRC_A
+Number of Adherents (1980)--CHRISTIAN REFORMED CHURCH--Denomination Code 105
+
+
+87) CHRU_C
+Number of Churches (1980)--CHRISTIAN UNION--Denomination Code 107
+
+
+88) CHRU_M
+Number of Members (1980)--CHRISTIAN UNION--Denomination Code 107
+
+
+89) CHRU_A
+Number of Adherents (1980)--CHRISTIAN UNION--Denomination Code 107
+
+
+90) CGGC_C
+Number of Churches (1980)--CHURCH OF GOD GENERAL CONFERENCE (ABRAHAMIC FAITH) OREGON ILL.--Denomination Code 121
+
+
+91) CGGC_M
+Number of Members (1980)--CHURCH OF GOD GENERAL CONFERENCE (ABRAHAMIC FAITH) OREGON ILL.--Denomination Code 121
+
+
+92) CGGC_A
+Number of Adherents (1980)--CHURCH OF GOD GENERAL CONFERENCE (ABRAHAMIC FAITH) OREGON ILL.--Denomination Code 121
+
+
+93) CGIN_C
+Number of Churches (1980)--CHURCH OF GOD (ANDERSON, INDIANA)--Denomination Code 123
+
+
+94) CGIN_M
+Number of Members (1980)--CHURCH OF GOD (ANDERSON, INDIANA)--Denomination Code 123
+
+
+95) CGIN_A
+Number of Adherents (1980)--CHURCH OF GOD (ANDERSON, INDIANA)--Denomination Code 123
+
+
+96) CGTN_C
+Number of Churches (1980)--CHURCH OF GOD (CLEVELAND, TENNESSEE)--Denomination Code 127
+
+
+97) CGTN_M
+Number of Members (1980)--CHURCH OF GOD (CLEVELAND, TENNESSEE)--Denomination Code 127
+
+
+98) CGTN_A
+Number of Adherents (1980)--CHURCH OF GOD (CLEVELAND, TENNESSEE)--Denomination Code 127
+
+
+99) CGOD7_C
+Number of Churches (1980)--CHURCH OF GOD (SEVENTH DAY), DENVER, COLORADO, THE--Denomination Code 133
+
+
+100) CGOD7_M
+Number of Members (1980)--CHURCH OF GOD (SEVENTH DAY), DENVER, COLORADO, THE--Denomination Code 133
+
+
+101) CGOD7_A
+Number of Adherents (1980)--CHURCH OF GOD (SEVENTH DAY), DENVER, COLORADO, THE--Denomination Code 133
+
+
+102) CGODMN_C
+Number of Churches (1980)--CHURCH OF GOD IN CHRIST (MENNONITE)--Denomination Code 143
+
+
+103) CGODMN_M
+Number of Members (1980)--CHURCH OF GOD IN CHRIST (MENNONITE)--Denomination Code 143
+
+
+104) CGODMN_A
+Number of Adherents (1980)--CHURCH OF GOD IN CHRIST (MENNONITE)--Denomination Code 143
+
+
+105) BICKER_C
+Number of Churches (1980)--CHURCH OF JESUS CHRIST, THE (BICKERTONITES)--Denomination Code 149
+
+
+106) BICKER_M
+Number of Members (1980)--CHURCH OF JESUS CHRIST, THE (BICKERTONITES)--Denomination Code 149
+
+
+107) BICKER_A
+Number of Adherents (1980)--CHURCH OF JESUS CHRIST, THE (BICKERTONITES)--Denomination Code 149
+
+
+108) LDS_C
+Number of Churches (1980)--CHURCH OF JESUS CHRIST OF LATTER-DAY SAINTS THE--Denomination Code 151
+
+
+109) LDS_M
+Number of Members (1980)--CHURCH OF JESUS CHRIST OF LATTER-DAY SAINTS THE--Denomination Code 151
+
+
+110) LDS_A
+Number of Adherents (1980)--CHURCH OF JESUS CHRIST OF LATTER-DAY SAINTS THE--Denomination Code 151
+
+
+111) COB_C
+Number of Churches (1980)--CHURCH OF THE BRETHREN--Denomination Code 157
+
+
+112) COB_M
+Number of Members (1980)--CHURCH OF THE BRETHREN--Denomination Code 157
+
+
+113) COB_A
+Number of Adherents (1980)--CHURCH OF THE BRETHREN--Denomination Code 157
+
+
+114) LUBRET_C
+Number of Churches (1980)--CHURCH OF THE LUTHERAN BRETHREN OF AMERICA--Denomination Code 163
+
+
+115) LUBRET_M
+Number of Members (1980)--CHURCH OF THE LUTHERAN BRETHREN OF AMERICA--Denomination Code 163
+
+
+116) LUBRET_A
+Number of Adherents (1980)--CHURCH OF THE LUTHERAN BRETHREN OF AMERICA--Denomination Code 163
+
+
+117) LUCONF_C
+Number of Churches (1980)--CHURCH OF THE LUTHERAN CONFESSION--Denomination Code 164
+
+
+118) LUCONF_M
+Number of Members (1980)--CHURCH OF THE LUTHERAN CONFESSION--Denomination Code 164
+
+
+119) LUCONF_A
+Number of Adherents (1980)--CHURCH OF THE LUTHERAN CONFESSION--Denomination Code 164
+
+
+120) NAZ_C
+Number of Churches (1980)--CHURCH OF THE NAZARENE--Denomination Code 165
+
+
+121) NAZ_M
+Number of Members (1980)--CHURCH OF THE NAZARENE--Denomination Code 165
+
+
+122) NAZ_A
+Number of Adherents (1980)--CHURCH OF THE NAZARENE--Denomination Code 165
+
+
+123) CCHRIS_C
+Number of Churches (1980)--CHURCHES OF CHRIST--Denomination Code 167
+
+
+124) CCHRIS_M
+Number of Members (1980)--CHURCHES OF CHRIST--Denomination Code 167
+
+
+125) CCHRIS_A
+Number of Adherents (1980)--CHURCHES OF CHRIST--Denomination Code 167
+
+
+126) NACCC_C
+Number of Churches (1980)--CONGREGATIONAL CHRISTIAN CHURCHES, NATIONAL ASSOC OF--Denomination Code 175
+
+
+127) NACCC_M
+Number of Members (1980)--CONGREGATIONAL CHRISTIAN CHURCHES, NATIONAL ASSOC OF--Denomination Code 175
+
+
+128) NACCC_A
+Number of Adherents (1980)--CONGREGATIONAL CHRISTIAN CHURCHES, NATIONAL ASSOC OF--Denomination Code 175
+
+
+129) CONGHL_C
+Number of Churches (1980)--CONGREGATIONAL HOLINESS CHURCH--Denomination Code 177
+
+
+130) CONGHL_M
+Number of Members (1980)--CONGREGATIONAL HOLINESS CHURCH--Denomination Code 177
+
+
+131) CONGHL_A
+Number of Adherents (1980)--CONGREGATIONAL HOLINESS CHURCH--Denomination Code 177
+
+
+132) CBAPT_C
+Number of Churches (1980)--CONSERVATIVE BAPTIST ASSOCIATION OF AMERICA--Denomination Code 179
+
+
+133) CBAPT_M
+Number of Members (1980)--CONSERVATIVE BAPTIST ASSOCIATION OF AMERICA--Denomination Code 179
+
+
+134) CBAPT_A
+Number of Adherents (1980)--CONSERVATIVE BAPTIST ASSOCIATION OF AMERICA--Denomination Code 179
+
+
+135) CCONG_C
+Number of Churches (1980)--CONSERVATIVE CONGREGATIONAL CHRISTIAN CONFERENCE--Denomination Code 181
+
+
+136) CCONG_M
+Number of Members (1980)--CONSERVATIVE CONGREGATIONAL CHRISTIAN CONFERENCE--Denomination Code 181
+
+
+137) CCONG_A
+Number of Adherents (1980)--CONSERVATIVE CONGREGATIONAL CHRISTIAN CONFERENCE--Denomination Code 181
+
+
+138) CPC_C
+Number of Churches (1980)--CUMBERLAND PRESBYTERIAN CHURCH--Denomination Code 185
+
+
+139) CPC_M
+Number of Members (1980)--CUMBERLAND PRESBYTERIAN CHURCH--Denomination Code 185
+
+
+140) CPC_A
+Number of Adherents (1980)--CUMBERLAND PRESBYTERIAN CHURCH--Denomination Code 185
+
+
+141) EPISC_C
+Number of Churches (1980)--EPISCOPAL CHURCH, THE--Denomination Code 193
+
+
+142) EPISC_M
+Number of Members (1980)--EPISCOPAL CHURCH, THE--Denomination Code 193
+
+
+143) EPISC_A
+Number of Adherents (1980)--EPISCOPAL CHURCH, THE--Denomination Code 193
+
+
+144) EELUTH_C
+Number of Churches (1980)--ESTONIAN EVANGELICAL LUTHERAN CHURCH--Denomination Code 195
+
+
+145) EELUTH_M
+Number of Members (1980)--ESTONIAN EVANGELICAL LUTHERAN CHURCH--Denomination Code 195
+
+
+146) EELUTH_A
+Number of Adherents (1980)--ESTONIAN EVANGELICAL LUTHERAN CHURCH--Denomination Code 195
+
+
+147) EVANNA_C
+Number of Churches (1980)--EVANGELICAL CHURCH OF NORTH AMERICA, THE--Denomination Code 197
+
+
+148) EVANNA_M
+Number of Members (1980)--EVANGELICAL CHURCH OF NORTH AMERICA, THE--Denomination Code 197
+
+
+149) EVANNA_A
+Number of Adherents (1980)--EVANGELICAL CHURCH OF NORTH AMERICA, THE--Denomination Code 197
+
+
+150) EVANCC_C
+Number of Churches (1980)--EVANGELICAL CONGREGATIONAL CHURCH--Denomination Code 199
+
+
+151) EVANCC_M
+Number of Members (1980)--EVANGELICAL CONGREGATIONAL CHURCH--Denomination Code 199
+
+
+152) EVANCC_A
+Number of Adherents (1980)--EVANGELICAL CONGREGATIONAL CHURCH--Denomination Code 199
+
+
+153) EVANCV_C
+Number of Churches (1980)--EVANGELICAL COVENANT CHURCH OF AMERICA, THE--Denomination Code 201
+
+
+154) EVANCV_M
+Number of Members (1980)--EVANGELICAL COVENANT CHURCH OF AMERICA, THE--Denomination Code 201
+
+
+155) EVANCV_A
+Number of Adherents (1980)--EVANGELICAL COVENANT CHURCH OF AMERICA, THE--Denomination Code 201
+
+
+156) EVFREE_C
+Number of Churches (1980)--EVANGELICAL FREE CHURCH OF AMERICA THE--Denomination Code 203
+
+
+157) EVFREE_M
+Number of Members (1980)--EVANGELICAL FREE CHURCH OF AMERICA THE--Denomination Code 203
+
+
+158) EVFREE_A
+Number of Adherents (1980)--EVANGELICAL FREE CHURCH OF AMERICA THE--Denomination Code 203
+
+
+159) ELCA_C
+Number of Churches (1980)--EVANGELICAL LUTHERAN CHURCH IN AMERICA; Note: This count includes The American Lutheran Church, the Lutheran Church in America, and the Association of Evangelical Lutheran Churches. These denominations merged to become the Evangelical Lutheran Church in America between 1980 and 1990 enumerations.--Denomination Code 207
+
+
+160) ELCA_M
+Number of Members (1980)-- EVANGELICAL LUTHERAN CHURCH IN AMERICA; Note: This count includes The American Lutheran Church, the Lutheran Church in America, and the Association of Evangelical Lutheran Churches. These denominations merged to become the Evangelical Lutheran Church in America between the 1980 and 1990 enumerations.--Denomination Code 207
+
+
+161) ELCA_A
+Number of Adherents (1980)-- EVANGELICAL LUTHERAN CHURCH IN AMERICA; Note: This count includes The American Lutheran Church, the Lutheran Church in America, and the Association of Evangelical Lutheran Churches. These denominations merged to become the Evangelical Lutheran Church in America between the 1980 and 1990 enumerations.--Denomination Code 207
+
+
+162) ELSYN_C
+Number of Churches (1980)--EVANGELICAL LUTHERAN SYNOD--Denomination Code 209
+
+
+163) ELSYN_M
+Number of Members (1980)--EVANGELICAL LUTHERAN SYNOD--Denomination Code 209
+
+
+164) ELSYN_A
+Number of Adherents (1980)--EVANGELICAL LUTHERAN SYNOD--Denomination Code 209
+
+
+165) EVMENN_C
+Number of Churches (1980)--EVANGELICAL MENNONITE BRETHREN CONFERENCE--Denomination Code 211
+
+
+166) EVMENN_M
+Number of Members (1980)--EVANGELICAL MENNONITE BRETHREN CONFERENCE--Denomination Code 211
+
+
+167) EVMENN_A
+Number of Adherents (1980)--EVANGELICAL MENNONITE BRETHREN CONFERENCE--Denomination Code 211
+
+
+168) EVMENC_C
+Number of Churches (1980)--EVANGELICAL MENNONITE CHURCH, INC.--Denomination Code 213
+
+
+169) EVMENC_M
+Number of Members (1980)--EVANGELICAL MENNONITE CHURCH, INC.--Denomination Code 213
+
+
+170) EVMENC_A
+Number of Adherents (1980)--EVANGELICAL MENNONITE CHURCH, INC.--Denomination Code 213
+
+
+171) EVMETH_C
+Number of Churches (1980)--EVANGELICAL METHODIST CHURCH--Denomination Code 215
+
+
+172) EVMETH_M
+Number of Members (1980)--EVANGELICAL METHODIST CHURCH--Denomination Code 215
+
+
+173) EVMETH_A
+Number of Adherents (1980)--EVANGELICAL METHODIST CHURCH--Denomination Code 215
+
+
+174) FIREBP_C
+Number of Churches (1980)--FIRE BAPTIZED HOLINESS CHURCH (WESLEYAN) THE--Denomination Code 217
+
+
+175) FIREBP_M
+Number of Members (1980)--FIRE BAPTIZED HOLINESS CHURCH (WESLEYAN) THE--Denomination Code 217
+
+
+176) FIREBP_A
+Number of Adherents (1980)--FIRE BAPTIZED HOLINESS CHURCH (WESLEYAN) THE--Denomination Code 217
+
+
+177) FREELU_C
+Number of Churches (1980)--FREE LUTHERAN CONGREGATIONS THE ASSOCIATION OF--Denomination Code 220
+
+
+178) FREELU_M
+Number of Members (1980)--FREE LUTHERAN CONGREGATIONS THE ASSOCIATION OF--Denomination Code 220
+
+
+179) FREELU_A
+Number of Adherents (1980)--FREE LUTHERAN CONGREGATIONS THE ASSOCIATION OF--Denomination Code 220
+
+
+180) FMETH_C
+Number of Churches (1980)--FREE METHODIST CHURCH OF NORTH AMERICA--Denomination Code 221
+
+
+181) FMETH_M
+Number of Members (1980)--FREE METHODIST CHURCH OF NORTH AMERICA--Denomination Code 221
+
+
+182) FMETH_A
+Number of Adherents (1980)--FREE METHODIST CHURCH OF NORTH AMERICA--Denomination Code 221
+
+
+183) FRIEND_C
+Number of Churches (1980)--FRIENDS--Denomination Code 226
+
+
+184) FRIEND_M
+Number of Members (1980)--FRIENDS--Denomination Code 226
+
+
+185) FRIEND_A
+Number of Adherents (1980)--FRIENDS--Denomination Code 226
+
+
+186) NEWJER_C
+Number of Churches (1980)--GENERAL CHURCH OF THE NEW JERUSALEM--Denomination Code 233
+
+
+187) NEWJER_M
+Number of Members (1980)--GENERAL CHURCH OF THE NEW JERUSALEM--Denomination Code 233
+
+
+188) NEWJER_A
+Number of Adherents (1980)--GENERAL CHURCH OF THE NEW JERUSALEM--Denomination Code 233
+
+
+189) GCMENN_C
+Number of Churches (1980)--GENERAL CONFERENCE OF MENNONITE BRETHREN CHURCHES--Denomination Code 237
+
+
+190) GCMENN_M
+Number of Members (1980)--GENERAL CONFERENCE OF MENNONITE BRETHREN CHURCHES--Denomination Code 237
+
+
+191) GCMENN_A
+Number of Adherents (1980)--GENERAL CONFERENCE OF MENNONITE BRETHREN CHURCHES--Denomination Code 237
+
+
+192) SWEDBG_C
+Number of Churches (1980)--GENERAL CONVENTION OF THE NEW JERUSALEM IN THE U.S.A. 'THE SWEDENBORGIAN CHURCH'--Denomination Code 239
+
+
+193) SWEDBG_M
+Number of Members (1980)--GENERAL CONVENTION OF THE NEW JERUSALEM IN THE U.S.A. 'THE SWEDENBORGIAN CHURCH'--Denomination Code 239
+
+
+194) SWEDBG_A
+Number of Adherents (1980)--GENERAL CONVENTION OF THE NEW JERUSALEM IN THE U.S.A. 'THE SWEDENBORGIAN CHURCH'--Denomination Code 239
+
+
+195) GRBRET_C
+Number of Churches (1980)--GRACE BRETHREN CHURCHES, FELLOWSHIP OF--Denomination Code 244
+
+
+196) GRBRET_M
+Number of Members (1980)--GRACE BRETHREN CHURCHES, FELLOWSHIP OF--Denomination Code 244
+
+
+197) GRBRET_A
+Number of Adherents (1980)--GRACE BRETHREN CHURCHES, FELLOWSHIP OF--Denomination Code 244
+
+
+198) HOLINS_C
+Number of Churches (1980)--HOLINESS CHURCH OF GOD, INC., THE--Denomination Code 247
+
+
+199) HOLINS_M
+Number of Members (1980)--HOLINESS CHURCH OF GOD, INC., THE--Denomination Code 247
+
+
+200) HOLINS_A
+Number of Adherents (1980)--HOLINESS CHURCH OF GOD, INC., THE--Denomination Code 247
+
+
+201) FOURSQ_C
+Number of Churches (1980)--INTERNATIONAL CHURCH OF THE FOURSQUARE GOSPEL--Denomination Code 263
+
+
+202) FOURSQ_M
+Number of Members (1980)--INTERNATIONAL CHURCH OF THE FOURSQUARE GOSPEL--Denomination Code 263
+
+
+203) FOURSQ_A
+Number of Adherents (1980)--INTERNATIONAL CHURCH OF THE FOURSQUARE GOSPEL--Denomination Code 263
+
+
+204) LATVLU_C
+Number of Churches (1980)--LATVIAN EVANGELICAL LUTHERAN CHURCH IN AMERICA THE--Denomination Code 274
+
+
+205) LATVLU_M
+Number of Members (1980)--LATVIAN EVANGELICAL LUTHERAN CHURCH IN AMERICA THE--Denomination Code 274
+
+
+206) LATVLU_A
+Number of Adherents (1980)--LATVIAN EVANGELICAL LUTHERAN CHURCH IN AMERICA THE--Denomination Code 274
+
+
+207) LCMS_C
+Number of Churches (1980)--LUTHERAN CHURCH - MISSOURI SYNOD THE--Denomination Code 283
+
+
+208) LCMS_M
+Number of Members (1980)--LUTHERAN CHURCH - MISSOURI SYNOD THE--Denomination Code 283
+
+
+209) LCMS_A
+Number of Adherents (1980)--LUTHERAN CHURCH - MISSOURI SYNOD THE--Denomination Code 283
+
+
+210) MENNT_C
+Number of Churches (1980)--MENNONITE CHURCH--Denomination Code 285
+
+
+211) MENNT_M
+Number of Members (1980)--MENNONITE CHURCH--Denomination Code 285
+
+
+212) MENNT_A
+Number of Adherents (1980)--MENNONITE CHURCH--Denomination Code 285
+
+
+213) MENNGC_C
+Number of Churches (1980)--MENNONITE CHURCH THE GENERAL CONFERENCE--Denomination Code 287
+
+
+214) MENNGC_M
+Number of Members (1980)--MENNONITE CHURCH THE GENERAL CONFERENCE--Denomination Code 287
+
+
+215) MENNGC_A
+Number of Adherents (1980)--MENNONITE CHURCH THE GENERAL CONFERENCE--Denomination Code 287
+
+
+216) METRCC_C
+Number of Churches (1980)--METROPOLITAN COMMUNITY CHURCHES, UNIVERSAL FELLOWSHIP OF--Denomination Code 290
+
+
+217) METRCC_M
+Number of Members (1980)--METROPOLITAN COMMUNITY CHURCHES, UNIVERSAL FELLOWSHIP OF--Denomination Code 290
+
+
+218) METRCC_A
+Number of Adherents (1980)--METROPOLITAN COMMUNITY CHURCHES, UNIVERSAL FELLOWSHIP OF--Denomination Code 290
+
+
+219) MISSCH_C
+Number of Churches (1980)--MISSIONARY CHURCH THE--Denomination Code 291
+
+
+220) MISSCH_M
+Number of Members (1980)--MISSIONARY CHURCH THE--Denomination Code 291
+
+
+221) MISSCH_A
+Number of Adherents (1980)--MISSIONARY CHURCH THE--Denomination Code 291
+
+
+222) MORAVN_C
+Number of Churches (1980)--MORAVIAN CHURCH IN AMER (UNITAS FRATRUM) NO PROV--Denomination Code 293
+
+
+223) MORAVN_M
+Number of Members (1980)--MORAVIAN CHURCH IN AMER (UNITAS FRATRUM) NO PROV--Denomination Code 293
+
+
+224) MORAVN_A
+Number of Adherents (1980)--MORAVIAN CHURCH IN AMER (UNITAS FRATRUM) NO PROV--Denomination Code 293
+
+
+225) MORAVS_C
+Number of Churches (1980)--MORAVIAN CHURCH IN AMER (UNITAS FRATRUM) SO PROV--Denomination Code 295
+
+
+226) MORAVS_M
+Number of Members (1980)--MORAVIAN CHURCH IN AMER (UNITAS FRATRUM) SO PROV--Denomination Code 295
+
+
+227) MORAVS_A
+Number of Adherents (1980)--MORAVIAN CHURCH IN AMER (UNITAS FRATRUM) SO PROV--Denomination Code 295
+
+
+228) NABC_C
+Number of Churches (1980)--NORTH AMERICAN BAPTIST CONFERENCE--Denomination Code 313
+
+
+229) NABC_M
+Number of Members (1980)--NORTH AMERICAN BAPTIST CONFERENCE--Denomination Code 313
+
+
+230) NABC_A
+Number of Adherents (1980)--NORTH AMERICAN BAPTIST CONFERENCE--Denomination Code 313
+
+
+231) OOAMIS_C
+Number of Churches (1980)--OLD ORDER AMISH CHURCH--Denomination Code 323
+
+
+232) OOAMIS_M
+Number of Members (1980)--OLD ORDER AMISH CHURCH--Denomination Code 323
+
+
+233) OOAMIS_A
+Number of Adherents (1980)--OLD ORDER AMISH CHURCH--Denomination Code 323
+
+
+234) OPBIBL_C
+Number of Churches (1980)--OPEN BIBLE STANDARD CHURCHES, INC.--Denomination Code 329
+
+
+235) OPBIBL_M
+Number of Members (1980)--OPEN BIBLE STANDARD CHURCHES, INC.--Denomination Code 329
+
+
+236) OPBIBL_A
+Number of Adherents (1980)--OPEN BIBLE STANDARD CHURCHES, INC.--Denomination Code 329
+
+
+237) OPC_C
+Number of Churches (1980)--ORTHODOX PRESBYTERIAN CHURCH, THE--Denomination Code 335
+
+
+238) OPC_M
+Number of Members (1980)--ORTHODOX PRESBYTERIAN CHURCH, THE--Denomination Code 335
+
+
+239) OPC_A
+Number of Adherents (1980)--ORTHODOX PRESBYTERIAN CHURCH, THE--Denomination Code 335
+
+
+240) PENTFW_C
+Number of Churches (1980)--PENTECOSTAL FREE WILL BAPTIST CHURCH, INC., THE--Denomination Code 347
+
+
+241) PENTFW_M
+Number of Members (1980)--PENTECOSTAL FREE WILL BAPTIST CHURCH, INC., THE--Denomination Code 347
+
+
+242) PENTFW_A
+Number of Adherents (1980)--PENTECOSTAL FREE WILL BAPTIST CHURCH, INC., THE--Denomination Code 347
+
+
+243) PENTHL_C
+Number of Churches (1980)--PENTECOSTAL HOLINESS CHURCH, INC.--Denomination Code 349
+
+
+244) PENTHL_M
+Number of Members (1980)--PENTECOSTAL HOLINESS CHURCH, INC.--Denomination Code 349
+
+
+245) PENTHL_A
+Number of Adherents (1980)--PENTECOSTAL HOLINESS CHURCH, INC.--Denomination Code 349
+
+
+246) CHRBRE_C
+Number of Churches (1980)--CHRISTIAN (PLYMOUTH) BRETHREN--Denomination Code 353
+
+
+247) CHRBRE_M
+Number of Members (1980)--CHRISTIAN (PLYMOUTH) BRETHREN--Denomination Code 353
+
+
+248) CHRBRE_A
+Number of Adherents (1980)--CHRISTIAN (PLYMOUTH) BRETHREN--Denomination Code 353
+
+
+249) PCUSA_C
+Number of Churches (1980)--PRESBYTERIAN CHURCH (USA); Note: This count includes both the Presbyterian Church in the United States and the United Presbyterian Church in the U.S.A. which merged to form the Presbyterian Church (U.S.A.) between the 1980 and 1990 enumerations.--Denomination Code 355
+
+
+250) PCUSA_M
+Number of Members (1980)-- PRESBYTERIAN CHURCH (USA); Note: This count includes both the Presbyterian Church in the United States and the United Presbyterian Church in the U.S.A. which merged to form the Presbyterian Church (U.S.A.) between the 1980 and 1990 enumerations.--Denomination Code 355
+
+
+251) PCUSA_A
+Number of Adherents (1980)-- PRESBYTERIAN CHURCH (USA); Note: This count includes both the Presbyterian Church in the United States and the United Presbyterian Church in the U.S.A. which merged to form the Presbyterian Church (U.S.A.) between the 1980 and 1990 enumerations.--Denomination Code 355
+
+
+252) PRESCA_C
+Number of Churches (1980)--PRESBYTERIAN CHURCH IN AMERICA--Denomination Code 356
+
+
+253) PRESCA_M
+Number of Members (1980)--PRESBYTERIAN CHURCH IN AMERICA--Denomination Code 356
+
+
+254) PRESCA_A
+Number of Adherents (1980)--PRESBYTERIAN CHURCH IN AMERICA--Denomination Code 356
+
+
+255) PADVCC_C
+Number of Churches (1980)--PRIMITIVE ADVENT CHRISTIAN CHURCH--Denomination Code 359
+
+
+256) PADVCC_M
+Number of Members (1980)--PRIMITIVE ADVENT CHRISTIAN CHURCH--Denomination Code 359
+
+
+257) PADVCC_A
+Number of Adherents (1980)--PRIMITIVE ADVENT CHRISTIAN CHURCH--Denomination Code 359
+
+
+258) PRMETH_C
+Number of Churches (1980)--PRIMITIVE METHODIST CHURCH U.S.A.--Denomination Code 363
+
+
+259) PRMETH_M
+Number of Members (1980)--PRIMITIVE METHODIST CHURCH U.S.A.--Denomination Code 363
+
+
+260) PRMETH_A
+Number of Adherents (1980)--PRIMITIVE METHODIST CHURCH U.S.A.--Denomination Code 363
+
+
+261) PRCONF_C
+Number of Churches (1980)--THE PROTESTANT CONFERENCE (LUTHERAN)--Denomination Code 367
+
+
+262) PRCONF_M
+Number of Members (1980)--THE PROTESTANT CONFERENCE (LUTHERAN)--Denomination Code 367
+
+
+263) PRCONF_A
+Number of Adherents (1980)--THE PROTESTANT CONFERENCE (LUTHERAN)--Denomination Code 367
+
+
+264) PREFCA_C
+Number of Churches (1980)--PROTESTANT REFORMED CHURCHES IN AMERICA--Denomination Code 369
+
+
+265) PREFCA_M
+Number of Members (1980)--PROTESTANT REFORMED CHURCHES IN AMERICA--Denomination Code 369
+
+
+266) PREFCA_A
+Number of Adherents (1980)--PROTESTANT REFORMED CHURCHES IN AMERICA--Denomination Code 369
+
+
+267) REFCH_C
+Number of Churches (1980)--REFORMED CHURCH IN AMERICA--Denomination Code 371
+
+
+268) REFCH_M
+Number of Members (1980)--REFORMED CHURCH IN AMERICA--Denomination Code 371
+
+
+269) REFCH_A
+Number of Adherents (1980)--REFORMED CHURCH IN AMERICA--Denomination Code 371
+
+
+270) REPISC_C
+Number of Churches (1980)--REFORMED EPISCOPAL CHURCH--Denomination Code 375
+
+
+271) REPISC_M
+Number of Members (1980)--REFORMED EPISCOPAL CHURCH--Denomination Code 375
+
+
+272) REPISC_A
+Number of Adherents (1980)--REFORMED EPISCOPAL CHURCH--Denomination Code 375
+
+
+273) RFPRES_C
+Number of Churches (1980)--ROMANIAN ORTHODOX EPISCOPATE OF AMERICA--Denomination Code 383
+
+
+274) RFPRES_M
+Number of Members (1980)--ROMANIAN ORTHODOX EPISCOPATE OF AMERICA--Denomination Code 383
+
+
+275) RFPRES_A
+Number of Adherents (1980)--ROMANIAN ORTHODOX EPISCOPATE OF AMERICA--Denomination Code 383
+
+
+276) ROMORT_C
+Number of Churches (1980)--ROMANIAN ORTHODOX CHURCH IN AMERICA, THE--Denomination Code 395
+
+
+277) ROMORT_M
+Number of Members (1980)--ROMANIAN ORTHODOX CHURCH IN AMERICA, THE--Denomination Code 395
+
+
+278) ROMORT_A
+Number of Adherents (1980)--ROMANIAN ORTHODOX CHURCH IN AMERICA, THE--Denomination Code 395
+
+
+279) SARMY_C
+Number of Churches (1980)--SALVATION ARMY THE--Denomination Code 403
+
+
+280) SARMY_M
+Number of Members (1980)--SALVATION ARMY THE--Denomination Code 403
+
+
+281) SARMY_A
+Number of Adherents (1980)--SALVATION ARMY THE--Denomination Code 403
+
+
+282) SEPBAP_C
+Number of Churches (1980)--SEPARATE BAPTISTS IN CHRIST--Denomination Code 409
+
+
+283) SEPBAP_M
+Number of Members (1980)--SEPARATE BAPTISTS IN CHRIST--Denomination Code 409
+
+
+284) SEPBAP_A
+Number of Adherents (1980)--SEPARATE BAPTISTS IN CHRIST--Denomination Code 409
+
+
+285) SDA_C
+Number of Churches (1980)--SEVENTH-DAY ADVENTISTS--Denomination Code 413
+
+
+286) SDA_M
+Number of Members (1980)--SEVENTH-DAY ADVENTISTS--Denomination Code 413
+
+
+287) SDA_A
+Number of Adherents (1980)--SEVENTH-DAY ADVENTISTS--Denomination Code 413
+
+
+288) SDBGC_C
+Number of Churches (1980)--SEVENTH DAY BAPTIST GENERAL CONFERENCE--Denomination Code 415
+
+
+289) SDBGC_M
+Number of Members (1980)--SEVENTH DAY BAPTIST GENERAL CONFERENCE--Denomination Code 415
+
+
+290) SDBGC_A
+Number of Adherents (1980)--SEVENTH DAY BAPTIST GENERAL CONFERENCE--Denomination Code 415
+
+
+291) SOBRET_C
+Number of Churches (1980)--SOCIAL BRETHREN--Denomination Code 417
+
+
+292) SOBRET_M
+Number of Members (1980)--SOCIAL BRETHREN--Denomination Code 417
+
+
+293) SOBRET_A
+Number of Adherents (1980)--SOCIAL BRETHREN--Denomination Code 417
+
+
+294) SBC_C
+Number of Churches (1980)--SOUTHERN BAPTIST CONVENTION--Denomination Code 419
+
+
+295) SBC_M
+Number of Members (1980)--SOUTHERN BAPTIST CONVENTION--Denomination Code 419
+
+
+296) SBC_A
+Number of Adherents (1980)--SOUTHERN BAPTIST CONVENTION--Denomination Code 419
+
+
+297) SOMETH_C
+Number of Churches (1980)--THE SOUTHERN METHODIST CHURCH--Denomination Code 421
+
+
+298) SOMETH_M
+Number of Members (1980)--THE SOUTHERN METHODIST CHURCH--Denomination Code 421
+
+
+299) SOMETH_A
+Number of Adherents (1980)--THE SOUTHERN METHODIST CHURCH--Denomination Code 421
+
+
+300) SYRANT_C
+Number of Churches (1980)--SYRIAN ORTHODOX CHURCH OF ANTIOCH (ARCHDIOCESE OF THE U.S.A. AND CANADA)--Denomination Code 423
+
+
+301) SYRANT_M
+Number of Members (1980)--SYRIAN ORTHODOX CHURCH OF ANTIOCH (ARCHDIOCESE OF THE U.S.A. AND CANADA)--Denomination Code 423
+
+
+302) SYRANT_A
+Number of Adherents (1980)--SYRIAN ORTHODOX CHURCH OF ANTIOCH (ARCHDIOCESE OF THE U.S.A. AND CANADA)--Denomination Code 423
+
+
+303) UKRORT_C
+Number of Churches (1980)--UKRAINIAN ORTHODOX CHURCH OF AMER (ECUM PATR)--Denomination Code 431
+
+
+304) UKRORT_M
+Number of Members (1980)--UKRAINIAN ORTHODOX CHURCH OF AMER (ECUM PATR)--Denomination Code 431
+
+
+305) UKRORT_A
+Number of Adherents (1980)--UKRAINIAN ORTHODOX CHURCH OF AMER (ECUM PATR)--Denomination Code 431
+
+
+306) UNIT_C
+Number of Churches (1980)--UNITARIAN UNIVERSALIST ASSOCIATION--Denomination Code 435
+
+
+307) UNIT_M
+Number of Members (1980)--UNITARIAN UNIVERSALIST ASSOCIATION--Denomination Code 435
+
+
+308) UNIT_A
+Number of Adherents (1980)--UNITARIAN UNIVERSALIST ASSOCIATION--Denomination Code 435
+
+
+309) UNTCHR_C
+Number of Churches (1980)--UNITED CHRISTIAN CHURCH--Denomination Code 441
+
+
+310) UNTCHR_M
+Number of Members (1980)--UNITED CHRISTIAN CHURCH--Denomination Code 441
+
+
+311) UNTCHR_A
+Number of Adherents (1980)--UNITED CHRISTIAN CHURCH--Denomination Code 441
+
+
+312) UCC_C
+Number of Churches (1980)--UNITED CHURCH OF CHRIST--Denomination Code 443
+
+
+313) UCC_M
+Number of Members (1980)--UNITED CHURCH OF CHRIST--Denomination Code 443
+
+
+314) UCC_A
+Number of Adherents (1980)--UNITED CHURCH OF CHRIST--Denomination Code 443
+
+
+315) UMC_C
+Number of Churches (1980)--UNITED METHODIST CHURCH THE--Denomination Code 449
+
+
+316) UMC_M
+Number of Members (1980)--UNITED METHODIST CHURCH THE--Denomination Code 449
+
+
+317) UMC_A
+Number of Adherents (1980)--UNITED METHODIST CHURCH THE--Denomination Code 449
+
+
+318) UNZION_C
+Number of Churches (1980)--UNITED ZION CHURCH--Denomination Code 459
+
+
+319) UNZION_M
+Number of Members (1980)--UNITED ZION CHURCH--Denomination Code 459
+
+
+320) UNZION_A
+Number of Adherents (1980)--UNITED ZION CHURCH--Denomination Code 459
+
+
+321) WELS_C
+Number of Churches (1980)--WISCONSIN EVANGELICAL LUTHERAN SYNOD--Denomination Code 469
+
+
+322) WELS_M
+Number of Members (1980)--WISCONSIN EVANGELICAL LUTHERAN SYNOD--Denomination Code 469
+
+
+323) WELS_A
+Number of Adherents (1980)--WISCONSIN EVANGELICAL LUTHERAN SYNOD--Denomination Code 469
+
+
+324) JEWISH_C
+Number of Churches (1980)--JEWISH ESTIMATE; Note: This count combines both Conservative and Reformed membership. This study does not provide an enumeration of Orthodox synagogue membership. With the assistance of the United Synagogue of America individual adult members of Conservative synagogues were identified. The Union of American Hebrew Congregations assisted in providing information on membership in Reform congregations.--Denomination Code 496
+
+
+325) JEWISH_M
+Number of Members (1980)--JEWISH ESTIMATE; Note: This count combines both Conservative and Reformed membership. This study does not provide an enumeration of Orthodox synagogue membership. With the assistance of the United Synagogue of America individual adult members of Conservative synagogues were identified. The Union of American Hebrew Congregations assisted in providing information on membership in Reform congregations.--Denomination Code 496
+
+
+326) JEWISH_A
+Number of Adherents (1980)--JEWISH ESTIMATE; Note: This count combines both Conservative and Reformed membership. This study does not provide an enumeration of Orthodox synagogue membership. With the assistance of the United Synagogue of America individual adult members of Conservative synagogues were identified. The Union of American Hebrew Congregations assisted in providing information on membership in Reform congregations.--Denomination Code 496
+
+

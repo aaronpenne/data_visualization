@@ -1,0 +1,2274 @@
+Data File: RCMSCY10(Description Only Codebook)
+
+1) TOTCNG
+All denominations/groups--Total number of congregations (2010)
+
+
+2) TOTADH
+All denominations/groups--Total number of adherents (2010)
+
+
+3) TOTRATE
+All denominations/groups--Rates of adherence per 1,000 population (2010)
+
+
+4) EVANCNG
+Evangelical Protestant--Total number of congregations (2010)
+
+
+5) EVANADH
+Evangelical Protestant--Total number of adherents (2010)
+
+
+6) EVANRATE
+Evangelical Protestant--Rates of adherence per 1,000 population (2010)
+
+
+7) BPRTCNG
+Black Protestant--Total number of congregations (2010)
+
+
+8) BPRTADH
+Black Protestant--Total number of adherents (2010)
+
+
+9) BPRTRATE
+Black Protestant--Rates of adherence per 1,000 population (2010)
+
+
+10) MPRTCNG
+Mainline Protestant--Total number of congregations (2010)
+
+
+11) MPRTADH
+Mainline Protestant--Total number of adherents (2010)
+
+
+12) MPRTRATE
+Mainline Protestant--Rates of adherence per 1,000 population (2010)
+
+
+13) CATHCNG
+Catholic--Total number of congregations (2010)
+
+
+14) CATHADH
+Catholic--Total number of adherents (2010)
+
+
+15) CATHRATE
+Catholic--Rates of adherence per 1,000 population (2010)
+
+
+16) ORTHCNG
+Orthodox--Total number of congregations (2010)
+
+
+17) ORTHADH
+Orthodox--Total number of adherents (2010)
+
+
+18) ORTHRATE
+Orthodox--Rates of adherence per 1,000 population (2010)
+
+
+19) OTHCNG
+Other--Total number of congregations (2010)
+
+
+20) OTHADH
+Other--Total number of adherents (2010)
+
+
+21) OTHRATE
+Other--Rates of adherence per 1,000 population (2010)
+
+
+22) OCGCNG
+(Original) Church of God--Total number of congregations (2010)
+
+
+23) AMECNG
+African Methodist Episcopal Church--Total number of congregations (2010)
+
+
+24) AMEADH
+African Methodist Episcopal Church--Total number of adherents (2010)
+
+
+25) AMERATE
+African Methodist Episcopal Church--Rates of adherence per 1,000 population (2010)
+
+
+26) AMEZCNG
+African Methodist Episcopal Zion Church--Total number of congregations (2010)
+
+
+27) AMEZADH
+African Methodist Episcopal Zion Church--Total number of adherents (2010)
+
+
+28) AMEZRATE
+African Methodist Episcopal Zion Church--Rates of adherence per 1,000 population (2010)
+
+
+29) ALBCNG
+Albanian Orthodox Diocese of America--Total number of congregations (2010)
+
+
+30) ALBADH
+Albanian Orthodox Diocese of America--Total number of adherents (2010)
+
+
+31) ALBRATE
+Albanian Orthodox Diocese of America--Rates of adherence per 1,000 population (2010)
+
+
+32) AWMCCNG
+Allegheny Wesleyan Methodist Connection--Total number of congregations (2010)
+
+
+33) AWMCADH
+Allegheny Wesleyan Methodist Connection--Total number of adherents (2010)
+
+
+34) AWMCRATE
+Allegheny Wesleyan Methodist Connection--Rates of adherence per 1,000 population (2010)
+
+
+35) ALBPCNG
+Alliance of Baptists--Total number of congregations (2010)
+
+
+36) AMANCNG
+Amana Church Society--Total number of congregations (2010)
+
+
+37) AMANADH
+Amana Church Society--Total number of adherents (2010)
+
+
+38) AMANRATE
+Amana Church Society--Rates of adherence per 1,000 population (2010)
+
+
+39) AAMCNG
+Ambassadors Amish Mennonite--Total number of congregations (2010)
+
+
+40) AAMADH
+Ambassadors Amish Mennonite--Total number of adherents (2010)
+
+
+41) AAMRATE
+Ambassadors Amish Mennonite--Rates of adherence per 1,000 population (2010)
+
+
+42) AALCCNG
+American Association of Lutheran Churches--Total number of congregations (2010)
+
+
+43) ABACNG
+American Baptist Association--Total number of congregations (2010)
+
+
+44) ABAADH
+American Baptist Association--Total number of adherents (2010)
+
+
+45) ABARATE
+American Baptist Association--Rates of adherence per 1,000 population (2010)
+
+
+46) ABCCNG
+American Baptist Churches in the USA--Total number of congregations (2010)
+
+
+47) ABCADH
+American Baptist Churches in the USA--Total number of adherents (2010)
+
+
+48) ABCRATE
+American Baptist Churches in the USA--Rates of adherence per 1,000 population (2010)
+
+
+49) ACROCNG
+American Carpatho-Russian Orthodox Diocese--Total number of congregations (2010)
+
+
+50) ACROADH
+American Carpatho-Russian Orthodox Diocese--Total number of adherents (2010)
+
+
+51) ACRORATE
+American Carpatho-Russian Orthodox Diocese--Rates of adherence per 1,000 population (2010)
+
+
+52) APCCNG
+American Presbyterian Church--Total number of congregations (2010)
+
+
+53) AMSHCNG
+Amish groups, undifferentiated--Total number of congregations (2010)
+
+
+54) AMSHADH
+Amish groups, undifferentiated--Total number of adherents (2010)
+
+
+55) AMSHRATE
+Amish groups, undifferentiated--Rates of adherence per 1,000 population (2010)
+
+
+56) ACNACNG
+Anglican Church in North America--Total number of congregations (2010)
+
+
+57) AOCACNG
+Antiochian Orthodox Christian Archdiocese of North America--Total number of congregations (2010)
+
+
+58) AOCAADH
+Antiochian Orthodox Christian Archdiocese of North America--Total number of adherents (2010)
+
+
+59) AOCARATE
+Antiochian Orthodox Christian Archdiocese of North America--Rates of adherence per 1,000 population (2010)
+
+
+60) ACCACNG
+Apostolic Christian Church of America, Inc.--Total number of congregations (2010)
+
+
+61) ACCAADH
+Apostolic Christian Church of America, Inc.--Total number of adherents (2010)
+
+
+62) ACCARATE
+Apostolic Christian Church of America, Inc.--Rates of adherence per 1,000 population (2010)
+
+
+63) AFMCNG
+Apostolic Faith Mission of Portland, OR--Total number of congregations (2010)
+
+
+64) AFMADH
+Apostolic Faith Mission of Portland, OR--Total number of adherents (2010)
+
+
+65) AFMRATE
+Apostolic Faith Mission of Portland, OR--Rates of adherence per 1,000 population (2010)
+
+
+66) ALCACNG
+Apostolic Lutheran Church of America--Total number of congregations (2010)
+
+
+67) AACACNG
+Armenian Apostolic Church of America (Catholicosate of Cilicia)--Total number of congregations (2010)
+
+
+68) AACAADH
+Armenian Apostolic Church of America (Catholicosate of Cilicia)--Total number of adherents (2010)
+
+
+69) AACARATE
+Armenian Apostolic Church of America (Catholicosate of Cilicia)--Rates of adherence per 1,000 population (2010)
+
+
+70) ARMCNG
+Armenian Church of North America (Catholicosate of Etchmiadzin)--Total number of congregations (2010)
+
+
+71) ARMADH
+Armenian Church of North America (Catholicosate of Etchmiadzin)--Total number of adherents (2010)
+
+
+72) ARMRATE
+Armenian Church of North America (Catholicosate of Etchmiadzin)--Rates of adherence per 1,000 population (2010)
+
+
+73) AECCNG
+Armenian Evangelical Churches (Additional)--Total number of congregations (2010)
+
+
+74) AGCNG
+Assemblies of God--Total number of congregations (2010)
+
+
+75) AGADH
+Assemblies of God--Total number of adherents (2010)
+
+
+76) AGRATE
+Assemblies of God--Rates of adherence per 1,000 population (2010)
+
+
+77) AGIFCNG
+Assemblies of God International Fellowship--Total number of congregations (2010)
+
+
+78) ARPCCNG
+Associate Reformed Presbyterian Church--Total number of congregations (2010)
+
+
+79) ARPCADH
+Associate Reformed Presbyterian Church--Total number of adherents (2010)
+
+
+80) ARPCRATE
+Associate Reformed Presbyterian Church--Rates of adherence per 1,000 population (2010)
+
+
+81) AFLCCNG
+Association of Free Lutheran Congregations--Total number of congregations (2010)
+
+
+82) AMCCNG
+Association of Messianic Congregations--Total number of congregations (2010)
+
+
+83) ARBCCNG
+Association of Reformed Baptist Churches of America--Total number of congregations (2010)
+
+
+84) BAHCNG
+Baha'i--Total number of congregations (2010)
+
+
+85) BAHADH
+Baha'i--Total number of adherents (2010)
+
+
+86) BAHRATE
+Baha'i--Rates of adherence per 1,000 population (2010)
+
+
+87) BAMCCNG
+Beachy Amish Mennonite Churches--Total number of congregations (2010)
+
+
+88) BAMCADH
+Beachy Amish Mennonite Churches--Total number of adherents (2010)
+
+
+89) BAMCRATE
+Beachy Amish Mennonite Churches--Rates of adherence per 1,000 population (2010)
+
+
+90) BAMCNG
+Berea Amish Mennonite--Total number of congregations (2010)
+
+
+91) BAMADH
+Berea Amish Mennonite--Total number of adherents (2010)
+
+
+92) BAMRATE
+Berea Amish Mennonite--Rates of adherence per 1,000 population (2010)
+
+
+93) BFCCNG
+Bible Fellowship Church--Total number of congregations (2010)
+
+
+94) BFCADH
+Bible Fellowship Church--Total number of adherents (2010)
+
+
+95) BFCRATE
+Bible Fellowship Church--Rates of adherence per 1,000 population (2010)
+
+
+96) BPCCNG
+Bible Presbyterian Church (General Synod)--Total number of congregations (2010)
+
+
+97) BCACNG
+Brethren Church, The (Ashland, Ohio)--Total number of congregations (2010)
+
+
+98) BCAADH
+Brethren Church, The (Ashland, Ohio)--Total number of adherents (2010)
+
+
+99) BCARATE
+Brethren Church, The (Ashland, Ohio)--Rates of adherence per 1,000 population (2010)
+
+
+100) BCCCNG
+Brethren in Christ Church--Total number of congregations (2010)
+
+
+101) BRUDCNG
+Bruderhof Communities, Inc.--Total number of congregations (2010)
+
+
+102) BRUDADH
+Bruderhof Communities, Inc.--Total number of adherents (2010)
+
+
+103) BRUDRATE
+Bruderhof Communities, Inc.--Rates of adherence per 1,000 population (2010)
+
+
+104) BUDMCNG
+Buddhism, Mahayana--Total number of congregations (2010)
+
+
+105) BUDMADH
+Buddhism, Mahayana--Total number of adherents (2010)
+
+
+106) BUDMRATE
+Buddhism, Mahayana--Rates of adherence per 1,000 population (2010)
+
+
+107) BUDTCNG
+Buddhism, Theravada--Total number of congregations (2010)
+
+
+108) BUDTADH
+Buddhism, Theravada--Total number of adherents (2010)
+
+
+109) BUDTRATE
+Buddhism, Theravada--Rates of adherence per 1,000 population (2010)
+
+
+110) BUDVCNG
+Buddhism, Vajrayana--Total number of congregations (2010)
+
+
+111) BUDVADH
+Buddhism, Vajrayana--Total number of adherents (2010)
+
+
+112) BUDVRATE
+Buddhism, Vajrayana--Rates of adherence per 1,000 population (2010)
+
+
+113) BULGCNG
+Bulgarian Eastern Orthodox Diocese of the USA, Canada and Australia--Total number of congregations (2010)
+
+
+114) BULGADH
+Bulgarian Eastern Orthodox Diocese of the USA, Canada and Australia--Total number of adherents (2010)
+
+
+115) BULGRATE
+Bulgarian Eastern Orthodox Diocese of the USA, Canada and Australia--Rates of adherence per 1,000 population (2010)
+
+
+116) CCFCCNG
+Calvary Chapel Fellowship Churches--Total number of congregations (2010)
+
+
+117) CARCCNG
+Canadian and American Reformed Churches--Total number of congregations (2010)
+
+
+118) CTHCNG
+Catholic Church--Total number of congregations (2010)
+
+
+119) CTHADH
+Catholic Church--Total number of adherents (2010)
+
+
+120) CTHRATE
+Catholic Church--Rates of adherence per 1,000 population (2010)
+
+
+121) CYMFCNG
+Central Yearly Meeting of Friends--Total number of congregations (2010)
+
+
+122) CYMFADH
+Central Yearly Meeting of Friends--Total number of adherents (2010)
+
+
+123) CYMFRATE
+Central Yearly Meeting of Friends--Rates of adherence per 1,000 population (2010)
+
+
+124) CMACNG
+Christian and Missionary Alliance, The--Total number of congregations (2010)
+
+
+125) CMAADH
+Christian and Missionary Alliance, The--Total number of adherents (2010)
+
+
+126) CMARATE
+Christian and Missionary Alliance, The--Rates of adherence per 1,000 population (2010)
+
+
+127) CBCNG
+Christian Brethren--Total number of congregations (2010)
+
+
+128) CCDCCNG
+Christian Church (Disciples of Christ)--Total number of congregations (2010)
+
+
+129) CCDCADH
+Christian Church (Disciples of Christ)--Total number of adherents (2010)
+
+
+130) CCDCRATE
+Christian Church (Disciples of Christ)--Rates of adherence per 1,000 population (2010)
+
+
+131) CCCCCNG
+Christian Churches and Churches of Christ--Total number of congregations (2010)
+
+
+132) CCCCADH
+Christian Churches and Churches of Christ--Total number of adherents (2010)
+
+
+133) CCCCRATE
+Christian Churches and Churches of Christ--Rates of adherence per 1,000 population (2010)
+
+
+134) CMECNG
+Christian Methodist Episcopal Church--Total number of congregations (2010)
+
+
+135) CMEADH
+Christian Methodist Episcopal Church--Total number of adherents (2010)
+
+
+136) CMERATE
+Christian Methodist Episcopal Church--Rates of adherence per 1,000 population (2010)
+
+
+137) CRCCNG
+Christian Reformed Church in North America--Total number of congregations (2010)
+
+
+138) CRCADH
+Christian Reformed Church in North America--Total number of adherents (2010)
+
+
+139) CRCRATE
+Christian Reformed Church in North America--Rates of adherence per 1,000 population (2010)
+
+
+140) CUCNG
+Christian Union--Total number of congregations (2010)
+
+
+141) CCHCNG
+Church of Christ (Holiness), U.S.A.--Total number of congregations (2010)
+
+
+142) CCSCNG
+Church of Christ, Scientist--Total number of congregations (2010)
+
+
+143) CGAICNG
+Church of God (Anderson, Indiana)--Total number of congregations (2010)
+
+
+144) CGAIADH
+Church of God (Anderson, Indiana)--Total number of adherents (2010)
+
+
+145) CGAIRATE
+Church of God (Anderson, Indiana)--Rates of adherence per 1,000 population (2010)
+
+
+146) CGCTCNG
+Church of God (Cleveland, Tennessee)--Total number of congregations (2010)
+
+
+147) CGCTADH
+Church of God (Cleveland, Tennessee)--Total number of adherents (2010)
+
+
+148) CGCTRATE
+Church of God (Cleveland, Tennessee)--Rates of adherence per 1,000 population (2010)
+
+
+149) CG7DCNG
+Church of God (Seventh Day)--Total number of congregations (2010)
+
+
+150) CGFCNG
+Church of God by Faith, Inc.--Total number of congregations (2010)
+
+
+151) CGGCCNG
+Church of God General Conference--Total number of congregations (2010)
+
+
+152) CGGCADH
+Church of God General Conference--Total number of adherents (2010)
+
+
+153) CGGCRATE
+Church of God General Conference--Rates of adherence per 1,000 population (2010)
+
+
+154) CGCCNG
+Church of God in Christ--Total number of congregations (2010)
+
+
+155) CGCADH
+Church of God in Christ--Total number of adherents (2010)
+
+
+156) CGCRATE
+Church of God in Christ--Rates of adherence per 1,000 population (2010)
+
+
+157) CGCMCNG
+Church of God in Christ, Mennonite--Total number of congregations (2010)
+
+
+158) CGCMADH
+Church of God in Christ, Mennonite--Total number of adherents (2010)
+
+
+159) CGCMRATE
+Church of God in Christ, Mennonite--Rates of adherence per 1,000 population (2010)
+
+
+160) CGPCNG
+Church of God of Prophecy--Total number of congregations (2010)
+
+
+161) CGPADH
+Church of God of Prophecy--Total number of adherents (2010)
+
+
+162) CGPRATE
+Church of God of Prophecy--Rates of adherence per 1,000 population (2010)
+
+
+163) CGAFCNG
+Church of God of the Apostolic Faith, Inc.--Total number of congregations (2010)
+
+
+164) CGMACNG
+Church of God, Mountain Assembly, Inc.--Total number of congregations (2010)
+
+
+165) LDSCNG
+Church of Jesus Christ of Latter-day Saints, The--Total number of congregations (2010)
+
+
+166) LDSADH
+Church of Jesus Christ of Latter-day Saints, The--Total number of adherents (2010)
+
+
+167) LDSRATE
+Church of Jesus Christ of Latter-day Saints, The--Rates of adherence per 1,000 population (2010)
+
+
+168) CAFCNG
+Church of Our Lord Jesus Christ of the Apostolic Faith, Inc.--Total number of congregations (2010)
+
+
+169) CBRCNG
+Church of the Brethren--Total number of congregations (2010)
+
+
+170) CBRADH
+Church of the Brethren--Total number of adherents (2010)
+
+
+171) CBRRATE
+Church of the Brethren--Rates of adherence per 1,000 population (2010)
+
+
+172) CLBACNG
+Church of the Lutheran Brethren of America--Total number of congregations (2010)
+
+
+173) CLBAADH
+Church of the Lutheran Brethren of America--Total number of adherents (2010)
+
+
+174) CLBARATE
+Church of the Lutheran Brethren of America--Rates of adherence per 1,000 population (2010)
+
+
+175) CLCCNG
+Church of the Lutheran Confession--Total number of congregations (2010)
+
+
+176) NAZCNG
+Church of the Nazarene--Total number of congregations (2010)
+
+
+177) NAZADH
+Church of the Nazarene--Total number of adherents (2010)
+
+
+178) NAZRATE
+Church of the Nazarene--Rates of adherence per 1,000 population (2010)
+
+
+179) CUBCCNG
+Church of the United Brethren in Christ--Total number of congregations (2010)
+
+
+180) CUBCADH
+Church of the United Brethren in Christ--Total number of adherents (2010)
+
+
+181) CUBCRATE
+Church of the United Brethren in Christ--Rates of adherence per 1,000 population (2010)
+
+
+182) CHCHCNG
+Churches of Christ--Total number of congregations (2010)
+
+
+183) CHCHADH
+Churches of Christ--Total number of adherents (2010)
+
+
+184) CHCHRATE
+Churches of Christ--Rates of adherence per 1,000 population (2010)
+
+
+185) CCCUCNG
+Churches of Christ in Christian Union--Total number of congregations (2010)
+
+
+186) CHGNCNG
+Churches of God, General Conference--Total number of congregations (2010)
+
+
+187) CHGNADH
+Churches of God, General Conference--Total number of adherents (2010)
+
+
+188) CHGNRATE
+Churches of God, General Conference--Rates of adherence per 1,000 population (2010)
+
+
+189) CRECCNG
+Communion of Reformed Evangelical Churches--Total number of congregations (2010)
+
+
+190) COCCNG
+Community of Christ--Total number of congregations (2010)
+
+
+191) COCADH
+Community of Christ--Total number of adherents (2010)
+
+
+192) COCRATE
+Community of Christ--Rates of adherence per 1,000 population (2010)
+
+
+193) CCCCNG
+Congregational Christian Churches, Additional (not part of any national CCC body)--Total number of congregations (2010)
+
+
+194) CCCADH
+Congregational Christian Churches, Additional (not part of any national CCC body)--Total number of adherents (2010)
+
+
+195) CCCRATE
+Congregational Christian Churches, Additional (not part of any national CCC body)--Rates of adherence per 1,000 population (2010)
+
+
+196) CHCCNG
+Congregational Holiness Church--Total number of congregations (2010)
+
+
+197) CHCADH
+Congregational Holiness Church--Total number of adherents (2010)
+
+
+198) CHCRATE
+Congregational Holiness Church--Rates of adherence per 1,000 population (2010)
+
+
+199) CMCCNG
+Congregational Methodist Church--Total number of congregations (2010)
+
+
+200) CMCADH
+Congregational Methodist Church--Total number of adherents (2010)
+
+
+201) CMCRATE
+Congregational Methodist Church--Rates of adherence per 1,000 population (2010)
+
+
+202) CBACNG
+Conservative Baptist Association of America--Total number of congregations (2010)
+
+
+203) CCONCNG
+Conservative Congregational Christian Conference--Total number of congregations (2010)
+
+
+204) CCONADH
+Conservative Congregational Christian Conference--Total number of adherents (2010)
+
+
+205) CCONRATE
+Conservative Congregational Christian Conference--Rates of adherence per 1,000 population (2010)
+
+
+206) CJUDCNG
+Conservative Judaism--Total number of congregations (2010)
+
+
+207) CJUDADH
+Conservative Judaism--Total number of adherents (2010)
+
+
+208) CJUDRATE
+Conservative Judaism--Rates of adherence per 1,000 population (2010)
+
+
+209) CLACNG
+Conservative Lutheran Association--Total number of congregations (2010)
+
+
+210) CMCOCNG
+Conservative Mennonite Conference--Total number of congregations (2010)
+
+
+211) CMCOADH
+Conservative Mennonite Conference--Total number of adherents (2010)
+
+
+212) CMCORATE
+Conservative Mennonite Conference--Rates of adherence per 1,000 population (2010)
+
+
+213) CYFRCNG
+Conservative Yearly Meetings of Friends--Total number of congregations (2010)
+
+
+214) CYFRADH
+Conservative Yearly Meetings of Friends--Total number of adherents (2010)
+
+
+215) CYFRRATE
+Conservative Yearly Meetings of Friends--Rates of adherence per 1,000 population (2010)
+
+
+216) OFWBCNG
+Convention of Original Free Will Baptists--Total number of congregations (2010)
+
+
+217) OFWBADH
+Convention of Original Free Will Baptists--Total number of adherents (2010)
+
+
+218) OFWBRATE
+Convention of Original Free Will Baptists--Rates of adherence per 1,000 population (2010)
+
+
+219) CWCNG
+Converge Worldwide/Baptist General Conference--Total number of congregations (2010)
+
+
+220) CWADH
+Converge Worldwide/Baptist General Conference--Total number of adherents (2010)
+
+
+221) CWRATE
+Converge Worldwide/Baptist General Conference--Rates of adherence per 1,000 population (2010)
+
+
+222) COPTCNG
+Coptic Orthodox Church--Total number of congregations (2010)
+
+
+223) COPTADH
+Coptic Orthodox Church--Total number of adherents (2010)
+
+
+224) COPTRATE
+Coptic Orthodox Church--Rates of adherence per 1,000 population (2010)
+
+
+225) CRPCCNG
+Covenant Reformed Presbyterian Church--Total number of congregations (2010)
+
+
+226) CUMBCNG
+Cumberland Presbyterian Church--Total number of congregations (2010)
+
+
+227) CUMBADH
+Cumberland Presbyterian Church--Total number of adherents (2010)
+
+
+228) CUMBRATE
+Cumberland Presbyterian Church--Rates of adherence per 1,000 population (2010)
+
+
+229) CPCACNG
+Cumberland Presbyterian Church in America--Total number of congregations (2010)
+
+
+230) ELIMCNG
+Elim Fellowship--Total number of congregations (2010)
+
+
+231) EBACNG
+Enterprise Baptists Association--Total number of congregations (2010)
+
+
+232) ECCNG
+Episcopal Church--Total number of congregations (2010)
+
+
+233) ECADH
+Episcopal Church--Total number of adherents (2010)
+
+
+234) ECRATE
+Episcopal Church--Rates of adherence per 1,000 population (2010)
+
+
+235) EOCNG
+Eritrean Orthodox--Total number of congregations (2010)
+
+
+236) EOADH
+Eritrean Orthodox--Total number of adherents (2010)
+
+
+237) EORATE
+Eritrean Orthodox--Rates of adherence per 1,000 population (2010)
+
+
+238) ETHOCNG
+Ethiopian Orthodox--Total number of congregations (2010)
+
+
+239) EARCNG
+Evangelical Association of Reformed and Congregational Christian Churches--Total number of congregations (2010)
+
+
+240) EVCHCNG
+Evangelical Church, The--Total number of congregations (2010)
+
+
+241) ECCCNG
+Evangelical Congregational Church, The--Total number of congregations (2010)
+
+
+242) ECCADH
+Evangelical Congregational Church, The--Total number of adherents (2010)
+
+
+243) ECCRATE
+Evangelical Congregational Church, The--Rates of adherence per 1,000 population (2010)
+
+
+244) ECOVCNG
+Evangelical Covenant Church, The--Total number of congregations (2010)
+
+
+245) ECOVADH
+Evangelical Covenant Church, The--Total number of adherents (2010)
+
+
+246) ECOVRATE
+Evangelical Covenant Church, The--Rates of adherence per 1,000 population (2010)
+
+
+247) EFCACNG
+Evangelical Free Church of America, The--Total number of congregations (2010)
+
+
+248) EFCAADH
+Evangelical Free Church of America, The--Total number of adherents (2010)
+
+
+249) EFCARATE
+Evangelical Free Church of America, The--Rates of adherence per 1,000 population (2010)
+
+
+250) EFCICNG
+Evangelical Friends Church International--Total number of congregations (2010)
+
+
+251) EFCIADH
+Evangelical Friends Church International--Total number of adherents (2010)
+
+
+252) EFCIRATE
+Evangelical Friends Church International--Rates of adherence per 1,000 population (2010)
+
+
+253) ELCACNG
+Evangelical Lutheran Church in America--Total number of congregations (2010)
+
+
+254) ELCAADH
+Evangelical Lutheran Church in America--Total number of adherents (2010)
+
+
+255) ELCARATE
+Evangelical Lutheran Church in America--Rates of adherence per 1,000 population (2010)
+
+
+256) ELSCNG
+Evangelical Lutheran Synod--Total number of congregations (2010)
+
+
+257) ELSADH
+Evangelical Lutheran Synod--Total number of adherents (2010)
+
+
+258) ELSRATE
+Evangelical Lutheran Synod--Rates of adherence per 1,000 population (2010)
+
+
+259) EMCCNG
+Evangelical Methodist Church--Total number of congregations (2010)
+
+
+260) EPCCNG
+Evangelical Presbyterian Church--Total number of congregations (2010)
+
+
+261) EPCADH
+Evangelical Presbyterian Church--Total number of adherents (2010)
+
+
+262) EPCRATE
+Evangelical Presbyterian Church--Rates of adherence per 1,000 population (2010)
+
+
+263) FRCCNG
+Federation of Reformed Churches--Total number of congregations (2010)
+
+
+264) FEBCCNG
+Fellowship of Evangelical Bible Churches--Total number of congregations (2010)
+
+
+265) FEBCADH
+Fellowship of Evangelical Bible Churches--Total number of adherents (2010)
+
+
+266) FEBCRATE
+Fellowship of Evangelical Bible Churches--Rates of adherence per 1,000 population (2010)
+
+
+267) FECCNG
+Fellowship of Evangelical Churches--Total number of congregations (2010)
+
+
+268) FECADH
+Fellowship of Evangelical Churches--Total number of adherents (2010)
+
+
+269) FECRATE
+Fellowship of Evangelical Churches--Rates of adherence per 1,000 population (2010)
+
+
+270) FOURCNG
+Foursquare Gospel, International Church of the--Total number of congregations (2010)
+
+
+271) FOURADH
+Foursquare Gospel, International Church of the--Total number of adherents (2010)
+
+
+272) FOURRATE
+Foursquare Gospel, International Church of the--Rates of adherence per 1,000 population (2010)
+
+
+273) FCSCNG
+Free Church of Scotland (Continuing)--Total number of congregations (2010)
+
+
+274) FMCCNG
+Free Methodist Church of North America--Total number of congregations (2010)
+
+
+275) FMCADH
+Free Methodist Church of North America--Total number of adherents (2010)
+
+
+276) FMCRATE
+Free Methodist Church of North America--Rates of adherence per 1,000 population (2010)
+
+
+277) FPCCNG
+Free Presbyterian Church of North America--Total number of congregations (2010)
+
+
+278) FRCHCNG
+Free Reformed Church of North America--Total number of congregations (2010)
+
+
+279) FRNDCNG
+Friends General Conference and Friends United Meeting, dually aligned meetings--Total number of congregations (2010)
+
+
+280) FRNDADH
+Friends General Conference and Friends United Meeting, dually aligned meetings--Total number of adherents (2010)
+
+
+281) FRNDRATE
+Friends General Conference and Friends United Meeting, dually aligned meetings--Rates of adherence per 1,000 population (2010)
+
+
+282) FGCCNG
+Friends General Conference--Total number of congregations (2010)
+
+
+283) FGCADH
+Friends General Conference--Total number of adherents (2010)
+
+
+284) FGCRATE
+Friends General Conference--Rates of adherence per 1,000 population (2010)
+
+
+285) FUMCNG
+Friends United Meeting--Total number of congregations (2010)
+
+
+286) FUMADH
+Friends United Meeting--Total number of adherents (2010)
+
+
+287) FUMRATE
+Friends United Meeting--Rates of adherence per 1,000 population (2010)
+
+
+288) FGBCNG
+Full Gospel Baptist Church Fellowship--Total number of congregations (2010)
+
+
+289) FBFCNG
+Fundamental Baptist Fellowship--Total number of congregations (2010)
+
+
+290) GARBCNG
+General Association of Regular Baptist Churches--Total number of congregations (2010)
+
+
+291) GOPCNG
+Georgian Orthodox Parishes in the United States--Total number of congregations (2010)
+
+
+292) GOPADH
+Georgian Orthodox Parishes in the United States--Total number of adherents (2010)
+
+
+293) GOPRATE
+Georgian Orthodox Parishes in the United States--Rates of adherence per 1,000 population (2010)
+
+
+294) FGBCCNG
+Grace Brethren Churches, Fellowship of--Total number of congregations (2010)
+
+
+295) GGFCNG
+Grace Gospel Fellowship--Total number of congregations (2010)
+
+
+296) GRKCNG
+Greek Orthodox Archdiocese of America--Total number of congregations (2010)
+
+
+297) GRKADH
+Greek Orthodox Archdiocese of America--Total number of adherents (2010)
+
+
+298) GRKRATE
+Greek Orthodox Archdiocese of America--Rates of adherence per 1,000 population (2010)
+
+
+299) HRCCNG
+Heritage Reformed Churches--Total number of congregations (2010)
+
+
+300) HRCADH
+Heritage Reformed Churches--Total number of adherents (2010)
+
+
+301) HRCRATE
+Heritage Reformed Churches--Rates of adherence per 1,000 population (2010)
+
+
+302) HNICNG
+Hindu, Indian-American Hindu Temple Association--Total number of congregations (2010)
+
+
+303) HNIADH
+Hindu, Indian-American Hindu Temple Association--Total number of adherents (2010)
+
+
+304) HNIRATE
+Hindu, Indian-American Hindu Temple Association--Rates of adherence per 1,000 population (2010)
+
+
+305) HNPRCNG
+Hindu, Post Renaissance--Total number of congregations (2010)
+
+
+306) HNPRADH
+Hindu, Post Renaissance--Total number of adherents (2010)
+
+
+307) HNPRRATE
+Hindu, Post Renaissance--Rates of adherence per 1,000 population (2010)
+
+
+308) HNRCNG
+Hindu, Renaissance--Total number of congregations (2010)
+
+
+309) HNRADH
+Hindu, Renaissance--Total number of adherents (2010)
+
+
+310) HNRRATE
+Hindu, Renaissance--Rates of adherence per 1,000 population (2010)
+
+
+311) HNTTCNG
+Hindu, Traditional Temples--Total number of congregations (2010)
+
+
+312) HNTTADH
+Hindu, Traditional Temples--Total number of adherents (2010)
+
+
+313) HNTTRATE
+Hindu, Traditional Temples--Rates of adherence per 1,000 population (2010)
+
+
+314) HOCCNG
+Holy Orthodox Church in North America--Total number of congregations (2010)
+
+
+315) HOCADH
+Holy Orthodox Church in North America--Total number of adherents (2010)
+
+
+316) HOCRATE
+Holy Orthodox Church in North America--Rates of adherence per 1,000 population (2010)
+
+
+317) HUNGCNG
+Hungarian Reformed Churches (Additional)--Total number of congregations (2010)
+
+
+318) HUTTCNG
+Hutterian Brethren--Total number of congregations (2010)
+
+
+319) IBFICNG
+Independent Baptist Fellowship International--Total number of congregations (2010)
+
+
+320) IFCACNG
+Independent Fundamental Churches of America--Total number of congregations (2010)
+
+
+321) IYMFCNG
+Independent Yearly Meetings of Friends--Total number of congregations (2010)
+
+
+322) IYMFADH
+Independent Yearly Meetings of Friends--Total number of adherents (2010)
+
+
+323) IYMFRATE
+Independent Yearly Meetings of Friends--Rates of adherence per 1,000 population (2010)
+
+
+324) ICCCNG
+International Churches of Christ--Total number of congregations (2010)
+
+
+325) ICCADH
+International Churches of Christ--Total number of adherents (2010)
+
+
+326) ICCRATE
+International Churches of Christ--Rates of adherence per 1,000 population (2010)
+
+
+327) ICCCCNG
+International Council of Community Churches--Total number of congregations (2010)
+
+
+328) IFBCCNG
+International Fellowship of Bible Churches--Total number of congregations (2010)
+
+
+329) INTFCNG
+International Fellowship of Christian Assemblies--Total number of congregations (2010)
+
+
+330) IPCCCNG
+International Pentecostal Church of Christ--Total number of congregations (2010)
+
+
+331) IPCCADH
+International Pentecostal Church of Christ--Total number of adherents (2010)
+
+
+332) IPCCRATE
+International Pentecostal Church of Christ--Rates of adherence per 1,000 population (2010)
+
+
+333) IPHCCNG
+International Pentecostal Holiness Church--Total number of congregations (2010)
+
+
+334) IPHCADH
+International Pentecostal Holiness Church--Total number of adherents (2010)
+
+
+335) IPHCRATE
+International Pentecostal Holiness Church--Rates of adherence per 1,000 population (2010)
+
+
+336) JAINCNG
+Jain--Total number of congregations (2010)
+
+
+337) JWCNG
+Jehovah's Witnesses--Total number of congregations (2010)
+
+
+338) KPRSCNG
+Korean Presbyterian Church Abroad--Total number of congregations (2010)
+
+
+339) KPCACNG
+Korean Presbyterian Church in America--Total number of congregations (2010)
+
+
+340) KAPCCNG
+Korean-American Presbyterian Church--Total number of congregations (2010)
+
+
+341) LCMSCNG
+Lutheran Church--Missouri Synod--Total number of congregations (2010)
+
+
+342) LCMSADH
+Lutheran Church--Missouri Synod--Total number of adherents (2010)
+
+
+343) LCMSRATE
+Lutheran Church--Missouri Synod--Rates of adherence per 1,000 population (2010)
+
+
+344) LCMCCNG
+Lutheran Congregations in Mission for Christ--Total number of congregations (2010)
+
+
+345) LCMCADH
+Lutheran Congregations in Mission for Christ--Total number of adherents (2010)
+
+
+346) LCMCRATE
+Lutheran Congregations in Mission for Christ--Rates of adherence per 1,000 population (2010)
+
+
+347) MOCCNG
+Macedonian Orthodox Church: American Diocese--Total number of congregations (2010)
+
+
+348) MOCADH
+Macedonian Orthodox Church: American Diocese--Total number of adherents (2010)
+
+
+349) MOCRATE
+Macedonian Orthodox Church: American Diocese--Rates of adherence per 1,000 population (2010)
+
+
+350) MALACNG
+Malankara Archdiocese of the Syrian Orthodox Church in North America--Total number of congregations (2010)
+
+
+351) MALAADH
+Malankara Archdiocese of the Syrian Orthodox Church in North America--Total number of adherents (2010)
+
+
+352) MALARATE
+Malankara Archdiocese of the Syrian Orthodox Church in North America--Rates of adherence per 1,000 population (2010)
+
+
+353) MOSCCNG
+Malankara Orthodox Syrian Church--Total number of congregations (2010)
+
+
+354) MOSCADH
+Malankara Orthodox Syrian Church--Total number of adherents (2010)
+
+
+355) MOSCRATE
+Malankara Orthodox Syrian Church--Rates of adherence per 1,000 population (2010)
+
+
+356) MAMCNG
+Maranatha Amish Mennonite--Total number of congregations (2010)
+
+
+357) MAMADH
+Maranatha Amish Mennonite--Total number of adherents (2010)
+
+
+358) MAMRATE
+Maranatha Amish Mennonite--Rates of adherence per 1,000 population (2010)
+
+
+359) MCFCNG
+Mennonite Christian Fellowship--Total number of congregations (2010)
+
+
+360) MCFADH
+Mennonite Christian Fellowship--Total number of adherents (2010)
+
+
+361) MCFRATE
+Mennonite Christian Fellowship--Rates of adherence per 1,000 population (2010)
+
+
+362) MENNCNG
+Mennonite Church USA--Total number of congregations (2010)
+
+
+363) MENNADH
+Mennonite Church USA--Total number of adherents (2010)
+
+
+364) MENNRATE
+Mennonite Church USA--Rates of adherence per 1,000 population (2010)
+
+
+365) MCCCNG
+Metropolitan Community Churches, Universal Fellowship of--Total number of congregations (2010)
+
+
+366) MCCADH
+Metropolitan Community Churches, Universal Fellowship of--Total number of adherents (2010)
+
+
+367) MCCRATE
+Metropolitan Community Churches, Universal Fellowship of--Rates of adherence per 1,000 population (2010)
+
+
+368) MBAMCNG
+Midwest Beachy Amish Mennonite--Total number of congregations (2010)
+
+
+369) MBAMADH
+Midwest Beachy Amish Mennonite--Total number of adherents (2010)
+
+
+370) MBAMRATE
+Midwest Beachy Amish Mennonite--Rates of adherence per 1,000 population (2010)
+
+
+371) MCCFCNG
+Midwest Congregational Christian Fellowship--Total number of congregations (2010)
+
+
+372) MCCFADH
+Midwest Congregational Christian Fellowship--Total number of adherents (2010)
+
+
+373) MCCFRATE
+Midwest Congregational Christian Fellowship--Rates of adherence per 1,000 population (2010)
+
+
+374) MISSCNG
+Missionary Church, The--Total number of congregations (2010)
+
+
+375) MISSADH
+Missionary Church, The--Total number of adherents (2010)
+
+
+376) MISSRATE
+Missionary Church, The--Rates of adherence per 1,000 population (2010)
+
+
+377) MVAKCNG
+Moravian Church in America--Alaska Province--Total number of congregations (2010)
+
+
+378) MVAKADH
+Moravian Church in America--Alaska Province--Total number of adherents (2010)
+
+
+379) MVAKRATE
+Moravian Church in America--Alaska Province--Rates of adherence per 1,000 population (2010)
+
+
+380) MVNOCNG
+Moravian Church in America--Northern Province--Total number of congregations (2010)
+
+
+381) MVNOADH
+Moravian Church in America--Northern Province--Total number of adherents (2010)
+
+
+382) MVNORATE
+Moravian Church in America--Northern Province--Rates of adherence per 1,000 population (2010)
+
+
+383) MVSOCNG
+Moravian Church in America--Southern Province--Total number of congregations (2010)
+
+
+384) MVSOADH
+Moravian Church in America--Southern Province--Total number of adherents (2010)
+
+
+385) MVSORATE
+Moravian Church in America--Southern Province--Rates of adherence per 1,000 population (2010)
+
+
+386) MSLMCNG
+Muslim estimate--Total number of congregations (2010)
+
+
+387) MSLMADH
+Muslim estimate--Total number of adherents (2010)
+
+
+388) MSLMRATE
+Muslim estimate--Rates of adherence per 1,000 population (2010)
+
+
+389) NACCCNG
+National Association of Congregational Christian Churches--Total number of congregations (2010)
+
+
+390) NACCADH
+National Association of Congregational Christian Churches--Total number of adherents (2010)
+
+
+391) NACCRATE
+National Association of Congregational Christian Churches--Rates of adherence per 1,000 population (2010)
+
+
+392) FWBCNG
+National Association of Free Will Baptists--Total number of congregations (2010)
+
+
+393) FWBADH
+National Association of Free Will Baptists--Total number of adherents (2010)
+
+
+394) FWBRATE
+National Association of Free Will Baptists--Rates of adherence per 1,000 population (2010)
+
+
+395) NBCACNG
+National Baptist Convention of America, Inc.--Total number of congregations (2010)
+
+
+396) NBCAADH
+National Baptist Convention of America, Inc.--Total number of adherents (2010)
+
+
+397) NBCARATE
+National Baptist Convention of America, Inc.--Rates of adherence per 1,000 population (2010)
+
+
+398) NBCCNG
+National Baptist Convention, USA, Inc.--Total number of congregations (2010)
+
+
+399) NBCADH
+National Baptist Convention, USA, Inc.--Total number of adherents (2010)
+
+
+400) NBCRATE
+National Baptist Convention, USA, Inc.--Rates of adherence per 1,000 population (2010)
+
+
+401) NMBCCNG
+National Missionary Baptist Convention, Inc.--Total number of congregations (2010)
+
+
+402) NMBCADH
+National Missionary Baptist Convention, Inc.--Total number of adherents (2010)
+
+
+403) NMBCRATE
+National Missionary Baptist Convention, Inc.--Rates of adherence per 1,000 population (2010)
+
+
+404) NSACCNG
+National Spiritualist Association of Churches--Total number of congregations (2010)
+
+
+405) NWAPCNG
+New Apostolic Church of North America, National Organization of the--Total number of congregations (2010)
+
+
+406) IBCCNG
+New Testament Association of Independent Baptist Churches--Total number of congregations (2010)
+
+
+407) NONDCNG
+Non-denominational--Total number of congregations (2010)
+
+
+408) NONDADH
+Non-denominational--Total number of adherents (2010)
+
+
+409) NONDRATE
+Non-denominational--Rates of adherence per 1,000 population (2010)
+
+
+410) NABCCNG
+North American Baptist Conference--Total number of congregations (2010)
+
+
+411) NABCADH
+North American Baptist Conference--Total number of adherents (2010)
+
+
+412) NABCRATE
+North American Baptist Conference--Rates of adherence per 1,000 population (2010)
+
+
+413) NALCCNG
+North American Lutheran Church--Total number of congregations (2010)
+
+
+414) OORBCNG
+Old Order River Brethren--Total number of congregations (2010)
+
+
+415) OORBADH
+Old Order River Brethren--Total number of adherents (2010)
+
+
+416) OORBRATE
+Old Order River Brethren--Rates of adherence per 1,000 population (2010)
+
+
+417) OBSCCNG
+Open Bible Standard Churches, Inc.--Total number of congregations (2010)
+
+
+418) OBSCADH
+Open Bible Standard Churches, Inc.--Total number of adherents (2010)
+
+
+419) OBSCRATE
+Open Bible Standard Churches, Inc.--Rates of adherence per 1,000 population (2010)
+
+
+420) OCACNG
+Orthodox Church in America--Total number of congregations (2010)
+
+
+421) OCAADH
+Orthodox Church in America--Total number of adherents (2010)
+
+
+422) OCARATE
+Orthodox Church in America--Rates of adherence per 1,000 population (2010)
+
+
+423) OJUDCNG
+Orthodox Judaism--Total number of congregations (2010)
+
+
+424) OJUDADH
+Orthodox Judaism--Total number of adherents (2010)
+
+
+425) OJUDRATE
+Orthodox Judaism--Rates of adherence per 1,000 population (2010)
+
+
+426) OPCCNG
+Orthodox Presbyterian Church--Total number of congregations (2010)
+
+
+427) OPCADH
+Orthodox Presbyterian Church--Total number of adherents (2010)
+
+
+428) OPCRATE
+Orthodox Presbyterian Church--Rates of adherence per 1,000 population (2010)
+
+
+429) ROCCNG
+Patriarchal Parishes of the Russian Orthodox Church in the USA--Total number of congregations (2010)
+
+
+430) ROCADH
+Patriarchal Parishes of the Russian Orthodox Church in the USA--Total number of adherents (2010)
+
+
+431) ROCRATE
+Patriarchal Parishes of the Russian Orthodox Church in the USA--Rates of adherence per 1,000 population (2010)
+
+
+432) PCCCNG
+Pentecostal Church of God--Total number of congregations (2010)
+
+
+433) PCCADH
+Pentecostal Church of God--Total number of adherents (2010)
+
+
+434) PCCRATE
+Pentecostal Church of God--Rates of adherence per 1,000 population (2010)
+
+
+435) FBHCCNG
+Pentecostal Fire Baptized Holiness Church--Total number of congregations (2010)
+
+
+436) PFWBCNG
+Pentecostal Free Will Baptist Church, Inc.--Total number of congregations (2010)
+
+
+437) PILLCNG
+Pillar of Fire--Total number of congregations (2010)
+
+
+438) PILLADH
+Pillar of Fire--Total number of adherents (2010)
+
+
+439) PILLRATE
+Pillar of Fire--Rates of adherence per 1,000 population (2010)
+
+
+440) PNCCCNG
+Polish National Catholic Church--Total number of congregations (2010)
+
+
+441) PCCNG
+Presbyterian Church (U.S.A.)--Total number of congregations (2010)
+
+
+442) PCADH
+Presbyterian Church (U.S.A.)--Total number of adherents (2010)
+
+
+443) PCRATE
+Presbyterian Church (U.S.A.)--Rates of adherence per 1,000 population (2010)
+
+
+444) PCACNG
+Presbyterian Church in America--Total number of congregations (2010)
+
+
+445) PCAADH
+Presbyterian Church in America--Total number of adherents (2010)
+
+
+446) PCARATE
+Presbyterian Church in America--Rates of adherence per 1,000 population (2010)
+
+
+447) PRCCNG
+Presbyterian Reformed Church--Total number of congregations (2010)
+
+
+448) PBEDCNG
+Primitive Baptists, Eastern District Association of--Total number of congregations (2010)
+
+
+449) PBEDADH
+Primitive Baptists, Eastern District Association of--Total number of adherents (2010)
+
+
+450) PBEDRATE
+Primitive Baptists, Eastern District Association of--Rates of adherence per 1,000 population (2010)
+
+
+451) PMCCNG
+Primitive Methodist Church in the U.S.A.--Total number of congregations (2010)
+
+
+452) PNBCCNG
+Progressive National Baptist Convention, Inc.--Total number of congregations (2010)
+
+
+453) PNBCADH
+Progressive National Baptist Convention, Inc.--Total number of adherents (2010)
+
+
+454) PNBCRATE
+Progressive National Baptist Convention, Inc.--Rates of adherence per 1,000 population (2010)
+
+
+455) PRCACNG
+Protestant Reformed Churches in America--Total number of congregations (2010)
+
+
+456) PRCAADH
+Protestant Reformed Churches in America--Total number of adherents (2010)
+
+
+457) PRCARATE
+Protestant Reformed Churches in America--Rates of adherence per 1,000 population (2010)
+
+
+458) RJUDCNG
+Reconstructionist Judaism--Total number of congregations (2010)
+
+
+459) RJUDADH
+Reconstructionist Judaism--Total number of adherents (2010)
+
+
+460) RJUDRATE
+Reconstructionist Judaism--Rates of adherence per 1,000 population (2010)
+
+
+461) RFRMCNG
+Reform Judaism--Total number of congregations (2010)
+
+
+462) RFRMADH
+Reform Judaism--Total number of adherents (2010)
+
+
+463) RFRMRATE
+Reform Judaism--Rates of adherence per 1,000 population (2010)
+
+
+464) RBCCNG
+Reformed Baptist Churches--Total number of congregations (2010)
+
+
+465) RCACNG
+Reformed Church in America--Total number of congregations (2010)
+
+
+466) RCAADH
+Reformed Church in America--Total number of adherents (2010)
+
+
+467) RCARATE
+Reformed Church in America--Rates of adherence per 1,000 population (2010)
+
+
+468) RCUSCNG
+Reformed Church in the United States--Total number of congregations (2010)
+
+
+469) RCUSADH
+Reformed Church in the United States--Total number of adherents (2010)
+
+
+470) RCUSRATE
+Reformed Church in the United States--Rates of adherence per 1,000 population (2010)
+
+
+471) RMCCNG
+Reformed Mennonite Church--Total number of congregations (2010)
+
+
+472) RMCADH
+Reformed Mennonite Church--Total number of adherents (2010)
+
+
+473) RMCRATE
+Reformed Mennonite Church--Rates of adherence per 1,000 population (2010)
+
+
+474) RPCCNGV
+Reformed Presbyterian Church General Assembly--Total number of congregations (2010)
+
+
+475) RPHPCNG
+Reformed Presbyterian Church Hanover Presbytery--Total number of congregations (2010)
+
+
+476) RPUSCNG
+Reformed Presbyterian Church in the United States--Total number of congregations (2010)
+
+
+477) RPNACNG
+Reformed Presbyterian Church of North America--Total number of congregations (2010)
+
+
+478) RPNAADH
+Reformed Presbyterian Church of North America--Total number of adherents (2010)
+
+
+479) RPNARATE
+Reformed Presbyterian Church of North America--Rates of adherence per 1,000 population (2010)
+
+
+480) ROAACNG
+Romanian Orthodox Archdiocese in the Americas--Total number of congregations (2010)
+
+
+481) ROAAADH
+Romanian Orthodox Archdiocese in the Americas--Total number of adherents (2010)
+
+
+482) ROAARATE
+Romanian Orthodox Archdiocese in the Americas--Rates of adherence per 1,000 population (2010)
+
+
+483) ROORCNG
+Russian Orthodox Church Outside of Russia--Total number of congregations (2010)
+
+
+484) ROORADH
+Russian Orthodox Church Outside of Russia--Total number of adherents (2010)
+
+
+485) ROORRATE
+Russian Orthodox Church Outside of Russia--Rates of adherence per 1,000 population (2010)
+
+
+486) SALVCNG
+Salvation Army--Total number of congregations (2010)
+
+
+487) SALVADH
+Salvation Army--Total number of adherents (2010)
+
+
+488) SALVRATE
+Salvation Army--Rates of adherence per 1,000 population (2010)
+
+
+489) SCHWCNG
+Schwenkfelder Church--Total number of congregations (2010)
+
+
+490) SCHWADH
+Schwenkfelder Church--Total number of adherents (2010)
+
+
+491) SCHWRATE
+Schwenkfelder Church--Rates of adherence per 1,000 population (2010)
+
+
+492) SERBCNG
+Serbian Orthodox Church in North America--Total number of congregations (2010)
+
+
+493) SERBADH
+Serbian Orthodox Church in North America--Total number of adherents (2010)
+
+
+494) SERBRATE
+Serbian Orthodox Church in North America--Rates of adherence per 1,000 population (2010)
+
+
+495) SDBCNG
+Seventh Day Baptist General Conference, USA and Canada--Total number of congregations (2010)
+
+
+496) SDBADH
+Seventh Day Baptist General Conference, USA and Canada--Total number of adherents (2010)
+
+
+497) SDBRATE
+Seventh Day Baptist General Conference, USA and Canada--Rates of adherence per 1,000 population (2010)
+
+
+498) SDACCNG
+Seventh-day Adventist Church--Total number of congregations (2010)
+
+
+499) SDACADH
+Seventh-day Adventist Church--Total number of adherents (2010)
+
+
+500) SDACRATE
+Seventh-day Adventist Church--Rates of adherence per 1,000 population (2010)
+
+
+501) SHNTCNG
+Shinto--Total number of congregations (2010)
+
+
+502) SIKHCNG
+Sikh--Total number of congregations (2010)
+
+
+503) SBCCNG
+Southern Baptist Convention--Total number of congregations (2010)
+
+
+504) SBCADH
+Southern Baptist Convention--Total number of adherents (2010)
+
+
+505) SBCRATE
+Southern Baptist Convention--Rates of adherence per 1,000 population (2010)
+
+
+506) SMCCNG
+Southern Methodist Church--Total number of congregations (2010)
+
+
+507) SWEDCNG
+Swedenborgian Church--Total number of congregations (2010)
+
+
+508) SOCACNG
+Syriac Orthodox Church of Antioch--Total number of congregations (2010)
+
+
+509) SOCAADH
+Syriac Orthodox Church of Antioch--Total number of adherents (2010)
+
+
+510) SOCARATE
+Syriac Orthodox Church of Antioch--Rates of adherence per 1,000 population (2010)
+
+
+511) TAMCNG
+Tampico Amish Mennonite--Total number of congregations (2010)
+
+
+512) TAMADH
+Tampico Amish Mennonite--Total number of adherents (2010)
+
+
+513) TAMRATE
+Tampico Amish Mennonite--Rates of adherence per 1,000 population (2010)
+
+
+514) TAOCNG
+Tao--Total number of congregations (2010)
+
+
+515) USMBCNG
+U.S. Mennonite Brethren--Total number of congregations (2010)
+
+
+516) USMBADH
+U.S. Mennonite Brethren--Total number of adherents (2010)
+
+
+517) USMBRATE
+U.S. Mennonite Brethren--Rates of adherence per 1,000 population (2010)
+
+
+518) UOCCNG
+Ukrainian Orthodox Church of the USA--Total number of congregations (2010)
+
+
+519) UOCADH
+Ukrainian Orthodox Church of the USA--Total number of adherents (2010)
+
+
+520) UOCRATE
+Ukrainian Orthodox Church of the USA--Rates of adherence per 1,000 population (2010)
+
+
+521) UCAMCNG
+Unaffiliated Conservative Amish Mennonite Church--Total number of congregations (2010)
+
+
+522) UCAMADH
+Unaffiliated Conservative Amish Mennonite Church--Total number of adherents (2010)
+
+
+523) UCAMRATE
+Unaffiliated Conservative Amish Mennonite Church--Rates of adherence per 1,000 population (2010)
+
+
+524) UFMCNG
+Unaffiliated Friends Meetings--Total number of congregations (2010)
+
+
+525) UMJCCNG
+Union of Messianic Jewish Congregations--Total number of congregations (2010)
+
+
+526) UUACNG
+Unitarian Universalist Association of Congregations--Total number of congregations (2010)
+
+
+527) UUAADH
+Unitarian Universalist Association of Congregations--Total number of adherents (2010)
+
+
+528) UUARATE
+Unitarian Universalist Association of Congregations--Rates of adherence per 1,000 population (2010)
+
+
+529) UCTHCNG
+United Catholic Church, Inc.--Total number of congregations (2010)
+
+
+530) UCTHADH
+United Catholic Church, Inc.--Total number of adherents (2010)
+
+
+531) UCTHRATE
+United Catholic Church, Inc.--Rates of adherence per 1,000 population (2010)
+
+
+532) UCCCNG
+United Church of Christ--Total number of congregations (2010)
+
+
+533) UCCADH
+United Church of Christ--Total number of adherents (2010)
+
+
+534) UCCRATE
+United Church of Christ--Rates of adherence per 1,000 population (2010)
+
+
+535) UHCACNG
+United Holy Church of America, Inc.--Total number of congregations (2010)
+
+
+536) UMCCNG
+United Methodist Church, The--Total number of congregations (2010)
+
+
+537) UMCADH
+United Methodist Church, The--Total number of adherents (2010)
+
+
+538) UMCRATE
+United Methodist Church, The--Rates of adherence per 1,000 population (2010)
+
+
+539) UPCICNG
+United Pentecostal Church International--Total number of congregations (2010)
+
+
+540) UPCCNG
+United Pentecostal Council of the Assemblies of God--Total number of congregations (2010)
+
+
+541) URCCNG
+United Reformed Churches in North America--Total number of congregations (2010)
+
+
+542) UZCCNG
+United Zion Church--Total number of congregations (2010)
+
+
+543) UZCADH
+United Zion Church--Total number of adherents (2010)
+
+
+544) UZCRATE
+United Zion Church--Rates of adherence per 1,000 population (2010)
+
+
+545) UNTYCNG
+Unity Churches, Association of--Total number of congregations (2010)
+
+
+546) UNBRCNG
+Unity of the Brethren--Total number of congregations (2010)
+
+
+547) PJOCCNG
+Vicariate for the Palestinian/Jordanian Orthodox Christian Communities--Total number of congregations (2010)
+
+
+548) PJOCADH
+Vicariate for the Palestinian/Jordanian Orthodox Christian Communities--Total number of adherents (2010)
+
+
+549) PJOCRATE
+Vicariate for the Palestinian/Jordanian Orthodox Christian Communities--Rates of adherence per 1,000 population (2010)
+
+
+550) VINECNG
+Vineyard USA--Total number of congregations (2010)
+
+
+551) VINEADH
+Vineyard USA--Total number of adherents (2010)
+
+
+552) VINERATE
+Vineyard USA--Rates of adherence per 1,000 population (2010)
+
+
+553) WESCNG
+Wesleyan Church, The--Total number of congregations (2010)
+
+
+554) WESADH
+Wesleyan Church, The--Total number of adherents (2010)
+
+
+555) WESRATE
+Wesleyan Church, The--Rates of adherence per 1,000 population (2010)
+
+
+556) WELSCNG
+Wisconsin Evangelical Lutheran Synod--Total number of congregations (2010)
+
+
+557) WELSADH
+Wisconsin Evangelical Lutheran Synod--Total number of adherents (2010)
+
+
+558) WELSRATE
+Wisconsin Evangelical Lutheran Synod--Rates of adherence per 1,000 population (2010)
+
+
+559) ZOROCNG
+Zoroastrian--Total number of congregations (2010)
+
+
+560) ZOROADH
+Zoroastrian--Total number of adherents (2010)
+
+
+561) ZORORATE
+Zoroastrian--Rates of adherence per 1,000 population (2010)
+
+
+562) FIPS
+FIPS code
+
+
+563) STCODE
+State code
+
+
+564) STABBR
+State abbreviation
+
+
+565) STNAME
+State name
+
+
+566) CNTYCODE
+County code
+
+
+567) CNTYNAME
+County name
+
+
+568) POP2010
+Population in 2010
+
+
