@@ -1,0 +1,136 @@
+birds,seeds,amount
+cardinals,black oil sunflower,4
+cardinals,striped sunflower,4
+cardinals,hulled sunflower,4
+cardinals,millet white/red,1
+cardinals,milo seed,0
+cardinals,nyjer seed,0
+cardinals,shelled peanuts,0
+cardinals,safflower seed,4
+cardinals,corn products,1
+chickadees,black oil sunflower,4
+chickadees,striped sunflower,2
+chickadees,hulled sunflower,2
+chickadees,millet white/red,0
+chickadees,milo seed,0
+chickadees,nyjer seed,0
+chickadees,shelled peanuts,2
+chickadees,safflower seed,2
+chickadees,corn products,0
+doves,black oil sunflower,2
+doves,striped sunflower,1
+doves,hulled sunflower,2
+doves,millet white/red,4
+doves,milo seed,4
+doves,nyjer seed,1
+doves,shelled peanuts,0
+doves,safflower seed,2
+doves,corn products,2
+goldfinches,black oil sunflower,4
+goldfinches,striped sunflower,2
+goldfinches,hulled sunflower,4
+goldfinches,millet white/red,1
+goldfinches,milo seed,0
+goldfinches,nyjer seed,4
+goldfinches,shelled peanuts,0
+goldfinches,safflower seed,0
+goldfinches,corn products,0
+grosbeaks,black oil sunflower,2
+grosbeaks,striped sunflower,2
+grosbeaks,hulled sunflower,4
+grosbeaks,millet white/red,0
+grosbeaks,milo seed,0
+grosbeaks,nyjer seed,0
+grosbeaks,shelled peanuts,0
+grosbeaks,safflower seed,1
+grosbeaks,corn products,0
+house finches,black oil sunflower,4
+house finches,striped sunflower,2
+house finches,hulled sunflower,4
+house finches,millet white/red,2
+house finches,milo seed,0
+house finches,nyjer seed,4
+house finches,shelled peanuts,0
+house finches,safflower seed,1
+house finches,corn products,0
+jays,black oil sunflower,4
+jays,striped sunflower,4
+jays,hulled sunflower,4
+jays,millet white/red,0
+jays,milo seed,1
+jays,nyjer seed,0
+jays,shelled peanuts,2
+jays,safflower seed,1
+jays,corn products,2
+juncos,black oil sunflower,1
+juncos,striped sunflower,1
+juncos,hulled sunflower,1
+juncos,millet white/red,1
+juncos,milo seed,0
+juncos,nyjer seed,1
+juncos,shelled peanuts,0
+juncos,safflower seed,0
+juncos,corn products,4
+nuthatches,black oil sunflower,4
+nuthatches,striped sunflower,2
+nuthatches,hulled sunflower,2
+nuthatches,millet white/red,0
+nuthatches,milo seed,0
+nuthatches,nyjer seed,0
+nuthatches,shelled peanuts,1
+nuthatches,safflower seed,1
+nuthatches,corn products,0
+purple finches,black oil sunflower,4
+purple finches,striped sunflower,2
+purple finches,hulled sunflower,4
+purple finches,millet white/red,1
+purple finches,milo seed,0
+purple finches,nyjer seed,4
+purple finches,shelled peanuts,0
+purple finches,safflower seed,0
+purple finches,corn products,0
+siskins,black oil sunflower,1
+siskins,striped sunflower,1
+siskins,hulled sunflower,4
+siskins,millet white/red,0
+siskins,milo seed,0
+siskins,nyjer seed,4
+siskins,shelled peanuts,0
+siskins,safflower seed,0
+siskins,corn products,1
+sparrows,black oil sunflower,4
+sparrows,striped sunflower,4
+sparrows,hulled sunflower,4
+sparrows,millet white/red,4
+sparrows,milo seed,2
+sparrows,nyjer seed,0
+sparrows,shelled peanuts,0
+sparrows,safflower seed,1
+sparrows,corn products,2
+titmice,black oil sunflower,4
+titmice,striped sunflower,2
+titmice,hulled sunflower,2
+titmice,millet white/red,0
+titmice,milo seed,0
+titmice,nyjer seed,1
+titmice,shelled peanuts,2
+titmice,safflower seed,1
+titmice,corn products,0
+towhees,black oil sunflower,4
+towhees,striped sunflower,4
+towhees,hulled sunflower,4
+towhees,millet white/red,1
+towhees,milo seed,0
+towhees,nyjer seed,0
+towhees,shelled peanuts,1
+towhees,safflower seed,1
+towhees,corn products,1
+woodpeckers,black oil sunflower,2
+woodpeckers,striped sunflower,2
+woodpeckers,hulled sunflower,4
+woodpeckers,millet white/red,0
+woodpeckers,milo seed,0
+woodpeckers,nyjer seed,0
+woodpeckers,shelled peanuts,1
+woodpeckers,safflower seed,1
+woodpeckers,corn products,1
