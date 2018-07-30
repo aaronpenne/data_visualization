@@ -1,5 +1,16 @@
 This is a collection of my data visualizations, mostly made with Python.
 
+Mapping Religion
+----------------
+![religion map](https://raw.githubusercontent.com/aaronpenne/data_visualization/master/religion/charts/total_2010.png)
+
+This was created as an example of 'coloring in' a premade SVG file. The SVG map of US counties was obtained from [Wikimedia](https://commons.wikimedia.org/wiki/File:Usa_counties_large.svg)
+
+Code: [religion_county.py](https://github.com/aaronpenne/data_visualization/blob/master/religion/religion_county.py)
+
+Data: [The Association of Religion Data Archives](http://www.thearda.com/Archive/browse.asp)
+
+
 Subreddit Traffic
 -----------------
 ![dataisbeautiful time](https://github.com/aaronpenne/data_visualization/blob/master/traffic/charts/dataisbeautiful_time.png)
