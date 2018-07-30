@@ -13,7 +13,9 @@ Data: [The Association of Religion Data Archives](http://www.thearda.com/Archive
 
 Bird Seed Preferences
 ---------------------
-![]()
+<p align="center"><img src="https://raw.githubusercontent.com/aaronpenne/data_visualization/master/birds/charts/birdseed.png" alt="birdseed charts" width="60%"></p>
+
+The July 2018 r/DataIsBeautiful competition was based around improving a grid heatmap [type of chart](https://i.imgur.com/RicYHQ3.jpg). If this was for work, those would be regular bar charts, but this was an exercise in coercing `matplotlib` into plotting bar charts on polar coordinates.
 
 Code: [polar_multiples.py](https://github.com/aaronpenne/data_visualization/blob/master/birds/polar_multiples.py)
 
