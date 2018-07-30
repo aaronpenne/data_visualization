@@ -11,10 +11,18 @@ Code: [religion_county.py](https://github.com/aaronpenne/data_visualization/blob
 Data: [The Association of Religion Data Archives](http://www.thearda.com/Archive/browse.asp)
 
 
+Bird Seed Preferences
+---------------------
+![]()
+
+Code: [polar_multiples.py](https://github.com/aaronpenne/data_visualization/blob/master/birds/polar_multiples.py)
+
+Data: Hardcoded from [this image](https://i.imgur.com/RicYHQ3.jpg)
+
 Subreddit Traffic
 -----------------
-![dataisbeautiful time](https://github.com/aaronpenne/data_visualization/blob/master/traffic/charts/dataisbeautiful_time.png)
-![dataisbeautiful day](https://github.com/aaronpenne/data_visualization/blob/master/traffic/charts/dataisbeautiful_day.png)
+<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/traffic/charts/dataisbeautiful_time.png" alt="dataisbeautiful time" width="60%"></p>
+<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/traffic/charts/dataisbeautiful_day.png" alt="dataisbeautiful day" width="60%"></p>
 
 'users_here' counts were scraped every 10 minutes from a few subreddits over the past couple weeks. Each subreddit has 3 charts: raw line chart, box plot by day of week, and box plot by 30 minute bins. Using this data, you could time posts, chat at peak times, etc. The janky but working [scraper is here](https://github.com/aaronpenne/upskill/tree/master/scrape). More charts for 15 or so [subreddits are here](https://github.com/aaronpenne/data_visualization/blob/master/traffic/README.md).
 
