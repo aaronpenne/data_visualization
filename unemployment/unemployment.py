@@ -63,7 +63,7 @@ p_tr = get_fit(df_tr, deg)
 ###############################################################################
 # Plots
 
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(9,5), dpi=200)
+fig, ax1 = plt.subplots(figsize=(4,5), dpi=200)
 ax1.set_axisbelow(True)
 
 # All dates
@@ -101,11 +101,25 @@ ax1.tick_params(axis='y',  labelsize='x-small')
 
 ax1.set_title('U.S. Black Unemployment Rate', size='medium')
 
+###############
+ax1.text(datetime(2015,1,1), 3,
+            'Data: data.bls.gov\n' \
+            'Code: www.github.com/aaronpenne\n' \
+            'Aaron Penne © 2018',
+            fontsize = 'x-small',
+            color = med_grey,
+            multialignment = 'right')
 
+fig.savefig('black_unemployment.png',
+            dpi=fig.dpi,
+            bbox_inches='tight',
+            pad_inches=0.3)
 
 ###############
 
 
+fig, ax2 = plt.subplots(figsize=(4,5), dpi=200)
+ax1.set_axisbelow(True)
 
 
 x = df_tr['date']
@@ -157,7 +171,7 @@ ax2.text(20, 1.1,
             color = med_grey,
             multialignment = 'right')
 
-fig.savefig('black_unemployment.png',
+fig.savefig('black_unemployment_change.png',
             dpi=fig.dpi,
             bbox_inches='tight',
             pad_inches=0.3)
