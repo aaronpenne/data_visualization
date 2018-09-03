@@ -114,7 +114,7 @@ Data: [Reddit post by u/k0m0d0z0](https://www.reddit.com/r/dataisbeautiful/comme
 USA Population Rankings
 -----------------------
 
-<p align="center"><img src="https://raw.githubusercontent.com/aaronpenne/aaronpenne.github.io/master/data_viz/USA_Population_Rankings_1917-2017.jpg" alt="USA Population Rankings - Bump Chart" width="80%"></p>
+<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/population/charts/USA_Population_Rankings_1917-2017.jpg" alt="USA Population Rankings - Bump Chart" width="80%"></p>
 
 Code: [pop_joy.py](https://github.com/aaronpenne/data_visualization/blob/master/population/pop_joy.py)
 
