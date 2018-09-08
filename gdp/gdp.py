@@ -33,12 +33,27 @@ def get_fit(df, deg):
     return np.poly1d(z)
     
 
-filename = os.path.join('data','unemp_black.xlsx')
+filename = os.path.join('data','gdp_pres.csv')
 
-df = pd.read_excel(filename,
-                   index_col=0,
-                   header=0,
-                   skiprows=12)
+df = pd.read_csv(filename)
+df['date'] = pd.to_datetime(df['date'])
+df = filter_date(df, datetime(1989, 1, 1), datetime(2020, 1, 1))
+
+
+fig, ax = plt.subplots(figsize=(4,4), dpi=100)
+
+for pres in df['pres'].unique():
+    x = np.arange(0, len(df.loc[df['pres']==pres, 'pct_change']))
+    y = df.loc[df['pres']==pres, 'pct_change']
+    plt.plot(x, y)
+    plt.text(x[-1]+2, y.iloc[-1], pres, ha='left', va='center')
+
+
+
+
+
+
+
 cols = list(df)
 df = df.unstack().reset_index()
 df.columns = ['month', 'year', 'rate']
@@ -51,13 +66,13 @@ df.reset_index(inplace=True)
 ###############################################################################
 # 2012-2015 (Obama)
 
-df_ob = filter_date(df, datetime(2012, 1, 1), datetime(2017, 1, 19))
+df_ob = filter_date(df, datetime(2012, 1, 1), datetime(2015, 12, 1))
 p_ob = get_fit(df_ob, deg)
 
 ###############################################################################
 # 2016-2018 (Trump)
 
-df_tr = filter_date(df, datetime(2017, 1, 20), datetime(2018, 12, 1))
+df_tr = filter_date(df, datetime(2016, 1, 1), datetime(2018, 12, 1))
 p_tr = get_fit(df_tr, deg)
 
 ###############################################################################

@@ -51,13 +51,13 @@ df.reset_index(inplace=True)
 ###############################################################################
 # 2012-2015 (Obama)
 
-df_ob = filter_date(df, datetime(2012, 1, 1), datetime(2017, 1, 19))
+df_ob = filter_date(df, datetime(2012, 1, 1), datetime(2015, 12, 1))
 p_ob = get_fit(df_ob, deg)
 
 ###############################################################################
 # 2016-2018 (Trump)
 
-df_tr = filter_date(df, datetime(2017, 1, 20), datetime(2018, 12, 1))
+df_tr = filter_date(df, datetime(2016, 1, 1), datetime(2018, 12, 1))
 p_tr = get_fit(df_tr, deg)
 
 ###############################################################################
