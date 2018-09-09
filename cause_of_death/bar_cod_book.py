@@ -22,20 +22,23 @@ color_gray = ['#3f3f3f', '#6f6f6f']
 mpl.rcParams['font.family'] = 'monospace'
 #mpl.rcParams['axes.prop_cycle'] = mpl.cycler(color=color_gray)
 #plt.rcParams["image.cmap"] = 'Pastel1'
-plt.rcParams['axes.prop_cycle'] = plt.cycler(color=plt.cm.Set3.colors)
+plt.rcParams['axes.prop_cycle'] = plt.cycler(color=plt.cm.tab20b.colors)
 
 def normalize(s, n):
     delta = n - sum(s)
     spread = delta / len(s)
     return s + spread
 
-def label_bar(rects, text, weight='normal'):
+def label_bar(rects, text, weight='normal', color='#3f3f3f'):
     for rect in rects:
         height = rect.get_height()
         width = rect.get_width()
         x = rect.get_x()
         y = rect.get_y()
-        ax.text(x + width/2.0, y + height/2.0, text, ha='center', va='center', color='#3f3f3f', size='x-small', weight=weight)
+        if text in ['Heart Disease', 'Overdose', 'Homicide', 'Terrorism']:
+            ax.text(x + width/2.0, y + height/2.0 - 0.002, text, ha='center', va='center', color='#dcdccc', size='x-small', weight=weight)
+        else:
+            ax.text(x + width/2.0, y + height/2.0 - 0.002, text, ha='center', va='center', color='#3f3f3f', size='x-small', weight=weight)
 
             
 # Set output directory, make it if needed
@@ -67,7 +70,7 @@ for i, col in enumerate(df.columns):
     top = 0
     for j, row in enumerate(df.index):
         value = df.iloc[j, i]
-        rect = ax.bar(0, value, width, bottom=top, edgecolor='k', linewidth=0.3, alpha=0.5, clip_on=False)
+        rect = ax.bar(0, value, width, bottom=top, edgecolor='k', linewidth=0.3, alpha=1, clip_on=False)
         top += value
         if (i == 0) & ~(row in ['homicide', 'terrorism']):
             label_bar(rect, row.title().replace('_', ' '))

@@ -20,7 +20,7 @@ import os
 
 def get_dir(dirname):
     if not os.path.isdir(dirname):
-        os.mkdir(output_dir)
+        os.mkdir(dirname)
     return dirname
 
 def get_data_csv(filename):
@@ -116,91 +116,24 @@ h1 = mp.font_manager.FontProperties(size='large')
 h2 = mp.font_manager.FontProperties(size='small')
 h3 = mp.font_manager.FontProperties(size='x-small')
 
-
-# Line - raw
-dp = df
-fig, ax = plt.subplots(figsize=(12, 4), dpi=250)
-ax.plot(dp['birth'], color='black')
-plt.title('Monthly USA Birth Counts 1933-2015')
-ax.set_xlabel("Year")
-ax.set_ylabel('Births')
-ax.set_ylim(0)
-ax.text(728000, -60000,
-        'Birth data: Human Mortality Database\nPopulation data: US Census Bureau\nCode: www.github.com\\aaronpenne\nAaron Penne © 2018',
-        fontsize = 8,
-        color = 'gray',
-        multialignment = 'right',
-        va='top')
-fig.savefig('birth_count_usa_line.png', dpi='figure', bbox_inches='tight', pad_inches=.11)
-
-
-
 #
 # Birth rate
 #
-    
-# Line - raw
-dp = df
-fig, ax = plt.subplots(figsize=(12, 4), dpi=150)
-ax.plot(dp['rate'], color='black')
-ax.plot(dp['birth'])
-plt.title('Monthly USA Birth Rate 1933-2015')
-ax.set_xlabel("Year")
-ax.set_ylabel('Births/day per million ppl')
-ax.text(728000, 15,
-        'Birth data: Human Mortality Database\nPopulation data: US Census Bureau\nCode: www.github.com\\aaronpenne\nAaron Penne © 2018',
-        fontsize = 8,
-        color = 'gray',
-        multialignment = 'right')
-fig.savefig('birth_rate_usa_line.png', dpi='figure', bbox_inches='tight', pad_inches=.11)
 
-
-# Boxplot - with dots (month to month comparison)
-dp = df
-fig, ax = plt.subplots(figsize=(12, 4), dpi=150)
-sns.boxplot(x='month', y='rate', data=dp, ax=ax, palette='Set2')
-sns.stripplot(x='month', y='rate', data=dp, ax=ax, color='black', alpha=0.3, jitter=0.2)
-plt.title('USA Birth Rate 1933-2015 - Month to Month comparison')
-ax.set_xlabel("Month")
-ax.set_ylabel('Births/day per million ppl')
-ax.text(8, 10,
-        'Birth data: Human Mortality Database\nPopulation data: US Census Bureau\nCode: www.github.com\\aaronpenne\nAaron Penne © 2018',
-        fontsize = 8,
-        color = 'gray',
-        multialignment = 'right')
-fig.savefig('birth_rate_usa_box.png', dpi='figure', bbox_inches='tight', pad_inches=.11)
-
-    
-# Line - each month over years
-dp = df
-dp = pd.pivot_table(dp, index='month', columns='year', values='rate', aggfunc=np.sum)
-fig, ax = plt.subplots(figsize=(12, 4))
-for index, row in dp.iterrows():
-    ax.plot(row)
-    
-# Line - max/min of each year over the years
-dp = df
-dp = pd.pivot_table(dp, index='month', columns='year', values='rate', aggfunc=np.sum)
-fig, ax = plt.subplots(figsize=(12, 4))
-for year in df:
-    ax.plot(dp.max())
-    ax.plot(dp.min())
-
-    
 # Heatmap - matplotlib
 dp = pd.pivot_table(df, index='month', columns='year', values='rate', aggfunc=np.sum)
-fig, ax = plt.subplots(figsize=(12, 4), dpi=150)
+fig, ax = plt.subplots(figsize=(12, 4), dpi=300)
 plt.imshow(dp, interpolation='nearest', cmap='YlOrRd')
 ax.grid(False)
 for _, loc in ax.spines.items():
 #    loc.set_visible(True)
     loc.set_color('black')
 plt.yticks(np.linspace(0,11,12), month_names,
-           size='small',
+           size='x-small',
            color='black')
 x_values, x_names = get_custom_tick_labels(dp, 2)
 plt.xticks(x_values, x_names,
-           size='small',
+           size='x-small',
            color='black',
            rotation='vertical')
 cax = fig.add_axes([0.92, .3333, 0.01, .3333])
@@ -212,105 +145,13 @@ cax.set_yticklabels(cax.get_yticklabels(),
 # Annotations
 ax.text(-0.5, -4.2,
         'Monthly USA Birth Rate Per Capita 1933-2015',
-        fontsize = 14,
+        fontsize = 13,
         color = 'black',
         weight = 'bold',)
 ax.text(-0.5, -2,
         'Rate = Births / Population / Days in Month',
-        fontsize = 12,
+        fontsize = 11,
         color = 'black',)
-ax.text(64, -2,
-        'Birth data: Human Mortality Database\nPopulation data: US Census Bureau\nCode: www.github.com\\aaronpenne\nAaron Penne © 2018',
-        fontsize = 7,
-        color = 'gray',
-        multialignment = 'right')
-fig.savefig('birth_rate_heat_usa.png', dpi='figure', bbox_inches='tight', pad_inches=.11)
+fig.savefig(os.path.join(output_dir, 'birth_rate_heat_usa.png'), dpi=fig.dpi, bbox_inches='tight', pad_inches=.11)
 
-
-# Heatmap - matplotlib - ranged
-dp = df
-dp = dp.loc[dp.index.to_series().dt.year >= min_year]
-dp = dp.loc[dp.index.to_series().dt.year <= max_year]
-dp = pd.pivot_table(dp, index='month', columns='year', values='rate', aggfunc=np.sum)
-fig, ax = plt.subplots(figsize=(8, 4), dpi=150)
-plt.imshow(dp, interpolation='nearest', cmap='YlOrRd')
-ax.grid(False)
-for _, loc in ax.spines.items():
-#    loc.set_visible(True)
-    loc.set_color('black')
-plt.yticks(np.linspace(0,11,12), month_names,
-           size='small',
-           color='black')
-x_values, x_names = get_custom_tick_labels(dp, 2)
-plt.xticks(x_values, x_names,
-           size='small',
-           color='black',
-           rotation='vertical')
-cax = fig.add_axes([0.92, .28, 0.01, .45])
-cb = plt.colorbar(label='Births/day per million ppl', cax=cax)
-cb.outline.set_edgecolor('black')
-cax.yaxis.label.set_font_properties(h3)
-cax.set_yticklabels(cax.get_yticklabels(),
-                    size='x-small')
-# Annotations
-ax.text(-0.5, -3.5,
-        'Monthly USA Birth Rate Per Capita ' + str(min_year) + '-' + str(max_year),
-        fontsize = 12,
-        color = 'black',
-        weight = 'bold')
-ax.text(-0.5, -2,
-        'Rate = Births / Population / Days in Month',
-        fontsize = 10,
-        color = 'black')
-ax.text(34, -2,
-        'Birth data: Human Mortality Database\nPopulation data: US Census Bureau\nCode: www.github.com\\aaronpenne\nAaron Penne © 2018',
-        fontsize = 6,
-        color = 'gray',
-        multialignment = 'right')
-fig.savefig('birth_rate_usa_heat_ranged.png', dpi='figure', bbox_inches='tight', pad_inches=.11)
-
-
-
-  
-# Heatmap - matplotlib - COUNT
-dp = df
-days_in_month = df.index.to_series().dt.daysinmonth
-df['birth_norm'] = df['birth'] / days_in_month
-dp = pd.pivot_table(df, index='month', columns='year', values='birth_norm', aggfunc=np.sum)
-fig, ax = plt.subplots(figsize=(12, 4), dpi=150)
-plt.imshow(dp, interpolation='nearest', cmap='YlOrRd')
-ax.grid(False)
-for _, loc in ax.spines.items():
-#    loc.set_visible(True)
-    loc.set_color('black')
-plt.yticks(np.linspace(0,11,12), month_names,
-           size='small',
-           color='black')
-x_values, x_names = get_custom_tick_labels(dp, 2)
-plt.xticks(x_values, x_names,
-           size='small',
-           color='black',
-           rotation='vertical')
-cax = fig.add_axes([0.92, .3333, 0.01, .3333])
-cb = plt.colorbar(label='Births/day', cax=cax)
-cb.outline.set_edgecolor('black')
-cax.yaxis.label.set_font_properties(h3)
-cax.set_yticklabels(cax.get_yticklabels(),
-                    size='x-small')
-# Annotations
-ax.text(-0.5, -4.2,
-        'Monthly USA Birth Counts 1933-2015',
-        fontsize = 14,
-        color = 'black',
-        weight = 'bold',)
-ax.text(-0.5, -2,
-        'Births Normalized = Births / Days in Month',
-        fontsize = 12,
-        color = 'black',)
-ax.text(64, -2,
-        'Birth data: Human Mortality Database\nPopulation data: US Census Bureau\nCode: www.github.com\\aaronpenne\nAaron Penne © 2018',
-        fontsize = 7,
-        color = 'gray',
-        multialignment = 'right')
-fig.savefig('birth_count_heat_usa.png', dpi='figure', bbox_inches='tight', pad_inches=.11)
 

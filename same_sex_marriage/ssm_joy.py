@@ -17,8 +17,8 @@ import os
 
 ## Define globals
 bandwidth = 0.35
-input_file = 'C:\\tmp\\ssm.csv'
-output_dir = 'C:\\tmp\\output_joy\\'
+input_file = os.path.join('data', 'ssm.csv')
+output_dir = 'output'
 if not os.path.isdir(output_dir):
     os.mkdir(output_dir)
     
@@ -115,8 +115,8 @@ plt.text(1, 8.5,
 plt.text(1, 8.3,
          'Percent of states w/each law type from 1995-2015',
          fontdict=font_h2)
-plt.text(4, -1.8,
-         '© Aaron Penne 2018\nSource: Pew Research Center',
-         fontdict=font_sub)
+#plt.text(4, -1.8,
+#         '© Aaron Penne 2018\nSource: Pew Research Center',
+#         fontdict=font_sub)
 
-g.savefig('{0}ssm_joy.png'.format(output_dir), dpi=300, bbox_inches='tight')
+g.savefig(os.path.join(output_dir, 'ssm_joy.png'), dpi=300, bbox_inches='tight')
