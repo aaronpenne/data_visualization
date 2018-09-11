@@ -122,7 +122,7 @@ h3 = mp.font_manager.FontProperties(size='x-small')
 
 # Heatmap - matplotlib
 dp = pd.pivot_table(df, index='month', columns='year', values='rate', aggfunc=np.sum)
-fig, ax = plt.subplots(figsize=(12, 4), dpi=300)
+fig, ax = plt.subplots(figsize=(12, 4), dpi=2400)
 plt.imshow(dp, interpolation='nearest', cmap='YlOrRd')
 ax.grid(False)
 for _, loc in ax.spines.items():

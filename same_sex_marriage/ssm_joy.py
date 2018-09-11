@@ -119,4 +119,4 @@ plt.text(1, 8.3,
 #         '© Aaron Penne 2018\nSource: Pew Research Center',
 #         fontdict=font_sub)
 
-g.savefig(os.path.join(output_dir, 'ssm_joy.png'), dpi=300, bbox_inches='tight')
+g.savefig(os.path.join(output_dir, 'ssm_joy.png'), dpi=1200, bbox_inches='tight')

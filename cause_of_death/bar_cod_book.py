@@ -35,10 +35,11 @@ def label_bar(rects, text, weight='normal', color='#3f3f3f'):
         width = rect.get_width()
         x = rect.get_x()
         y = rect.get_y()
-        if text in ['Heart Disease', 'Overdose', 'Homicide', 'Terrorism']:
-            ax.text(x + width/2.0, y + height/2.0 - 0.002, text, ha='center', va='center', color='#dcdccc', size='x-small', weight=weight)
-        else:
-            ax.text(x + width/2.0, y + height/2.0 - 0.002, text, ha='center', va='center', color='#3f3f3f', size='x-small', weight=weight)
+#        if text in ['Heart Disease', 'Overdose', 'Homicide', 'Terrorism']:
+#            ax.text(x + width/2.0, y + height/2.0 - 0.002, text, ha='center', va='center', color='#dcdccc', size='x-small', weight=weight)
+#        else:
+#            ax.text(x + width/2.0, y + height/2.0 - 0.002, text, ha='center', va='center', color='#3f3f3f', size='x-small', weight=weight)
+        ax.text(x + width/2.0, y + height/2.0 - 0.002, text, ha='center', va='center', color='k', size='x-small', weight=weight)
 
             
 # Set output directory, make it if needed
@@ -64,13 +65,13 @@ df = df.set_index('cod')
 
 
 for i, col in enumerate(df.columns):
-    fig, ax = plt.subplots(figsize=(4, 6), dpi=300)
+    fig, ax = plt.subplots(figsize=(2.5, 6), dpi=1200)
     
     width = 1
     top = 0
     for j, row in enumerate(df.index):
         value = df.iloc[j, i]
-        rect = ax.bar(0, value, width, bottom=top, edgecolor='k', linewidth=0.3, alpha=1, clip_on=False)
+        rect = ax.bar(0, value, width, bottom=top, edgecolor='k', linewidth=0.3, alpha=0.7, clip_on=False)
         top += value
         if (i == 0) & ~(row in ['homicide', 'terrorism']):
             label_bar(rect, row.title().replace('_', ' '))
@@ -80,20 +81,21 @@ for i, col in enumerate(df.columns):
             label_bar(rect, row.title().replace('_', ' '))
 
     if i == 0:
-        ax.text(0, 1.1, 'CDC Cause of Death in USA', ha='center', va='center', fontsize='large')
-        ax.text(0, 1.05, '\"What actually causes death?\"', ha='center', va='center', fontsize='medium')
+        ax.text(0, 1.1, 'CDC Cause of Death in USA', ha='center', va='center', fontsize='small')
+        ax.text(0, 1.05, '\"What actually causes death?\"', ha='center', va='center', fontsize='x-small')
     elif i == 1:
-        ax.text(0, 1.1, 'Google Search Trends', ha='center', va='center', fontsize='large')
-        ax.text(0, 1.05, '\"Which causes do we worry about?\"', ha='center', va='center', fontsize='medium')
+        ax.text(0, 1.1, 'Google Search Trends', ha='center', va='center', fontsize='small')
+        ax.text(0, 1.05, '\"Which causes do we worry about?\"', ha='center', va='center', fontsize='x-small')
     elif i == 2:
-        ax.text(0, 1.1, 'NYT & Guardian Headlines', ha='center', va='center', fontsize='large')
-        ax.text(0, 1.05, '\"Which causes are in the media?\"', ha='center', va='center', fontsize='medium')
+        ax.text(0, 1.1, 'NYT & Guardian Headlines', ha='center', va='center', fontsize='small')
+        ax.text(0, 1.05, '\"Which causes are in the media?\"', ha='center', va='center', fontsize='x-small')
     else:
-        ax.text(0, 1.1, ' ', ha='center', va='center', fontsize='large')
-        ax.text(0, 1.05, ' ', ha='center', va='center', fontsize='medium')
+        ax.text(0, 1.1, ' ', ha='center', va='center', fontsize='small')
+        ax.text(0, 1.05, ' ', ha='center', va='center', fontsize='x-small')
         
     # Deal with axis
     ytick_vals = np.linspace(0,1,21)
+    ax.grid(False)
     ax.tick_params(axis='y', colors=color_gray[1])
     plt.yticks(ytick_vals, ['{:.0f}%'.format(x*100) for x in ytick_vals], 
                             fontsize='xx-small', 
