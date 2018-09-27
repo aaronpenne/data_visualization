@@ -65,7 +65,7 @@ df = df.set_index('cod')
 
 
 for i, col in enumerate(df.columns):
-    fig, ax = plt.subplots(figsize=(2.5, 6), dpi=1200)
+    fig, ax = plt.subplots(figsize=(2.5, 6), dpi=700)
     
     width = 1
     top = 0
