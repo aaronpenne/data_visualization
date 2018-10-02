@@ -232,7 +232,7 @@ dp = df
 dp = dp.loc[dp.index.to_series().dt.year >= min_year]
 dp = dp.loc[dp.index.to_series().dt.year <= max_year]
 dp = pd.pivot_table(dp, index='month', columns='year', values='rate', aggfunc=np.sum)
-fig, ax = plt.subplots(figsize=(8, 4), dpi=150)
+fig, ax = plt.subplots(figsize=(8, 4), dpi=1200)
 plt.imshow(dp, interpolation='nearest', cmap='YlOrRd')
 ax.grid(False)
 for _, loc in ax.spines.items():
@@ -262,11 +262,11 @@ ax.text(-0.5, -2,
         'Rate = Births / Population / Days in Month',
         fontsize = 10,
         color = 'black')
-ax.text(34, -2,
-        'Birth data: Human Mortality Database\nPopulation data: US Census Bureau\nCode: www.github.com\\aaronpenne\nAaron Penne © 2018',
-        fontsize = 6,
-        color = 'gray',
-        multialignment = 'right')
+#ax.text(34, -2,
+#        'Birth data: Human Mortality Database\nPopulation data: US Census Bureau\nCode: www.github.com\\aaronpenne\nAaron Penne © 2018',
+#        fontsize = 6,
+#        color = 'gray',
+#        multialignment = 'right')
 fig.savefig('birth_rate_usa_heat_ranged.png', dpi='figure', bbox_inches='tight', pad_inches=.11)
 
 
