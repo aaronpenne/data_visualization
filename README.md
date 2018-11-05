@@ -1,4 +1,4 @@
-This is a collection of my data visualizations, mostly made with Python.
+**This is a collection of my data visualizations, mostly made with Python. Check out my [generative artwork and source code](https://github.com/aaronpenne/generative_art) as well!**
 
 Mapping Religion
 ----------------
