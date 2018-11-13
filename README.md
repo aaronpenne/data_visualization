@@ -2,6 +2,41 @@ This is a collection of my data visualizations, mostly made with Python.
 
 **Check out my [generative artwork and source code](https://github.com/aaronpenne/generative_art) as well!**
 
+
+Cause of Death - Reality vs. Google vs. Media
+---------------------------------------------
+<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/cause_of_death/charts/bar.gif" alt="Animated stacked bar chart - COD" width="60%"></p>
+
+This animation is an expansion on the excellent write up by [Hasan Al-Jamaly](https://github.com/haljamaly), [Maximillian Siemers](https://github.com/phi1eas), [Owen Shen](https://github.com/owenshen24), and [Nicole Stone](https://github.com/stonecoldnicole) for a project in [Brad Voytek](https://twitter.com/bradleyvoytek)'s UCSD course. The writeup can be found here: https://owenshen24.github.io/charting-death/
+
+Code: [bar_cod.py](https://github.com/aaronpenne/data_visualization/blob/master/cause_of_death/bar_cod.py)
+
+Data: [Death: Reality vs. Reported](https://owenshen24.github.io/charting-death/)
+
+
+USA Births Per Month
+--------------------
+
+The parts that stand out to me are the two big bumps 9 months after Pearl Harbor and 9 months after the war ended in Sep 1945. Those bumps are so big that the full chart pretty much only shows Baby Boomers.
+
+<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/birth_rate/charts/birth_rate_heat_usa.png" alt="Births Per Month in the USA - Heat Map" width="90%"></p>
+
+<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/birth_rate/charts/birth_rate_usa_line.png" alt="Births Per Month in the USA - Line Chart" width="90%"></p>
+
+<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/birth_rate/charts/birth_rate_usa_box.png" alt="Births Per Month in the USA - Box Plot" width="90%"></p>
+
+<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/birth_rate/charts/birth_rate_usa_heat_ranged.png" alt="Births Per Month in the USA - Heat Map (Ranged)" width="70%"></p>
+
+Code: [birth_heatmap.py](https://github.com/aaronpenne/data_visualization/blob/master/birth_rate/birth_heatmap.py)
+
+
+Birth data: [Human Mortality Database](http://www.mortality.org/cgi-bin/hmd/hmd_download.php)
+
+Population data: [US Census Bureau](https://census.gov/data/tables/time-series/demo/popest/pre-1980-state.html)
+
+Population data (aggregated): [USA_Population_of_States_US_Census_Intercensal_Tables_1917-2017.csv](https://github.com/aaronpenne/data_visualization/blob/master/population/data/USA_Population_of_States_US_Census_Intercensal_Tables_1917-2017.csv)
+
+
 Mapping Religion
 ----------------
 ![religion map](https://raw.githubusercontent.com/aaronpenne/data_visualization/master/religion/charts/total_2010.png)
@@ -34,40 +69,6 @@ Code: [traffic.py](https://github.com/aaronpenne/data_visualization/blob/master/
 
 Data: [Scraped every 10 minutes with simple script](https://github.com/aaronpenne/data_visualization/tree/master/traffic/data).
 
-Religion of Nobel Prize Winners
--------------------------------
-<p align="center"><img src="https://raw.githubusercontent.com/aaronpenne/data_visualization/master/nobel/charts/nobel_pop_bar.png" alt="Nobel Prize vs Population" width="60%"></p>
-
-This bar chart was an exercise in replotting the 3D exploded pie chart that appeared [here](https://www.reddit.com/r/dataisbeautiful/comments/8fyp73/religion_of_nobel_prize_winners_between_1901_and/). Data is the same, but augmented with population data to show how certain religions are over/under represented.
-
-Code: [nobel_pop_bar.py](https://github.com/aaronpenne/data_visualization/blob/master/nobel/nobel_pop_bar.py)
-
-Data: [Nobel Prize data](https://commons.wikimedia.org/wiki/File:Religion_of_Nobel_Prize_winners_between_1901-2000.png) and [Global Population data](https://en.wikipedia.org/wiki/List_of_religious_populations) from Wikipedia
-
-Cause of Death - Reality vs. Google vs. Media
----------------------------------------------
-<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/cause_of_death/charts/bar.gif" alt="Animated stacked bar chart - COD" width="60%"></p>
-
-This animation is an expansion on the excellent write up by [Hasan Al-Jamaly](https://github.com/haljamaly), [Maximillian Siemers](https://github.com/phi1eas), [Owen Shen](https://github.com/owenshen24), and [Nicole Stone](https://github.com/stonecoldnicole) for a project in [Brad Voytek](https://twitter.com/bradleyvoytek)'s UCSD course. The writeup can be found here: https://owenshen24.github.io/charting-death/
-
-Code: [bar_cod.py](https://github.com/aaronpenne/data_visualization/blob/master/cause_of_death/bar_cod.py)
-
-Data: [Death: Reality vs. Reported](https://owenshen24.github.io/charting-death/)
-
-Our Living Planet
------------------
-
-![EVI Animated Map](https://github.com/aaronpenne/data_visualization/blob/master/gis/vegetation/animation_evi_short.gif)
-
-This GIF is shortened from the full dataset of 18 years to only 2 years due to file size restrictions. Full resolution videos from 2000-2018 are on YouTube.
-- Normalized Difference Vegetation Index (NDVI) animation: https://youtu.be/OK_HI3sjbtI
-- Enhanced Vegetation Index (EVI) animation: https://youtu.be/UytH99Zc2L8
-
-*All credit for the imagery products go to the NASA MODIS Science Team. I only collected the images into animations and annotated them.*
-
-Code: [modis_vegetation.py](https://github.com/aaronpenne/data_visualization/blob/master/gis/vegetation/modis_vegetation.py)
-
-Data: NASA MODIS Sensor on Terra Satellite [LP DAAC](https://lpdaac.usgs.gov/dataset_discovery/modis/modis_products_table/mod13c1_v006)
 
 
 The Night Sky (HYG Database)
@@ -102,6 +103,34 @@ Contest entry: [Reddit post - Honorable Mention](https://www.reddit.com/r/datais
 
 
 
+Religion of Nobel Prize Winners
+-------------------------------
+<p align="center"><img src="https://raw.githubusercontent.com/aaronpenne/data_visualization/master/nobel/charts/nobel_pop_bar.png" alt="Nobel Prize vs Population" width="60%"></p>
+
+This bar chart was an exercise in replotting the 3D exploded pie chart that appeared [here](https://www.reddit.com/r/dataisbeautiful/comments/8fyp73/religion_of_nobel_prize_winners_between_1901_and/). Data is the same, but augmented with population data to show how certain religions are over/under represented.
+
+Code: [nobel_pop_bar.py](https://github.com/aaronpenne/data_visualization/blob/master/nobel/nobel_pop_bar.py)
+
+Data: [Nobel Prize data](https://commons.wikimedia.org/wiki/File:Religion_of_Nobel_Prize_winners_between_1901-2000.png) and [Global Population data](https://en.wikipedia.org/wiki/List_of_religious_populations) from Wikipedia
+
+Our Living Planet
+-----------------
+
+![EVI Animated Map](https://github.com/aaronpenne/data_visualization/blob/master/gis/vegetation/animation_evi_short.gif)
+
+This GIF is shortened from the full dataset of 18 years to only 2 years due to file size restrictions. Full resolution videos from 2000-2018 are on YouTube.
+- Normalized Difference Vegetation Index (NDVI) animation: https://youtu.be/OK_HI3sjbtI
+- Enhanced Vegetation Index (EVI) animation: https://youtu.be/UytH99Zc2L8
+
+*All credit for the imagery products go to the NASA MODIS Science Team. I only collected the images into animations and annotated them.*
+
+Code: [modis_vegetation.py](https://github.com/aaronpenne/data_visualization/blob/master/gis/vegetation/modis_vegetation.py)
+
+Data: NASA MODIS Sensor on Terra Satellite [LP DAAC](https://lpdaac.usgs.gov/dataset_discovery/modis/modis_products_table/mod13c1_v006)
+
+
+
+
 Annual Company Revenue vs. Annual CEO Compensation
 --------------------------------------------------
 
@@ -126,24 +155,3 @@ Data (manually aggregated/cleaned): [USA_Population_of_States_US_Census_Intercen
 
 
 
-USA Births Per Month
---------------------
-
-The parts that stand out to me are the two big bumps 9 months after Pearl Harbor and 9 months after the war ended in Sep 1945. Those bumps are so big that the full chart pretty much only shows Baby Boomers.
-
-<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/birth_rate/charts/birth_rate_heat_usa.png" alt="Births Per Month in the USA - Heat Map" width="90%"></p>
-
-<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/birth_rate/charts/birth_rate_usa_line.png" alt="Births Per Month in the USA - Line Chart" width="90%"></p>
-
-<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/birth_rate/charts/birth_rate_usa_box.png" alt="Births Per Month in the USA - Box Plot" width="90%"></p>
-
-<p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/birth_rate/charts/birth_rate_usa_heat_ranged.png" alt="Births Per Month in the USA - Heat Map (Ranged)" width="70%"></p>
-
-Code: [birth_heatmap.py](https://github.com/aaronpenne/data_visualization/blob/master/birth_rate/birth_heatmap.py)
-
-
-Birth data: [Human Mortality Database](http://www.mortality.org/cgi-bin/hmd/hmd_download.php)
-
-Population data: [US Census Bureau](https://census.gov/data/tables/time-series/demo/popest/pre-1980-state.html)
-
-Population data (aggregated): [USA_Population_of_States_US_Census_Intercensal_Tables_1917-2017.csv](https://github.com/aaronpenne/data_visualization/blob/master/population/data/USA_Population_of_States_US_Census_Intercensal_Tables_1917-2017.csv)
