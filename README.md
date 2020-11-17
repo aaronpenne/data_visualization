@@ -156,7 +156,7 @@ Code: [pop_joy.py](https://github.com/aaronpenne/data_visualization/blob/master/
 
 Data (raw): https://census.gov/data/tables/time-series/demo/popest/pre-1980-state.html
 
-Data (manually aggregated/cleaned): [USA_Population_of_States_US_Census_Intercensal_Tables_1917-2017.csv](https://github.com/aaronpenne/aaronpenne.github.io/blob/master/data_viz/USA_Population_of_States_US_Census_Intercensal_Tables_1917-2017.csv)
+Data (manually aggregated/cleaned): [USA_Population_of_States_US_Census_Intercensal_Tables_1917-2017.csv](https://github.com/aaronpenne/data_visualization/blob/master/population/data/USA_Population_of_States_US_Census_Intercensal_Tables_1917-2017.csv)
 
 
 
