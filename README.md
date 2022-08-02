@@ -1,8 +1,5 @@
 This is a collection of my data visualizations, mostly made with Python.
 
-**Check out my [generative artwork and source code](https://github.com/aaronpenne/generative_art) as well!**
-
-
 Cause of Death - Reality vs. Google vs. Media
 ---------------------------------------------
 <p align="center"><img src="https://github.com/aaronpenne/data_visualization/blob/master/cause_of_death/charts/bar.gif" alt="Animated stacked bar chart - COD" width="60%"></p>
